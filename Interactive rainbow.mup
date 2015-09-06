@@ -1,0 +1,241 @@
+{
+  "title": "Interactive rainbow",
+  "id": 1,
+  "formatVersion": 2,
+  "ideas": {
+    "11": {
+      "title": "LED and Sensor layout",
+      "id": 5,
+      "ideas": {
+        "1": {
+          "title": "Mounted on 1/8\"  thick peg-board",
+          "id": 7,
+          "ideas": {
+            "1": {
+              "title": "Should be 1\" hole spacing",
+              "id": 8
+            },
+            "2": {
+              "title": "Should be 3/16\" (roughly 5mm) hole diameter",
+              "id": 9
+            },
+            "3": {
+              "title": "Scrap pieces can be used as template/assembly boards prior to transferring to the main display. This allows several people to work on sub-assemblies.",
+              "id": 28
+            }
+          }
+        },
+        "2": {
+          "title": "Should be 5mm RGB diffused lens LEDs with common anode",
+          "id": 10,
+          "ideas": {
+            "1": {
+              "title": "Found many (over 500) lots on ebay http://www.ebay.com/sch/i.html?_odkw=rgb+led+5mm+diffused&LH_BIN=1&_osacat=0&_from=R40&_trksid=p2045573.m570.l1313.TR0.TRC0.H0.Xrgb+led+5mm+diffused+common+anode.TRS1&_nkw=rgb+led+5mm+diffused+common+anode&_sacat=0",
+              "id": 11,
+              "ideas": {
+                "1": {
+                  "title": "100pcs for $6.41 http://r.ebay.com/ra4I9b",
+                  "id": 13,
+                  "attr": {
+                    "position": [
+                      178,
+                      -54.75,
+                      1
+                    ],
+                    "style": {}
+                  }
+                },
+                "2": {
+                  "title": "1000pcs for $23.57 http://r.ebay.com/xh0yf8",
+                  "id": 14
+                },
+                "3": {
+                  "title": "50pcs for $3.08 http://r.ebay.com/GkL0r4",
+                  "id": 16
+                }
+              },
+              "attr": {
+                "style": {}
+              }
+            },
+            "2": {
+              "title": "Drive using PWM controller chip",
+              "id": 22,
+              "ideas": {
+                "1": {
+                  "title": "Texas Instruments TLC5940NT https://octopart.com/tlc5940nt-texas+instruments-471968",
+                  "id": 23,
+                  "ideas": {
+                    "1": {
+                      "title": "Can control up to 5 RGB LEDs",
+                      "id": 30
+                    },
+                    "2": {
+                      "title": "Can we find a cheaper chip or technique? ",
+                      "id": 31
+                    }
+                  }
+                }
+              }
+            },
+            "1.5": {
+              "title": "Need to have test jig for checking LEDs",
+              "id": 29,
+              "attr": {
+                "style": {}
+              },
+              "ideas": {
+                "1": {
+                  "title": "Arduino",
+                  "id": 32
+                }
+              }
+            }
+          }
+        },
+        "3": {
+          "title": "Can use IR emitter and sensor style from TrippyLED",
+          "id": 17,
+          "ideas": {
+            "1": {
+              "title": "All IR emitters run from same clock",
+              "id": 18,
+              "ideas": {
+                "1": {
+                  "title": "LC555 timer clock in astable mode tuned to 38kHz",
+                  "id": 34
+                }
+              }
+            },
+            "2": {
+              "title": "IR sensors polled using SPI or I2C GPIO expander",
+              "id": 19,
+              "ideas": {
+                "2": {
+                  "title": "SPI GPIO expander: Microchip MCP23S17-E/SP https://octopart.com/mcp23s17-e%2Fsp-microchip-470570",
+                  "id": 21,
+                  "ideas": {},
+                  "attr": {
+                    "style": {}
+                  }
+                },
+                "3": {
+                  "title": "I2C GPIO expander: Microchip MCP23017-E/SP https://octopart.com/mcp23017-e%2Fsp-microchip-470558",
+                  "id": 20,
+                  "attr": {
+                    "style": {}
+                  }
+                }
+              }
+            }
+          },
+          "attr": {
+            "style": {}
+          }
+        },
+        "1.5": {
+          "title": "Layout suggestions",
+          "id": 25,
+          "ideas": {
+            "1": {
+              "title": "9 or 13 interleaved groups of 9 https://drive.google.com/open?id=0BzUYpuZmBY1GQmpNSTE2YUMzWGM",
+              "id": 26
+            }
+          },
+          "attr": {
+            "style": {}
+          }
+        }
+      }
+    },
+    "-10": {
+      "title": "Frame/enclosure",
+      "id": 4,
+      "attr": {
+        "position": [
+          201,
+          -245,
+          1
+        ],
+        "style": {}
+      }
+    },
+    "-20": {
+      "title": "Control electronics",
+      "id": 6,
+      "ideas": {
+        "1": {
+          "title": "Arduino",
+          "id": 24
+        }
+      },
+      "attr": {
+        "position": [
+          232,
+          114.5,
+          2
+        ],
+        "style": {}
+      }
+    },
+    "-15": {
+      "title": "BOM (See how much can scavange from member's parts bins, the rest try to purchase from ebay.) https://octopart.com/bom-lookup/HDFCyfdV",
+      "id": 33,
+      "attr": {
+        "style": {}
+      }
+    }
+  },
+  "links": [
+    {
+      "ideaIdFrom": 33,
+      "ideaIdTo": 21,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 33,
+      "ideaIdTo": 23,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 33,
+      "ideaIdTo": 34,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 33,
+      "ideaIdTo": 26,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    },
+    {
+      "ideaIdFrom": 33,
+      "ideaIdTo": 24,
+      "attr": {
+        "style": {
+          "color": "#FF0000",
+          "lineStyle": "dashed"
+        }
+      }
+    }
+  ]
+}
