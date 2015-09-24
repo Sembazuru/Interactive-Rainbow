@@ -1,4 +1,4 @@
-update=2015-09-07 02:44:46
+update=2015-09-24 00:24:24
 version=1
 last_client=kicad
 [pcbnew]
@@ -67,7 +67,7 @@ PageLayoutDescrFile=D:/Libraries/PublicDevelopment/KiCAD_share/MyTemplate/defaul
 PlotDirectoryName=
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60

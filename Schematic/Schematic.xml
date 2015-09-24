@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>C:\Users\Chris\Google Drive\Barrel of Makers\Windmill LED panel\Schematic\Schematic.sch</source>
-    <date>2015-09-07 02:39:29</date>
+    <source>C:/Users/Chris/Google Drive/Barrel of Makers/Windmill LED panel/Schematic/Schematic.sch</source>
+    <date>2015-09-24 00:21:05</date>
     <tool>Eeschema (2015-07-26 BZR 5996)-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.1.0</rev>
-        <date>2015-09-06</date>
+        <rev>1.1.1</rev>
+        <date>2015-09-24</date>
         <source>Schematic.sch</source>
         <comment number="1" value="1.0.0 Initial Circuit"/>
         <comment number="2" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="3" value=""/>
+        <comment number="3" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
@@ -21,12 +21,12 @@
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.1.0</rev>
-        <date>2015-09-06</date>
+        <rev>1.1.1</rev>
+        <date>2015-09-24</date>
         <source>LED_Group.sch</source>
         <comment number="1" value="1.0.0 Initial Circuit"/>
         <comment number="2" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="3" value=""/>
+        <comment number="3" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
@@ -34,12 +34,12 @@
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.1.0</rev>
-        <date>2015-09-06</date>
+        <rev>1.1.1</rev>
+        <date>2015-09-24</date>
         <source>ControlCircuit.sch</source>
         <comment number="1" value="1.0.0 Initial Circuit"/>
         <comment number="2" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="3" value=""/>
+        <comment number="3" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
@@ -47,12 +47,12 @@
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.1.0</rev>
-        <date>2015-09-06</date>
+        <rev>1.1.1</rev>
+        <date>2015-09-24</date>
         <source>LED_Group.sch</source>
         <comment number="1" value="1.0.0 Initial Circuit"/>
         <comment number="2" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="3" value=""/>
+        <comment number="3" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
@@ -60,12 +60,12 @@
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.1.0</rev>
-        <date>2015-09-06</date>
+        <rev>1.1.1</rev>
+        <date>2015-09-24</date>
         <source>LED_Group.sch</source>
         <comment number="1" value="1.0.0 Initial Circuit"/>
         <comment number="2" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="3" value=""/>
+        <comment number="3" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
@@ -73,12 +73,12 @@
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.1.0</rev>
-        <date>2015-09-06</date>
+        <rev>1.1.1</rev>
+        <date>2015-09-24</date>
         <source>LED_Group.sch</source>
         <comment number="1" value="1.0.0 Initial Circuit"/>
         <comment number="2" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="3" value=""/>
+        <comment number="3" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
@@ -86,12 +86,12 @@
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.1.0</rev>
-        <date>2015-09-06</date>
+        <rev>1.1.1</rev>
+        <date>2015-09-24</date>
         <source>LED_Group.sch</source>
         <comment number="1" value="1.0.0 Initial Circuit"/>
         <comment number="2" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="3" value=""/>
+        <comment number="3" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
@@ -99,12 +99,12 @@
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.1.0</rev>
-        <date>2015-09-06</date>
+        <rev>1.1.1</rev>
+        <date>2015-09-24</date>
         <source>LED_Group.sch</source>
         <comment number="1" value="1.0.0 Initial Circuit"/>
         <comment number="2" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="3" value=""/>
+        <comment number="3" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
@@ -112,12 +112,12 @@
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.1.0</rev>
-        <date>2015-09-06</date>
+        <rev>1.1.1</rev>
+        <date>2015-09-24</date>
         <source>LED_Group.sch</source>
         <comment number="1" value="1.0.0 Initial Circuit"/>
         <comment number="2" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="3" value=""/>
+        <comment number="3" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
@@ -125,12 +125,12 @@
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.1.0</rev>
-        <date>2015-09-06</date>
+        <rev>1.1.1</rev>
+        <date>2015-09-24</date>
         <source>LED_Group.sch</source>
         <comment number="1" value="1.0.0 Initial Circuit"/>
         <comment number="2" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="3" value=""/>
+        <comment number="3" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
@@ -138,12 +138,12 @@
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.1.0</rev>
-        <date>2015-09-06</date>
+        <rev>1.1.1</rev>
+        <date>2015-09-24</date>
         <source>LED_Group.sch</source>
         <comment number="1" value="1.0.0 Initial Circuit"/>
         <comment number="2" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="3" value=""/>
+        <comment number="3" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
@@ -151,12 +151,12 @@
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.1.0</rev>
-        <date>2015-09-06</date>
+        <rev>1.1.1</rev>
+        <date>2015-09-24</date>
         <source>LED_Group.sch</source>
         <comment number="1" value="1.0.0 Initial Circuit"/>
         <comment number="2" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="3" value=""/>
+        <comment number="3" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
@@ -164,12 +164,12 @@
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.1.0</rev>
-        <date>2015-09-06</date>
+        <rev>1.1.1</rev>
+        <date>2015-09-24</date>
         <source>LED_Group.sch</source>
         <comment number="1" value="1.0.0 Initial Circuit"/>
         <comment number="2" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="3" value=""/>
+        <comment number="3" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
@@ -177,12 +177,12 @@
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.1.0</rev>
-        <date>2015-09-06</date>
+        <rev>1.1.1</rev>
+        <date>2015-09-24</date>
         <source>LED_Group.sch</source>
         <comment number="1" value="1.0.0 Initial Circuit"/>
         <comment number="2" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="3" value=""/>
+        <comment number="3" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
@@ -190,12 +190,12 @@
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.1.0</rev>
-        <date>2015-09-06</date>
+        <rev>1.1.1</rev>
+        <date>2015-09-24</date>
         <source>LED_Group.sch</source>
         <comment number="1" value="1.0.0 Initial Circuit"/>
         <comment number="2" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="3" value=""/>
+        <comment number="3" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
@@ -499,12 +499,12 @@
       <tstamp>55EA8F76</tstamp>
     </comp>
     <comp ref="Q301">
-      <value>TIP120</value>
+      <value>TIP31C</value>
       <footprint>TO-220</footprint>
       <fields>
-        <field name="CommonPartLibrary">CPL-TRN-NPN-60V-5A-THT</field>
-        <field name="Mfg">STMicroelectronics</field>
-        <field name="MfgPart">TIP120</field>
+        <field name="CommonPartLibrary">CPL-TRN-NPN-100V-3A-THT</field>
+        <field name="Mfg">Fairchild Semiconductor</field>
+        <field name="MfgPart">TIP31C</field>
       </fields>
       <libsource lib="transistors" part="TIP120"/>
       <sheetpath names="/ControlCircuit/" tstamps="/55EA6CBD/"/>
@@ -3215,6 +3215,190 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="NewUnsorted" part="TLC5940NT">
+      <description>16 Channel PWM Driver PDIP28</description>
+      <docs>TI/tlc5940.pdf</docs>
+      <footprints>
+        <fp>DIP*Q28?</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLC5940NT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~OUT_1" type="openCol"/>
+        <pin num="2" name="~OUT_2" type="openCol"/>
+        <pin num="3" name="~OUT_3" type="openCol"/>
+        <pin num="4" name="~OUT_4" type="openCol"/>
+        <pin num="5" name="~OUT_5" type="openCol"/>
+        <pin num="6" name="~OUT_6" type="openCol"/>
+        <pin num="7" name="~OUT_7" type="openCol"/>
+        <pin num="8" name="~OUT_8" type="openCol"/>
+        <pin num="9" name="~OUT_9" type="openCol"/>
+        <pin num="10" name="~OUT10" type="openCol"/>
+        <pin num="11" name="~OUT11" type="openCol"/>
+        <pin num="12" name="~OUT12" type="openCol"/>
+        <pin num="13" name="~OUT13" type="openCol"/>
+        <pin num="14" name="~OUT14" type="openCol"/>
+        <pin num="15" name="~OUT15" type="openCol"/>
+        <pin num="16" name="~XERR" type="openCol"/>
+        <pin num="17" name="SOUT" type="output"/>
+        <pin num="18" name="GSCLK" type="input"/>
+        <pin num="19" name="DCPRG" type="input"/>
+        <pin num="20" name="IREF" type="input"/>
+        <pin num="21" name="VCC" type="power_in"/>
+        <pin num="22" name="GND" type="power_in"/>
+        <pin num="23" name="BLANK" type="input"/>
+        <pin num="24" name="XLAT" type="input"/>
+        <pin num="25" name="SCLK" type="input"/>
+        <pin num="26" name="SIN" type="input"/>
+        <pin num="27" name="VPRG" type="input"/>
+        <pin num="28" name="~OUT_0" type="openCol"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="RN7BUSSIP">
+      <description>Resistor Network, Bussed, 7 elements, SIP</description>
+      <footprints>
+        <fp>SIP*Q9?</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RN</field>
+        <field name="Value">RN7BUSSIP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="R1" type="passive"/>
+        <pin num="3" name="R2" type="passive"/>
+        <pin num="4" name="R3" type="passive"/>
+        <pin num="5" name="R4" type="passive"/>
+        <pin num="6" name="R5" type="passive"/>
+        <pin num="7" name="R6" type="passive"/>
+        <pin num="8" name="R7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="POT_W2">
+      <description>Variable Resistor, Wiper on pin 2</description>
+      <footprints>
+        <fp>TRIM_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">POT_W2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="Wiper" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="MCP23017">
+      <description>16-Bit I/O Expander with I2C Interface</description>
+      <docs>Microchip/MCP23_17 - Microchip.pdf</docs>
+      <footprints>
+        <fp>DIP*Q28?</fp>
+        <fp>SOIC*-28?</fp>
+        <fp>SSOP*-28?</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP23017</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GPB0" type="BiDi"/>
+        <pin num="2" name="GPB1" type="BiDi"/>
+        <pin num="3" name="GPB2" type="BiDi"/>
+        <pin num="4" name="GPB3" type="BiDi"/>
+        <pin num="5" name="GPB4" type="BiDi"/>
+        <pin num="6" name="GPB5" type="BiDi"/>
+        <pin num="7" name="GPB6" type="BiDi"/>
+        <pin num="8" name="GPB7" type="BiDi"/>
+        <pin num="9" name="Vdd" type="power_in"/>
+        <pin num="10" name="Vss" type="power_in"/>
+        <pin num="11" name="N/C" type="NotConnected"/>
+        <pin num="12" name="SCL" type="input"/>
+        <pin num="13" name="SDA" type="BiDi"/>
+        <pin num="14" name="N/C" type="NotConnected"/>
+        <pin num="15" name="A0" type="input"/>
+        <pin num="16" name="A1" type="input"/>
+        <pin num="17" name="A2" type="input"/>
+        <pin num="18" name="~RESET" type="input"/>
+        <pin num="19" name="INTB" type="output"/>
+        <pin num="20" name="INTA" type="output"/>
+        <pin num="21" name="GPA0" type="BiDi"/>
+        <pin num="22" name="GPA1" type="BiDi"/>
+        <pin num="23" name="GPA2" type="BiDi"/>
+        <pin num="24" name="GPA3" type="BiDi"/>
+        <pin num="25" name="GPA4" type="BiDi"/>
+        <pin num="26" name="GPA5" type="BiDi"/>
+        <pin num="27" name="GPA6" type="BiDi"/>
+        <pin num="28" name="GPA7" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="LM555N">
+      <description>555 Timer</description>
+      <docs>ns/lm555.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM555N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="Trig" type="input"/>
+        <pin num="3" name="Out" type="output"/>
+        <pin num="4" name="~Reset" type="input"/>
+        <pin num="5" name="CtrlV" type="input"/>
+        <pin num="6" name="Thresh" type="input"/>
+        <pin num="7" name="Disch" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="Pololu_S10V4F5">
+      <description>Pololu 5V step-up/step-down voltage regulator S10V4F5</description>
+      <docs>doc/Pololu/Pololu 5V Step-Up_Step-Down Voltage Regulator S10V4F5.pdf</docs>
+      <fields>
+        <field name="Reference">PS</field>
+        <field name="Value">Pololu_S10V4F5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~SHDN" type="passive"/>
+        <pin num="2" name="VIN" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="RES">
+      <description>Resistor</description>
+      <footprints>
+        <fp>RES*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RES</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="NewUnsorted" part="JACK-PWR">
       <description>Power jack w/ insert detect</description>
       <footprints>
@@ -3275,86 +3459,6 @@
         <pin num="4" name="GREEN_CATHODE" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="NewUnsorted" part="MCP23017">
-      <description>16-Bit I/O Expander with I2C Interface</description>
-      <docs>Microchip/MCP23_17 - Microchip.pdf</docs>
-      <footprints>
-        <fp>DIP*Q28?</fp>
-        <fp>SOIC*-28?</fp>
-        <fp>SSOP*-28?</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">MCP23017</field>
-      </fields>
-      <pins>
-        <pin num="1" name="GPB0" type="BiDi"/>
-        <pin num="2" name="GPB1" type="BiDi"/>
-        <pin num="3" name="GPB2" type="BiDi"/>
-        <pin num="4" name="GPB3" type="BiDi"/>
-        <pin num="5" name="GPB4" type="BiDi"/>
-        <pin num="6" name="GPB5" type="BiDi"/>
-        <pin num="7" name="GPB6" type="BiDi"/>
-        <pin num="8" name="GPB7" type="BiDi"/>
-        <pin num="9" name="Vdd" type="power_in"/>
-        <pin num="10" name="Vss" type="power_in"/>
-        <pin num="11" name="N/C" type="NotConnected"/>
-        <pin num="12" name="SCL" type="input"/>
-        <pin num="13" name="SDA" type="BiDi"/>
-        <pin num="14" name="N/C" type="NotConnected"/>
-        <pin num="15" name="A0" type="input"/>
-        <pin num="16" name="A1" type="input"/>
-        <pin num="17" name="A2" type="input"/>
-        <pin num="18" name="~RESET" type="input"/>
-        <pin num="19" name="INTB" type="output"/>
-        <pin num="20" name="INTA" type="output"/>
-        <pin num="21" name="GPA0" type="BiDi"/>
-        <pin num="22" name="GPA1" type="BiDi"/>
-        <pin num="23" name="GPA2" type="BiDi"/>
-        <pin num="24" name="GPA3" type="BiDi"/>
-        <pin num="25" name="GPA4" type="BiDi"/>
-        <pin num="26" name="GPA5" type="BiDi"/>
-        <pin num="27" name="GPA6" type="BiDi"/>
-        <pin num="28" name="GPA7" type="BiDi"/>
-      </pins>
-    </libpart>
-    <libpart lib="NewUnsorted" part="LED">
-      <footprints>
-        <fp>LED-3MM</fp>
-        <fp>LED-5MM</fp>
-        <fp>LED-10MM</fp>
-        <fp>LED-0603</fp>
-        <fp>LED-0805</fp>
-        <fp>LED-1206</fp>
-        <fp>LEDV</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">LED</field>
-      </fields>
-      <pins>
-        <pin num="1" name="K" type="passive"/>
-        <pin num="2" name="A" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="NewUnsorted" part="LM555N">
-      <description>555 Timer</description>
-      <docs>ns/lm555.pdf</docs>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">LM555N</field>
-      </fields>
-      <pins>
-        <pin num="1" name="GND" type="power_in"/>
-        <pin num="2" name="Trig" type="input"/>
-        <pin num="3" name="Out" type="output"/>
-        <pin num="4" name="~Reset" type="input"/>
-        <pin num="5" name="CtrlV" type="input"/>
-        <pin num="6" name="Thresh" type="input"/>
-        <pin num="7" name="Disch" type="input"/>
-        <pin num="8" name="VCC" type="power_in"/>
-      </pins>
-    </libpart>
     <libpart lib="NewUnsorted" part="TSOP321xx">
       <aliases>
         <alias>TSOP323xx</alias>
@@ -3392,110 +3496,6 @@
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="NewUnsorted" part="RN7BUSSIP">
-      <description>Resistor Network, Bussed, 7 elements, SIP</description>
-      <footprints>
-        <fp>SIP*Q9?</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">RN</field>
-        <field name="Value">RN7BUSSIP</field>
-      </fields>
-      <pins>
-        <pin num="1" name="C" type="passive"/>
-        <pin num="2" name="R1" type="passive"/>
-        <pin num="3" name="R2" type="passive"/>
-        <pin num="4" name="R3" type="passive"/>
-        <pin num="5" name="R4" type="passive"/>
-        <pin num="6" name="R5" type="passive"/>
-        <pin num="7" name="R6" type="passive"/>
-        <pin num="8" name="R7" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="NewUnsorted" part="TLC5940NT">
-      <description>16 Channel PWM Driver PDIP28</description>
-      <docs>TI/tlc5940.pdf</docs>
-      <footprints>
-        <fp>DIP*Q28?</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">TLC5940NT</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~OUT_1" type="openCol"/>
-        <pin num="2" name="~OUT_2" type="openCol"/>
-        <pin num="3" name="~OUT_3" type="openCol"/>
-        <pin num="4" name="~OUT_4" type="openCol"/>
-        <pin num="5" name="~OUT_5" type="openCol"/>
-        <pin num="6" name="~OUT_6" type="openCol"/>
-        <pin num="7" name="~OUT_7" type="openCol"/>
-        <pin num="8" name="~OUT_8" type="openCol"/>
-        <pin num="9" name="~OUT_9" type="openCol"/>
-        <pin num="10" name="~OUT10" type="openCol"/>
-        <pin num="11" name="~OUT11" type="openCol"/>
-        <pin num="12" name="~OUT12" type="openCol"/>
-        <pin num="13" name="~OUT13" type="openCol"/>
-        <pin num="14" name="~OUT14" type="openCol"/>
-        <pin num="15" name="~OUT15" type="openCol"/>
-        <pin num="16" name="~XERR" type="openCol"/>
-        <pin num="17" name="SOUT" type="output"/>
-        <pin num="18" name="GSCLK" type="input"/>
-        <pin num="19" name="DCPRG" type="input"/>
-        <pin num="20" name="IREF" type="input"/>
-        <pin num="21" name="VCC" type="power_in"/>
-        <pin num="22" name="GND" type="power_in"/>
-        <pin num="23" name="BLANK" type="input"/>
-        <pin num="24" name="XLAT" type="input"/>
-        <pin num="25" name="SCLK" type="input"/>
-        <pin num="26" name="SIN" type="input"/>
-        <pin num="27" name="VPRG" type="input"/>
-        <pin num="28" name="~OUT_0" type="openCol"/>
-      </pins>
-    </libpart>
-    <libpart lib="NewUnsorted" part="Pololu_S10V4F5">
-      <description>Pololu 5V step-up/step-down voltage regulator S10V4F5</description>
-      <docs>doc/Pololu/Pololu 5V Step-Up_Step-Down Voltage Regulator S10V4F5.pdf</docs>
-      <fields>
-        <field name="Reference">PS</field>
-        <field name="Value">Pololu_S10V4F5</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~SHDN" type="passive"/>
-        <pin num="2" name="VIN" type="power_in"/>
-        <pin num="3" name="GND" type="power_in"/>
-        <pin num="4" name="VOUT" type="power_out"/>
-      </pins>
-    </libpart>
-    <libpart lib="NewUnsorted" part="POT_W2">
-      <description>Variable Resistor, Wiper on pin 2</description>
-      <footprints>
-        <fp>TRIM_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">POT_W2</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="Wiper" type="passive"/>
-        <pin num="3" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="NewUnsorted" part="RES">
-      <description>Resistor</description>
-      <footprints>
-        <fp>RES*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">RES</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="transistors" part="TIP120">

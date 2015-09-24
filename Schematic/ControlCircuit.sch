@@ -38,12 +38,12 @@ $Descr A 11000 8500
 encoding utf-8
 Sheet 3 15
 Title "Interactive Rainbow"
-Date "2015-09-06"
-Rev "1.1.0"
+Date "2015-09-24"
+Rev "1.1.1"
 Comp "Sembazuru Circuit (for Barrel of Makers)"
 Comment1 "1.0.0 Initial Circuit"
 Comment2 "1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"
-Comment3 ""
+Comment3 "1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"
 Comment4 ""
 $EndDescr
 $Comp
@@ -163,12 +163,12 @@ L TIP120 Q301
 U 1 1 55EA9128
 P 3950 2400
 F 0 "Q301" H 4200 2475 50  0000 L CNN
-F 1 "TIP120" H 4200 2400 50  0000 L CNN
+F 1 "TIP31C" H 4200 2400 50  0000 L CNN
 F 2 "TO-220" H 4200 2325 50  0001 L CIN
 F 3 "" H 3950 2400 50  0001 L CNN
-F 4 "CPL-TRN-NPN-60V-5A-THT" H 3950 2400 60  0001 C CNN "CommonPartLibrary"
-F 5 "STMicroelectronics" H 3950 2400 60  0001 C CNN "Mfg"
-F 6 "TIP120" H 3950 2400 60  0001 C CNN "MfgPart"
+F 4 "CPL-TRN-NPN-100V-3A-THT" H 3950 2400 60  0001 C CNN "CommonPartLibrary"
+F 5 "Fairchild Semiconductor" H 3950 2400 60  0001 C CNN "Mfg"
+F 6 "TIP31C" H 3950 2400 60  0001 C CNN "MfgPart"
 	1    3950 2400
 	1    0    0    -1  
 $EndComp
@@ -203,15 +203,15 @@ $EndComp
 $Comp
 L LM555N U301
 U 2 1 55EAB65C
-P 2600 7000
-F 0 "U301" H 2400 7300 60  0000 C CNN
-F 1 "LM555N" H 2600 7000 60  0000 C CNB
-F 2 "" H 2600 7000 60  0000 C CNN
-F 3 "" H 2600 7000 60  0000 C CNN
-F 4 "CPL-LIC-TIMER-555" H 2600 7000 60  0001 C CNN "CommonPartLibrary"
-F 5 "Texas Instruments" H 2600 7000 60  0001 C CNN "Mfg"
-F 6 "NE555P" H 2600 7000 60  0001 C CNN "MfgPart"
-	2    2600 7000
+P 1400 7000
+F 0 "U301" H 1200 7300 60  0000 C CNN
+F 1 "LM555N" H 1400 7000 60  0000 C CNB
+F 2 "" H 1400 7000 60  0000 C CNN
+F 3 "" H 1400 7000 60  0000 C CNN
+F 4 "CPL-LIC-TIMER-555" H 1400 7000 60  0001 C CNN "CommonPartLibrary"
+F 5 "Texas Instruments" H 1400 7000 60  0001 C CNN "Mfg"
+F 6 "NE555P" H 1400 7000 60  0001 C CNN "MfgPart"
+	2    1400 7000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -795,13 +795,13 @@ $EndComp
 $Comp
 L MCP23017 U303
 U 2 1 55ECA5E7
-P 1400 7000
-F 0 "U303" H 1100 7300 60  0000 L CNN
-F 1 "MCP23017" H 1400 7000 60  0000 C CNB
-F 2 "" H 1400 7000 60  0000 C CNN
-F 3 "" H 1400 7000 60  0000 C CNN
-F 4 "CPL-" H 1400 7000 60  0001 C CNN "CommonPartLibrary"
-	2    1400 7000
+P 2600 7000
+F 0 "U303" H 2300 7300 60  0000 L CNN
+F 1 "MCP23017" H 2600 7000 60  0000 C CNB
+F 2 "" H 2600 7000 60  0000 C CNN
+F 3 "" H 2600 7000 60  0000 C CNN
+F 4 "CPL-" H 2600 7000 60  0001 C CNN "CommonPartLibrary"
+	2    2600 7000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
