@@ -15,8 +15,10 @@
 const uint8_t switchIn = 2; // Used for testing with a single switch for all blocks. Remove once MISO register is built and tested working.
 const uint8_t pinSS = 10; // Hardware SS on UNO.
 const uint8_t sequenceList[][2] =
-{ // In each row, the order is <Logic state>, <milliseconds>. Use milliseconds = 0 for end of sequence.
+{ // In each row, the order is <Logic state>, <milliseconds>. Milliseconds value in last row is never used.
   {0, 100},
+  {1, 100},
+  {0, 50},
   {1, 100},
   {0, 50},
   {1, 100},
@@ -29,11 +31,17 @@ const uint8_t blocksQty = 13; // Expandibility built in. Enter any number 1 to 2
 
 const uint8_t bytesToShift = (uint8_t)(((float)blocksQty / 8.0) + 0.9);
 uint8_t blockTrigs[bytesToShift]; // Flags for all the blocks trigger states.
+uint8_t blockTrigsEdge1[bytesToShift]; // Incoming state edge detection.
+uint8_t blockTrigsEdge2[bytesToShift]; // Incoming state edge detection.
 unsigned long blockTime[blocksQty]; // Each block has it's own timer.
 uint8_t blockState[blocksQty]; // And each block has it's own state
 unsigned long loopTime; //
 uint8_t blockOut[bytesToShift]; // To send out on MOSI to LEDs.
 uint8_t inputIR[bytesToShift]; // To receive in on MISO from IR detectors.
+
+uint8_t edgeInpt1 = HIGH; // remove once MISO shift buffer is built
+uint8_t edgeInpt2 = HIGH; // remove once MISO shift buffer is built
+
 
 void setup()
 {
@@ -52,7 +60,7 @@ void setup()
   pinMode(pinSS, OUTPUT);
   digitalWrite(pinSS, HIGH); // Deassert the SS pin.
   SPI.begin(); // with a SIPO shift register on MOSI and a PISO shift register on MISO, a single SPI transfer writes to 8 LED blocks and reads from 8 block sensors at the same time.
-  SPI.beginTransaction(SPISettings(4000000, MSBFIRST, SPI_MODE0));
+  SPI.beginTransaction(SPISettings(25000000, MSBFIRST, SPI_MODE0));
 
 
   pinMode(switchIn, INPUT_PULLUP);
@@ -70,6 +78,8 @@ void loop()
   }
 
   // Check IR inputs and start triggered blocks restart sequence.
+  edgeInpt2 = edgeInpt1; // remove once MISO shift buffer is built
+  edgeInpt1 = digitalRead(switchIn); // remove once MISO shift buffer is built
   for (uint8_t i = 0; i < bytesToShift; i++)
   {
     uint8_t bitsToProcess;
@@ -85,19 +95,19 @@ void loop()
     {
       // code for a single switch controlling all blocks. Remove once MISO shift buffer is built.
       uint8_t inpt = 0;
-      if (digitalRead(switchIn) == LOW) // The switchIn pin is active-low.
+      if ((edgeInpt1 == LOW) && (edgeInpt2 == HIGH)) // The switchIn pin is active-low so a falling edge is the edge going from in-active to active.
       {
         inpt = 1;
       }
       bitWrite(blockTrigs[i], j, inpt);
-      //      inpt = inpt << j; // put the state of the switch on all the block triggers
-      //      blockTrigs[i] |= inpt;
       // END remove once MISO shift buffer is built
       /*
         // First draft of code for shift-buffer in. Uncomment when MISO shift buffer is built.
-            if(bitRead(inputIR[i],j))
+            bitWrite(blockTrigsEdge2[i],j,bitRead(blockTrigsEdge1[i],j));
+            bitWrite(blockTrigsEdge1[i],j,bitRead(inputIR[i],j));
+            if((bitRead(blockTrigsEdge1[i],j) == 0) && (bitRead(blockTrigsEdge2[i],j) == 1)) // Edge detection on SPI input. IR receivers are active-low.
             {
-              bitSet(blockTrigs[i],j); // Probably could optimize down to a simple OR operation, but that might loose the self documenting intent.
+              bitSet(blockTrigs[i],j);
             }
         // END remove once MISO shift buffer is built.
       */
