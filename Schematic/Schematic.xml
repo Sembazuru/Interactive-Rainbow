@@ -2,201 +2,201 @@
 <export version="D">
   <design>
     <source>C:/Users/Chris/Google Drive/Barrel of Makers/Windmill LED panel/Schematic/Schematic.sch</source>
-    <date>2015-12-05 23:18:19</date>
+    <date>2015-12-06 19:00:18</date>
     <tool>Eeschema (2015-11-15 BZR 6316)-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.0</rev>
-        <date>2015-12-05</date>
+        <rev>1.2.1</rev>
+        <date>2015-12-06</date>
         <source>Schematic.sch</source>
-        <comment number="1" value="1.0.0 Initial Circuit"/>
-        <comment number="2" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="3" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="4" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="1" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
+        <comment number="2" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
+        <comment number="3" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="4" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
       </title_block>
     </sheet>
     <sheet number="2" name="/ControlCircuit/" tstamps="/55EA6CBD/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.0</rev>
-        <date>2015-12-05</date>
+        <rev>1.2.1</rev>
+        <date>2015-12-06</date>
         <source>ControlCircuit.sch</source>
-        <comment number="1" value="1.0.0 Initial Circuit"/>
-        <comment number="2" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="3" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="4" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="1" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
+        <comment number="2" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
+        <comment number="3" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="4" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
       </title_block>
     </sheet>
     <sheet number="3" name="/Upper_Left/" tstamps="/55EA6CF6/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.0</rev>
-        <date>2015-12-05</date>
+        <rev>1.2.1</rev>
+        <date>2015-12-06</date>
         <source>LED_Group.sch</source>
-        <comment number="1" value="1.0.0 Initial Circuit"/>
-        <comment number="2" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="3" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="4" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="1" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
+        <comment number="2" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
+        <comment number="3" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="4" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
       </title_block>
     </sheet>
     <sheet number="4" name="/Upper_Center/" tstamps="/565E4521/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.0</rev>
-        <date>2015-12-05</date>
+        <rev>1.2.1</rev>
+        <date>2015-12-06</date>
         <source>LED_Group.sch</source>
-        <comment number="1" value="1.0.0 Initial Circuit"/>
-        <comment number="2" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="3" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="4" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="1" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
+        <comment number="2" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
+        <comment number="3" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="4" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
       </title_block>
     </sheet>
     <sheet number="5" name="/Upper_Right/" tstamps="/565E4A98/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.0</rev>
-        <date>2015-12-05</date>
+        <rev>1.2.1</rev>
+        <date>2015-12-06</date>
         <source>LED_Group.sch</source>
-        <comment number="1" value="1.0.0 Initial Circuit"/>
-        <comment number="2" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="3" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="4" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="1" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
+        <comment number="2" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
+        <comment number="3" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="4" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
       </title_block>
     </sheet>
     <sheet number="6" name="/Inner_Upper_Left/" tstamps="/565E50EE/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.0</rev>
-        <date>2015-12-05</date>
+        <rev>1.2.1</rev>
+        <date>2015-12-06</date>
         <source>LED_Group.sch</source>
-        <comment number="1" value="1.0.0 Initial Circuit"/>
-        <comment number="2" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="3" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="4" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="1" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
+        <comment number="2" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
+        <comment number="3" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="4" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
       </title_block>
     </sheet>
     <sheet number="7" name="/Inner_Upper_Right/" tstamps="/565E572C/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.0</rev>
-        <date>2015-12-05</date>
+        <rev>1.2.1</rev>
+        <date>2015-12-06</date>
         <source>LED_Group.sch</source>
-        <comment number="1" value="1.0.0 Initial Circuit"/>
-        <comment number="2" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="3" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="4" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="1" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
+        <comment number="2" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
+        <comment number="3" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="4" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
       </title_block>
     </sheet>
     <sheet number="8" name="/Middle_Left/" tstamps="/565E602E/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.0</rev>
-        <date>2015-12-05</date>
+        <rev>1.2.1</rev>
+        <date>2015-12-06</date>
         <source>LED_Group.sch</source>
-        <comment number="1" value="1.0.0 Initial Circuit"/>
-        <comment number="2" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="3" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="4" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="1" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
+        <comment number="2" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
+        <comment number="3" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="4" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
       </title_block>
     </sheet>
     <sheet number="9" name="/Middle_Center/" tstamps="/565E6605/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.0</rev>
-        <date>2015-12-05</date>
+        <rev>1.2.1</rev>
+        <date>2015-12-06</date>
         <source>LED_Group.sch</source>
-        <comment number="1" value="1.0.0 Initial Circuit"/>
-        <comment number="2" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="3" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="4" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="1" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
+        <comment number="2" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
+        <comment number="3" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="4" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
       </title_block>
     </sheet>
     <sheet number="10" name="/Middle_Right/" tstamps="/565E6E34/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.0</rev>
-        <date>2015-12-05</date>
+        <rev>1.2.1</rev>
+        <date>2015-12-06</date>
         <source>LED_Group.sch</source>
-        <comment number="1" value="1.0.0 Initial Circuit"/>
-        <comment number="2" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="3" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="4" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="1" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
+        <comment number="2" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
+        <comment number="3" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="4" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
       </title_block>
     </sheet>
     <sheet number="11" name="/Inner_Lower_Left/" tstamps="/565E9703/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.0</rev>
-        <date>2015-12-05</date>
+        <rev>1.2.1</rev>
+        <date>2015-12-06</date>
         <source>LED_Group.sch</source>
-        <comment number="1" value="1.0.0 Initial Circuit"/>
-        <comment number="2" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="3" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="4" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="1" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
+        <comment number="2" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
+        <comment number="3" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="4" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
       </title_block>
     </sheet>
     <sheet number="12" name="/Inner_Lower_Right/" tstamps="/565E9DB2/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.0</rev>
-        <date>2015-12-05</date>
+        <rev>1.2.1</rev>
+        <date>2015-12-06</date>
         <source>LED_Group.sch</source>
-        <comment number="1" value="1.0.0 Initial Circuit"/>
-        <comment number="2" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="3" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="4" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="1" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
+        <comment number="2" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
+        <comment number="3" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="4" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
       </title_block>
     </sheet>
     <sheet number="13" name="/Lower_Left/" tstamps="/565EA719/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.0</rev>
-        <date>2015-12-05</date>
+        <rev>1.2.1</rev>
+        <date>2015-12-06</date>
         <source>LED_Group.sch</source>
-        <comment number="1" value="1.0.0 Initial Circuit"/>
-        <comment number="2" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="3" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="4" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="1" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
+        <comment number="2" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
+        <comment number="3" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="4" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
       </title_block>
     </sheet>
     <sheet number="14" name="/Lower_Center/" tstamps="/565EAFA8/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.0</rev>
-        <date>2015-12-05</date>
+        <rev>1.2.1</rev>
+        <date>2015-12-06</date>
         <source>LED_Group.sch</source>
-        <comment number="1" value="1.0.0 Initial Circuit"/>
-        <comment number="2" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="3" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="4" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="1" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
+        <comment number="2" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
+        <comment number="3" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="4" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
       </title_block>
     </sheet>
     <sheet number="15" name="/Lower_Right/" tstamps="/565EB96F/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.0</rev>
-        <date>2015-12-05</date>
+        <rev>1.2.1</rev>
+        <date>2015-12-06</date>
         <source>LED_Group.sch</source>
-        <comment number="1" value="1.0.0 Initial Circuit"/>
-        <comment number="2" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="3" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="4" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="1" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
+        <comment number="2" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
+        <comment number="3" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="4" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
       </title_block>
     </sheet>
   </design>
@@ -228,7 +228,7 @@
       <fields>
         <field name="CommonPartLibrary">CPL-CAP-X7R-THT-10NF-100V</field>
         <field name="Mfg">Kemet</field>
-        <field name="MfgPart">C215C103K1R5TA</field>
+        <field name="MfgPart">C315C103K1R5TA</field>
       </fields>
       <libsource lib="NewUnsorted" part="CAP_NP"/>
       <sheetpath names="/ControlCircuit/" tstamps="/55EA6CBD/"/>
@@ -237,7 +237,7 @@
     <comp ref="R201">
       <value>75Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-75.0-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-75-0.25W*</field>
         <field name="Mfg">Yageo</field>
         <field name="MfgPart">MFR-25FBF52-75R</field>
       </fields>
@@ -246,22 +246,22 @@
       <tstamp>55EA8B06</tstamp>
     </comp>
     <comp ref="R204">
-      <value>1.5kΩ</value>
+      <value>1.3kΩ</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-1.5K-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-1.3K-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-1K5</field>
+        <field name="MfgPart">MFR-25FBF52-1K3</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/ControlCircuit/" tstamps="/55EA6CBD/"/>
       <tstamp>55EA8C4A</tstamp>
     </comp>
     <comp ref="R203">
-      <value>500Ω</value>
+      <value>1kΩ</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-POT-MULTI-25TURN-500-0.5W</field>
+        <field name="CommonPartLibrary">CPL-POT-MULTI-25TURN-1K-0.5W</field>
         <field name="Mfg">Bourns</field>
-        <field name="MfgPart">3296W-1-501LF</field>
+        <field name="MfgPart">3296W-1-102LF</field>
       </fields>
       <libsource lib="NewUnsorted" part="POT_W2"/>
       <sheetpath names="/ControlCircuit/" tstamps="/55EA6CBD/"/>
@@ -272,7 +272,7 @@
       <fields>
         <field name="CommonPartLibrary">CPL-CAP-X7R-THT-10NF-100V</field>
         <field name="Mfg">Kemet</field>
-        <field name="MfgPart">C215C103K1R5TA</field>
+        <field name="MfgPart">C315C103K1R5TA</field>
       </fields>
       <libsource lib="NewUnsorted" part="CAP_NP"/>
       <sheetpath names="/ControlCircuit/" tstamps="/55EA6CBD/"/>
@@ -289,22 +289,10 @@
       <sheetpath names="/ControlCircuit/" tstamps="/55EA6CBD/"/>
       <tstamp>55EA8F76</tstamp>
     </comp>
-    <comp ref="Q201">
-      <value>TIP31C</value>
-      <footprint>TO-220</footprint>
-      <fields>
-        <field name="CommonPartLibrary">CPL-TRN-NPN-100V-3A-THT</field>
-        <field name="Mfg">Fairchild Semiconductor</field>
-        <field name="MfgPart">TIP31C</field>
-      </fields>
-      <libsource lib="transistors" part="TIP120"/>
-      <sheetpath names="/ControlCircuit/" tstamps="/55EA6CBD/"/>
-      <tstamp>55EA9128</tstamp>
-    </comp>
     <comp ref="J201">
       <value>JACK-PWR</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-CON-BARREL-THT-2.1MM</field>
+        <field name="CommonPartLibrary">CPL-CON-BARREL-THT-2.1MM*</field>
         <field name="Mfg">CUI</field>
         <field name="MfgPart">PJ-102AH</field>
       </fields>
@@ -315,7 +303,7 @@
     <comp ref="RN201">
       <value>75Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RESARRAY-BUS7-THT-75-0.14W</field>
+        <field name="CommonPartLibrary">CPL-ARR-BUS7-THT-75-0.14W*</field>
         <field name="Mfg">Bourns</field>
         <field name="MfgPart">4308R-101-750LF</field>
       </fields>
@@ -326,7 +314,7 @@
     <comp ref="RN202">
       <value>75Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RESARRAY-BUS7-THT-75-0.14W</field>
+        <field name="CommonPartLibrary">CPL-ARR-BUS7-THT-75-0.14W*</field>
         <field name="Mfg">Bourns</field>
         <field name="MfgPart">4308R-101-750LF</field>
       </fields>
@@ -350,7 +338,7 @@
       <fields>
         <field name="CommonPartLibrary">CPL-CAP-X7R-THT-100NF-50V</field>
         <field name="Mfg">Kemet</field>
-        <field name="MfgPart">C220C104K5R5TA</field>
+        <field name="MfgPart">C320C104K5R5TA</field>
       </fields>
       <libsource lib="NewUnsorted" part="CAP_NP"/>
       <sheetpath names="/ControlCircuit/" tstamps="/55EA6CBD/"/>
@@ -359,9 +347,9 @@
     <comp ref="C203">
       <value>10µF</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-CAP-TANT-THT-10UF-25V</field>
+        <field name="CommonPartLibrary">CPL-CAP-TANT-THT-10UF-50V*</field>
         <field name="Mfg">AVX</field>
-        <field name="MfgPart">TAP106K025CRW</field>
+        <field name="MfgPart">TAP106K050SCS</field>
       </fields>
       <libsource lib="NewUnsorted" part="CAP_P"/>
       <sheetpath names="/ControlCircuit/" tstamps="/55EA6CBD/"/>
@@ -372,7 +360,7 @@
       <fields>
         <field name="CommonPartLibrary">CPL-CAP-X7R-THT-100NF-50V</field>
         <field name="Mfg">Kemet</field>
-        <field name="MfgPart">C220C104K5R5TA</field>
+        <field name="MfgPart">C320C104K5R5TA</field>
       </fields>
       <libsource lib="NewUnsorted" part="CAP_NP"/>
       <sheetpath names="/ControlCircuit/" tstamps="/55EA6CBD/"/>
@@ -427,7 +415,7 @@
       <fields>
         <field name="CommonPartLibrary">CPL-CAP-X7R-THT-100NF-50V</field>
         <field name="Mfg">Kemet</field>
-        <field name="MfgPart">C220C104K5R5TA</field>
+        <field name="MfgPart">C320C104K5R5TA</field>
       </fields>
       <libsource lib="NewUnsorted" part="CAP_NP"/>
       <sheetpath names="/ControlCircuit/" tstamps="/55EA6CBD/"/>
@@ -438,7 +426,7 @@
       <fields>
         <field name="CommonPartLibrary">CPL-CAP-X7R-THT-100NF-50V</field>
         <field name="Mfg">Kemet</field>
-        <field name="MfgPart">C220C104K5R5TA</field>
+        <field name="MfgPart">C320C104K5R5TA</field>
       </fields>
       <libsource lib="NewUnsorted" part="CAP_NP"/>
       <sheetpath names="/ControlCircuit/" tstamps="/55EA6CBD/"/>
@@ -449,7 +437,7 @@
       <fields>
         <field name="CommonPartLibrary">CPL-CAP-X7R-THT-100NF-50V</field>
         <field name="Mfg">Kemet</field>
-        <field name="MfgPart">C220C104K5R5TA</field>
+        <field name="MfgPart">C320C104K5R5TA</field>
       </fields>
       <libsource lib="NewUnsorted" part="CAP_NP"/>
       <sheetpath names="/ControlCircuit/" tstamps="/55EA6CBD/"/>
@@ -460,7 +448,7 @@
       <fields>
         <field name="CommonPartLibrary">CPL-CAP-X7R-THT-100NF-50V</field>
         <field name="Mfg">Kemet</field>
-        <field name="MfgPart">C220C104K5R5TA</field>
+        <field name="MfgPart">C320C104K5R5TA</field>
       </fields>
       <libsource lib="NewUnsorted" part="CAP_NP"/>
       <sheetpath names="/ControlCircuit/" tstamps="/55EA6CBD/"/>
@@ -478,7 +466,7 @@
       <tstamp>562B57F0</tstamp>
     </comp>
     <comp ref="R206">
-      <value>1.0kΩ</value>
+      <value>1kΩ</value>
       <fields>
         <field name="CommonPartLibrary">CPL-RES-THT-1K-0.25W</field>
         <field name="Mfg">Yageo</field>
@@ -489,7 +477,7 @@
       <tstamp>562B594C</tstamp>
     </comp>
     <comp ref="R205">
-      <value>1.0kΩ</value>
+      <value>1kΩ</value>
       <fields>
         <field name="CommonPartLibrary">CPL-RES-THT-1K-0.25W</field>
         <field name="Mfg">Yageo</field>
@@ -502,7 +490,7 @@
     <comp ref="PS201">
       <value>Pololu_S18V20F5</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-REG-SWI-5V-2A-BREAKOUT</field>
+        <field name="CommonPartLibrary">CPL-REG-SWI-5V-2A-BREAKOUT*</field>
         <field name="Mfg">Pololu</field>
         <field name="MfgPart">2574</field>
       </fields>
@@ -510,10 +498,21 @@
       <sheetpath names="/ControlCircuit/" tstamps="/55EA6CBD/"/>
       <tstamp>565FD483</tstamp>
     </comp>
+    <comp ref="Q201">
+      <value>2N2222</value>
+      <fields>
+        <field name="CommonPartLibrary">CPL-TRN-NPN-40V-1A-THT</field>
+        <field name="Mfg">Fairchild Semiconductor</field>
+        <field name="MfgPart">PN2222ABU</field>
+      </fields>
+      <libsource lib="device" part="Q_NPN_EBC"/>
+      <sheetpath names="/ControlCircuit/" tstamps="/55EA6CBD/"/>
+      <tstamp>5664D432</tstamp>
+    </comp>
     <comp ref="D310">
       <value>IR 950nm</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-5MM-IR</field>
+        <field name="CommonPartLibrary">CPL-LED-5MM-IR*</field>
         <field name="Mfg">Vishay</field>
         <field name="MfgPart">TSUS5202</field>
       </fields>
@@ -535,9 +534,9 @@
     <comp ref="R311">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-75.0-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-75R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Upper_Left/" tstamps="/55EA6CF6/"/>
@@ -557,7 +556,7 @@
     <comp ref="D301">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -581,7 +580,7 @@
       <fields>
         <field name="CommonPartLibrary">CPL-RES-THT-1k-0.25W</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-1k</field>
+        <field name="MfgPart">MFR-25FBF52-1K</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Upper_Left/" tstamps="/55EA6CF6/"/>
@@ -590,9 +589,9 @@
     <comp ref="R301">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Upper_Left/" tstamps="/55EA6CF6/"/>
@@ -601,7 +600,7 @@
     <comp ref="D302">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -612,9 +611,9 @@
     <comp ref="R302">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Upper_Left/" tstamps="/55EA6CF6/"/>
@@ -623,7 +622,7 @@
     <comp ref="D303">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -634,9 +633,9 @@
     <comp ref="R303">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Upper_Left/" tstamps="/55EA6CF6/"/>
@@ -645,7 +644,7 @@
     <comp ref="D304">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -656,9 +655,9 @@
     <comp ref="R304">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Upper_Left/" tstamps="/55EA6CF6/"/>
@@ -667,7 +666,7 @@
     <comp ref="D305">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -678,9 +677,9 @@
     <comp ref="R305">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Upper_Left/" tstamps="/55EA6CF6/"/>
@@ -689,7 +688,7 @@
     <comp ref="D306">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -700,9 +699,9 @@
     <comp ref="R306">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Upper_Left/" tstamps="/55EA6CF6/"/>
@@ -711,7 +710,7 @@
     <comp ref="D307">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -722,9 +721,9 @@
     <comp ref="R307">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Upper_Left/" tstamps="/55EA6CF6/"/>
@@ -733,7 +732,7 @@
     <comp ref="D308">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -744,9 +743,9 @@
     <comp ref="R308">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Upper_Left/" tstamps="/55EA6CF6/"/>
@@ -755,7 +754,7 @@
     <comp ref="D309">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -766,9 +765,9 @@
     <comp ref="R309">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Upper_Left/" tstamps="/55EA6CF6/"/>
@@ -777,7 +776,7 @@
     <comp ref="D410">
       <value>IR 950nm</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-5MM-IR</field>
+        <field name="CommonPartLibrary">CPL-LED-5MM-IR*</field>
         <field name="Mfg">Vishay</field>
         <field name="MfgPart">TSUS5202</field>
       </fields>
@@ -799,9 +798,9 @@
     <comp ref="R411">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-75.0-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-75R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Upper_Center/" tstamps="/565E4521/"/>
@@ -821,7 +820,7 @@
     <comp ref="D401">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -845,7 +844,7 @@
       <fields>
         <field name="CommonPartLibrary">CPL-RES-THT-1k-0.25W</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-1k</field>
+        <field name="MfgPart">MFR-25FBF52-1K</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Upper_Center/" tstamps="/565E4521/"/>
@@ -854,9 +853,9 @@
     <comp ref="R401">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Upper_Center/" tstamps="/565E4521/"/>
@@ -865,7 +864,7 @@
     <comp ref="D402">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -876,9 +875,9 @@
     <comp ref="R402">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Upper_Center/" tstamps="/565E4521/"/>
@@ -887,7 +886,7 @@
     <comp ref="D403">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -898,9 +897,9 @@
     <comp ref="R403">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Upper_Center/" tstamps="/565E4521/"/>
@@ -909,7 +908,7 @@
     <comp ref="D404">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -920,9 +919,9 @@
     <comp ref="R404">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Upper_Center/" tstamps="/565E4521/"/>
@@ -931,7 +930,7 @@
     <comp ref="D405">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -942,9 +941,9 @@
     <comp ref="R405">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Upper_Center/" tstamps="/565E4521/"/>
@@ -953,7 +952,7 @@
     <comp ref="D406">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -964,9 +963,9 @@
     <comp ref="R406">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Upper_Center/" tstamps="/565E4521/"/>
@@ -975,7 +974,7 @@
     <comp ref="D407">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -986,9 +985,9 @@
     <comp ref="R407">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Upper_Center/" tstamps="/565E4521/"/>
@@ -997,7 +996,7 @@
     <comp ref="D408">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -1008,9 +1007,9 @@
     <comp ref="R408">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Upper_Center/" tstamps="/565E4521/"/>
@@ -1019,7 +1018,7 @@
     <comp ref="D409">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -1030,9 +1029,9 @@
     <comp ref="R409">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Upper_Center/" tstamps="/565E4521/"/>
@@ -1041,7 +1040,7 @@
     <comp ref="D510">
       <value>IR 950nm</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-5MM-IR</field>
+        <field name="CommonPartLibrary">CPL-LED-5MM-IR*</field>
         <field name="Mfg">Vishay</field>
         <field name="MfgPart">TSUS5202</field>
       </fields>
@@ -1063,9 +1062,9 @@
     <comp ref="R511">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-75.0-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-75R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Upper_Right/" tstamps="/565E4A98/"/>
@@ -1085,7 +1084,7 @@
     <comp ref="D501">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -1109,7 +1108,7 @@
       <fields>
         <field name="CommonPartLibrary">CPL-RES-THT-1k-0.25W</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-1k</field>
+        <field name="MfgPart">MFR-25FBF52-1K</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Upper_Right/" tstamps="/565E4A98/"/>
@@ -1118,9 +1117,9 @@
     <comp ref="R501">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Upper_Right/" tstamps="/565E4A98/"/>
@@ -1129,7 +1128,7 @@
     <comp ref="D502">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -1140,9 +1139,9 @@
     <comp ref="R502">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Upper_Right/" tstamps="/565E4A98/"/>
@@ -1151,7 +1150,7 @@
     <comp ref="D503">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -1162,9 +1161,9 @@
     <comp ref="R503">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Upper_Right/" tstamps="/565E4A98/"/>
@@ -1173,7 +1172,7 @@
     <comp ref="D504">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -1184,9 +1183,9 @@
     <comp ref="R504">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Upper_Right/" tstamps="/565E4A98/"/>
@@ -1195,7 +1194,7 @@
     <comp ref="D505">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -1206,9 +1205,9 @@
     <comp ref="R505">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Upper_Right/" tstamps="/565E4A98/"/>
@@ -1217,7 +1216,7 @@
     <comp ref="D506">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -1228,9 +1227,9 @@
     <comp ref="R506">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Upper_Right/" tstamps="/565E4A98/"/>
@@ -1239,7 +1238,7 @@
     <comp ref="D507">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -1250,9 +1249,9 @@
     <comp ref="R507">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Upper_Right/" tstamps="/565E4A98/"/>
@@ -1261,7 +1260,7 @@
     <comp ref="D508">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -1272,9 +1271,9 @@
     <comp ref="R508">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Upper_Right/" tstamps="/565E4A98/"/>
@@ -1283,7 +1282,7 @@
     <comp ref="D509">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -1294,9 +1293,9 @@
     <comp ref="R509">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Upper_Right/" tstamps="/565E4A98/"/>
@@ -1305,7 +1304,7 @@
     <comp ref="D610">
       <value>IR 950nm</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-5MM-IR</field>
+        <field name="CommonPartLibrary">CPL-LED-5MM-IR*</field>
         <field name="Mfg">Vishay</field>
         <field name="MfgPart">TSUS5202</field>
       </fields>
@@ -1327,9 +1326,9 @@
     <comp ref="R611">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-75.0-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-75R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Upper_Left/" tstamps="/565E50EE/"/>
@@ -1349,7 +1348,7 @@
     <comp ref="D601">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -1373,7 +1372,7 @@
       <fields>
         <field name="CommonPartLibrary">CPL-RES-THT-1k-0.25W</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-1k</field>
+        <field name="MfgPart">MFR-25FBF52-1K</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Upper_Left/" tstamps="/565E50EE/"/>
@@ -1382,9 +1381,9 @@
     <comp ref="R601">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Upper_Left/" tstamps="/565E50EE/"/>
@@ -1393,7 +1392,7 @@
     <comp ref="D602">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -1404,9 +1403,9 @@
     <comp ref="R602">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Upper_Left/" tstamps="/565E50EE/"/>
@@ -1415,7 +1414,7 @@
     <comp ref="D603">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -1426,9 +1425,9 @@
     <comp ref="R603">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Upper_Left/" tstamps="/565E50EE/"/>
@@ -1437,7 +1436,7 @@
     <comp ref="D604">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -1448,9 +1447,9 @@
     <comp ref="R604">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Upper_Left/" tstamps="/565E50EE/"/>
@@ -1459,7 +1458,7 @@
     <comp ref="D605">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -1470,9 +1469,9 @@
     <comp ref="R605">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Upper_Left/" tstamps="/565E50EE/"/>
@@ -1481,7 +1480,7 @@
     <comp ref="D606">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -1492,9 +1491,9 @@
     <comp ref="R606">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Upper_Left/" tstamps="/565E50EE/"/>
@@ -1503,7 +1502,7 @@
     <comp ref="D607">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -1514,9 +1513,9 @@
     <comp ref="R607">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Upper_Left/" tstamps="/565E50EE/"/>
@@ -1525,7 +1524,7 @@
     <comp ref="D608">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -1536,9 +1535,9 @@
     <comp ref="R608">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Upper_Left/" tstamps="/565E50EE/"/>
@@ -1547,7 +1546,7 @@
     <comp ref="D609">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -1558,9 +1557,9 @@
     <comp ref="R609">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Upper_Left/" tstamps="/565E50EE/"/>
@@ -1569,7 +1568,7 @@
     <comp ref="D710">
       <value>IR 950nm</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-5MM-IR</field>
+        <field name="CommonPartLibrary">CPL-LED-5MM-IR*</field>
         <field name="Mfg">Vishay</field>
         <field name="MfgPart">TSUS5202</field>
       </fields>
@@ -1591,9 +1590,9 @@
     <comp ref="R711">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-75.0-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-75R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Upper_Right/" tstamps="/565E572C/"/>
@@ -1613,7 +1612,7 @@
     <comp ref="D701">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -1637,7 +1636,7 @@
       <fields>
         <field name="CommonPartLibrary">CPL-RES-THT-1k-0.25W</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-1k</field>
+        <field name="MfgPart">MFR-25FBF52-1K</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Upper_Right/" tstamps="/565E572C/"/>
@@ -1646,9 +1645,9 @@
     <comp ref="R701">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Upper_Right/" tstamps="/565E572C/"/>
@@ -1657,7 +1656,7 @@
     <comp ref="D702">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -1668,9 +1667,9 @@
     <comp ref="R702">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Upper_Right/" tstamps="/565E572C/"/>
@@ -1679,7 +1678,7 @@
     <comp ref="D703">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -1690,9 +1689,9 @@
     <comp ref="R703">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Upper_Right/" tstamps="/565E572C/"/>
@@ -1701,7 +1700,7 @@
     <comp ref="D704">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -1712,9 +1711,9 @@
     <comp ref="R704">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Upper_Right/" tstamps="/565E572C/"/>
@@ -1723,7 +1722,7 @@
     <comp ref="D705">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -1734,9 +1733,9 @@
     <comp ref="R705">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Upper_Right/" tstamps="/565E572C/"/>
@@ -1745,7 +1744,7 @@
     <comp ref="D706">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -1756,9 +1755,9 @@
     <comp ref="R706">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Upper_Right/" tstamps="/565E572C/"/>
@@ -1767,7 +1766,7 @@
     <comp ref="D707">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -1778,9 +1777,9 @@
     <comp ref="R707">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Upper_Right/" tstamps="/565E572C/"/>
@@ -1789,7 +1788,7 @@
     <comp ref="D708">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -1800,9 +1799,9 @@
     <comp ref="R708">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Upper_Right/" tstamps="/565E572C/"/>
@@ -1811,7 +1810,7 @@
     <comp ref="D709">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -1822,9 +1821,9 @@
     <comp ref="R709">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Upper_Right/" tstamps="/565E572C/"/>
@@ -1833,7 +1832,7 @@
     <comp ref="D810">
       <value>IR 950nm</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-5MM-IR</field>
+        <field name="CommonPartLibrary">CPL-LED-5MM-IR*</field>
         <field name="Mfg">Vishay</field>
         <field name="MfgPart">TSUS5202</field>
       </fields>
@@ -1855,9 +1854,9 @@
     <comp ref="R811">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-75.0-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-75R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Middle_Left/" tstamps="/565E602E/"/>
@@ -1877,7 +1876,7 @@
     <comp ref="D801">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -1901,7 +1900,7 @@
       <fields>
         <field name="CommonPartLibrary">CPL-RES-THT-1k-0.25W</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-1k</field>
+        <field name="MfgPart">MFR-25FBF52-1K</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Middle_Left/" tstamps="/565E602E/"/>
@@ -1910,9 +1909,9 @@
     <comp ref="R801">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Middle_Left/" tstamps="/565E602E/"/>
@@ -1921,7 +1920,7 @@
     <comp ref="D802">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -1932,9 +1931,9 @@
     <comp ref="R802">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Middle_Left/" tstamps="/565E602E/"/>
@@ -1943,7 +1942,7 @@
     <comp ref="D803">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -1954,9 +1953,9 @@
     <comp ref="R803">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Middle_Left/" tstamps="/565E602E/"/>
@@ -1965,7 +1964,7 @@
     <comp ref="D804">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -1976,9 +1975,9 @@
     <comp ref="R804">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Middle_Left/" tstamps="/565E602E/"/>
@@ -1987,7 +1986,7 @@
     <comp ref="D805">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -1998,9 +1997,9 @@
     <comp ref="R805">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Middle_Left/" tstamps="/565E602E/"/>
@@ -2009,7 +2008,7 @@
     <comp ref="D806">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -2020,9 +2019,9 @@
     <comp ref="R806">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Middle_Left/" tstamps="/565E602E/"/>
@@ -2031,7 +2030,7 @@
     <comp ref="D807">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -2042,9 +2041,9 @@
     <comp ref="R807">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Middle_Left/" tstamps="/565E602E/"/>
@@ -2053,7 +2052,7 @@
     <comp ref="D808">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -2064,9 +2063,9 @@
     <comp ref="R808">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Middle_Left/" tstamps="/565E602E/"/>
@@ -2075,7 +2074,7 @@
     <comp ref="D809">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -2086,9 +2085,9 @@
     <comp ref="R809">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Middle_Left/" tstamps="/565E602E/"/>
@@ -2097,7 +2096,7 @@
     <comp ref="D910">
       <value>IR 950nm</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-5MM-IR</field>
+        <field name="CommonPartLibrary">CPL-LED-5MM-IR*</field>
         <field name="Mfg">Vishay</field>
         <field name="MfgPart">TSUS5202</field>
       </fields>
@@ -2119,9 +2118,9 @@
     <comp ref="R911">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-75.0-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-75R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Middle_Center/" tstamps="/565E6605/"/>
@@ -2141,7 +2140,7 @@
     <comp ref="D901">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -2165,7 +2164,7 @@
       <fields>
         <field name="CommonPartLibrary">CPL-RES-THT-1k-0.25W</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-1k</field>
+        <field name="MfgPart">MFR-25FBF52-1K</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Middle_Center/" tstamps="/565E6605/"/>
@@ -2174,9 +2173,9 @@
     <comp ref="R901">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Middle_Center/" tstamps="/565E6605/"/>
@@ -2185,7 +2184,7 @@
     <comp ref="D902">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -2196,9 +2195,9 @@
     <comp ref="R902">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Middle_Center/" tstamps="/565E6605/"/>
@@ -2207,7 +2206,7 @@
     <comp ref="D903">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -2218,9 +2217,9 @@
     <comp ref="R903">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Middle_Center/" tstamps="/565E6605/"/>
@@ -2229,7 +2228,7 @@
     <comp ref="D904">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -2240,9 +2239,9 @@
     <comp ref="R904">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Middle_Center/" tstamps="/565E6605/"/>
@@ -2251,7 +2250,7 @@
     <comp ref="D905">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -2262,9 +2261,9 @@
     <comp ref="R905">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Middle_Center/" tstamps="/565E6605/"/>
@@ -2273,7 +2272,7 @@
     <comp ref="D906">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -2284,9 +2283,9 @@
     <comp ref="R906">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Middle_Center/" tstamps="/565E6605/"/>
@@ -2295,7 +2294,7 @@
     <comp ref="D907">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -2306,9 +2305,9 @@
     <comp ref="R907">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Middle_Center/" tstamps="/565E6605/"/>
@@ -2317,7 +2316,7 @@
     <comp ref="D908">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -2328,9 +2327,9 @@
     <comp ref="R908">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Middle_Center/" tstamps="/565E6605/"/>
@@ -2339,7 +2338,7 @@
     <comp ref="D909">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -2350,9 +2349,9 @@
     <comp ref="R909">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Middle_Center/" tstamps="/565E6605/"/>
@@ -2361,7 +2360,7 @@
     <comp ref="D1010">
       <value>IR 950nm</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-5MM-IR</field>
+        <field name="CommonPartLibrary">CPL-LED-5MM-IR*</field>
         <field name="Mfg">Vishay</field>
         <field name="MfgPart">TSUS5202</field>
       </fields>
@@ -2383,9 +2382,9 @@
     <comp ref="R1011">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-75.0-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-75R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Middle_Right/" tstamps="/565E6E34/"/>
@@ -2405,7 +2404,7 @@
     <comp ref="D1001">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -2429,7 +2428,7 @@
       <fields>
         <field name="CommonPartLibrary">CPL-RES-THT-1k-0.25W</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-1k</field>
+        <field name="MfgPart">MFR-25FBF52-1K</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Middle_Right/" tstamps="/565E6E34/"/>
@@ -2438,9 +2437,9 @@
     <comp ref="R1001">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Middle_Right/" tstamps="/565E6E34/"/>
@@ -2449,7 +2448,7 @@
     <comp ref="D1002">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -2460,9 +2459,9 @@
     <comp ref="R1002">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Middle_Right/" tstamps="/565E6E34/"/>
@@ -2471,7 +2470,7 @@
     <comp ref="D1003">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -2482,9 +2481,9 @@
     <comp ref="R1003">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Middle_Right/" tstamps="/565E6E34/"/>
@@ -2493,7 +2492,7 @@
     <comp ref="D1004">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -2504,9 +2503,9 @@
     <comp ref="R1004">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Middle_Right/" tstamps="/565E6E34/"/>
@@ -2515,7 +2514,7 @@
     <comp ref="D1005">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -2526,9 +2525,9 @@
     <comp ref="R1005">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Middle_Right/" tstamps="/565E6E34/"/>
@@ -2537,7 +2536,7 @@
     <comp ref="D1006">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -2548,9 +2547,9 @@
     <comp ref="R1006">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Middle_Right/" tstamps="/565E6E34/"/>
@@ -2559,7 +2558,7 @@
     <comp ref="D1007">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -2570,9 +2569,9 @@
     <comp ref="R1007">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Middle_Right/" tstamps="/565E6E34/"/>
@@ -2581,7 +2580,7 @@
     <comp ref="D1008">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -2592,9 +2591,9 @@
     <comp ref="R1008">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Middle_Right/" tstamps="/565E6E34/"/>
@@ -2603,7 +2602,7 @@
     <comp ref="D1009">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -2614,9 +2613,9 @@
     <comp ref="R1009">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Middle_Right/" tstamps="/565E6E34/"/>
@@ -2625,7 +2624,7 @@
     <comp ref="D1110">
       <value>IR 950nm</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-5MM-IR</field>
+        <field name="CommonPartLibrary">CPL-LED-5MM-IR*</field>
         <field name="Mfg">Vishay</field>
         <field name="MfgPart">TSUS5202</field>
       </fields>
@@ -2647,9 +2646,9 @@
     <comp ref="R1111">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-75.0-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-75R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Lower_Left/" tstamps="/565E9703/"/>
@@ -2669,7 +2668,7 @@
     <comp ref="D1101">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -2693,7 +2692,7 @@
       <fields>
         <field name="CommonPartLibrary">CPL-RES-THT-1k-0.25W</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-1k</field>
+        <field name="MfgPart">MFR-25FBF52-1K</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Lower_Left/" tstamps="/565E9703/"/>
@@ -2702,9 +2701,9 @@
     <comp ref="R1101">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Lower_Left/" tstamps="/565E9703/"/>
@@ -2713,7 +2712,7 @@
     <comp ref="D1102">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -2724,9 +2723,9 @@
     <comp ref="R1102">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Lower_Left/" tstamps="/565E9703/"/>
@@ -2735,7 +2734,7 @@
     <comp ref="D1103">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -2746,9 +2745,9 @@
     <comp ref="R1103">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Lower_Left/" tstamps="/565E9703/"/>
@@ -2757,7 +2756,7 @@
     <comp ref="D1104">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -2768,9 +2767,9 @@
     <comp ref="R1104">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Lower_Left/" tstamps="/565E9703/"/>
@@ -2779,7 +2778,7 @@
     <comp ref="D1105">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -2790,9 +2789,9 @@
     <comp ref="R1105">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Lower_Left/" tstamps="/565E9703/"/>
@@ -2801,7 +2800,7 @@
     <comp ref="D1106">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -2812,9 +2811,9 @@
     <comp ref="R1106">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Lower_Left/" tstamps="/565E9703/"/>
@@ -2823,7 +2822,7 @@
     <comp ref="D1107">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -2834,9 +2833,9 @@
     <comp ref="R1107">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Lower_Left/" tstamps="/565E9703/"/>
@@ -2845,7 +2844,7 @@
     <comp ref="D1108">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -2856,9 +2855,9 @@
     <comp ref="R1108">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Lower_Left/" tstamps="/565E9703/"/>
@@ -2867,7 +2866,7 @@
     <comp ref="D1109">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -2878,9 +2877,9 @@
     <comp ref="R1109">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Lower_Left/" tstamps="/565E9703/"/>
@@ -2889,7 +2888,7 @@
     <comp ref="D1210">
       <value>IR 950nm</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-5MM-IR</field>
+        <field name="CommonPartLibrary">CPL-LED-5MM-IR*</field>
         <field name="Mfg">Vishay</field>
         <field name="MfgPart">TSUS5202</field>
       </fields>
@@ -2911,9 +2910,9 @@
     <comp ref="R1211">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-75.0-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-75R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Lower_Right/" tstamps="/565E9DB2/"/>
@@ -2933,7 +2932,7 @@
     <comp ref="D1201">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -2957,7 +2956,7 @@
       <fields>
         <field name="CommonPartLibrary">CPL-RES-THT-1k-0.25W</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-1k</field>
+        <field name="MfgPart">MFR-25FBF52-1K</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Lower_Right/" tstamps="/565E9DB2/"/>
@@ -2966,9 +2965,9 @@
     <comp ref="R1201">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Lower_Right/" tstamps="/565E9DB2/"/>
@@ -2977,7 +2976,7 @@
     <comp ref="D1202">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -2988,9 +2987,9 @@
     <comp ref="R1202">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Lower_Right/" tstamps="/565E9DB2/"/>
@@ -2999,7 +2998,7 @@
     <comp ref="D1203">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -3010,9 +3009,9 @@
     <comp ref="R1203">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Lower_Right/" tstamps="/565E9DB2/"/>
@@ -3021,7 +3020,7 @@
     <comp ref="D1204">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -3032,9 +3031,9 @@
     <comp ref="R1204">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Lower_Right/" tstamps="/565E9DB2/"/>
@@ -3043,7 +3042,7 @@
     <comp ref="D1205">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -3054,9 +3053,9 @@
     <comp ref="R1205">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Lower_Right/" tstamps="/565E9DB2/"/>
@@ -3065,7 +3064,7 @@
     <comp ref="D1206">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -3076,9 +3075,9 @@
     <comp ref="R1206">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Lower_Right/" tstamps="/565E9DB2/"/>
@@ -3087,7 +3086,7 @@
     <comp ref="D1207">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -3098,9 +3097,9 @@
     <comp ref="R1207">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Lower_Right/" tstamps="/565E9DB2/"/>
@@ -3109,7 +3108,7 @@
     <comp ref="D1208">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -3120,9 +3119,9 @@
     <comp ref="R1208">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Lower_Right/" tstamps="/565E9DB2/"/>
@@ -3131,7 +3130,7 @@
     <comp ref="D1209">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -3142,9 +3141,9 @@
     <comp ref="R1209">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Inner_Lower_Right/" tstamps="/565E9DB2/"/>
@@ -3153,7 +3152,7 @@
     <comp ref="D1310">
       <value>IR 950nm</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-5MM-IR</field>
+        <field name="CommonPartLibrary">CPL-LED-5MM-IR*</field>
         <field name="Mfg">Vishay</field>
         <field name="MfgPart">TSUS5202</field>
       </fields>
@@ -3175,9 +3174,9 @@
     <comp ref="R1311">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-75.0-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-75R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Lower_Left/" tstamps="/565EA719/"/>
@@ -3197,7 +3196,7 @@
     <comp ref="D1301">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -3221,7 +3220,7 @@
       <fields>
         <field name="CommonPartLibrary">CPL-RES-THT-1k-0.25W</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-1k</field>
+        <field name="MfgPart">MFR-25FBF52-1K</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Lower_Left/" tstamps="/565EA719/"/>
@@ -3230,9 +3229,9 @@
     <comp ref="R1301">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Lower_Left/" tstamps="/565EA719/"/>
@@ -3241,7 +3240,7 @@
     <comp ref="D1302">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -3252,9 +3251,9 @@
     <comp ref="R1302">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Lower_Left/" tstamps="/565EA719/"/>
@@ -3263,7 +3262,7 @@
     <comp ref="D1303">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -3274,9 +3273,9 @@
     <comp ref="R1303">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Lower_Left/" tstamps="/565EA719/"/>
@@ -3285,7 +3284,7 @@
     <comp ref="D1304">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -3296,9 +3295,9 @@
     <comp ref="R1304">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Lower_Left/" tstamps="/565EA719/"/>
@@ -3307,7 +3306,7 @@
     <comp ref="D1305">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -3318,9 +3317,9 @@
     <comp ref="R1305">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Lower_Left/" tstamps="/565EA719/"/>
@@ -3329,7 +3328,7 @@
     <comp ref="D1306">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -3340,9 +3339,9 @@
     <comp ref="R1306">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Lower_Left/" tstamps="/565EA719/"/>
@@ -3351,7 +3350,7 @@
     <comp ref="D1307">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -3362,9 +3361,9 @@
     <comp ref="R1307">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Lower_Left/" tstamps="/565EA719/"/>
@@ -3373,7 +3372,7 @@
     <comp ref="D1308">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -3384,9 +3383,9 @@
     <comp ref="R1308">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Lower_Left/" tstamps="/565EA719/"/>
@@ -3395,7 +3394,7 @@
     <comp ref="D1309">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -3406,9 +3405,9 @@
     <comp ref="R1309">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Lower_Left/" tstamps="/565EA719/"/>
@@ -3417,7 +3416,7 @@
     <comp ref="D1410">
       <value>IR 950nm</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-5MM-IR</field>
+        <field name="CommonPartLibrary">CPL-LED-5MM-IR*</field>
         <field name="Mfg">Vishay</field>
         <field name="MfgPart">TSUS5202</field>
       </fields>
@@ -3439,9 +3438,9 @@
     <comp ref="R1411">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-75.0-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-75R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Lower_Center/" tstamps="/565EAFA8/"/>
@@ -3461,7 +3460,7 @@
     <comp ref="D1401">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -3485,7 +3484,7 @@
       <fields>
         <field name="CommonPartLibrary">CPL-RES-THT-1k-0.25W</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-1k</field>
+        <field name="MfgPart">MFR-25FBF52-1K</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Lower_Center/" tstamps="/565EAFA8/"/>
@@ -3494,9 +3493,9 @@
     <comp ref="R1401">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Lower_Center/" tstamps="/565EAFA8/"/>
@@ -3505,7 +3504,7 @@
     <comp ref="D1402">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -3516,9 +3515,9 @@
     <comp ref="R1402">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Lower_Center/" tstamps="/565EAFA8/"/>
@@ -3527,7 +3526,7 @@
     <comp ref="D1403">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -3538,9 +3537,9 @@
     <comp ref="R1403">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Lower_Center/" tstamps="/565EAFA8/"/>
@@ -3549,7 +3548,7 @@
     <comp ref="D1404">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -3560,9 +3559,9 @@
     <comp ref="R1404">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Lower_Center/" tstamps="/565EAFA8/"/>
@@ -3571,7 +3570,7 @@
     <comp ref="D1405">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -3582,9 +3581,9 @@
     <comp ref="R1405">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Lower_Center/" tstamps="/565EAFA8/"/>
@@ -3593,7 +3592,7 @@
     <comp ref="D1406">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -3604,9 +3603,9 @@
     <comp ref="R1406">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Lower_Center/" tstamps="/565EAFA8/"/>
@@ -3615,7 +3614,7 @@
     <comp ref="D1407">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -3626,9 +3625,9 @@
     <comp ref="R1407">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Lower_Center/" tstamps="/565EAFA8/"/>
@@ -3637,7 +3636,7 @@
     <comp ref="D1408">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -3648,9 +3647,9 @@
     <comp ref="R1408">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Lower_Center/" tstamps="/565EAFA8/"/>
@@ -3659,7 +3658,7 @@
     <comp ref="D1409">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -3670,9 +3669,9 @@
     <comp ref="R1409">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Lower_Center/" tstamps="/565EAFA8/"/>
@@ -3681,7 +3680,7 @@
     <comp ref="D1510">
       <value>IR 950nm</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-5MM-IR</field>
+        <field name="CommonPartLibrary">CPL-LED-5MM-IR*</field>
         <field name="Mfg">Vishay</field>
         <field name="MfgPart">TSUS5202</field>
       </fields>
@@ -3703,9 +3702,9 @@
     <comp ref="R1511">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-75.0-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-75R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Lower_Right/" tstamps="/565EB96F/"/>
@@ -3725,7 +3724,7 @@
     <comp ref="D1501">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -3749,7 +3748,7 @@
       <fields>
         <field name="CommonPartLibrary">CPL-RES-THT-1k-0.25W</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-1k</field>
+        <field name="MfgPart">MFR-25FBF52-1K</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Lower_Right/" tstamps="/565EB96F/"/>
@@ -3758,9 +3757,9 @@
     <comp ref="R1501">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Lower_Right/" tstamps="/565EB96F/"/>
@@ -3769,7 +3768,7 @@
     <comp ref="D1502">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -3780,9 +3779,9 @@
     <comp ref="R1502">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Lower_Right/" tstamps="/565EB96F/"/>
@@ -3791,7 +3790,7 @@
     <comp ref="D1503">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -3802,9 +3801,9 @@
     <comp ref="R1503">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Lower_Right/" tstamps="/565EB96F/"/>
@@ -3813,7 +3812,7 @@
     <comp ref="D1504">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -3824,9 +3823,9 @@
     <comp ref="R1504">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Lower_Right/" tstamps="/565EB96F/"/>
@@ -3835,7 +3834,7 @@
     <comp ref="D1505">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -3846,9 +3845,9 @@
     <comp ref="R1505">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Lower_Right/" tstamps="/565EB96F/"/>
@@ -3857,7 +3856,7 @@
     <comp ref="D1506">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -3868,9 +3867,9 @@
     <comp ref="R1506">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Lower_Right/" tstamps="/565EB96F/"/>
@@ -3879,7 +3878,7 @@
     <comp ref="D1507">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -3890,9 +3889,9 @@
     <comp ref="R1507">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Lower_Right/" tstamps="/565EB96F/"/>
@@ -3901,7 +3900,7 @@
     <comp ref="D1508">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -3912,9 +3911,9 @@
     <comp ref="R1508">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Lower_Right/" tstamps="/565EB96F/"/>
@@ -3923,7 +3922,7 @@
     <comp ref="D1509">
       <value>RGB Slow Flashing</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-LED-RGP-CYCLING-SLOW*</field>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
         <field name="Mfg">AdaFruit</field>
         <field name="MfgPart">ADA679</field>
       </fields>
@@ -3934,9 +3933,9 @@
     <comp ref="R1509">
       <value>180Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-10R</field>
+        <field name="MfgPart">MFR-25FBF52-180R</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/Lower_Right/" tstamps="/565EB96F/"/>
@@ -4282,27 +4281,6 @@
         <pin num="8" name="R7" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="transistors" part="TIP120">
-      <aliases>
-        <alias>TIP121</alias>
-        <alias>TIP122</alias>
-      </aliases>
-      <description>5A Ic, 60V Vce, Silicon Darlington Power Transistor NPN, TO-220</description>
-      <docs>http://www.fairchildsemi.com/ds/TI/TIP120.pdf</docs>
-      <footprints>
-        <fp>TO-220*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">TIP120</field>
-        <field name="Footprint">TO-220</field>
-      </fields>
-      <pins>
-        <pin num="1" name="B" type="input"/>
-        <pin num="2" name="C" type="passive"/>
-        <pin num="3" name="E" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="NewUnsorted" part="TSOP321xx">
       <aliases>
         <alias>TSOP323xx</alias>
@@ -4353,9 +4331,6 @@
     <library logical="device">
       <uri>D:\kicad-winbuilder\kicad\share\library\device.lib</uri>
     </library>
-    <library logical="transistors">
-      <uri>D:\kicad-winbuilder\kicad\share\library\transistors.lib</uri>
-    </library>
   </libraries>
   <nets>
     <net code="10" name="/Inner_Lower_Left/LED_GND1">
@@ -4380,13 +4355,13 @@
       <node ref="R1310" pin="1"/>
     </net>
     <net code="21" name="/Upper_Center/IR_GND">
-      <node ref="U401" pin="3"/>
       <node ref="C401" pin="2"/>
+      <node ref="U401" pin="3"/>
     </net>
     <net code="22" name="/Upper_Center/IR_5V">
-      <node ref="D410" pin="2"/>
-      <node ref="R411" pin="2"/>
       <node ref="C401" pin="1"/>
+      <node ref="R411" pin="2"/>
+      <node ref="D410" pin="2"/>
     </net>
     <net code="23" name="/Upper_Center/LED">
       <node ref="R410" pin="1"/>
@@ -4398,8 +4373,8 @@
       <node ref="U401" pin="1"/>
     </net>
     <net code="26" name="/Lower_Left/IR_GND">
-      <node ref="U1301" pin="3"/>
       <node ref="C1301" pin="2"/>
+      <node ref="U1301" pin="3"/>
     </net>
     <net code="27" name="/Lower_Left/~IR_SEN">
       <node ref="U1301" pin="1"/>
@@ -4408,9 +4383,9 @@
       <node ref="D1310" pin="1"/>
     </net>
     <net code="29" name="/Lower_Left/IR_5V">
-      <node ref="C1301" pin="1"/>
-      <node ref="D1310" pin="2"/>
       <node ref="R1311" pin="2"/>
+      <node ref="D1310" pin="2"/>
+      <node ref="C1301" pin="1"/>
     </net>
     <net code="31" name="/ControlCircuit/~IR03">
       <node ref="U205" pin="13"/>
@@ -4419,8 +4394,8 @@
       <node ref="Q1301" pin="1"/>
     </net>
     <net code="33" name="/Inner_Lower_Left/IR_GND">
-      <node ref="C1101" pin="2"/>
       <node ref="U1101" pin="3"/>
+      <node ref="C1101" pin="2"/>
     </net>
     <net code="34" name="/Inner_Lower_Left/~IR_SEN">
       <node ref="U1101" pin="1"/>
@@ -4461,60 +4436,60 @@
       <node ref="RN202" pin="8"/>
     </net>
     <net code="47" name="GND">
-      <node ref="C201" pin="2"/>
-      <node ref="J201" pin="3"/>
-      <node ref="U201" pin="1"/>
-      <node ref="C209" pin="2"/>
-      <node ref="C210" pin="2"/>
-      <node ref="C208" pin="2"/>
-      <node ref="C207" pin="2"/>
-      <node ref="J201" pin="2"/>
-      <node ref="C202" pin="2"/>
-      <node ref="Q201" pin="3"/>
-      <node ref="U204" pin="8"/>
-      <node ref="U202" pin="23"/>
-      <node ref="C205" pin="2"/>
-      <node ref="C203" pin="2"/>
-      <node ref="C204" pin="2"/>
-      <node ref="U203" pin="8"/>
       <node ref="U204" pin="13"/>
       <node ref="PS201" pin="1"/>
-      <node ref="U205" pin="8"/>
-      <node ref="U202" pin="4"/>
-      <node ref="U203" pin="13"/>
-      <node ref="Q202" pin="1"/>
+      <node ref="Q201" pin="1"/>
+      <node ref="C205" pin="2"/>
+      <node ref="C208" pin="2"/>
       <node ref="U206" pin="8"/>
+      <node ref="C204" pin="2"/>
+      <node ref="U205" pin="8"/>
+      <node ref="C209" pin="2"/>
+      <node ref="C203" pin="2"/>
+      <node ref="U202" pin="4"/>
+      <node ref="U201" pin="1"/>
+      <node ref="C201" pin="2"/>
+      <node ref="C202" pin="2"/>
+      <node ref="J201" pin="2"/>
+      <node ref="J201" pin="3"/>
+      <node ref="U202" pin="23"/>
+      <node ref="C210" pin="2"/>
+      <node ref="U203" pin="8"/>
+      <node ref="U203" pin="13"/>
+      <node ref="C207" pin="2"/>
+      <node ref="Q202" pin="1"/>
+      <node ref="U204" pin="8"/>
     </net>
     <net code="48" name="+5V">
-      <node ref="U204" pin="10"/>
-      <node ref="R1109" pin="1"/>
-      <node ref="R1206" pin="1"/>
-      <node ref="U206" pin="16"/>
-      <node ref="U205" pin="16"/>
-      <node ref="R1205" pin="1"/>
-      <node ref="R1202" pin="1"/>
-      <node ref="U203" pin="10"/>
-      <node ref="R304" pin="1"/>
-      <node ref="U204" pin="16"/>
-      <node ref="U203" pin="16"/>
-      <node ref="R1104" pin="1"/>
-      <node ref="R1207" pin="1"/>
-      <node ref="R1208" pin="1"/>
-      <node ref="R1209" pin="1"/>
-      <node ref="R1106" pin="1"/>
-      <node ref="R301" pin="1"/>
-      <node ref="R1105" pin="1"/>
-      <node ref="R1103" pin="1"/>
-      <node ref="R1102" pin="1"/>
-      <node ref="R307" pin="1"/>
-      <node ref="R302" pin="1"/>
-      <node ref="R308" pin="1"/>
-      <node ref="R303" pin="1"/>
       <node ref="R1201" pin="1"/>
-      <node ref="R309" pin="1"/>
-      <node ref="R1101" pin="1"/>
-      <node ref="R305" pin="1"/>
+      <node ref="R1109" pin="1"/>
+      <node ref="U203" pin="16"/>
+      <node ref="R308" pin="1"/>
+      <node ref="R307" pin="1"/>
+      <node ref="R304" pin="1"/>
+      <node ref="R1202" pin="1"/>
+      <node ref="U206" pin="16"/>
+      <node ref="R1205" pin="1"/>
+      <node ref="U205" pin="16"/>
+      <node ref="C207" pin="1"/>
+      <node ref="R1206" pin="1"/>
+      <node ref="U203" pin="10"/>
+      <node ref="U204" pin="16"/>
+      <node ref="R1102" pin="1"/>
+      <node ref="R1106" pin="1"/>
       <node ref="R306" pin="1"/>
+      <node ref="R1103" pin="1"/>
+      <node ref="R1104" pin="1"/>
+      <node ref="R1101" pin="1"/>
+      <node ref="R1105" pin="1"/>
+      <node ref="R305" pin="1"/>
+      <node ref="R301" pin="1"/>
+      <node ref="R303" pin="1"/>
+      <node ref="R1209" pin="1"/>
+      <node ref="R309" pin="1"/>
+      <node ref="R1207" pin="1"/>
+      <node ref="R302" pin="1"/>
+      <node ref="R1208" pin="1"/>
       <node ref="R807" pin="1"/>
       <node ref="R506" pin="1"/>
       <node ref="R808" pin="1"/>
@@ -4580,46 +4555,46 @@
       <node ref="R1108" pin="1"/>
       <node ref="R508" pin="1"/>
       <node ref="R904" pin="1"/>
+      <node ref="PS201" pin="4"/>
+      <node ref="R1502" pin="1"/>
       <node ref="R1401" pin="1"/>
-      <node ref="R1402" pin="1"/>
-      <node ref="R1406" pin="1"/>
-      <node ref="R1405" pin="1"/>
+      <node ref="R1501" pin="1"/>
       <node ref="R1408" pin="1"/>
-      <node ref="R1409" pin="1"/>
       <node ref="R1407" pin="1"/>
       <node ref="R1304" pin="1"/>
-      <node ref="R1403" pin="1"/>
-      <node ref="PS201" pin="4"/>
-      <node ref="R1506" pin="1"/>
-      <node ref="R1505" pin="1"/>
-      <node ref="R1502" pin="1"/>
-      <node ref="R1501" pin="1"/>
-      <node ref="R1504" pin="1"/>
+      <node ref="R1303" pin="1"/>
       <node ref="R1503" pin="1"/>
+      <node ref="R1505" pin="1"/>
+      <node ref="R1506" pin="1"/>
+      <node ref="R1409" pin="1"/>
       <node ref="R1404" pin="1"/>
+      <node ref="R1403" pin="1"/>
+      <node ref="R1508" pin="1"/>
       <node ref="R1509" pin="1"/>
       <node ref="R1507" pin="1"/>
-      <node ref="R1508" pin="1"/>
+      <node ref="R1405" pin="1"/>
+      <node ref="R1402" pin="1"/>
+      <node ref="R1406" pin="1"/>
       <node ref="R1301" pin="1"/>
-      <node ref="R1204" pin="1"/>
       <node ref="U202" pin="21"/>
-      <node ref="U201" pin="8"/>
-      <node ref="R201" pin="2"/>
-      <node ref="C210" pin="1"/>
-      <node ref="U201" pin="4"/>
-      <node ref="R1305" pin="1"/>
-      <node ref="C205" pin="1"/>
-      <node ref="R1306" pin="1"/>
-      <node ref="R1303" pin="1"/>
       <node ref="R1309" pin="1"/>
+      <node ref="U201" pin="4"/>
+      <node ref="C210" pin="1"/>
+      <node ref="C208" pin="1"/>
+      <node ref="R201" pin="2"/>
+      <node ref="U201" pin="8"/>
       <node ref="C209" pin="1"/>
       <node ref="R205" pin="1"/>
-      <node ref="C208" pin="1"/>
-      <node ref="C207" pin="1"/>
       <node ref="R1308" pin="1"/>
       <node ref="R1307" pin="1"/>
+      <node ref="R1504" pin="1"/>
       <node ref="R1302" pin="1"/>
+      <node ref="R1204" pin="1"/>
+      <node ref="U204" pin="10"/>
       <node ref="R1203" pin="1"/>
+      <node ref="C205" pin="1"/>
+      <node ref="R1306" pin="1"/>
+      <node ref="R1305" pin="1"/>
     </net>
     <net code="49" name="/ControlCircuit/LED11">
       <node ref="U204" pin="2"/>
@@ -4635,8 +4610,8 @@
       <node ref="D1510" pin="1"/>
     </net>
     <net code="53" name="/Lower_Right/IR_5V">
-      <node ref="D1510" pin="2"/>
       <node ref="C1501" pin="1"/>
+      <node ref="D1510" pin="2"/>
       <node ref="R1511" pin="2"/>
     </net>
     <net code="55" name="/Lower_Right/LED">
@@ -4646,8 +4621,8 @@
       <node ref="Q1501" pin="1"/>
     </net>
     <net code="57" name="/Lower_Center/IR_GND">
-      <node ref="U1401" pin="3"/>
       <node ref="C1401" pin="2"/>
+      <node ref="U1401" pin="3"/>
     </net>
     <net code="58" name="/ControlCircuit/~IR_LED07">
       <node ref="RN202" pin="2"/>
@@ -4721,8 +4696,8 @@
     </net>
     <net code="83" name="/Inner_Lower_Right/IR_5V">
       <node ref="R1211" pin="2"/>
-      <node ref="C1201" pin="1"/>
       <node ref="D1210" pin="2"/>
+      <node ref="C1201" pin="1"/>
     </net>
     <net code="84" name="/Inner_Lower_Right/LED">
       <node ref="R1210" pin="1"/>
@@ -4742,8 +4717,8 @@
     </net>
     <net code="90" name="/Middle_Right/IR_5V">
       <node ref="C1001" pin="1"/>
-      <node ref="R1011" pin="2"/>
       <node ref="D1010" pin="2"/>
+      <node ref="R1011" pin="2"/>
     </net>
     <net code="91" name="/ControlCircuit/~IR_LED01">
       <node ref="RN201" pin="7"/>
@@ -4752,9 +4727,9 @@
       <node ref="Q1401" pin="1"/>
     </net>
     <net code="94" name="/Lower_Center/IR_5V">
-      <node ref="R1411" pin="2"/>
       <node ref="C1401" pin="1"/>
       <node ref="D1410" pin="2"/>
+      <node ref="R1411" pin="2"/>
     </net>
     <net code="95" name="/Lower_Center/LED">
       <node ref="R1410" pin="1"/>
@@ -4848,9 +4823,9 @@
       <node ref="U901" pin="3"/>
     </net>
     <net code="125" name="/Middle_Center/IR_5V">
-      <node ref="R911" pin="2"/>
-      <node ref="D910" pin="2"/>
       <node ref="C901" pin="1"/>
+      <node ref="D910" pin="2"/>
+      <node ref="R911" pin="2"/>
     </net>
     <net code="126" name="/Middle_Center/LED">
       <node ref="R910" pin="1"/>
@@ -4883,8 +4858,8 @@
       <node ref="Q701" pin="1"/>
     </net>
     <net code="137" name="/Upper_Left/IR_GND">
-      <node ref="U301" pin="3"/>
       <node ref="C301" pin="2"/>
+      <node ref="U301" pin="3"/>
     </net>
     <net code="138" name="/Upper_Left/~IR_SEN">
       <node ref="U301" pin="1"/>
@@ -4893,8 +4868,8 @@
       <node ref="D310" pin="1"/>
     </net>
     <net code="140" name="/Upper_Left/IR_5V">
-      <node ref="R311" pin="2"/>
       <node ref="D310" pin="2"/>
+      <node ref="R311" pin="2"/>
       <node ref="C301" pin="1"/>
     </net>
     <net code="142" name="/Upper_Left/LED">
@@ -4910,122 +4885,122 @@
       <node ref="U203" pin="15"/>
     </net>
     <net code="146" name="Net-(C203-Pad1)">
-      <node ref="J201" pin="1"/>
-      <node ref="PS201" pin="2"/>
-      <node ref="PS201" pin="3"/>
-      <node ref="C204" pin="1"/>
       <node ref="C203" pin="1"/>
+      <node ref="C204" pin="1"/>
+      <node ref="PS201" pin="3"/>
+      <node ref="PS201" pin="2"/>
+      <node ref="J201" pin="1"/>
     </net>
     <net code="147" name="Net-(U202-Pad14)">
-      <node ref="U203" pin="14"/>
       <node ref="U202" pin="14"/>
+      <node ref="U203" pin="14"/>
     </net>
     <net code="148" name="Net-(U202-Pad15)">
       <node ref="U205" pin="9"/>
       <node ref="U202" pin="15"/>
     </net>
-    <net code="149" name="Net-(C201-Pad1)">
-      <node ref="C201" pin="1"/>
-      <node ref="R204" pin="2"/>
-      <node ref="U201" pin="2"/>
-      <node ref="U201" pin="6"/>
-    </net>
-    <net code="150" name="Net-(R202-Pad1)">
-      <node ref="R202" pin="1"/>
-      <node ref="U201" pin="3"/>
-    </net>
-    <net code="151" name="Net-(Q201-Pad1)">
-      <node ref="R202" pin="2"/>
-      <node ref="Q201" pin="1"/>
-    </net>
-    <net code="152" name="Net-(C202-Pad1)">
-      <node ref="C202" pin="1"/>
+    <net code="149" name="Net-(C202-Pad1)">
       <node ref="U201" pin="5"/>
+      <node ref="C202" pin="1"/>
     </net>
-    <net code="153" name="Net-(R203-Pad3)">
-      <node ref="R203" pin="3"/>
+    <net code="150" name="Net-(C201-Pad1)">
+      <node ref="R204" pin="2"/>
+      <node ref="C201" pin="1"/>
+      <node ref="U201" pin="6"/>
+      <node ref="U201" pin="2"/>
+    </net>
+    <net code="151" name="Net-(R203-Pad3)">
       <node ref="R204" pin="1"/>
+      <node ref="R203" pin="3"/>
     </net>
-    <net code="154" name="Net-(R201-Pad1)">
-      <node ref="U201" pin="7"/>
+    <net code="152" name="Net-(R201-Pad1)">
       <node ref="R201" pin="1"/>
-      <node ref="R203" pin="1"/>
       <node ref="R203" pin="2"/>
+      <node ref="U201" pin="7"/>
+      <node ref="R203" pin="1"/>
     </net>
-    <net code="155" name="Net-(U202-PadA5)">
-      <node ref="U202" pin="A5"/>
-    </net>
-    <net code="156" name="Net-(U202-PadA4)">
-      <node ref="U202" pin="A4"/>
-    </net>
-    <net code="157" name="Net-(U202-Pad3)">
-      <node ref="U202" pin="3"/>
-    </net>
-    <net code="158" name="Net-(U202-Pad22)">
+    <net code="153" name="Net-(U202-Pad22)">
       <node ref="U202" pin="22"/>
     </net>
-    <net code="159" name="Net-(RN201-Pad8)">
-      <node ref="RN201" pin="8"/>
-      <node ref="TP201" pin="1"/>
+    <net code="154" name="Net-(R202-Pad1)">
+      <node ref="U201" pin="3"/>
+      <node ref="R202" pin="1"/>
     </net>
-    <net code="160" name="Net-(Q201-Pad2)">
-      <node ref="RN201" pin="1"/>
+    <net code="155" name="Net-(Q201-Pad2)">
+      <node ref="R202" pin="2"/>
       <node ref="Q201" pin="2"/>
-      <node ref="RN202" pin="1"/>
     </net>
-    <net code="161" name="Net-(R206-Pad1)">
+    <net code="156" name="Net-(RN201-Pad8)">
+      <node ref="TP201" pin="1"/>
+      <node ref="RN201" pin="8"/>
+    </net>
+    <net code="157" name="Net-(Q201-Pad3)">
+      <node ref="Q201" pin="3"/>
+      <node ref="RN202" pin="1"/>
+      <node ref="RN201" pin="1"/>
+    </net>
+    <net code="158" name="Net-(R206-Pad1)">
       <node ref="U205" pin="15"/>
+      <node ref="U204" pin="12"/>
       <node ref="U202" pin="13"/>
       <node ref="U203" pin="12"/>
-      <node ref="U206" pin="15"/>
       <node ref="R206" pin="1"/>
-      <node ref="U204" pin="12"/>
+      <node ref="U206" pin="15"/>
     </net>
-    <net code="162" name="Net-(Q202-Pad3)">
-      <node ref="Q202" pin="3"/>
-      <node ref="R205" pin="2"/>
-      <node ref="U205" pin="1"/>
+    <net code="159" name="Net-(Q202-Pad3)">
       <node ref="U206" pin="1"/>
+      <node ref="Q202" pin="3"/>
+      <node ref="U205" pin="1"/>
+      <node ref="R205" pin="2"/>
     </net>
-    <net code="163" name="Net-(U202-Pad16)">
-      <node ref="U204" pin="11"/>
-      <node ref="U205" pin="2"/>
+    <net code="160" name="Net-(U202-Pad16)">
       <node ref="U202" pin="16"/>
-      <node ref="U206" pin="2"/>
       <node ref="U203" pin="11"/>
+      <node ref="U205" pin="2"/>
+      <node ref="U204" pin="11"/>
+      <node ref="U206" pin="2"/>
     </net>
-    <net code="164" name="Net-(U203-Pad9)">
-      <node ref="U204" pin="14"/>
-      <node ref="U203" pin="9"/>
-    </net>
-    <net code="165" name="Net-(Q202-Pad2)">
+    <net code="161" name="Net-(Q202-Pad2)">
       <node ref="R206" pin="2"/>
       <node ref="Q202" pin="2"/>
     </net>
-    <net code="166" name="Net-(U205-Pad10)">
+    <net code="162" name="Net-(U203-Pad9)">
+      <node ref="U204" pin="14"/>
+      <node ref="U203" pin="9"/>
+    </net>
+    <net code="163" name="Net-(U205-Pad10)">
       <node ref="U206" pin="9"/>
       <node ref="U205" pin="10"/>
     </net>
-    <net code="167" name="Net-(U202-Pad24)">
+    <net code="164" name="Net-(U202-Pad24)">
       <node ref="U202" pin="24"/>
     </net>
-    <net code="168" name="Net-(U202-PadA7)">
+    <net code="165" name="Net-(U202-PadA7)">
       <node ref="U202" pin="A7"/>
     </net>
-    <net code="169" name="Net-(U202-PadA6)">
+    <net code="166" name="Net-(U202-PadA4)">
+      <node ref="U202" pin="A4"/>
+    </net>
+    <net code="167" name="Net-(U202-PadA5)">
+      <node ref="U202" pin="A5"/>
+    </net>
+    <net code="168" name="Net-(U202-PadA6)">
       <node ref="U202" pin="A6"/>
     </net>
-    <net code="170" name="Net-(U202-Pad17)">
+    <net code="169" name="Net-(U202-Pad17)">
       <node ref="U202" pin="17"/>
     </net>
-    <net code="171" name="Net-(U202-Pad18)">
+    <net code="170" name="Net-(U202-Pad18)">
       <node ref="U202" pin="18"/>
     </net>
-    <net code="172" name="Net-(U202-Pad19)">
+    <net code="171" name="Net-(U202-Pad19)">
       <node ref="U202" pin="19"/>
     </net>
-    <net code="173" name="Net-(U202-Pad9)">
+    <net code="172" name="Net-(U202-Pad9)">
       <node ref="U202" pin="9"/>
+    </net>
+    <net code="173" name="Net-(U202-Pad3)">
+      <node ref="U202" pin="3"/>
     </net>
     <net code="174" name="Net-(U202-Pad2)">
       <node ref="U202" pin="2"/>
@@ -5054,35 +5029,35 @@
     <net code="182" name="Net-(U202-Pad12)">
       <node ref="U202" pin="12"/>
     </net>
-    <net code="183" name="Net-(U204-Pad7)">
-      <node ref="U204" pin="7"/>
-    </net>
-    <net code="184" name="Net-(U204-Pad9)">
-      <node ref="U204" pin="9"/>
-    </net>
-    <net code="185" name="Net-(U202-Pad1)">
+    <net code="183" name="Net-(U202-Pad1)">
       <node ref="U202" pin="1"/>
     </net>
-    <net code="186" name="Net-(U204-Pad6)">
-      <node ref="U204" pin="6"/>
-    </net>
-    <net code="187" name="Net-(U206-Pad4)">
-      <node ref="U206" pin="4"/>
-    </net>
-    <net code="188" name="Net-(U206-Pad5)">
+    <net code="184" name="Net-(U206-Pad5)">
       <node ref="U206" pin="5"/>
     </net>
-    <net code="189" name="Net-(U206-Pad6)">
+    <net code="185" name="Net-(U206-Pad4)">
+      <node ref="U206" pin="4"/>
+    </net>
+    <net code="186" name="Net-(U206-Pad6)">
       <node ref="U206" pin="6"/>
     </net>
-    <net code="190" name="Net-(U206-Pad7)">
+    <net code="187" name="Net-(U206-Pad7)">
       <node ref="U206" pin="7"/>
     </net>
-    <net code="191" name="Net-(U205-Pad7)">
+    <net code="188" name="Net-(U205-Pad7)">
       <node ref="U205" pin="7"/>
     </net>
-    <net code="192" name="Net-(U204-Pad5)">
+    <net code="189" name="Net-(U204-Pad5)">
       <node ref="U204" pin="5"/>
+    </net>
+    <net code="190" name="Net-(U204-Pad6)">
+      <node ref="U204" pin="6"/>
+    </net>
+    <net code="191" name="Net-(U204-Pad7)">
+      <node ref="U204" pin="7"/>
+    </net>
+    <net code="192" name="Net-(U204-Pad9)">
+      <node ref="U204" pin="9"/>
     </net>
     <net code="193" name="Net-(U206-Pad10)">
       <node ref="U206" pin="10"/>
@@ -5092,16 +5067,16 @@
       <node ref="R309" pin="2"/>
     </net>
     <net code="195" name="Net-(D301-Pad1)">
+      <node ref="D309" pin="1"/>
+      <node ref="D308" pin="1"/>
+      <node ref="D304" pin="1"/>
       <node ref="D305" pin="1"/>
       <node ref="D306" pin="1"/>
       <node ref="D303" pin="1"/>
-      <node ref="D304" pin="1"/>
-      <node ref="D309" pin="1"/>
-      <node ref="D308" pin="1"/>
-      <node ref="D301" pin="1"/>
       <node ref="Q301" pin="3"/>
-      <node ref="D307" pin="1"/>
+      <node ref="D301" pin="1"/>
       <node ref="D302" pin="1"/>
+      <node ref="D307" pin="1"/>
     </net>
     <net code="196" name="Net-(D307-Pad2)">
       <node ref="D307" pin="2"/>
@@ -5112,32 +5087,32 @@
       <node ref="R308" pin="2"/>
     </net>
     <net code="198" name="Net-(Q301-Pad2)">
-      <node ref="R310" pin="2"/>
       <node ref="Q301" pin="2"/>
+      <node ref="R310" pin="2"/>
     </net>
     <net code="199" name="Net-(D301-Pad2)">
       <node ref="R301" pin="2"/>
       <node ref="D301" pin="2"/>
     </net>
     <net code="200" name="Net-(R311-Pad1)">
-      <node ref="R311" pin="1"/>
       <node ref="U301" pin="2"/>
+      <node ref="R311" pin="1"/>
     </net>
     <net code="201" name="Net-(D305-Pad2)">
-      <node ref="R305" pin="2"/>
       <node ref="D305" pin="2"/>
+      <node ref="R305" pin="2"/>
     </net>
     <net code="202" name="Net-(D302-Pad2)">
-      <node ref="D302" pin="2"/>
       <node ref="R302" pin="2"/>
+      <node ref="D302" pin="2"/>
     </net>
     <net code="203" name="Net-(D306-Pad2)">
-      <node ref="R306" pin="2"/>
       <node ref="D306" pin="2"/>
+      <node ref="R306" pin="2"/>
     </net>
     <net code="204" name="Net-(D304-Pad2)">
-      <node ref="R304" pin="2"/>
       <node ref="D304" pin="2"/>
+      <node ref="R304" pin="2"/>
     </net>
     <net code="205" name="Net-(D303-Pad2)">
       <node ref="R303" pin="2"/>
