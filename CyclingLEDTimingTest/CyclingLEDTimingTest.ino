@@ -39,6 +39,9 @@ unsigned long loopTime; //
 uint8_t blockOut[bytesToShift]; // To send out on MOSI to LEDs.
 uint8_t inputIR[bytesToShift]; // To receive in on MISO from IR detectors.
 
+const uint8_t pinIRenable = 9; // To enable IR 555 timer set this pin low before checking for IR triggers. Disable after checking for IR triggers.
+const uint8_t minBurst = ((6 * 1000000) / 38000) + 1; // Minimum burst length in microseconds rounded up.
+const uint8_t minGap = ((10 * 1000000) / 38000) + 1; // Minimum delay between bursts in microseconds rounded up.
 uint8_t edgeInpt1 = HIGH; // remove once MISO shift buffer is built
 uint8_t edgeInpt2 = HIGH; // remove once MISO shift buffer is built
 
@@ -64,18 +67,24 @@ void setup()
 
 
   pinMode(switchIn, INPUT_PULLUP);
+  pinMode(pinIRenable, OUTPUT);
+  digitalWrite(pinIRenable, HIGH); // Enable pin on 555 timer is active low.
 
 }
 
 void loop()
 {
   // SPI transfer.
+  digitalWrite(pinIRenable, LOW); // Enable IR 555 timer.
+  delayMicroseconds(minBurst); // Ensure minimum burst length is achieved before reading for triggers.
   for (uint8_t i = 0; i < bytesToShift; i++)
   {
     digitalWrite(pinSS, LOW); // Assert the SS pin.
     inputIR[i] = SPI.transfer(blockOut[i]);
     digitalWrite(pinSS, HIGH); // Deassert the SS pin.
   }
+  digitalWrite(pinIRenable, HIGH); // Disable IR 555 timer.
+  delayMicroseconds(minGap); // Ensure minimum gap between bursts is achieved after reading for triggers.
 
   // Check IR inputs and start triggered blocks restart sequence.
   edgeInpt2 = edgeInpt1; // remove once MISO shift buffer is built
@@ -109,7 +118,7 @@ void loop()
             {
               bitSet(blockTrigs[i],j);
             }
-        // END remove once MISO shift buffer is built.
+        // END uncomment once MISO shift buffer is built.
       */
 #ifdef DEBUG
       Serial.print(F("Current Byte = "));

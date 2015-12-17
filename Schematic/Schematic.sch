@@ -38,13 +38,13 @@ $Descr C 22000 17000
 encoding utf-8
 Sheet 1 15
 Title "Interactive Rainbow"
-Date "2015-12-06"
-Rev "1.2.1"
+Date "2015-12-16"
+Rev "1.2.2"
 Comp "Sembazuru Circuit (for Barrel of Makers)"
-Comment1 "1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"
-Comment2 "1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"
-Comment3 "1.2.0 Change design to use LEDs with integrated flashing. Simpler design."
-Comment4 "1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."
+Comment1 "1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"
+Comment2 "1.2.0 Change design to use LEDs with integrated flashing. Simpler design."
+Comment3 "1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."
+Comment4 "1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design & lower current."
 $EndDescr
 $Sheet
 S 700  1450 1250 6450

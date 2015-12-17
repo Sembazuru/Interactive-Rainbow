@@ -2,201 +2,201 @@
 <export version="D">
   <design>
     <source>C:/Users/Chris/Google Drive/Barrel of Makers/Windmill LED panel/Schematic/Schematic.sch</source>
-    <date>2015-12-06 19:00:18</date>
+    <date>2015-12-17 00:22:41</date>
     <tool>Eeschema (2015-11-15 BZR 6316)-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.1</rev>
-        <date>2015-12-06</date>
+        <rev>1.2.2</rev>
+        <date>2015-12-16</date>
         <source>Schematic.sch</source>
-        <comment number="1" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="2" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="3" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
-        <comment number="4" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="1" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
+        <comment number="2" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="3" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="4" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
       </title_block>
     </sheet>
     <sheet number="2" name="/ControlCircuit/" tstamps="/55EA6CBD/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.1</rev>
-        <date>2015-12-06</date>
+        <rev>1.2.2</rev>
+        <date>2015-12-16</date>
         <source>ControlCircuit.sch</source>
-        <comment number="1" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="2" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="3" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
-        <comment number="4" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="1" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
+        <comment number="2" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="3" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="4" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
       </title_block>
     </sheet>
     <sheet number="3" name="/Upper_Left/" tstamps="/55EA6CF6/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.1</rev>
-        <date>2015-12-06</date>
+        <rev>1.2.2</rev>
+        <date>2015-12-16</date>
         <source>LED_Group.sch</source>
-        <comment number="1" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="2" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="3" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
-        <comment number="4" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="1" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
+        <comment number="2" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="3" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="4" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
       </title_block>
     </sheet>
     <sheet number="4" name="/Upper_Center/" tstamps="/565E4521/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.1</rev>
-        <date>2015-12-06</date>
+        <rev>1.2.2</rev>
+        <date>2015-12-16</date>
         <source>LED_Group.sch</source>
-        <comment number="1" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="2" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="3" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
-        <comment number="4" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="1" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
+        <comment number="2" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="3" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="4" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
       </title_block>
     </sheet>
     <sheet number="5" name="/Upper_Right/" tstamps="/565E4A98/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.1</rev>
-        <date>2015-12-06</date>
+        <rev>1.2.2</rev>
+        <date>2015-12-16</date>
         <source>LED_Group.sch</source>
-        <comment number="1" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="2" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="3" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
-        <comment number="4" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="1" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
+        <comment number="2" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="3" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="4" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
       </title_block>
     </sheet>
     <sheet number="6" name="/Inner_Upper_Left/" tstamps="/565E50EE/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.1</rev>
-        <date>2015-12-06</date>
+        <rev>1.2.2</rev>
+        <date>2015-12-16</date>
         <source>LED_Group.sch</source>
-        <comment number="1" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="2" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="3" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
-        <comment number="4" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="1" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
+        <comment number="2" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="3" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="4" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
       </title_block>
     </sheet>
     <sheet number="7" name="/Inner_Upper_Right/" tstamps="/565E572C/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.1</rev>
-        <date>2015-12-06</date>
+        <rev>1.2.2</rev>
+        <date>2015-12-16</date>
         <source>LED_Group.sch</source>
-        <comment number="1" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="2" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="3" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
-        <comment number="4" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="1" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
+        <comment number="2" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="3" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="4" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
       </title_block>
     </sheet>
     <sheet number="8" name="/Middle_Left/" tstamps="/565E602E/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.1</rev>
-        <date>2015-12-06</date>
+        <rev>1.2.2</rev>
+        <date>2015-12-16</date>
         <source>LED_Group.sch</source>
-        <comment number="1" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="2" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="3" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
-        <comment number="4" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="1" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
+        <comment number="2" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="3" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="4" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
       </title_block>
     </sheet>
     <sheet number="9" name="/Middle_Center/" tstamps="/565E6605/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.1</rev>
-        <date>2015-12-06</date>
+        <rev>1.2.2</rev>
+        <date>2015-12-16</date>
         <source>LED_Group.sch</source>
-        <comment number="1" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="2" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="3" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
-        <comment number="4" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="1" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
+        <comment number="2" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="3" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="4" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
       </title_block>
     </sheet>
     <sheet number="10" name="/Middle_Right/" tstamps="/565E6E34/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.1</rev>
-        <date>2015-12-06</date>
+        <rev>1.2.2</rev>
+        <date>2015-12-16</date>
         <source>LED_Group.sch</source>
-        <comment number="1" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="2" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="3" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
-        <comment number="4" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="1" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
+        <comment number="2" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="3" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="4" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
       </title_block>
     </sheet>
     <sheet number="11" name="/Inner_Lower_Left/" tstamps="/565E9703/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.1</rev>
-        <date>2015-12-06</date>
+        <rev>1.2.2</rev>
+        <date>2015-12-16</date>
         <source>LED_Group.sch</source>
-        <comment number="1" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="2" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="3" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
-        <comment number="4" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="1" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
+        <comment number="2" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="3" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="4" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
       </title_block>
     </sheet>
     <sheet number="12" name="/Inner_Lower_Right/" tstamps="/565E9DB2/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.1</rev>
-        <date>2015-12-06</date>
+        <rev>1.2.2</rev>
+        <date>2015-12-16</date>
         <source>LED_Group.sch</source>
-        <comment number="1" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="2" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="3" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
-        <comment number="4" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="1" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
+        <comment number="2" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="3" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="4" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
       </title_block>
     </sheet>
     <sheet number="13" name="/Lower_Left/" tstamps="/565EA719/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.1</rev>
-        <date>2015-12-06</date>
+        <rev>1.2.2</rev>
+        <date>2015-12-16</date>
         <source>LED_Group.sch</source>
-        <comment number="1" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="2" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="3" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
-        <comment number="4" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="1" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
+        <comment number="2" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="3" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="4" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
       </title_block>
     </sheet>
     <sheet number="14" name="/Lower_Center/" tstamps="/565EAFA8/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.1</rev>
-        <date>2015-12-06</date>
+        <rev>1.2.2</rev>
+        <date>2015-12-16</date>
         <source>LED_Group.sch</source>
-        <comment number="1" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="2" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="3" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
-        <comment number="4" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="1" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
+        <comment number="2" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="3" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="4" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
       </title_block>
     </sheet>
     <sheet number="15" name="/Lower_Right/" tstamps="/565EB96F/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.1</rev>
-        <date>2015-12-06</date>
+        <rev>1.2.2</rev>
+        <date>2015-12-16</date>
         <source>LED_Group.sch</source>
-        <comment number="1" value="1.1.0 TLC5940 isn't actually SPI. Removed SPI cleverness and change I/O expander to I2C"/>
-        <comment number="2" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="3" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
-        <comment number="4" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="1" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
+        <comment number="2" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="3" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="4" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
       </title_block>
     </sheet>
   </design>
@@ -212,73 +212,40 @@
       <sheetpath names="/ControlCircuit/" tstamps="/55EA6CBD/"/>
       <tstamp>55EA6EB7</tstamp>
     </comp>
-    <comp ref="U201">
-      <value>LM555N</value>
-      <fields>
-        <field name="CommonPartLibrary">CPL-LIC-TIMER-555</field>
-        <field name="Mfg">Texas Instruments</field>
-        <field name="MfgPart">NE555P</field>
-      </fields>
-      <libsource lib="NewUnsorted" part="LM555N"/>
-      <sheetpath names="/ControlCircuit/" tstamps="/55EA6CBD/"/>
-      <tstamp>55EA7C6B</tstamp>
-    </comp>
     <comp ref="C201">
-      <value>0.01µF</value>
+      <value>0.001µF</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-CAP-X7R-THT-10NF-100V</field>
+        <field name="CommonPartLibrary">CPL-CAP-X7R-THT-1NF-100V</field>
         <field name="Mfg">Kemet</field>
-        <field name="MfgPart">C315C103K1R5TA</field>
+        <field name="MfgPart">C315C102K1R5TA</field>
       </fields>
       <libsource lib="NewUnsorted" part="CAP_NP"/>
       <sheetpath names="/ControlCircuit/" tstamps="/55EA6CBD/"/>
       <tstamp>55EA8A7C</tstamp>
     </comp>
     <comp ref="R201">
-      <value>75Ω</value>
+      <value>15kΩ</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-75-0.25W*</field>
+        <field name="CommonPartLibrary">CPL-RES-THT-15K-0.25W*</field>
         <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-75R</field>
+        <field name="MfgPart">MFR-25FBF52-15K</field>
       </fields>
       <libsource lib="NewUnsorted" part="RES"/>
       <sheetpath names="/ControlCircuit/" tstamps="/55EA6CBD/"/>
       <tstamp>55EA8B06</tstamp>
     </comp>
-    <comp ref="R204">
-      <value>1.3kΩ</value>
+    <comp ref="R202">
+      <value>5kΩ</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-RES-THT-1.3K-0.25W*</field>
-        <field name="Mfg">Yageo</field>
-        <field name="MfgPart">MFR-25FBF52-1K3</field>
-      </fields>
-      <libsource lib="NewUnsorted" part="RES"/>
-      <sheetpath names="/ControlCircuit/" tstamps="/55EA6CBD/"/>
-      <tstamp>55EA8C4A</tstamp>
-    </comp>
-    <comp ref="R203">
-      <value>1kΩ</value>
-      <fields>
-        <field name="CommonPartLibrary">CPL-POT-MULTI-25TURN-1K-0.5W</field>
+        <field name="CommonPartLibrary">CPL-POT-MULTI-25TURN-5K-0.5W*</field>
         <field name="Mfg">Bourns</field>
-        <field name="MfgPart">3296W-1-102LF</field>
+        <field name="MfgPart">3296W-1-502LF</field>
       </fields>
       <libsource lib="NewUnsorted" part="POT_W2"/>
       <sheetpath names="/ControlCircuit/" tstamps="/55EA6CBD/"/>
       <tstamp>55EA8CB4</tstamp>
     </comp>
-    <comp ref="C202">
-      <value>0.01µF</value>
-      <fields>
-        <field name="CommonPartLibrary">CPL-CAP-X7R-THT-10NF-100V</field>
-        <field name="Mfg">Kemet</field>
-        <field name="MfgPart">C315C103K1R5TA</field>
-      </fields>
-      <libsource lib="NewUnsorted" part="CAP_NP"/>
-      <sheetpath names="/ControlCircuit/" tstamps="/55EA6CBD/"/>
-      <tstamp>55EA8E5B</tstamp>
-    </comp>
-    <comp ref="R202">
+    <comp ref="R203">
       <value>1kΩ</value>
       <fields>
         <field name="CommonPartLibrary">CPL-RES-THT-1K-0.25W</field>
@@ -301,22 +268,22 @@
       <tstamp>55EAA723</tstamp>
     </comp>
     <comp ref="RN201">
-      <value>75Ω</value>
+      <value>33Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-ARR-BUS7-THT-75-0.14W*</field>
+        <field name="CommonPartLibrary">CPL-ARR-BUS7-THT-33-0.14W*</field>
         <field name="Mfg">Bourns</field>
-        <field name="MfgPart">4308R-101-750LF</field>
+        <field name="MfgPart">4308R-101-330</field>
       </fields>
       <libsource lib="NewUnsorted" part="RN7BUSSIP"/>
       <sheetpath names="/ControlCircuit/" tstamps="/55EA6CBD/"/>
       <tstamp>55EB53DA</tstamp>
     </comp>
     <comp ref="RN202">
-      <value>75Ω</value>
+      <value>33Ω</value>
       <fields>
-        <field name="CommonPartLibrary">CPL-ARR-BUS7-THT-75-0.14W*</field>
+        <field name="CommonPartLibrary">CPL-ARR-BUS7-THT-33-0.14W*</field>
         <field name="Mfg">Bourns</field>
-        <field name="MfgPart">4308R-101-750LF</field>
+        <field name="MfgPart">4308R-101-330</field>
       </fields>
       <libsource lib="NewUnsorted" part="RN7BUSSIP"/>
       <sheetpath names="/ControlCircuit/" tstamps="/55EA6CBD/"/>
@@ -333,7 +300,7 @@
       <sheetpath names="/ControlCircuit/" tstamps="/55EA6CBD/"/>
       <tstamp>55EB86EA</tstamp>
     </comp>
-    <comp ref="C204">
+    <comp ref="C203">
       <value>0.1µF</value>
       <fields>
         <field name="CommonPartLibrary">CPL-CAP-X7R-THT-100NF-50V</field>
@@ -344,7 +311,7 @@
       <sheetpath names="/ControlCircuit/" tstamps="/55EA6CBD/"/>
       <tstamp>55EC85E7</tstamp>
     </comp>
-    <comp ref="C203">
+    <comp ref="C202">
       <value>10µF</value>
       <fields>
         <field name="CommonPartLibrary">CPL-CAP-TANT-THT-10UF-50V*</field>
@@ -432,7 +399,7 @@
       <sheetpath names="/ControlCircuit/" tstamps="/55EA6CBD/"/>
       <tstamp>562B1640</tstamp>
     </comp>
-    <comp ref="C209">
+    <comp ref="C206">
       <value>0.1µF</value>
       <fields>
         <field name="CommonPartLibrary">CPL-CAP-X7R-THT-100NF-50V</field>
@@ -443,7 +410,7 @@
       <sheetpath names="/ControlCircuit/" tstamps="/55EA6CBD/"/>
       <tstamp>562B16BE</tstamp>
     </comp>
-    <comp ref="C210">
+    <comp ref="C204">
       <value>0.1µF</value>
       <fields>
         <field name="CommonPartLibrary">CPL-CAP-X7R-THT-100NF-50V</field>
@@ -461,11 +428,11 @@
         <field name="Mfg">Fairchild Semiconductor</field>
         <field name="MfgPart">PN2222ABU</field>
       </fields>
-      <libsource lib="device" part="Q_NPN_EBC"/>
+      <libsource lib="NewUnsorted" part="Q_NPN_EBC"/>
       <sheetpath names="/ControlCircuit/" tstamps="/55EA6CBD/"/>
       <tstamp>562B57F0</tstamp>
     </comp>
-    <comp ref="R206">
+    <comp ref="R205">
       <value>1kΩ</value>
       <fields>
         <field name="CommonPartLibrary">CPL-RES-THT-1K-0.25W</field>
@@ -476,7 +443,7 @@
       <sheetpath names="/ControlCircuit/" tstamps="/55EA6CBD/"/>
       <tstamp>562B594C</tstamp>
     </comp>
-    <comp ref="R205">
+    <comp ref="R204">
       <value>1kΩ</value>
       <fields>
         <field name="CommonPartLibrary">CPL-RES-THT-1K-0.25W</field>
@@ -505,9 +472,20 @@
         <field name="Mfg">Fairchild Semiconductor</field>
         <field name="MfgPart">PN2222ABU</field>
       </fields>
-      <libsource lib="device" part="Q_NPN_EBC"/>
+      <libsource lib="NewUnsorted" part="Q_NPN_EBC"/>
       <sheetpath names="/ControlCircuit/" tstamps="/55EA6CBD/"/>
       <tstamp>5664D432</tstamp>
+    </comp>
+    <comp ref="U201">
+      <value>ICM7555</value>
+      <fields>
+        <field name="CommonPartLibrary">CPL-LIC-TIMER-7555*</field>
+        <field name="Mfg">Intersil</field>
+        <field name="MfgPart">ICM7555IPAZ</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="ICM7555"/>
+      <sheetpath names="/ControlCircuit/" tstamps="/55EA6CBD/"/>
+      <tstamp>5671E930</tstamp>
     </comp>
     <comp ref="D310">
       <value>IR 950nm</value>
@@ -571,7 +549,7 @@
         <field name="Mfg">Fairchild Semiconductor</field>
         <field name="MfgPart">PN2222ABU</field>
       </fields>
-      <libsource lib="device" part="Q_NPN_EBC"/>
+      <libsource lib="NewUnsorted" part="Q_NPN_EBC"/>
       <sheetpath names="/Upper_Left/" tstamps="/55EA6CF6/"/>
       <tstamp>562716BD</tstamp>
     </comp>
@@ -835,7 +813,7 @@
         <field name="Mfg">Fairchild Semiconductor</field>
         <field name="MfgPart">PN2222ABU</field>
       </fields>
-      <libsource lib="device" part="Q_NPN_EBC"/>
+      <libsource lib="NewUnsorted" part="Q_NPN_EBC"/>
       <sheetpath names="/Upper_Center/" tstamps="/565E4521/"/>
       <tstamp>562716BD</tstamp>
     </comp>
@@ -1099,7 +1077,7 @@
         <field name="Mfg">Fairchild Semiconductor</field>
         <field name="MfgPart">PN2222ABU</field>
       </fields>
-      <libsource lib="device" part="Q_NPN_EBC"/>
+      <libsource lib="NewUnsorted" part="Q_NPN_EBC"/>
       <sheetpath names="/Upper_Right/" tstamps="/565E4A98/"/>
       <tstamp>562716BD</tstamp>
     </comp>
@@ -1363,7 +1341,7 @@
         <field name="Mfg">Fairchild Semiconductor</field>
         <field name="MfgPart">PN2222ABU</field>
       </fields>
-      <libsource lib="device" part="Q_NPN_EBC"/>
+      <libsource lib="NewUnsorted" part="Q_NPN_EBC"/>
       <sheetpath names="/Inner_Upper_Left/" tstamps="/565E50EE/"/>
       <tstamp>562716BD</tstamp>
     </comp>
@@ -1627,7 +1605,7 @@
         <field name="Mfg">Fairchild Semiconductor</field>
         <field name="MfgPart">PN2222ABU</field>
       </fields>
-      <libsource lib="device" part="Q_NPN_EBC"/>
+      <libsource lib="NewUnsorted" part="Q_NPN_EBC"/>
       <sheetpath names="/Inner_Upper_Right/" tstamps="/565E572C/"/>
       <tstamp>562716BD</tstamp>
     </comp>
@@ -1891,7 +1869,7 @@
         <field name="Mfg">Fairchild Semiconductor</field>
         <field name="MfgPart">PN2222ABU</field>
       </fields>
-      <libsource lib="device" part="Q_NPN_EBC"/>
+      <libsource lib="NewUnsorted" part="Q_NPN_EBC"/>
       <sheetpath names="/Middle_Left/" tstamps="/565E602E/"/>
       <tstamp>562716BD</tstamp>
     </comp>
@@ -2155,7 +2133,7 @@
         <field name="Mfg">Fairchild Semiconductor</field>
         <field name="MfgPart">PN2222ABU</field>
       </fields>
-      <libsource lib="device" part="Q_NPN_EBC"/>
+      <libsource lib="NewUnsorted" part="Q_NPN_EBC"/>
       <sheetpath names="/Middle_Center/" tstamps="/565E6605/"/>
       <tstamp>562716BD</tstamp>
     </comp>
@@ -2419,7 +2397,7 @@
         <field name="Mfg">Fairchild Semiconductor</field>
         <field name="MfgPart">PN2222ABU</field>
       </fields>
-      <libsource lib="device" part="Q_NPN_EBC"/>
+      <libsource lib="NewUnsorted" part="Q_NPN_EBC"/>
       <sheetpath names="/Middle_Right/" tstamps="/565E6E34/"/>
       <tstamp>562716BD</tstamp>
     </comp>
@@ -2683,7 +2661,7 @@
         <field name="Mfg">Fairchild Semiconductor</field>
         <field name="MfgPart">PN2222ABU</field>
       </fields>
-      <libsource lib="device" part="Q_NPN_EBC"/>
+      <libsource lib="NewUnsorted" part="Q_NPN_EBC"/>
       <sheetpath names="/Inner_Lower_Left/" tstamps="/565E9703/"/>
       <tstamp>562716BD</tstamp>
     </comp>
@@ -2947,7 +2925,7 @@
         <field name="Mfg">Fairchild Semiconductor</field>
         <field name="MfgPart">PN2222ABU</field>
       </fields>
-      <libsource lib="device" part="Q_NPN_EBC"/>
+      <libsource lib="NewUnsorted" part="Q_NPN_EBC"/>
       <sheetpath names="/Inner_Lower_Right/" tstamps="/565E9DB2/"/>
       <tstamp>562716BD</tstamp>
     </comp>
@@ -3211,7 +3189,7 @@
         <field name="Mfg">Fairchild Semiconductor</field>
         <field name="MfgPart">PN2222ABU</field>
       </fields>
-      <libsource lib="device" part="Q_NPN_EBC"/>
+      <libsource lib="NewUnsorted" part="Q_NPN_EBC"/>
       <sheetpath names="/Lower_Left/" tstamps="/565EA719/"/>
       <tstamp>562716BD</tstamp>
     </comp>
@@ -3475,7 +3453,7 @@
         <field name="Mfg">Fairchild Semiconductor</field>
         <field name="MfgPart">PN2222ABU</field>
       </fields>
-      <libsource lib="device" part="Q_NPN_EBC"/>
+      <libsource lib="NewUnsorted" part="Q_NPN_EBC"/>
       <sheetpath names="/Lower_Center/" tstamps="/565EAFA8/"/>
       <tstamp>562716BD</tstamp>
     </comp>
@@ -3739,7 +3717,7 @@
         <field name="Mfg">Fairchild Semiconductor</field>
         <field name="MfgPart">PN2222ABU</field>
       </fields>
-      <libsource lib="device" part="Q_NPN_EBC"/>
+      <libsource lib="NewUnsorted" part="Q_NPN_EBC"/>
       <sheetpath names="/Lower_Right/" tstamps="/565EB96F/"/>
       <tstamp>562716BD</tstamp>
     </comp>
@@ -4186,6 +4164,9 @@
       </pins>
     </libpart>
     <libpart lib="NewUnsorted" part="LM555N">
+      <aliases>
+        <alias>ICM7555</alias>
+      </aliases>
       <description>555 Timer</description>
       <docs>ns/lm555.pdf</docs>
       <fields>
@@ -4235,7 +4216,7 @@
         <pin num="4" name="VOUT" type="power_out"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="Q_NPN_EBC">
+    <libpart lib="NewUnsorted" part="Q_NPN_EBC">
       <description>Transistor NPN (general)</description>
       <fields>
         <field name="Reference">Q</field>
@@ -4322,14 +4303,11 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="NewUnsorted">
-      <uri>D:\Libraries\PublicDevelopment\KiCAD_share\MyLibrary\NewUnsorted.lib</uri>
-    </library>
     <library logical="Arduino">
       <uri>D:\Libraries\PublicDevelopment\KiCAD_share\MyLibrary\Arduino.lib</uri>
     </library>
-    <library logical="device">
-      <uri>D:\kicad-winbuilder\kicad\share\library\device.lib</uri>
+    <library logical="NewUnsorted">
+      <uri>D:\Libraries\PublicDevelopment\KiCAD_share\MyLibrary\NewUnsorted.lib</uri>
     </library>
   </libraries>
   <nets>
@@ -4355,13 +4333,13 @@
       <node ref="R1310" pin="1"/>
     </net>
     <net code="21" name="/Upper_Center/IR_GND">
-      <node ref="C401" pin="2"/>
       <node ref="U401" pin="3"/>
+      <node ref="C401" pin="2"/>
     </net>
     <net code="22" name="/Upper_Center/IR_5V">
       <node ref="C401" pin="1"/>
-      <node ref="R411" pin="2"/>
       <node ref="D410" pin="2"/>
+      <node ref="R411" pin="2"/>
     </net>
     <net code="23" name="/Upper_Center/LED">
       <node ref="R410" pin="1"/>
@@ -4384,8 +4362,8 @@
     </net>
     <net code="29" name="/Lower_Left/IR_5V">
       <node ref="R1311" pin="2"/>
-      <node ref="D1310" pin="2"/>
       <node ref="C1301" pin="1"/>
+      <node ref="D1310" pin="2"/>
     </net>
     <net code="31" name="/ControlCircuit/~IR03">
       <node ref="U205" pin="13"/>
@@ -4394,8 +4372,8 @@
       <node ref="Q1301" pin="1"/>
     </net>
     <net code="33" name="/Inner_Lower_Left/IR_GND">
-      <node ref="U1101" pin="3"/>
       <node ref="C1101" pin="2"/>
+      <node ref="U1101" pin="3"/>
     </net>
     <net code="34" name="/Inner_Lower_Left/~IR_SEN">
       <node ref="U1101" pin="1"/>
@@ -4404,9 +4382,9 @@
       <node ref="D1110" pin="1"/>
     </net>
     <net code="36" name="/Inner_Lower_Left/IR_5V">
-      <node ref="C1101" pin="1"/>
-      <node ref="R1111" pin="2"/>
       <node ref="D1110" pin="2"/>
+      <node ref="R1111" pin="2"/>
+      <node ref="C1101" pin="1"/>
     </net>
     <net code="38" name="/Inner_Lower_Left/LED">
       <node ref="R1110" pin="1"/>
@@ -4436,172 +4414,169 @@
       <node ref="RN202" pin="8"/>
     </net>
     <net code="47" name="GND">
-      <node ref="U204" pin="13"/>
-      <node ref="PS201" pin="1"/>
-      <node ref="Q201" pin="1"/>
-      <node ref="C205" pin="2"/>
-      <node ref="C208" pin="2"/>
-      <node ref="U206" pin="8"/>
-      <node ref="C204" pin="2"/>
-      <node ref="U205" pin="8"/>
-      <node ref="C209" pin="2"/>
-      <node ref="C203" pin="2"/>
-      <node ref="U202" pin="4"/>
-      <node ref="U201" pin="1"/>
-      <node ref="C201" pin="2"/>
-      <node ref="C202" pin="2"/>
-      <node ref="J201" pin="2"/>
-      <node ref="J201" pin="3"/>
-      <node ref="U202" pin="23"/>
-      <node ref="C210" pin="2"/>
-      <node ref="U203" pin="8"/>
-      <node ref="U203" pin="13"/>
       <node ref="C207" pin="2"/>
-      <node ref="Q202" pin="1"/>
+      <node ref="Q201" pin="1"/>
       <node ref="U204" pin="8"/>
+      <node ref="C208" pin="2"/>
+      <node ref="U202" pin="4"/>
+      <node ref="J201" pin="2"/>
+      <node ref="C206" pin="2"/>
+      <node ref="U203" pin="13"/>
+      <node ref="U204" pin="13"/>
+      <node ref="U203" pin="8"/>
+      <node ref="PS201" pin="1"/>
+      <node ref="U202" pin="23"/>
+      <node ref="C201" pin="2"/>
+      <node ref="J201" pin="3"/>
+      <node ref="U205" pin="8"/>
+      <node ref="U206" pin="8"/>
+      <node ref="U201" pin="1"/>
+      <node ref="C204" pin="2"/>
+      <node ref="C202" pin="2"/>
+      <node ref="C203" pin="2"/>
+      <node ref="C205" pin="2"/>
+      <node ref="Q202" pin="1"/>
     </net>
     <net code="48" name="+5V">
-      <node ref="R1201" pin="1"/>
-      <node ref="R1109" pin="1"/>
-      <node ref="U203" pin="16"/>
-      <node ref="R308" pin="1"/>
-      <node ref="R307" pin="1"/>
-      <node ref="R304" pin="1"/>
-      <node ref="R1202" pin="1"/>
-      <node ref="U206" pin="16"/>
-      <node ref="R1205" pin="1"/>
-      <node ref="U205" pin="16"/>
-      <node ref="C207" pin="1"/>
-      <node ref="R1206" pin="1"/>
-      <node ref="U203" pin="10"/>
-      <node ref="U204" pin="16"/>
-      <node ref="R1102" pin="1"/>
-      <node ref="R1106" pin="1"/>
-      <node ref="R306" pin="1"/>
-      <node ref="R1103" pin="1"/>
-      <node ref="R1104" pin="1"/>
-      <node ref="R1101" pin="1"/>
-      <node ref="R1105" pin="1"/>
-      <node ref="R305" pin="1"/>
-      <node ref="R301" pin="1"/>
-      <node ref="R303" pin="1"/>
-      <node ref="R1209" pin="1"/>
-      <node ref="R309" pin="1"/>
-      <node ref="R1207" pin="1"/>
-      <node ref="R302" pin="1"/>
-      <node ref="R1208" pin="1"/>
-      <node ref="R807" pin="1"/>
-      <node ref="R506" pin="1"/>
-      <node ref="R808" pin="1"/>
-      <node ref="R505" pin="1"/>
-      <node ref="R504" pin="1"/>
-      <node ref="R703" pin="1"/>
-      <node ref="R704" pin="1"/>
-      <node ref="R503" pin="1"/>
-      <node ref="R806" pin="1"/>
-      <node ref="R502" pin="1"/>
-      <node ref="R803" pin="1"/>
-      <node ref="R501" pin="1"/>
-      <node ref="R804" pin="1"/>
-      <node ref="R801" pin="1"/>
       <node ref="R809" pin="1"/>
-      <node ref="R802" pin="1"/>
-      <node ref="R805" pin="1"/>
+      <node ref="R306" pin="1"/>
+      <node ref="R305" pin="1"/>
+      <node ref="R708" pin="1"/>
       <node ref="R603" pin="1"/>
       <node ref="R604" pin="1"/>
       <node ref="R707" pin="1"/>
+      <node ref="R808" pin="1"/>
+      <node ref="R704" pin="1"/>
+      <node ref="R702" pin="1"/>
+      <node ref="R705" pin="1"/>
+      <node ref="R807" pin="1"/>
+      <node ref="R709" pin="1"/>
+      <node ref="R706" pin="1"/>
+      <node ref="R301" pin="1"/>
+      <node ref="R701" pin="1"/>
+      <node ref="R703" pin="1"/>
+      <node ref="R503" pin="1"/>
+      <node ref="R403" pin="1"/>
+      <node ref="R404" pin="1"/>
+      <node ref="R504" pin="1"/>
+      <node ref="R608" pin="1"/>
+      <node ref="R607" pin="1"/>
+      <node ref="R502" pin="1"/>
+      <node ref="R509" pin="1"/>
+      <node ref="R501" pin="1"/>
+      <node ref="R508" pin="1"/>
+      <node ref="R406" pin="1"/>
+      <node ref="R505" pin="1"/>
+      <node ref="R506" pin="1"/>
+      <node ref="R507" pin="1"/>
+      <node ref="R304" pin="1"/>
       <node ref="R601" pin="1"/>
-      <node ref="R708" pin="1"/>
+      <node ref="R303" pin="1"/>
       <node ref="R605" pin="1"/>
       <node ref="R606" pin="1"/>
       <node ref="R602" pin="1"/>
-      <node ref="R702" pin="1"/>
-      <node ref="R607" pin="1"/>
-      <node ref="R608" pin="1"/>
-      <node ref="R705" pin="1"/>
-      <node ref="R706" pin="1"/>
-      <node ref="R709" pin="1"/>
-      <node ref="R701" pin="1"/>
-      <node ref="R609" pin="1"/>
       <node ref="R405" pin="1"/>
-      <node ref="R1001" pin="1"/>
+      <node ref="R609" pin="1"/>
       <node ref="R402" pin="1"/>
       <node ref="R401" pin="1"/>
-      <node ref="R1005" pin="1"/>
-      <node ref="R403" pin="1"/>
-      <node ref="R406" pin="1"/>
-      <node ref="R1107" pin="1"/>
-      <node ref="R1004" pin="1"/>
+      <node ref="R302" pin="1"/>
       <node ref="R409" pin="1"/>
       <node ref="R408" pin="1"/>
       <node ref="R407" pin="1"/>
-      <node ref="R1006" pin="1"/>
-      <node ref="R1002" pin="1"/>
-      <node ref="R404" pin="1"/>
-      <node ref="R1003" pin="1"/>
-      <node ref="R905" pin="1"/>
-      <node ref="R901" pin="1"/>
-      <node ref="R902" pin="1"/>
-      <node ref="R906" pin="1"/>
-      <node ref="R907" pin="1"/>
-      <node ref="R908" pin="1"/>
-      <node ref="R909" pin="1"/>
-      <node ref="R507" pin="1"/>
-      <node ref="R1008" pin="1"/>
-      <node ref="R1007" pin="1"/>
-      <node ref="R1009" pin="1"/>
-      <node ref="R509" pin="1"/>
-      <node ref="R903" pin="1"/>
-      <node ref="R1108" pin="1"/>
-      <node ref="R508" pin="1"/>
-      <node ref="R904" pin="1"/>
-      <node ref="PS201" pin="4"/>
-      <node ref="R1502" pin="1"/>
-      <node ref="R1401" pin="1"/>
-      <node ref="R1501" pin="1"/>
-      <node ref="R1408" pin="1"/>
+      <node ref="R1301" pin="1"/>
+      <node ref="R1305" pin="1"/>
+      <node ref="R1309" pin="1"/>
       <node ref="R1407" pin="1"/>
       <node ref="R1304" pin="1"/>
       <node ref="R1303" pin="1"/>
-      <node ref="R1503" pin="1"/>
-      <node ref="R1505" pin="1"/>
-      <node ref="R1506" pin="1"/>
-      <node ref="R1409" pin="1"/>
-      <node ref="R1404" pin="1"/>
-      <node ref="R1403" pin="1"/>
+      <node ref="R1302" pin="1"/>
+      <node ref="R1306" pin="1"/>
+      <node ref="R1201" pin="1"/>
+      <node ref="R1205" pin="1"/>
+      <node ref="R1202" pin="1"/>
+      <node ref="R1206" pin="1"/>
+      <node ref="R1209" pin="1"/>
+      <node ref="R1308" pin="1"/>
+      <node ref="R1307" pin="1"/>
+      <node ref="R1204" pin="1"/>
+      <node ref="R1408" pin="1"/>
+      <node ref="R1203" pin="1"/>
+      <node ref="R1501" pin="1"/>
+      <node ref="R1502" pin="1"/>
       <node ref="R1508" pin="1"/>
       <node ref="R1509" pin="1"/>
       <node ref="R1507" pin="1"/>
-      <node ref="R1405" pin="1"/>
+      <node ref="R1504" pin="1"/>
+      <node ref="R1503" pin="1"/>
+      <node ref="R1506" pin="1"/>
+      <node ref="R1505" pin="1"/>
+      <node ref="R1401" pin="1"/>
+      <node ref="R1409" pin="1"/>
+      <node ref="R1404" pin="1"/>
+      <node ref="R1403" pin="1"/>
       <node ref="R1402" pin="1"/>
       <node ref="R1406" pin="1"/>
-      <node ref="R1301" pin="1"/>
-      <node ref="U202" pin="21"/>
-      <node ref="R1309" pin="1"/>
-      <node ref="U201" pin="4"/>
-      <node ref="C210" pin="1"/>
+      <node ref="R1405" pin="1"/>
+      <node ref="R906" pin="1"/>
+      <node ref="R905" pin="1"/>
+      <node ref="R902" pin="1"/>
+      <node ref="R901" pin="1"/>
+      <node ref="R1008" pin="1"/>
+      <node ref="R1009" pin="1"/>
+      <node ref="R1007" pin="1"/>
+      <node ref="R904" pin="1"/>
+      <node ref="R903" pin="1"/>
+      <node ref="R806" pin="1"/>
+      <node ref="R803" pin="1"/>
+      <node ref="R805" pin="1"/>
+      <node ref="R802" pin="1"/>
+      <node ref="R801" pin="1"/>
+      <node ref="R909" pin="1"/>
+      <node ref="R908" pin="1"/>
+      <node ref="R907" pin="1"/>
+      <node ref="R804" pin="1"/>
+      <node ref="R1106" pin="1"/>
+      <node ref="R1105" pin="1"/>
+      <node ref="R1101" pin="1"/>
+      <node ref="R1109" pin="1"/>
+      <node ref="R1104" pin="1"/>
+      <node ref="R1208" pin="1"/>
+      <node ref="R1207" pin="1"/>
+      <node ref="R1103" pin="1"/>
+      <node ref="R1102" pin="1"/>
+      <node ref="R1002" pin="1"/>
+      <node ref="R1006" pin="1"/>
+      <node ref="R1005" pin="1"/>
+      <node ref="R1001" pin="1"/>
+      <node ref="R1108" pin="1"/>
+      <node ref="R1107" pin="1"/>
+      <node ref="R1004" pin="1"/>
+      <node ref="R1003" pin="1"/>
       <node ref="C208" pin="1"/>
-      <node ref="R201" pin="2"/>
+      <node ref="R307" pin="1"/>
+      <node ref="R308" pin="1"/>
+      <node ref="U206" pin="16"/>
+      <node ref="U205" pin="16"/>
+      <node ref="C207" pin="1"/>
+      <node ref="U204" pin="16"/>
+      <node ref="U203" pin="16"/>
+      <node ref="C206" pin="1"/>
       <node ref="U201" pin="8"/>
-      <node ref="C209" pin="1"/>
-      <node ref="R205" pin="1"/>
-      <node ref="R1308" pin="1"/>
-      <node ref="R1307" pin="1"/>
-      <node ref="R1504" pin="1"/>
-      <node ref="R1302" pin="1"/>
-      <node ref="R1204" pin="1"/>
       <node ref="U204" pin="10"/>
-      <node ref="R1203" pin="1"/>
+      <node ref="U202" pin="21"/>
+      <node ref="R204" pin="1"/>
+      <node ref="C204" pin="1"/>
+      <node ref="PS201" pin="4"/>
       <node ref="C205" pin="1"/>
-      <node ref="R1306" pin="1"/>
-      <node ref="R1305" pin="1"/>
+      <node ref="U203" pin="10"/>
+      <node ref="R309" pin="1"/>
     </net>
     <net code="49" name="/ControlCircuit/LED11">
       <node ref="U204" pin="2"/>
     </net>
     <net code="50" name="/Lower_Right/IR_GND">
-      <node ref="C1501" pin="2"/>
       <node ref="U1501" pin="3"/>
+      <node ref="C1501" pin="2"/>
     </net>
     <net code="51" name="/Lower_Right/~IR_SEN">
       <node ref="U1501" pin="1"/>
@@ -4691,13 +4666,13 @@
       <node ref="Q1201" pin="1"/>
     </net>
     <net code="82" name="/Inner_Lower_Right/IR_GND">
-      <node ref="U1201" pin="3"/>
       <node ref="C1201" pin="2"/>
+      <node ref="U1201" pin="3"/>
     </net>
     <net code="83" name="/Inner_Lower_Right/IR_5V">
-      <node ref="R1211" pin="2"/>
-      <node ref="D1210" pin="2"/>
       <node ref="C1201" pin="1"/>
+      <node ref="D1210" pin="2"/>
+      <node ref="R1211" pin="2"/>
     </net>
     <net code="84" name="/Inner_Lower_Right/LED">
       <node ref="R1210" pin="1"/>
@@ -4716,9 +4691,9 @@
       <node ref="U1001" pin="3"/>
     </net>
     <net code="90" name="/Middle_Right/IR_5V">
-      <node ref="C1001" pin="1"/>
       <node ref="D1010" pin="2"/>
       <node ref="R1011" pin="2"/>
+      <node ref="C1001" pin="1"/>
     </net>
     <net code="91" name="/ControlCircuit/~IR_LED01">
       <node ref="RN201" pin="7"/>
@@ -4728,8 +4703,8 @@
     </net>
     <net code="94" name="/Lower_Center/IR_5V">
       <node ref="C1401" pin="1"/>
-      <node ref="D1410" pin="2"/>
       <node ref="R1411" pin="2"/>
+      <node ref="D1410" pin="2"/>
     </net>
     <net code="95" name="/Lower_Center/LED">
       <node ref="R1410" pin="1"/>
@@ -4744,9 +4719,9 @@
       <node ref="D610" pin="1"/>
     </net>
     <net code="99" name="/Inner_Upper_Right/IR_5V">
-      <node ref="R711" pin="2"/>
-      <node ref="D710" pin="2"/>
       <node ref="C701" pin="1"/>
+      <node ref="D710" pin="2"/>
+      <node ref="R711" pin="2"/>
     </net>
     <net code="100" name="/Inner_Upper_Right/LED">
       <node ref="R710" pin="1"/>
@@ -4765,8 +4740,8 @@
       <node ref="C601" pin="2"/>
     </net>
     <net code="106" name="/Inner_Upper_Left/IR_5V">
-      <node ref="D610" pin="2"/>
       <node ref="R611" pin="2"/>
+      <node ref="D610" pin="2"/>
       <node ref="C601" pin="1"/>
     </net>
     <net code="107" name="/Inner_Upper_Left/LED">
@@ -4783,8 +4758,8 @@
       <node ref="Q501" pin="1"/>
     </net>
     <net code="112" name="/Upper_Right/IR_GND">
-      <node ref="U501" pin="3"/>
       <node ref="C501" pin="2"/>
+      <node ref="U501" pin="3"/>
     </net>
     <net code="113" name="/Upper_Right/IR_5V">
       <node ref="R511" pin="2"/>
@@ -4819,8 +4794,8 @@
       <node ref="Q901" pin="1"/>
     </net>
     <net code="124" name="/Middle_Center/IR_GND">
-      <node ref="C901" pin="2"/>
       <node ref="U901" pin="3"/>
+      <node ref="C901" pin="2"/>
     </net>
     <net code="125" name="/Middle_Center/IR_5V">
       <node ref="C901" pin="1"/>
@@ -4842,8 +4817,8 @@
     </net>
     <net code="131" name="/Middle_Left/IR_5V">
       <node ref="C801" pin="1"/>
-      <node ref="D810" pin="2"/>
       <node ref="R811" pin="2"/>
+      <node ref="D810" pin="2"/>
     </net>
     <net code="132" name="/Middle_Left/LED">
       <node ref="R810" pin="1"/>
@@ -4868,9 +4843,9 @@
       <node ref="D310" pin="1"/>
     </net>
     <net code="140" name="/Upper_Left/IR_5V">
-      <node ref="D310" pin="2"/>
-      <node ref="R311" pin="2"/>
       <node ref="C301" pin="1"/>
+      <node ref="R311" pin="2"/>
+      <node ref="D310" pin="2"/>
     </net>
     <net code="142" name="/Upper_Left/LED">
       <node ref="R310" pin="1"/>
@@ -4884,93 +4859,92 @@
     <net code="145" name="/ControlCircuit/LED01">
       <node ref="U203" pin="15"/>
     </net>
-    <net code="146" name="Net-(C203-Pad1)">
-      <node ref="C203" pin="1"/>
-      <node ref="C204" pin="1"/>
-      <node ref="PS201" pin="3"/>
-      <node ref="PS201" pin="2"/>
-      <node ref="J201" pin="1"/>
-    </net>
-    <net code="147" name="Net-(U202-Pad14)">
+    <net code="146" name="Net-(U202-Pad14)">
       <node ref="U202" pin="14"/>
       <node ref="U203" pin="14"/>
     </net>
-    <net code="148" name="Net-(U202-Pad15)">
-      <node ref="U205" pin="9"/>
-      <node ref="U202" pin="15"/>
-    </net>
-    <net code="149" name="Net-(C202-Pad1)">
-      <node ref="U201" pin="5"/>
-      <node ref="C202" pin="1"/>
-    </net>
-    <net code="150" name="Net-(C201-Pad1)">
-      <node ref="R204" pin="2"/>
-      <node ref="C201" pin="1"/>
-      <node ref="U201" pin="6"/>
-      <node ref="U201" pin="2"/>
-    </net>
-    <net code="151" name="Net-(R203-Pad3)">
-      <node ref="R204" pin="1"/>
-      <node ref="R203" pin="3"/>
-    </net>
-    <net code="152" name="Net-(R201-Pad1)">
-      <node ref="R201" pin="1"/>
-      <node ref="R203" pin="2"/>
-      <node ref="U201" pin="7"/>
-      <node ref="R203" pin="1"/>
-    </net>
-    <net code="153" name="Net-(U202-Pad22)">
-      <node ref="U202" pin="22"/>
-    </net>
-    <net code="154" name="Net-(R202-Pad1)">
-      <node ref="U201" pin="3"/>
-      <node ref="R202" pin="1"/>
-    </net>
-    <net code="155" name="Net-(Q201-Pad2)">
-      <node ref="R202" pin="2"/>
-      <node ref="Q201" pin="2"/>
-    </net>
-    <net code="156" name="Net-(RN201-Pad8)">
-      <node ref="TP201" pin="1"/>
-      <node ref="RN201" pin="8"/>
-    </net>
-    <net code="157" name="Net-(Q201-Pad3)">
-      <node ref="Q201" pin="3"/>
-      <node ref="RN202" pin="1"/>
-      <node ref="RN201" pin="1"/>
-    </net>
-    <net code="158" name="Net-(R206-Pad1)">
-      <node ref="U205" pin="15"/>
-      <node ref="U204" pin="12"/>
-      <node ref="U202" pin="13"/>
-      <node ref="U203" pin="12"/>
-      <node ref="R206" pin="1"/>
-      <node ref="U206" pin="15"/>
-    </net>
-    <net code="159" name="Net-(Q202-Pad3)">
-      <node ref="U206" pin="1"/>
-      <node ref="Q202" pin="3"/>
-      <node ref="U205" pin="1"/>
-      <node ref="R205" pin="2"/>
-    </net>
-    <net code="160" name="Net-(U202-Pad16)">
-      <node ref="U202" pin="16"/>
-      <node ref="U203" pin="11"/>
-      <node ref="U205" pin="2"/>
-      <node ref="U204" pin="11"/>
-      <node ref="U206" pin="2"/>
-    </net>
-    <net code="161" name="Net-(Q202-Pad2)">
-      <node ref="R206" pin="2"/>
-      <node ref="Q202" pin="2"/>
-    </net>
-    <net code="162" name="Net-(U203-Pad9)">
+    <net code="147" name="Net-(U203-Pad9)">
       <node ref="U204" pin="14"/>
       <node ref="U203" pin="9"/>
     </net>
-    <net code="163" name="Net-(U205-Pad10)">
-      <node ref="U206" pin="9"/>
+    <net code="148" name="Net-(R205-Pad1)">
+      <node ref="U203" pin="12"/>
+      <node ref="U202" pin="13"/>
+      <node ref="U206" pin="15"/>
+      <node ref="U205" pin="15"/>
+      <node ref="R205" pin="1"/>
+      <node ref="U204" pin="12"/>
+    </net>
+    <net code="149" name="Net-(U202-Pad16)">
+      <node ref="U202" pin="16"/>
+      <node ref="U203" pin="11"/>
+      <node ref="U205" pin="2"/>
+      <node ref="U206" pin="2"/>
+      <node ref="U204" pin="11"/>
+    </net>
+    <net code="150" name="Net-(U202-Pad15)">
+      <node ref="U205" pin="9"/>
+      <node ref="U202" pin="15"/>
+    </net>
+    <net code="151" name="Net-(RN201-Pad8)">
+      <node ref="TP201" pin="1"/>
+      <node ref="RN201" pin="8"/>
+    </net>
+    <net code="152" name="Net-(Q201-Pad2)">
+      <node ref="R203" pin="2"/>
+      <node ref="Q201" pin="2"/>
+    </net>
+    <net code="153" name="Net-(C201-Pad1)">
+      <node ref="U201" pin="2"/>
+      <node ref="C201" pin="1"/>
+      <node ref="R201" pin="1"/>
+      <node ref="U201" pin="6"/>
+    </net>
+    <net code="154" name="Net-(Q201-Pad3)">
+      <node ref="RN202" pin="1"/>
+      <node ref="RN201" pin="1"/>
+      <node ref="Q201" pin="3"/>
+    </net>
+    <net code="155" name="Net-(C202-Pad1)">
+      <node ref="J201" pin="1"/>
+      <node ref="PS201" pin="2"/>
+      <node ref="PS201" pin="3"/>
+      <node ref="C202" pin="1"/>
+      <node ref="C203" pin="1"/>
+    </net>
+    <net code="156" name="Net-(U201-Pad7)">
+      <node ref="U201" pin="7"/>
+    </net>
+    <net code="157" name="Net-(R201-Pad2)">
+      <node ref="R201" pin="2"/>
+      <node ref="R202" pin="1"/>
+    </net>
+    <net code="158" name="Net-(R202-Pad2)">
+      <node ref="R202" pin="2"/>
+      <node ref="R203" pin="1"/>
+      <node ref="R202" pin="3"/>
+      <node ref="U201" pin="3"/>
+    </net>
+    <net code="159" name="Net-(U201-Pad5)">
+      <node ref="U201" pin="5"/>
+    </net>
+    <net code="160" name="/ControlCircuit/~IR_Enable">
+      <node ref="U201" pin="4"/>
+      <node ref="U202" pin="12"/>
+    </net>
+    <net code="161" name="Net-(U205-Pad10)">
       <node ref="U205" pin="10"/>
+      <node ref="U206" pin="9"/>
+    </net>
+    <net code="162" name="Net-(Q202-Pad3)">
+      <node ref="U205" pin="1"/>
+      <node ref="U206" pin="1"/>
+      <node ref="R204" pin="2"/>
+      <node ref="Q202" pin="3"/>
+    </net>
+    <net code="163" name="Net-(Q202-Pad2)">
+      <node ref="Q202" pin="2"/>
+      <node ref="R205" pin="2"/>
     </net>
     <net code="164" name="Net-(U202-Pad24)">
       <node ref="U202" pin="24"/>
@@ -4999,11 +4973,11 @@
     <net code="172" name="Net-(U202-Pad9)">
       <node ref="U202" pin="9"/>
     </net>
-    <net code="173" name="Net-(U202-Pad3)">
-      <node ref="U202" pin="3"/>
-    </net>
-    <net code="174" name="Net-(U202-Pad2)">
+    <net code="173" name="Net-(U202-Pad2)">
       <node ref="U202" pin="2"/>
+    </net>
+    <net code="174" name="Net-(U202-Pad3)">
+      <node ref="U202" pin="3"/>
     </net>
     <net code="175" name="Net-(U202-Pad5)">
       <node ref="U202" pin="5"/>
@@ -5026,57 +5000,57 @@
     <net code="181" name="Net-(U202-Pad11)">
       <node ref="U202" pin="11"/>
     </net>
-    <net code="182" name="Net-(U202-Pad12)">
-      <node ref="U202" pin="12"/>
+    <net code="182" name="Net-(U202-Pad22)">
+      <node ref="U202" pin="22"/>
     </net>
-    <net code="183" name="Net-(U202-Pad1)">
-      <node ref="U202" pin="1"/>
+    <net code="183" name="Net-(U206-Pad4)">
+      <node ref="U206" pin="4"/>
     </net>
     <net code="184" name="Net-(U206-Pad5)">
       <node ref="U206" pin="5"/>
     </net>
-    <net code="185" name="Net-(U206-Pad4)">
-      <node ref="U206" pin="4"/>
-    </net>
-    <net code="186" name="Net-(U206-Pad6)">
+    <net code="185" name="Net-(U206-Pad6)">
       <node ref="U206" pin="6"/>
     </net>
-    <net code="187" name="Net-(U206-Pad7)">
+    <net code="186" name="Net-(U206-Pad7)">
       <node ref="U206" pin="7"/>
     </net>
-    <net code="188" name="Net-(U205-Pad7)">
+    <net code="187" name="Net-(U205-Pad7)">
       <node ref="U205" pin="7"/>
     </net>
-    <net code="189" name="Net-(U204-Pad5)">
-      <node ref="U204" pin="5"/>
-    </net>
-    <net code="190" name="Net-(U204-Pad6)">
+    <net code="188" name="Net-(U204-Pad6)">
       <node ref="U204" pin="6"/>
+    </net>
+    <net code="189" name="Net-(U202-Pad1)">
+      <node ref="U202" pin="1"/>
+    </net>
+    <net code="190" name="Net-(U204-Pad9)">
+      <node ref="U204" pin="9"/>
     </net>
     <net code="191" name="Net-(U204-Pad7)">
       <node ref="U204" pin="7"/>
     </net>
-    <net code="192" name="Net-(U204-Pad9)">
-      <node ref="U204" pin="9"/>
+    <net code="192" name="Net-(U204-Pad5)">
+      <node ref="U204" pin="5"/>
     </net>
     <net code="193" name="Net-(U206-Pad10)">
       <node ref="U206" pin="10"/>
     </net>
     <net code="194" name="Net-(D309-Pad2)">
-      <node ref="D309" pin="2"/>
       <node ref="R309" pin="2"/>
+      <node ref="D309" pin="2"/>
     </net>
     <net code="195" name="Net-(D301-Pad1)">
-      <node ref="D309" pin="1"/>
-      <node ref="D308" pin="1"/>
-      <node ref="D304" pin="1"/>
-      <node ref="D305" pin="1"/>
-      <node ref="D306" pin="1"/>
-      <node ref="D303" pin="1"/>
-      <node ref="Q301" pin="3"/>
-      <node ref="D301" pin="1"/>
       <node ref="D302" pin="1"/>
+      <node ref="D304" pin="1"/>
+      <node ref="D306" pin="1"/>
       <node ref="D307" pin="1"/>
+      <node ref="D308" pin="1"/>
+      <node ref="D305" pin="1"/>
+      <node ref="Q301" pin="3"/>
+      <node ref="D303" pin="1"/>
+      <node ref="D301" pin="1"/>
+      <node ref="D309" pin="1"/>
     </net>
     <net code="196" name="Net-(D307-Pad2)">
       <node ref="D307" pin="2"/>
@@ -5091,12 +5065,12 @@
       <node ref="R310" pin="2"/>
     </net>
     <net code="199" name="Net-(D301-Pad2)">
-      <node ref="R301" pin="2"/>
       <node ref="D301" pin="2"/>
+      <node ref="R301" pin="2"/>
     </net>
     <net code="200" name="Net-(R311-Pad1)">
-      <node ref="U301" pin="2"/>
       <node ref="R311" pin="1"/>
+      <node ref="U301" pin="2"/>
     </net>
     <net code="201" name="Net-(D305-Pad2)">
       <node ref="D305" pin="2"/>
@@ -5107,68 +5081,68 @@
       <node ref="D302" pin="2"/>
     </net>
     <net code="203" name="Net-(D306-Pad2)">
-      <node ref="D306" pin="2"/>
       <node ref="R306" pin="2"/>
+      <node ref="D306" pin="2"/>
     </net>
     <net code="204" name="Net-(D304-Pad2)">
       <node ref="D304" pin="2"/>
       <node ref="R304" pin="2"/>
     </net>
     <net code="205" name="Net-(D303-Pad2)">
-      <node ref="R303" pin="2"/>
       <node ref="D303" pin="2"/>
+      <node ref="R303" pin="2"/>
     </net>
     <net code="206" name="Net-(D407-Pad2)">
       <node ref="R407" pin="2"/>
       <node ref="D407" pin="2"/>
     </net>
     <net code="207" name="Net-(D408-Pad2)">
-      <node ref="R408" pin="2"/>
       <node ref="D408" pin="2"/>
+      <node ref="R408" pin="2"/>
     </net>
     <net code="208" name="Net-(D409-Pad2)">
       <node ref="D409" pin="2"/>
       <node ref="R409" pin="2"/>
     </net>
     <net code="209" name="Net-(D401-Pad1)">
-      <node ref="D402" pin="1"/>
-      <node ref="D405" pin="1"/>
-      <node ref="D406" pin="1"/>
-      <node ref="D409" pin="1"/>
-      <node ref="D408" pin="1"/>
-      <node ref="Q401" pin="3"/>
-      <node ref="D401" pin="1"/>
       <node ref="D407" pin="1"/>
+      <node ref="D406" pin="1"/>
+      <node ref="D405" pin="1"/>
       <node ref="D404" pin="1"/>
+      <node ref="D401" pin="1"/>
+      <node ref="Q401" pin="3"/>
       <node ref="D403" pin="1"/>
+      <node ref="D408" pin="1"/>
+      <node ref="D402" pin="1"/>
+      <node ref="D409" pin="1"/>
     </net>
     <net code="210" name="Net-(Q401-Pad2)">
-      <node ref="R410" pin="2"/>
       <node ref="Q401" pin="2"/>
+      <node ref="R410" pin="2"/>
     </net>
     <net code="211" name="Net-(D401-Pad2)">
-      <node ref="R401" pin="2"/>
       <node ref="D401" pin="2"/>
+      <node ref="R401" pin="2"/>
     </net>
     <net code="212" name="Net-(D402-Pad2)">
       <node ref="R402" pin="2"/>
       <node ref="D402" pin="2"/>
     </net>
     <net code="213" name="Net-(R411-Pad1)">
-      <node ref="U401" pin="2"/>
       <node ref="R411" pin="1"/>
+      <node ref="U401" pin="2"/>
     </net>
     <net code="214" name="Net-(D405-Pad2)">
-      <node ref="D405" pin="2"/>
       <node ref="R405" pin="2"/>
+      <node ref="D405" pin="2"/>
     </net>
     <net code="215" name="Net-(D406-Pad2)">
       <node ref="R406" pin="2"/>
       <node ref="D406" pin="2"/>
     </net>
     <net code="216" name="Net-(D403-Pad2)">
-      <node ref="R403" pin="2"/>
       <node ref="D403" pin="2"/>
+      <node ref="R403" pin="2"/>
     </net>
     <net code="217" name="Net-(D404-Pad2)">
       <node ref="R404" pin="2"/>
@@ -5187,16 +5161,16 @@
       <node ref="R509" pin="2"/>
     </net>
     <net code="221" name="Net-(D501-Pad1)">
-      <node ref="D507" pin="1"/>
-      <node ref="D503" pin="1"/>
-      <node ref="Q501" pin="3"/>
-      <node ref="D504" pin="1"/>
-      <node ref="D502" pin="1"/>
-      <node ref="D508" pin="1"/>
-      <node ref="D505" pin="1"/>
       <node ref="D506" pin="1"/>
-      <node ref="D509" pin="1"/>
+      <node ref="D505" pin="1"/>
+      <node ref="Q501" pin="3"/>
       <node ref="D501" pin="1"/>
+      <node ref="D504" pin="1"/>
+      <node ref="D508" pin="1"/>
+      <node ref="D502" pin="1"/>
+      <node ref="D503" pin="1"/>
+      <node ref="D509" pin="1"/>
+      <node ref="D507" pin="1"/>
     </net>
     <net code="222" name="Net-(Q501-Pad2)">
       <node ref="R510" pin="2"/>
@@ -5211,76 +5185,76 @@
       <node ref="D502" pin="2"/>
     </net>
     <net code="225" name="Net-(R511-Pad1)">
-      <node ref="U501" pin="2"/>
       <node ref="R511" pin="1"/>
+      <node ref="U501" pin="2"/>
     </net>
     <net code="226" name="Net-(D505-Pad2)">
       <node ref="R505" pin="2"/>
       <node ref="D505" pin="2"/>
     </net>
     <net code="227" name="Net-(D506-Pad2)">
-      <node ref="R506" pin="2"/>
       <node ref="D506" pin="2"/>
+      <node ref="R506" pin="2"/>
     </net>
     <net code="228" name="Net-(D503-Pad2)">
       <node ref="D503" pin="2"/>
       <node ref="R503" pin="2"/>
     </net>
     <net code="229" name="Net-(D504-Pad2)">
-      <node ref="D504" pin="2"/>
       <node ref="R504" pin="2"/>
+      <node ref="D504" pin="2"/>
     </net>
     <net code="230" name="Net-(D609-Pad2)">
       <node ref="R609" pin="2"/>
       <node ref="D609" pin="2"/>
     </net>
     <net code="231" name="Net-(D601-Pad1)">
-      <node ref="D608" pin="1"/>
-      <node ref="D605" pin="1"/>
-      <node ref="D604" pin="1"/>
-      <node ref="Q601" pin="3"/>
-      <node ref="D601" pin="1"/>
-      <node ref="D603" pin="1"/>
-      <node ref="D607" pin="1"/>
-      <node ref="D606" pin="1"/>
       <node ref="D609" pin="1"/>
       <node ref="D602" pin="1"/>
+      <node ref="D604" pin="1"/>
+      <node ref="D607" pin="1"/>
+      <node ref="D606" pin="1"/>
+      <node ref="D608" pin="1"/>
+      <node ref="D601" pin="1"/>
+      <node ref="Q601" pin="3"/>
+      <node ref="D603" pin="1"/>
+      <node ref="D605" pin="1"/>
     </net>
     <net code="232" name="Net-(D607-Pad2)">
-      <node ref="R607" pin="2"/>
       <node ref="D607" pin="2"/>
+      <node ref="R607" pin="2"/>
     </net>
     <net code="233" name="Net-(D608-Pad2)">
       <node ref="D608" pin="2"/>
       <node ref="R608" pin="2"/>
     </net>
     <net code="234" name="Net-(Q601-Pad2)">
-      <node ref="R610" pin="2"/>
       <node ref="Q601" pin="2"/>
+      <node ref="R610" pin="2"/>
     </net>
     <net code="235" name="Net-(D601-Pad2)">
-      <node ref="R601" pin="2"/>
       <node ref="D601" pin="2"/>
+      <node ref="R601" pin="2"/>
     </net>
     <net code="236" name="Net-(R611-Pad1)">
-      <node ref="R611" pin="1"/>
       <node ref="U601" pin="2"/>
+      <node ref="R611" pin="1"/>
     </net>
     <net code="237" name="Net-(D605-Pad2)">
       <node ref="D605" pin="2"/>
       <node ref="R605" pin="2"/>
     </net>
     <net code="238" name="Net-(D602-Pad2)">
-      <node ref="R602" pin="2"/>
       <node ref="D602" pin="2"/>
+      <node ref="R602" pin="2"/>
     </net>
     <net code="239" name="Net-(D606-Pad2)">
-      <node ref="R606" pin="2"/>
       <node ref="D606" pin="2"/>
+      <node ref="R606" pin="2"/>
     </net>
     <net code="240" name="Net-(D604-Pad2)">
-      <node ref="R604" pin="2"/>
       <node ref="D604" pin="2"/>
+      <node ref="R604" pin="2"/>
     </net>
     <net code="241" name="Net-(D603-Pad2)">
       <node ref="R603" pin="2"/>
@@ -5291,32 +5265,32 @@
       <node ref="D707" pin="2"/>
     </net>
     <net code="243" name="Net-(D708-Pad2)">
-      <node ref="D708" pin="2"/>
       <node ref="R708" pin="2"/>
+      <node ref="D708" pin="2"/>
     </net>
     <net code="244" name="Net-(D709-Pad2)">
-      <node ref="R709" pin="2"/>
       <node ref="D709" pin="2"/>
+      <node ref="R709" pin="2"/>
     </net>
     <net code="245" name="Net-(D701-Pad1)">
-      <node ref="D709" pin="1"/>
-      <node ref="D708" pin="1"/>
-      <node ref="D705" pin="1"/>
-      <node ref="D706" pin="1"/>
-      <node ref="D707" pin="1"/>
-      <node ref="D703" pin="1"/>
-      <node ref="D702" pin="1"/>
-      <node ref="D704" pin="1"/>
       <node ref="D701" pin="1"/>
       <node ref="Q701" pin="3"/>
+      <node ref="D707" pin="1"/>
+      <node ref="D702" pin="1"/>
+      <node ref="D706" pin="1"/>
+      <node ref="D709" pin="1"/>
+      <node ref="D704" pin="1"/>
+      <node ref="D703" pin="1"/>
+      <node ref="D708" pin="1"/>
+      <node ref="D705" pin="1"/>
     </net>
     <net code="246" name="Net-(Q701-Pad2)">
-      <node ref="R710" pin="2"/>
       <node ref="Q701" pin="2"/>
+      <node ref="R710" pin="2"/>
     </net>
     <net code="247" name="Net-(D701-Pad2)">
-      <node ref="R701" pin="2"/>
       <node ref="D701" pin="2"/>
+      <node ref="R701" pin="2"/>
     </net>
     <net code="248" name="Net-(D702-Pad2)">
       <node ref="R702" pin="2"/>
@@ -5331,8 +5305,8 @@
       <node ref="R705" pin="2"/>
     </net>
     <net code="251" name="Net-(D706-Pad2)">
-      <node ref="D706" pin="2"/>
       <node ref="R706" pin="2"/>
+      <node ref="D706" pin="2"/>
     </net>
     <net code="252" name="Net-(D703-Pad2)">
       <node ref="R703" pin="2"/>
@@ -5343,48 +5317,48 @@
       <node ref="D704" pin="2"/>
     </net>
     <net code="254" name="Net-(D807-Pad2)">
-      <node ref="D807" pin="2"/>
       <node ref="R807" pin="2"/>
+      <node ref="D807" pin="2"/>
     </net>
     <net code="255" name="Net-(D808-Pad2)">
-      <node ref="D808" pin="2"/>
       <node ref="R808" pin="2"/>
+      <node ref="D808" pin="2"/>
     </net>
     <net code="256" name="Net-(D809-Pad2)">
-      <node ref="R809" pin="2"/>
       <node ref="D809" pin="2"/>
+      <node ref="R809" pin="2"/>
     </net>
     <net code="257" name="Net-(D801-Pad1)">
-      <node ref="D802" pin="1"/>
-      <node ref="D809" pin="1"/>
       <node ref="D801" pin="1"/>
-      <node ref="D803" pin="1"/>
-      <node ref="Q801" pin="3"/>
-      <node ref="D807" pin="1"/>
       <node ref="D804" pin="1"/>
+      <node ref="D807" pin="1"/>
+      <node ref="D809" pin="1"/>
+      <node ref="D803" pin="1"/>
       <node ref="D808" pin="1"/>
       <node ref="D805" pin="1"/>
+      <node ref="D802" pin="1"/>
       <node ref="D806" pin="1"/>
+      <node ref="Q801" pin="3"/>
     </net>
     <net code="258" name="Net-(Q801-Pad2)">
-      <node ref="Q801" pin="2"/>
       <node ref="R810" pin="2"/>
+      <node ref="Q801" pin="2"/>
     </net>
     <net code="259" name="Net-(D801-Pad2)">
       <node ref="D801" pin="2"/>
       <node ref="R801" pin="2"/>
     </net>
     <net code="260" name="Net-(D802-Pad2)">
-      <node ref="D802" pin="2"/>
       <node ref="R802" pin="2"/>
+      <node ref="D802" pin="2"/>
     </net>
     <net code="261" name="Net-(R811-Pad1)">
-      <node ref="R811" pin="1"/>
       <node ref="U801" pin="2"/>
+      <node ref="R811" pin="1"/>
     </net>
     <net code="262" name="Net-(D805-Pad2)">
-      <node ref="R805" pin="2"/>
       <node ref="D805" pin="2"/>
+      <node ref="R805" pin="2"/>
     </net>
     <net code="263" name="Net-(D806-Pad2)">
       <node ref="R806" pin="2"/>
@@ -5411,16 +5385,16 @@
       <node ref="D909" pin="2"/>
     </net>
     <net code="269" name="Net-(D901-Pad1)">
+      <node ref="Q901" pin="3"/>
       <node ref="D902" pin="1"/>
-      <node ref="D907" pin="1"/>
       <node ref="D904" pin="1"/>
-      <node ref="D906" pin="1"/>
-      <node ref="D905" pin="1"/>
+      <node ref="D907" pin="1"/>
       <node ref="D903" pin="1"/>
+      <node ref="D901" pin="1"/>
       <node ref="D909" pin="1"/>
       <node ref="D908" pin="1"/>
-      <node ref="D901" pin="1"/>
-      <node ref="Q901" pin="3"/>
+      <node ref="D906" pin="1"/>
+      <node ref="D905" pin="1"/>
     </net>
     <net code="270" name="Net-(Q901-Pad2)">
       <node ref="R910" pin="2"/>
@@ -5439,8 +5413,8 @@
       <node ref="U901" pin="2"/>
     </net>
     <net code="274" name="Net-(D905-Pad2)">
-      <node ref="D905" pin="2"/>
       <node ref="R905" pin="2"/>
+      <node ref="D905" pin="2"/>
     </net>
     <net code="275" name="Net-(D906-Pad2)">
       <node ref="R906" pin="2"/>
@@ -5459,48 +5433,48 @@
       <node ref="D1009" pin="2"/>
     </net>
     <net code="279" name="Net-(D1001-Pad1)">
-      <node ref="D1002" pin="1"/>
-      <node ref="Q1001" pin="3"/>
-      <node ref="D1003" pin="1"/>
       <node ref="D1001" pin="1"/>
-      <node ref="D1004" pin="1"/>
       <node ref="D1008" pin="1"/>
       <node ref="D1009" pin="1"/>
-      <node ref="D1006" pin="1"/>
+      <node ref="D1004" pin="1"/>
+      <node ref="D1003" pin="1"/>
+      <node ref="D1002" pin="1"/>
       <node ref="D1007" pin="1"/>
       <node ref="D1005" pin="1"/>
+      <node ref="Q1001" pin="3"/>
+      <node ref="D1006" pin="1"/>
     </net>
     <net code="280" name="Net-(D1007-Pad2)">
       <node ref="D1007" pin="2"/>
       <node ref="R1007" pin="2"/>
     </net>
     <net code="281" name="Net-(D1008-Pad2)">
-      <node ref="D1008" pin="2"/>
       <node ref="R1008" pin="2"/>
+      <node ref="D1008" pin="2"/>
     </net>
     <net code="282" name="Net-(Q1001-Pad2)">
-      <node ref="Q1001" pin="2"/>
       <node ref="R1010" pin="2"/>
+      <node ref="Q1001" pin="2"/>
     </net>
     <net code="283" name="Net-(D1001-Pad2)">
-      <node ref="D1001" pin="2"/>
       <node ref="R1001" pin="2"/>
+      <node ref="D1001" pin="2"/>
     </net>
     <net code="284" name="Net-(R1011-Pad1)">
-      <node ref="R1011" pin="1"/>
       <node ref="U1001" pin="2"/>
+      <node ref="R1011" pin="1"/>
     </net>
     <net code="285" name="Net-(D1005-Pad2)">
-      <node ref="D1005" pin="2"/>
       <node ref="R1005" pin="2"/>
+      <node ref="D1005" pin="2"/>
     </net>
     <net code="286" name="Net-(D1002-Pad2)">
       <node ref="D1002" pin="2"/>
       <node ref="R1002" pin="2"/>
     </net>
     <net code="287" name="Net-(D1006-Pad2)">
-      <node ref="D1006" pin="2"/>
       <node ref="R1006" pin="2"/>
+      <node ref="D1006" pin="2"/>
     </net>
     <net code="288" name="Net-(D1004-Pad2)">
       <node ref="R1004" pin="2"/>
@@ -5511,16 +5485,16 @@
       <node ref="D1003" pin="2"/>
     </net>
     <net code="290" name="Net-(D1101-Pad1)">
-      <node ref="D1106" pin="1"/>
-      <node ref="D1108" pin="1"/>
       <node ref="D1109" pin="1"/>
-      <node ref="D1107" pin="1"/>
-      <node ref="D1102" pin="1"/>
+      <node ref="D1108" pin="1"/>
       <node ref="Q1101" pin="3"/>
+      <node ref="D1102" pin="1"/>
       <node ref="D1101" pin="1"/>
-      <node ref="D1104" pin="1"/>
-      <node ref="D1103" pin="1"/>
+      <node ref="D1107" pin="1"/>
+      <node ref="D1106" pin="1"/>
       <node ref="D1105" pin="1"/>
+      <node ref="D1103" pin="1"/>
+      <node ref="D1104" pin="1"/>
     </net>
     <net code="291" name="Net-(D1107-Pad2)">
       <node ref="R1107" pin="2"/>
@@ -5539,16 +5513,16 @@
       <node ref="Q1101" pin="2"/>
     </net>
     <net code="295" name="Net-(D1101-Pad2)">
-      <node ref="D1101" pin="2"/>
       <node ref="R1101" pin="2"/>
+      <node ref="D1101" pin="2"/>
     </net>
     <net code="296" name="Net-(D1102-Pad2)">
       <node ref="D1102" pin="2"/>
       <node ref="R1102" pin="2"/>
     </net>
     <net code="297" name="Net-(R1111-Pad1)">
-      <node ref="R1111" pin="1"/>
       <node ref="U1101" pin="2"/>
+      <node ref="R1111" pin="1"/>
     </net>
     <net code="298" name="Net-(D1105-Pad2)">
       <node ref="R1105" pin="2"/>
@@ -5559,36 +5533,36 @@
       <node ref="D1106" pin="2"/>
     </net>
     <net code="300" name="Net-(D1103-Pad2)">
-      <node ref="D1103" pin="2"/>
       <node ref="R1103" pin="2"/>
+      <node ref="D1103" pin="2"/>
     </net>
     <net code="301" name="Net-(D1104-Pad2)">
-      <node ref="R1104" pin="2"/>
       <node ref="D1104" pin="2"/>
+      <node ref="R1104" pin="2"/>
     </net>
     <net code="302" name="Net-(D1207-Pad2)">
       <node ref="D1207" pin="2"/>
       <node ref="R1207" pin="2"/>
     </net>
     <net code="303" name="Net-(D1208-Pad2)">
-      <node ref="R1208" pin="2"/>
       <node ref="D1208" pin="2"/>
+      <node ref="R1208" pin="2"/>
     </net>
     <net code="304" name="Net-(D1209-Pad2)">
       <node ref="R1209" pin="2"/>
       <node ref="D1209" pin="2"/>
     </net>
     <net code="305" name="Net-(D1201-Pad1)">
-      <node ref="Q1201" pin="3"/>
       <node ref="D1204" pin="1"/>
-      <node ref="D1203" pin="1"/>
-      <node ref="D1205" pin="1"/>
-      <node ref="D1206" pin="1"/>
-      <node ref="D1207" pin="1"/>
       <node ref="D1202" pin="1"/>
-      <node ref="D1201" pin="1"/>
+      <node ref="D1207" pin="1"/>
+      <node ref="D1203" pin="1"/>
+      <node ref="D1206" pin="1"/>
+      <node ref="D1205" pin="1"/>
+      <node ref="Q1201" pin="3"/>
       <node ref="D1208" pin="1"/>
       <node ref="D1209" pin="1"/>
+      <node ref="D1201" pin="1"/>
     </net>
     <net code="306" name="Net-(Q1201-Pad2)">
       <node ref="Q1201" pin="2"/>
@@ -5599,8 +5573,8 @@
       <node ref="R1201" pin="2"/>
     </net>
     <net code="308" name="Net-(D1202-Pad2)">
-      <node ref="D1202" pin="2"/>
       <node ref="R1202" pin="2"/>
+      <node ref="D1202" pin="2"/>
     </net>
     <net code="309" name="Net-(R1211-Pad1)">
       <node ref="R1211" pin="1"/>
@@ -5619,8 +5593,8 @@
       <node ref="R1203" pin="2"/>
     </net>
     <net code="313" name="Net-(D1204-Pad2)">
-      <node ref="R1204" pin="2"/>
       <node ref="D1204" pin="2"/>
+      <node ref="R1204" pin="2"/>
     </net>
     <net code="314" name="Net-(D1309-Pad2)">
       <node ref="R1309" pin="2"/>
@@ -5631,56 +5605,56 @@
       <node ref="R1307" pin="2"/>
     </net>
     <net code="316" name="Net-(D1308-Pad2)">
-      <node ref="D1308" pin="2"/>
       <node ref="R1308" pin="2"/>
+      <node ref="D1308" pin="2"/>
     </net>
     <net code="317" name="Net-(D1301-Pad1)">
-      <node ref="D1309" pin="1"/>
       <node ref="D1301" pin="1"/>
       <node ref="Q1301" pin="3"/>
       <node ref="D1302" pin="1"/>
+      <node ref="D1307" pin="1"/>
+      <node ref="D1305" pin="1"/>
+      <node ref="D1304" pin="1"/>
       <node ref="D1303" pin="1"/>
       <node ref="D1306" pin="1"/>
-      <node ref="D1304" pin="1"/>
-      <node ref="D1305" pin="1"/>
       <node ref="D1308" pin="1"/>
-      <node ref="D1307" pin="1"/>
+      <node ref="D1309" pin="1"/>
     </net>
     <net code="318" name="Net-(Q1301-Pad2)">
-      <node ref="R1310" pin="2"/>
       <node ref="Q1301" pin="2"/>
+      <node ref="R1310" pin="2"/>
     </net>
     <net code="319" name="Net-(D1301-Pad2)">
-      <node ref="R1301" pin="2"/>
       <node ref="D1301" pin="2"/>
+      <node ref="R1301" pin="2"/>
     </net>
     <net code="320" name="Net-(R1311-Pad1)">
-      <node ref="R1311" pin="1"/>
       <node ref="U1301" pin="2"/>
+      <node ref="R1311" pin="1"/>
     </net>
     <net code="321" name="Net-(D1305-Pad2)">
-      <node ref="D1305" pin="2"/>
       <node ref="R1305" pin="2"/>
+      <node ref="D1305" pin="2"/>
     </net>
     <net code="322" name="Net-(D1302-Pad2)">
       <node ref="D1302" pin="2"/>
       <node ref="R1302" pin="2"/>
     </net>
     <net code="323" name="Net-(D1306-Pad2)">
-      <node ref="D1306" pin="2"/>
       <node ref="R1306" pin="2"/>
+      <node ref="D1306" pin="2"/>
     </net>
     <net code="324" name="Net-(D1304-Pad2)">
       <node ref="R1304" pin="2"/>
       <node ref="D1304" pin="2"/>
     </net>
     <net code="325" name="Net-(D1303-Pad2)">
-      <node ref="R1303" pin="2"/>
       <node ref="D1303" pin="2"/>
+      <node ref="R1303" pin="2"/>
     </net>
     <net code="326" name="Net-(D1409-Pad2)">
-      <node ref="D1409" pin="2"/>
       <node ref="R1409" pin="2"/>
+      <node ref="D1409" pin="2"/>
     </net>
     <net code="327" name="Net-(D1407-Pad2)">
       <node ref="D1407" pin="2"/>
@@ -5691,32 +5665,32 @@
       <node ref="D1408" pin="2"/>
     </net>
     <net code="329" name="Net-(D1401-Pad1)">
-      <node ref="D1405" pin="1"/>
-      <node ref="D1401" pin="1"/>
-      <node ref="D1409" pin="1"/>
-      <node ref="D1403" pin="1"/>
       <node ref="D1402" pin="1"/>
       <node ref="D1407" pin="1"/>
-      <node ref="D1406" pin="1"/>
       <node ref="D1408" pin="1"/>
       <node ref="D1404" pin="1"/>
+      <node ref="D1401" pin="1"/>
+      <node ref="D1403" pin="1"/>
+      <node ref="D1406" pin="1"/>
+      <node ref="D1409" pin="1"/>
       <node ref="Q1401" pin="3"/>
+      <node ref="D1405" pin="1"/>
     </net>
     <net code="330" name="Net-(Q1401-Pad2)">
-      <node ref="Q1401" pin="2"/>
       <node ref="R1410" pin="2"/>
+      <node ref="Q1401" pin="2"/>
     </net>
     <net code="331" name="Net-(D1401-Pad2)">
-      <node ref="D1401" pin="2"/>
       <node ref="R1401" pin="2"/>
+      <node ref="D1401" pin="2"/>
     </net>
     <net code="332" name="Net-(R1411-Pad1)">
-      <node ref="R1411" pin="1"/>
       <node ref="U1401" pin="2"/>
+      <node ref="R1411" pin="1"/>
     </net>
     <net code="333" name="Net-(D1405-Pad2)">
-      <node ref="D1405" pin="2"/>
       <node ref="R1405" pin="2"/>
+      <node ref="D1405" pin="2"/>
     </net>
     <net code="334" name="Net-(D1402-Pad2)">
       <node ref="D1402" pin="2"/>
