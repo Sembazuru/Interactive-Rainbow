@@ -2,7 +2,7 @@
    CyclingLEDTimingTest - Build sample code for
 
    By Chris "Sembazuru" Elliott, SembazuruCDE (at) GMail.com
-   2015-11-19
+   2016-01-09
 */
 
 //#define DEBUG
@@ -68,14 +68,14 @@ void setup()
 
   pinMode(switchIn, INPUT_PULLUP);
   pinMode(pinIRenable, OUTPUT);
-  digitalWrite(pinIRenable, HIGH); // Enable pin on 555 timer is active low.
+  digitalWrite(pinIRenable, LOW); // Enable pin on 555 timer is active high.
 
 }
 
 void loop()
 {
   // SPI transfer.
-  digitalWrite(pinIRenable, LOW); // Enable IR 555 timer.
+  digitalWrite(pinIRenable, HIGH); // Enable IR 555 timer.
   delayMicroseconds(minBurst); // Ensure minimum burst length is achieved before reading for triggers.
   for (uint8_t i = 0; i < bytesToShift; i++)
   {
@@ -83,7 +83,7 @@ void loop()
     inputIR[i] = SPI.transfer(blockOut[i]);
     digitalWrite(pinSS, HIGH); // Deassert the SS pin.
   }
-  digitalWrite(pinIRenable, HIGH); // Disable IR 555 timer.
+  digitalWrite(pinIRenable, LOW); // Disable IR 555 timer.
   delayMicroseconds(minGap); // Ensure minimum gap between bursts is achieved after reading for triggers.
 
   // Check IR inputs and start triggered blocks restart sequence.

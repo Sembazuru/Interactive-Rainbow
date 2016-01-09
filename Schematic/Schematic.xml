@@ -2,201 +2,201 @@
 <export version="D">
   <design>
     <source>C:/Users/Chris/Google Drive/Barrel of Makers/Windmill LED panel/Schematic/Schematic.sch</source>
-    <date>2015-12-17 00:22:41</date>
+    <date>2016-01-09 01:04:02</date>
     <tool>Eeschema (2015-11-15 BZR 6316)-product</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.2</rev>
-        <date>2015-12-16</date>
+        <rev>1.2.3</rev>
+        <date>2016-01-09</date>
         <source>Schematic.sch</source>
-        <comment number="1" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="2" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
-        <comment number="3" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
-        <comment number="4" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
+        <comment number="1" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="2" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="3" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
+        <comment number="4" value="1.2.3 Correct 7555 enable logic level to high active."/>
       </title_block>
     </sheet>
     <sheet number="2" name="/ControlCircuit/" tstamps="/55EA6CBD/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.2</rev>
-        <date>2015-12-16</date>
+        <rev>1.2.3</rev>
+        <date>2016-01-09</date>
         <source>ControlCircuit.sch</source>
-        <comment number="1" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="2" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
-        <comment number="3" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
-        <comment number="4" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
+        <comment number="1" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="2" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="3" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
+        <comment number="4" value="1.2.3 Correct 7555 enable logic level to high active."/>
       </title_block>
     </sheet>
     <sheet number="3" name="/Upper_Left/" tstamps="/55EA6CF6/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.2</rev>
-        <date>2015-12-16</date>
+        <rev>1.2.3</rev>
+        <date>2016-01-09</date>
         <source>LED_Group.sch</source>
-        <comment number="1" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="2" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
-        <comment number="3" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
-        <comment number="4" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
+        <comment number="1" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="2" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="3" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
+        <comment number="4" value="1.2.3 Correct 7555 enable logic level to high active."/>
       </title_block>
     </sheet>
     <sheet number="4" name="/Upper_Center/" tstamps="/565E4521/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.2</rev>
-        <date>2015-12-16</date>
+        <rev>1.2.3</rev>
+        <date>2016-01-09</date>
         <source>LED_Group.sch</source>
-        <comment number="1" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="2" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
-        <comment number="3" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
-        <comment number="4" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
+        <comment number="1" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="2" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="3" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
+        <comment number="4" value="1.2.3 Correct 7555 enable logic level to high active."/>
       </title_block>
     </sheet>
     <sheet number="5" name="/Upper_Right/" tstamps="/565E4A98/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.2</rev>
-        <date>2015-12-16</date>
+        <rev>1.2.3</rev>
+        <date>2016-01-09</date>
         <source>LED_Group.sch</source>
-        <comment number="1" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="2" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
-        <comment number="3" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
-        <comment number="4" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
+        <comment number="1" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="2" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="3" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
+        <comment number="4" value="1.2.3 Correct 7555 enable logic level to high active."/>
       </title_block>
     </sheet>
     <sheet number="6" name="/Inner_Upper_Left/" tstamps="/565E50EE/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.2</rev>
-        <date>2015-12-16</date>
+        <rev>1.2.3</rev>
+        <date>2016-01-09</date>
         <source>LED_Group.sch</source>
-        <comment number="1" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="2" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
-        <comment number="3" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
-        <comment number="4" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
+        <comment number="1" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="2" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="3" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
+        <comment number="4" value="1.2.3 Correct 7555 enable logic level to high active."/>
       </title_block>
     </sheet>
     <sheet number="7" name="/Inner_Upper_Right/" tstamps="/565E572C/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.2</rev>
-        <date>2015-12-16</date>
+        <rev>1.2.3</rev>
+        <date>2016-01-09</date>
         <source>LED_Group.sch</source>
-        <comment number="1" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="2" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
-        <comment number="3" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
-        <comment number="4" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
+        <comment number="1" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="2" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="3" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
+        <comment number="4" value="1.2.3 Correct 7555 enable logic level to high active."/>
       </title_block>
     </sheet>
     <sheet number="8" name="/Middle_Left/" tstamps="/565E602E/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.2</rev>
-        <date>2015-12-16</date>
+        <rev>1.2.3</rev>
+        <date>2016-01-09</date>
         <source>LED_Group.sch</source>
-        <comment number="1" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="2" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
-        <comment number="3" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
-        <comment number="4" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
+        <comment number="1" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="2" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="3" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
+        <comment number="4" value="1.2.3 Correct 7555 enable logic level to high active."/>
       </title_block>
     </sheet>
     <sheet number="9" name="/Middle_Center/" tstamps="/565E6605/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.2</rev>
-        <date>2015-12-16</date>
+        <rev>1.2.3</rev>
+        <date>2016-01-09</date>
         <source>LED_Group.sch</source>
-        <comment number="1" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="2" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
-        <comment number="3" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
-        <comment number="4" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
+        <comment number="1" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="2" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="3" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
+        <comment number="4" value="1.2.3 Correct 7555 enable logic level to high active."/>
       </title_block>
     </sheet>
     <sheet number="10" name="/Middle_Right/" tstamps="/565E6E34/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.2</rev>
-        <date>2015-12-16</date>
+        <rev>1.2.3</rev>
+        <date>2016-01-09</date>
         <source>LED_Group.sch</source>
-        <comment number="1" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="2" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
-        <comment number="3" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
-        <comment number="4" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
+        <comment number="1" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="2" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="3" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
+        <comment number="4" value="1.2.3 Correct 7555 enable logic level to high active."/>
       </title_block>
     </sheet>
     <sheet number="11" name="/Inner_Lower_Left/" tstamps="/565E9703/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.2</rev>
-        <date>2015-12-16</date>
+        <rev>1.2.3</rev>
+        <date>2016-01-09</date>
         <source>LED_Group.sch</source>
-        <comment number="1" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="2" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
-        <comment number="3" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
-        <comment number="4" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
+        <comment number="1" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="2" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="3" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
+        <comment number="4" value="1.2.3 Correct 7555 enable logic level to high active."/>
       </title_block>
     </sheet>
     <sheet number="12" name="/Inner_Lower_Right/" tstamps="/565E9DB2/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.2</rev>
-        <date>2015-12-16</date>
+        <rev>1.2.3</rev>
+        <date>2016-01-09</date>
         <source>LED_Group.sch</source>
-        <comment number="1" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="2" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
-        <comment number="3" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
-        <comment number="4" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
+        <comment number="1" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="2" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="3" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
+        <comment number="4" value="1.2.3 Correct 7555 enable logic level to high active."/>
       </title_block>
     </sheet>
     <sheet number="13" name="/Lower_Left/" tstamps="/565EA719/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.2</rev>
-        <date>2015-12-16</date>
+        <rev>1.2.3</rev>
+        <date>2016-01-09</date>
         <source>LED_Group.sch</source>
-        <comment number="1" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="2" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
-        <comment number="3" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
-        <comment number="4" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
+        <comment number="1" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="2" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="3" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
+        <comment number="4" value="1.2.3 Correct 7555 enable logic level to high active."/>
       </title_block>
     </sheet>
     <sheet number="14" name="/Lower_Center/" tstamps="/565EAFA8/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.2</rev>
-        <date>2015-12-16</date>
+        <rev>1.2.3</rev>
+        <date>2016-01-09</date>
         <source>LED_Group.sch</source>
-        <comment number="1" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="2" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
-        <comment number="3" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
-        <comment number="4" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
+        <comment number="1" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="2" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="3" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
+        <comment number="4" value="1.2.3 Correct 7555 enable logic level to high active."/>
       </title_block>
     </sheet>
     <sheet number="15" name="/Lower_Right/" tstamps="/565EB96F/">
       <title_block>
         <title>Interactive Rainbow</title>
         <company>Sembazuru Circuit (for Barrel of Makers)</company>
-        <rev>1.2.2</rev>
-        <date>2015-12-16</date>
+        <rev>1.2.3</rev>
+        <date>2016-01-09</date>
         <source>LED_Group.sch</source>
-        <comment number="1" value="1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"/>
-        <comment number="2" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
-        <comment number="3" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
-        <comment number="4" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
+        <comment number="1" value="1.2.0 Change design to use LEDs with integrated flashing. Simpler design."/>
+        <comment number="2" value="1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."/>
+        <comment number="3" value="1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design &amp; lower current."/>
+        <comment number="4" value="1.2.3 Correct 7555 enable logic level to high active."/>
       </title_block>
     </sheet>
   </design>
@@ -4303,11 +4303,11 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="Arduino">
-      <uri>D:\Libraries\PublicDevelopment\KiCAD_share\MyLibrary\Arduino.lib</uri>
-    </library>
     <library logical="NewUnsorted">
       <uri>D:\Libraries\PublicDevelopment\KiCAD_share\MyLibrary\NewUnsorted.lib</uri>
+    </library>
+    <library logical="Arduino">
+      <uri>D:\Libraries\PublicDevelopment\KiCAD_share\MyLibrary\Arduino.lib</uri>
     </library>
   </libraries>
   <nets>
@@ -4928,7 +4928,7 @@
     <net code="159" name="Net-(U201-Pad5)">
       <node ref="U201" pin="5"/>
     </net>
-    <net code="160" name="/ControlCircuit/~IR_Enable">
+    <net code="160" name="/ControlCircuit/IR_Enable">
       <node ref="U201" pin="4"/>
       <node ref="U202" pin="12"/>
     </net>

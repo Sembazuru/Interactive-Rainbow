@@ -38,13 +38,13 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 2 15
 Title "Interactive Rainbow"
-Date "2015-12-16"
-Rev "1.2.2"
+Date "2016-01-09"
+Rev "1.2.3"
 Comp "Sembazuru Circuit (for Barrel of Makers)"
-Comment1 "1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups"
-Comment2 "1.2.0 Change design to use LEDs with integrated flashing. Simpler design."
-Comment3 "1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."
-Comment4 "1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design & lower current."
+Comment1 "1.2.0 Change design to use LEDs with integrated flashing. Simpler design."
+Comment2 "1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."
+Comment3 "1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design & lower current."
+Comment4 "1.2.3 Correct 7555 enable logic level to high active."
 $EndDescr
 $Comp
 L ARDUINO_Pro-Mini U202
@@ -1375,9 +1375,9 @@ Wire Wire Line
 Connection ~ 3000 2000
 NoConn ~ 2800 2900
 Text Label 950  2550 0    60   ~ 0
-~IR_Enable
+IR_Enable
 Text Label 9100 5050 0    60   ~ 0
-~IR_Enable
+IR_Enable
 Wire Wire Line
 	1600 2550 950  2550
 Wire Wire Line

@@ -1,4 +1,4 @@
-update=2015-12-16 22:57:01
+update=2016-01-09 01:04:14
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,8 +59,6 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=D:/Libraries/PublicDevelopment/KiCAD_share/MyTemplate/default.kicad_wks
@@ -71,3 +69,5 @@ NetFmtName=Pcbnew
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+[general]
+version=1

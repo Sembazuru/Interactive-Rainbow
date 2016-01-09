@@ -1,15 +1,15 @@
 Source,C:/Users/Chris/Google Drive/Barrel of Makers/Windmill LED panel/Schematic/Schematic.sch
 Kicad Rev,Eeschema (2015-11-15 BZR 6316)-product
-Generated Date,2015-12-17 00:22:41
+Generated Date,2016-01-09 01:04:02
 
 Title,Interactive Rainbow
 Company,Sembazuru Circuit (for Barrel of Makers)
-Revision,1.2.2
-Date Issue,2015-12-16
-Comment,1.1.1 Change TIP120 to TIP31C (on-hand stock), change Cap Ref'ds on LED Groups
+Revision,1.2.3
+Date Issue,2016-01-09
 Comment,1.2.0 Change design to use LEDs with integrated flashing. Simpler design.
 Comment,1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity.
 Comment,1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design & lower current.
+Comment,1.2.3 Correct 7555 enable logic level to high active.
 
 Reference,Value,CommonPartLibrary,Mfg,MfgPart,Library,Library Ref
 U202,ARDUINO_Pro-Mini,CPL-PLT-ARDUINO,SparkFun,DEV-11113,Arduino,ARDUINO_Pro-Mini
