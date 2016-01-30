@@ -1,4 +1,4 @@
-update=2016-01-09 01:04:14
+update=2016-01-28 23:59:51
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,18 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[schematic_editor]
+version=1
+PageLayoutDescrFile=D:/Libraries/PublicDevelopment/KiCAD_share/MyTemplate/default.kicad_wks
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=D:/Libraries/PublicDevelopment/KiCAD_share/MyLibrary;D:/Libraries/PublicDevelopment/KiCAD_share/MyLibrary/doc
@@ -59,15 +71,3 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-[schematic_editor]
-version=1
-PageLayoutDescrFile=D:/Libraries/PublicDevelopment/KiCAD_share/MyTemplate/default.kicad_wks
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
-[general]
-version=1
