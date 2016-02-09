@@ -38,13 +38,13 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 2 15
 Title "Interactive Rainbow"
-Date "2016-01-09"
-Rev "1.2.3"
+Date "2016-02-08"
+Rev "1.2.4"
 Comp "Sembazuru Circuit (for Barrel of Makers)"
-Comment1 "1.2.0 Change design to use LEDs with integrated flashing. Simpler design."
-Comment2 "1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."
-Comment3 "1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design & lower current."
-Comment4 "1.2.3 Correct 7555 enable logic level to high active."
+Comment1 "1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."
+Comment2 "1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design & lower current."
+Comment3 "1.2.3 Correct 7555 enable logic level to high active."
+Comment4 "1.2.4 Change all 2N2222 BJT to VN3205 N-MOSFET."
 $EndDescr
 $Comp
 L ARDUINO_Pro-Mini U202
@@ -103,20 +103,6 @@ F 6 "3296W-1-502LF" H 2500 2000 60  0001 C CNN "MfgPart"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L RES R203
-U 1 1 55EA8F76
-P 3450 2600
-F 0 "R203" H 3300 2700 60  0000 L CNN
-F 1 "1kΩ" H 3300 2500 60  0000 L CNN
-F 2 "" H 3450 2600 60  0000 C CNN
-F 3 "" H 3450 2600 60  0000 C CNN
-F 4 "CPL-RES-THT-1K-0.25W" H 3450 2600 60  0001 C CNN "CommonPartLibrary"
-F 5 "Yageo" H 3450 2600 60  0001 C CNN "Mfg"
-F 6 "MFR-25FBF52-1K" H 3450 2600 60  0001 C CNN "MfgPart"
-	1    3450 2600
-	1    0    0    -1  
-$EndComp
-$Comp
 L JACK-PWR J201
 U 1 1 55EAA723
 P 1400 6750
@@ -144,12 +130,12 @@ $EndComp
 $Comp
 L GND #PWR02
 U 1 1 55EB4534
-P 3950 3000
-F 0 "#PWR02" H 3950 3000 30  0001 C CNN
-F 1 "GND" H 3950 2900 40  0000 C BNN
-F 2 "" H 3950 3000 60  0000 C CNN
-F 3 "" H 3950 3000 60  0000 C CNN
-	1    3950 3000
+P 3500 3000
+F 0 "#PWR02" H 3500 3000 30  0001 C CNN
+F 1 "GND" H 3500 2900 40  0000 C BNN
+F 2 "" H 3500 3000 60  0000 C CNN
+F 3 "" H 3500 3000 60  0000 C CNN
+	1    3500 3000
 	1    0    0    -1  
 $EndComp
 Text Notes 2150 2350 0    60   ~ 0
@@ -157,70 +143,70 @@ Trim R202 for\n38kHz @ U201-3\n(About 3.797kΩ)
 $Comp
 L RN7BUSSIP RN201
 U 1 1 55EB53DA
-P 4750 1750
-F 0 "RN201" H 4700 2200 60  0000 L CNN
-F 1 "33Ω" V 4900 1750 60  0000 C CNN
-F 2 "" H 4750 1700 60  0000 C CNN
-F 3 "" H 4750 1700 60  0000 C CNN
-F 4 "CPL-ARR-BUS7-THT-33-0.14W*" H 4750 1750 60  0001 C CNN "CommonPartLibrary"
-F 5 "Bourns" H 4750 1750 60  0001 C CNN "Mfg"
-F 6 "4308R-101-330" H 4750 1750 60  0001 C CNN "MfgPart"
-	1    4750 1750
+P 4300 1750
+F 0 "RN201" H 4250 2200 60  0000 L CNN
+F 1 "33Ω" V 4450 1750 60  0000 C CNN
+F 2 "" H 4300 1700 60  0000 C CNN
+F 3 "" H 4300 1700 60  0000 C CNN
+F 4 "CPL-ARR-BUS7-THT-33-0.14W*" H 4300 1750 60  0001 C CNN "CommonPartLibrary"
+F 5 "Bourns" H 4300 1750 60  0001 C CNN "Mfg"
+F 6 "4308R-101-330" H 4300 1750 60  0001 C CNN "MfgPart"
+	1    4300 1750
 	-1   0    0    1   
 $EndComp
 $Comp
 L RN7BUSSIP RN202
 U 1 1 55EB56D5
-P 4750 3000
-F 0 "RN202" H 4700 3450 60  0000 L CNN
-F 1 "33Ω" V 4900 3000 60  0000 C CNN
-F 2 "" H 4750 2950 60  0000 C CNN
-F 3 "" H 4750 2950 60  0000 C CNN
-F 4 "CPL-ARR-BUS7-THT-33-0.14W*" H 4750 3000 60  0001 C CNN "CommonPartLibrary"
-F 5 "Bourns" H 4750 3000 60  0001 C CNN "Mfg"
-F 6 "4308R-101-330" H 4750 3000 60  0001 C CNN "MfgPart"
-	1    4750 3000
+P 4300 3000
+F 0 "RN202" H 4250 3450 60  0000 L CNN
+F 1 "33Ω" V 4450 3000 60  0000 C CNN
+F 2 "" H 4300 2950 60  0000 C CNN
+F 3 "" H 4300 2950 60  0000 C CNN
+F 4 "CPL-ARR-BUS7-THT-33-0.14W*" H 4300 3000 60  0001 C CNN "CommonPartLibrary"
+F 5 "Bourns" H 4300 3000 60  0001 C CNN "Mfg"
+F 6 "4308R-101-330" H 4300 3000 60  0001 C CNN "MfgPart"
+	1    4300 3000
 	-1   0    0    -1  
 $EndComp
 $Comp
 L TST TP201
 U 1 1 55EB86EA
-P 5250 1300
-F 0 "TP201" H 5250 1650 60  0000 C CNN
-F 1 "IR_LEDs" H 5250 1550 60  0000 C CNN
-F 2 "" H 5250 1300 60  0000 C CNN
-F 3 "" H 5250 1300 60  0000 C CNN
-F 4 "CPL-HDR-TESTPOINT" H 5250 1300 60  0001 C CNN "CommonPartLibrary"
-F 5 "Keystone" H 5250 1300 60  0001 C CNN "Mfg"
-F 6 "5003" H 5250 1300 60  0001 C CNN "MfgPart"
-	1    5250 1300
+P 4800 1300
+F 0 "TP201" H 4800 1650 60  0000 C CNN
+F 1 "IR_LEDs" H 4800 1550 60  0000 C CNN
+F 2 "" H 4800 1300 60  0000 C CNN
+F 3 "" H 4800 1300 60  0000 C CNN
+F 4 "CPL-HDR-TESTPOINT" H 4800 1300 60  0001 C CNN "CommonPartLibrary"
+F 5 "Keystone" H 4800 1300 60  0001 C CNN "Mfg"
+F 6 "5003" H 4800 1300 60  0001 C CNN "MfgPart"
+	1    4800 1300
 	1    0    0    -1  
 $EndComp
-Text HLabel 6500 1500 2    60   Output ~ 0
+Text HLabel 6050 1500 2    60   Output ~ 0
 ~IR_LED01
-Text HLabel 6500 1600 2    60   Output ~ 0
+Text HLabel 6050 1600 2    60   Output ~ 0
 ~IR_LED02
-Text HLabel 6500 1700 2    60   Output ~ 0
+Text HLabel 6050 1700 2    60   Output ~ 0
 ~IR_LED03
-Text HLabel 6500 1800 2    60   Output ~ 0
+Text HLabel 6050 1800 2    60   Output ~ 0
 ~IR_LED04
-Text HLabel 6500 1900 2    60   Output ~ 0
+Text HLabel 6050 1900 2    60   Output ~ 0
 ~IR_LED05
-Text HLabel 6500 2000 2    60   Output ~ 0
+Text HLabel 6050 2000 2    60   Output ~ 0
 ~IR_LED06
-Text HLabel 6500 2750 2    60   Output ~ 0
+Text HLabel 6050 2750 2    60   Output ~ 0
 ~IR_LED07
-Text HLabel 6500 2850 2    60   Output ~ 0
+Text HLabel 6050 2850 2    60   Output ~ 0
 ~IR_LED08
-Text HLabel 6500 2950 2    60   Output ~ 0
+Text HLabel 6050 2950 2    60   Output ~ 0
 ~IR_LED09
-Text HLabel 6500 3050 2    60   Output ~ 0
+Text HLabel 6050 3050 2    60   Output ~ 0
 ~IR_LED10
-Text HLabel 6500 3150 2    60   Output ~ 0
+Text HLabel 6050 3150 2    60   Output ~ 0
 ~IR_LED11
-Text HLabel 6500 3250 2    60   Output ~ 0
+Text HLabel 6050 3250 2    60   Output ~ 0
 ~IR_LED12
-Text HLabel 6500 3350 2    60   Output ~ 0
+Text HLabel 6050 3350 2    60   Output ~ 0
 ~IR_LED13
 Text HLabel 15350 5800 2    60   Input ~ 0
 ~IR01
@@ -302,12 +288,12 @@ $EndComp
 $Comp
 L +5V #PWR05
 U 1 1 55EC8FD6
-P 4100 6550
-F 0 "#PWR05" H 4100 6500 40  0001 C CNN
-F 1 "+5V" H 4100 6650 40  0000 C BNN
-F 2 "" H 4100 6550 60  0000 C CNN
-F 3 "" H 4100 6550 60  0000 C CNN
-	1    4100 6550
+P 2400 6550
+F 0 "#PWR05" H 2400 6500 40  0001 C CNN
+F 1 "+5V" H 2400 6650 40  0000 C BNN
+F 2 "" H 2400 6550 60  0000 C CNN
+F 3 "" H 2400 6550 60  0000 C CNN
+	1    2400 6550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -349,38 +335,38 @@ $EndComp
 $Comp
 L PWR_FLAG #FLG08
 U 1 1 55ED3119
-P 2900 6550
-F 0 "#FLG08" H 2900 6575 40  0001 C CNN
-F 1 "PWR_FLAG" H 2900 6650 40  0001 C CNN
-F 2 "" H 2800 6545 40  0001 C CNN
-F 3 "" H 2900 6620 40  0001 C CNN
-F 4 "" H 2900 6550 40  0001 C CNN "MFG"
-F 5 "" H 2900 6550 40  0001 C CNN "MFG#"
-	1    2900 6550
+P 1700 6550
+F 0 "#FLG08" H 1700 6575 40  0001 C CNN
+F 1 "PWR_FLAG" H 1700 6650 40  0001 C CNN
+F 2 "" H 1600 6545 40  0001 C CNN
+F 3 "" H 1700 6620 40  0001 C CNN
+F 4 "" H 1700 6550 40  0001 C CNN "MFG"
+F 5 "" H 1700 6550 40  0001 C CNN "MFG#"
+	1    1700 6550
 	1    0    0    -1  
 $EndComp
 $Comp
 L PWR_FLAG #FLG09
 U 1 1 55ED33A3
-P 2900 6850
-F 0 "#FLG09" H 2900 6875 40  0001 C CNN
-F 1 "PWR_FLAG" H 2900 6950 40  0001 C CNN
-F 2 "" H 2800 6845 40  0001 C CNN
-F 3 "" H 2900 6920 40  0001 C CNN
-F 4 "" H 2900 6850 40  0001 C CNN "MFG"
-F 5 "" H 2900 6850 40  0001 C CNN "MFG#"
-	1    2900 6850
+P 1700 6850
+F 0 "#FLG09" H 1700 6875 40  0001 C CNN
+F 1 "PWR_FLAG" H 1700 6950 40  0001 C CNN
+F 2 "" H 1600 6845 40  0001 C CNN
+F 3 "" H 1700 6920 40  0001 C CNN
+F 4 "" H 1700 6850 40  0001 C CNN "MFG"
+F 5 "" H 1700 6850 40  0001 C CNN "MFG#"
+	1    1700 6850
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR010
 U 1 1 55ED57CA
-P 3500 7000
-F 0 "#PWR010" H 3500 7000 30  0001 C CNN
-F 1 "GND" H 3500 6900 40  0000 C BNN
-F 2 "" H 3500 7000 60  0000 C CNN
-F 3 "" H 3500 7000 60  0000 C CNN
-	1    3500 7000
+P 2400 7000
+F 0 "#PWR010" H 2400 7000 30  0001 C CNN
+F 1 "GND" H 2400 6900 40  0000 C BNN
+F 2 "" H 2400 7000 60  0000 C CNN
+F 3 "" H 2400 7000 60  0000 C CNN
+	1    2400 7000
 	1    0    0    -1  
 $EndComp
 Text HLabel 15350 1600 2    60   Output ~ 0
@@ -732,34 +718,6 @@ F 3 "" H 10700 3850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Q_NPN_EBC Q202
-U 1 1 562B57F0
-P 13150 5150
-F 0 "Q202" H 13350 5200 60  0000 L CNN
-F 1 "2N2222" H 13350 5100 60  0000 L CNN
-F 2 "" H 13350 5250 29  0000 C CNN
-F 3 "" H 13150 5150 60  0000 C CNN
-F 4 "CPL-TRN-NPN-40V-1A-THT" H 13150 5150 60  0001 C CNN "CommonPartLibrary"
-F 5 "Fairchild Semiconductor" H 13150 5150 60  0001 C CNN "Mfg"
-F 6 "PN2222ABU" H 13150 5150 60  0001 C CNN "MfgPart"
-	1    13150 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L RES R205
-U 1 1 562B594C
-P 12700 5150
-F 0 "R205" H 12550 5250 60  0000 L CNN
-F 1 "1kΩ" H 12550 5050 60  0000 L CNN
-F 2 "" H 12700 5150 60  0000 C CNN
-F 3 "" H 12700 5150 60  0000 C CNN
-F 4 "CPL-RES-THT-1K-0.25W" H 12700 5150 60  0001 C CNN "CommonPartLibrary"
-F 5 "Yageo" H 12700 5150 60  0001 C CNN "Mfg"
-F 6 "MFR-25FBF52-1K" H 12700 5150 60  0001 C CNN "MfgPart"
-	1    12700 5150
-	1    0    0    -1  
-$EndComp
-$Comp
 L RES R204
 U 1 1 562B6348
 P 13250 4600
@@ -801,17 +759,17 @@ NoConn ~ 8350 6350
 NoConn ~ 8450 6350
 NoConn ~ 7450 4650
 NoConn ~ 7450 4750
-Text HLabel 6500 1200 2    60   Output ~ 0
+Text HLabel 6050 1200 2    60   Output ~ 0
 IR_5V
 $Comp
 L +5V #PWR025
 U 1 1 565645AC
-P 5600 1150
-F 0 "#PWR025" H 5600 1100 40  0001 C CNN
-F 1 "+5V" H 5600 1250 40  0000 C BNN
-F 2 "" H 5600 1150 60  0000 C CNN
-F 3 "" H 5600 1150 60  0000 C CNN
-	1    5600 1150
+P 5150 1150
+F 0 "#PWR025" H 5150 1100 40  0001 C CNN
+F 1 "+5V" H 5150 1250 40  0000 C BNN
+F 2 "" H 5150 1150 60  0000 C CNN
+F 3 "" H 5150 1150 60  0000 C CNN
+	1    5150 1150
 	1    0    0    -1  
 $EndComp
 Text HLabel 15350 8150 2    60   UnSpc ~ 0
@@ -858,8 +816,6 @@ $EndComp
 Wire Wire Line
 	2800 2600 3200 2600
 Wire Wire Line
-	3600 2600 3650 2600
-Wire Wire Line
 	1500 2950 1600 2950
 Wire Wire Line
 	1500 2000 1500 3000
@@ -867,46 +823,46 @@ Wire Wire Line
 	1500 2850 1600 2850
 Connection ~ 1500 2950
 Wire Wire Line
-	3950 3000 3950 2800
+	3500 3000 3500 2800
 Wire Wire Line
 	1500 3250 1500 3200
 Wire Wire Line
-	3950 2400 3950 2350
+	3500 2400 3500 2350
 Wire Wire Line
-	3950 2350 5050 2350
+	3500 2350 4600 2350
 Wire Wire Line
-	5050 2100 5050 2650
-Connection ~ 5050 2350
+	4600 2100 4600 2650
+Connection ~ 4600 2350
 Wire Wire Line
-	5050 2000 6500 2000
+	4600 2000 6050 2000
 Wire Wire Line
-	5050 1900 6500 1900
+	4600 1900 6050 1900
 Wire Wire Line
-	5050 1800 6500 1800
+	4600 1800 6050 1800
 Wire Wire Line
-	5050 1700 6500 1700
+	4600 1700 6050 1700
 Wire Wire Line
-	5050 1600 6500 1600
+	4600 1600 6050 1600
 Wire Wire Line
-	5050 2750 6500 2750
+	4600 2750 6050 2750
 Wire Wire Line
-	5050 2850 6500 2850
+	4600 2850 6050 2850
 Wire Wire Line
-	5050 2950 6500 2950
+	4600 2950 6050 2950
 Wire Wire Line
-	5050 3050 6500 3050
+	4600 3050 6050 3050
 Wire Wire Line
-	5050 3150 6500 3150
+	4600 3150 6050 3150
 Wire Wire Line
-	5050 3250 6500 3250
+	4600 3250 6050 3250
 Wire Wire Line
-	5050 1500 6500 1500
+	4600 1500 6050 1500
 Wire Wire Line
-	5050 3350 6500 3350
+	4600 3350 6050 3350
 Wire Wire Line
-	5050 1400 5250 1400
+	4600 1400 4800 1400
 Wire Wire Line
-	5250 1400 5250 1300
+	4800 1400 4800 1300
 Wire Wire Line
 	7450 4350 7400 4350
 Wire Wire Line
@@ -919,35 +875,19 @@ Wire Wire Line
 Wire Wire Line
 	7400 4250 7400 4050
 Wire Wire Line
-	1650 6600 3050 6600
-Wire Wire Line
-	1650 6750 1700 6750
-Wire Wire Line
-	1700 6750 1700 6900
-Wire Wire Line
-	1650 6900 3500 6900
-Connection ~ 1700 6900
-Wire Wire Line
-	1850 6850 1850 6900
+	1850 6900 1850 6850
 Connection ~ 1850 6900
 Wire Wire Line
-	1850 6650 1850 6600
+	1850 6600 1850 6650
 Connection ~ 1850 6600
 Wire Wire Line
-	2400 6650 2400 6600
+	2400 6550 2400 6650
 Connection ~ 2400 6600
 Wire Wire Line
-	2400 6850 2400 6900
+	2400 6850 2400 7000
 Connection ~ 2400 6900
 Wire Wire Line
-	3050 6700 3000 6700
-Wire Wire Line
-	3000 6700 3000 6600
-Connection ~ 3000 6600
-Wire Wire Line
-	4100 6550 4100 6600
-Wire Wire Line
-	4100 6600 3950 6600
+	1650 6600 2400 6600
 Wire Wire Line
 	1550 9300 1550 8850
 Wire Wire Line
@@ -962,15 +902,6 @@ Wire Wire Line
 Wire Wire Line
 	1550 9950 1550 9500
 Connection ~ 1200 9950
-Wire Wire Line
-	2900 6550 2900 6600
-Connection ~ 2900 6600
-Wire Wire Line
-	2900 6850 2900 6900
-Connection ~ 2900 6900
-Wire Wire Line
-	3500 6900 3500 7000
-Connection ~ 3500 6900
 Wire Wire Line
 	2750 9300 2750 8850
 Wire Wire Line
@@ -1057,7 +988,7 @@ Wire Wire Line
 	12150 8450 12050 8450
 Connection ~ 12150 6800
 Wire Wire Line
-	9050 5150 12450 5150
+	9050 5150 12950 5150
 Wire Wire Line
 	10100 1900 10100 5150
 Wire Wire Line
@@ -1107,8 +1038,6 @@ Wire Wire Line
 	13850 4850 13250 4850
 Wire Wire Line
 	13250 4750 13250 4950
-Wire Wire Line
-	12850 5150 12950 5150
 Connection ~ 13250 4850
 Wire Wire Line
 	13250 4300 13250 4350
@@ -1181,9 +1110,9 @@ Wire Wire Line
 Wire Wire Line
 	12050 3600 15350 3600
 Wire Wire Line
-	5600 1150 5600 1200
+	5150 1150 5150 1200
 Wire Wire Line
-	5600 1200 6500 1200
+	5150 1200 6050 1200
 Wire Wire Line
 	15350 8150 14450 8150
 Wire Wire Line
@@ -1271,62 +1200,34 @@ Text Label 14500 7750 0    60   ~ 0
 Brown12
 Text Label 14500 7850 0    60   ~ 0
 Brown13
-Text Label 5650 1200 0    60   ~ 0
+Text Label 5200 1200 0    60   ~ 0
 All_Orange
-Text Label 5650 1500 0    60   ~ 0
+Text Label 5200 1500 0    60   ~ 0
 Orange/White01
-Text Label 5650 1600 0    60   ~ 0
+Text Label 5200 1600 0    60   ~ 0
 Orange/White02
-Text Label 5650 1700 0    60   ~ 0
+Text Label 5200 1700 0    60   ~ 0
 Orange/White03
-Text Label 5650 1800 0    60   ~ 0
+Text Label 5200 1800 0    60   ~ 0
 Orange/White04
-Text Label 5650 1900 0    60   ~ 0
+Text Label 5200 1900 0    60   ~ 0
 Orange/White05
-Text Label 5650 2000 0    60   ~ 0
+Text Label 5200 2000 0    60   ~ 0
 Orange/White06
-Text Label 5650 2750 0    60   ~ 0
+Text Label 5200 2750 0    60   ~ 0
 Orange/White07
-Text Label 5650 2850 0    60   ~ 0
+Text Label 5200 2850 0    60   ~ 0
 Orange/White08
-Text Label 5650 2950 0    60   ~ 0
+Text Label 5200 2950 0    60   ~ 0
 Orange/White09
-Text Label 5650 3050 0    60   ~ 0
+Text Label 5200 3050 0    60   ~ 0
 Orange/White10
-Text Label 5650 3150 0    60   ~ 0
+Text Label 5200 3150 0    60   ~ 0
 Orange/White11
-Text Label 5650 3250 0    60   ~ 0
+Text Label 5200 3250 0    60   ~ 0
 Orange/White12
-Text Label 5650 3350 0    60   ~ 0
+Text Label 5200 3350 0    60   ~ 0
 Orange/White13
-$Comp
-L Pololu_S18V20F5 PS201
-U 1 1 565FD483
-P 3500 6600
-F 0 "PS201" H 3200 6800 60  0000 L CNN
-F 1 "Pololu_S18V20F5" H 3200 6700 60  0000 L CNN
-F 2 "" H 3500 6600 60  0000 C CNN
-F 3 "" H 3500 6600 60  0000 C CNN
-F 4 "CPL-REG-SWI-5V-2A-BREAKOUT*" H 3500 6600 60  0001 C CNN "CommonPartLibrary"
-F 5 "Pololu" H 3500 6600 60  0001 C CNN "Mfg"
-F 6 "2574" H 3500 6600 60  0001 C CNN "MfgPart"
-	1    3500 6600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Q_NPN_EBC Q201
-U 1 1 5664D432
-P 3850 2600
-F 0 "Q201" H 4050 2650 60  0000 L CNN
-F 1 "2N2222" H 4050 2550 60  0000 L CNN
-F 2 "" H 4050 2700 29  0000 C CNN
-F 3 "" H 3850 2600 60  0000 C CNN
-F 4 "CPL-TRN-NPN-40V-1A-THT" H 3850 2600 60  0001 C CNN "CommonPartLibrary"
-F 5 "Fairchild Semiconductor" H 3850 2600 60  0001 C CNN "Mfg"
-F 6 "PN2222ABU" H 3850 2600 60  0001 C CNN "MfgPart"
-	1    3850 2600
-	1    0    0    -1  
-$EndComp
 $Comp
 L ICM7555 U201
 U 1 1 5671E930
@@ -1382,4 +1283,42 @@ Wire Wire Line
 	1600 2550 950  2550
 Wire Wire Line
 	9050 5050 9550 5050
+NoConn ~ 12050 7350
+$Comp
+L Q_NMOS_SGD Q201
+U 1 1 56B96141
+P 3400 2600
+F 0 "Q201" H 3600 2650 60  0000 L CNN
+F 1 "VN3205" H 3600 2550 60  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 3600 2700 60  0001 C CNN
+F 3 "" H 3400 2600 60  0000 C CNN
+F 4 "CPL-TRN-NFET-50V-1.2A-THT*" H 3400 2600 60  0001 C CNN "CommonPartLibrary"
+F 5 "Microchip Technology" H 3400 2600 60  0001 C CNN "Mfg"
+F 6 "VN3205N3-G" H 3400 2600 60  0001 C CNN "MfgPart"
+	1    3400 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 6900 2400 6900
+NoConn ~ 1650 6750
+Wire Wire Line
+	1700 6550 1700 6600
+Connection ~ 1700 6600
+Wire Wire Line
+	1700 6850 1700 6900
+Connection ~ 1700 6900
+$Comp
+L Q_NMOS_SGD Q202
+U 1 1 56B99E7B
+P 13150 5150
+F 0 "Q202" H 13350 5200 60  0000 L CNN
+F 1 "VN3205" H 13350 5100 60  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-92_Inline_Wide" H 13350 5250 60  0001 C CNN
+F 3 "" H 13150 5150 60  0000 C CNN
+F 4 "CPL-TRN-NFET-50V-1.2A-THT*" H 13150 5150 60  0001 C CNN "CommonPartLibrary"
+F 5 "Microchip Technology" H 13150 5150 60  0001 C CNN "Mfg"
+F 6 "VN3205N3-G" H 13150 5150 60  0001 C CNN "MfgPart"
+	1    13150 5150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
