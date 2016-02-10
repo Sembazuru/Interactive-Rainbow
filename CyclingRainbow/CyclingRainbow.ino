@@ -8,6 +8,7 @@
    By Chris "Sembazuru" Elliott, SembazuruCDE (at) GMail.com
    Version 0.1.1 2016-02-09 - Copied from CyclingLEDTimingTest, removed the single button code, and enabled the first draft of the MISO code.
    Version 0.1.2 2016-02-10 - Renamed index variables intelligently, fixed the MISO triggering code.
+   Version 0.1.3 2016-02-10 - Fixed byte order for inputs and outputs.
 */
 
 //#define DEBUG
@@ -86,9 +87,9 @@ void loop()
   digitalWrite(pinIRenable, HIGH); // Enable IR 555 timer.
   delayMicroseconds(minBurst); // Ensure minimum burst length is achieved before reading for triggers.
   digitalWrite(pinSS, LOW); // Assert the SS pin.
-  for (uint8_t inByte = 0; inByte < bytesToShift; inByte++)
+  for (uint8_t inByte = bytesToShift; inByte > 0 ; inByte--) // First byte read is last block. Not sure if I grock it yet, but based on emprical findings.
   {
-    inputIR[inByte] = SPI.transfer(blockOut[inByte]);
+    inputIR[bytesToShift - inByte] = SPI.transfer(blockOut[inByte - 1]);
   }
   digitalWrite(pinSS, HIGH); // Deassert the SS pin.
   digitalWrite(pinIRenable, LOW); // Disable IR 555 timer.
