@@ -9,10 +9,13 @@
    Version 0.1.1 2016-02-09 - Copied from CyclingLEDTimingTest, removed the single button code, and enabled the first draft of the MISO code.
    Version 0.1.2 2016-02-10 - Renamed index variables intelligently, fixed the MISO triggering code.
    Version 0.1.3 2016-02-10 - Fixed byte order for inputs and outputs.
+   Version 0.1.4 2016-02-11 - Added attribution for DebugUtils.h and used the same conditional to include the library as the conditional to use it. (#ifdef DEBUG)
 */
 
 //#define DEBUG
-#include "DebugUtils.h"
+#ifdef DEBUG
+#include "DebugUtils.h" // From: http://forum.arduino.cc/index.php?topic=46900.msg338656#msg338656
+#endif
 // Add any requred #include lines here for external libraries.
 #include <SPI.h>
 
@@ -59,8 +62,8 @@ void setup()
   Serial.println(F(__FILE__));  // so we know what sketch is running
   Serial.println();
   Serial.println(F("Debug line format-> milliseconds: __PRETTY_FUNCTION__ __FILE__:__LINE__ message"));
-#endif
   DEBUG_PRINT(F("Debug is on"));
+#endif
 
   // start the SPI library:
   pinMode(pinSS, OUTPUT);
