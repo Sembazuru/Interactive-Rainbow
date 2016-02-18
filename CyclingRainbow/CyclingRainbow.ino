@@ -10,6 +10,7 @@
    Version 0.1.2 2016-02-10 - Renamed index variables intelligently, fixed the MISO triggering code.
    Version 0.1.3 2016-02-10 - Fixed byte order for inputs and outputs.
    Version 0.1.4 2016-02-11 - Added attribution for DebugUtils.h and used the same conditional to include the library as the conditional to use it. (#ifdef DEBUG)
+   Version 0.1.5 2016-02-17 - Remove logic to disable 555 between cycles. Just too problematic.
 */
 
 //#define DEBUG
@@ -48,9 +49,6 @@ uint8_t blockOut[bytesToShift]; // To send out on MOSI to LEDs.
 uint8_t inputIR[bytesToShift]; // To receive in on MISO from IR detectors.
 
 const uint8_t pinIRenable = 9; // To enable IR 555 timer set this pin low before checking for IR triggers. Disable after checking for IR triggers.
-const uint8_t minBurst = ((6 * 1000000) / 38000) + 1; // Minimum burst length in microseconds rounded up.
-const uint8_t minGap = ((10 * 1000000) / 38000) + 1; // Minimum delay between bursts in microseconds rounded up.
-
 
 void setup()
 {
@@ -79,23 +77,19 @@ void setup()
   }
 
   pinMode(pinIRenable, OUTPUT);
-  digitalWrite(pinIRenable, LOW); // Enable pin on 555 timer is active high.
+  digitalWrite(pinIRenable, HIGH); // Enable IR 555 timer.
 
 }
 
 void loop()
 {
   // SPI transfer.
-  delayMicroseconds(minGap); // Ensure minimum gap between bursts is achieved to prepare for reading for triggers.
-  digitalWrite(pinIRenable, HIGH); // Enable IR 555 timer.
-  delayMicroseconds(minBurst); // Ensure minimum burst length is achieved before reading for triggers.
   digitalWrite(pinSS, LOW); // Assert the SS pin.
   for (uint8_t inByte = bytesToShift; inByte > 0 ; inByte--) // First byte read is last block. Not sure if I grock it yet, but based on emprical findings.
   {
     inputIR[bytesToShift - inByte] = SPI.transfer(blockOut[inByte - 1]);
   }
   digitalWrite(pinSS, HIGH); // Deassert the SS pin.
-  digitalWrite(pinIRenable, LOW); // Disable IR 555 timer.
 
   // Check IR inputs and start triggered blocks restart sequence.
   for (uint8_t inByte = 0; inByte < bytesToShift; inByte++)
