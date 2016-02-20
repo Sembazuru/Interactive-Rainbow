@@ -38,13 +38,13 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 2 15
 Title "Interactive Rainbow"
-Date "2016-02-12"
-Rev "1.2.5"
+Date "2016-02-08"
+Rev "1.2.4"
 Comp "Sembazuru Circuit (for Barrel of Makers)"
-Comment1 "1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design & lower current."
-Comment2 "1.2.3 Correct 7555 enable logic level to high active."
-Comment3 "1.2.4 Change all 2N2222 BJT to VN3205 N-MOSFET."
-Comment4 "1.2.5 Corrected pinout of TSOP32138 (Had Vss and GND backwards.)"
+Comment1 "1.2.1 Chance TIP31C to 2N2222. Don't need extra current capacity."
+Comment2 "1.2.2 Change 555 to CMOS 7555 to simplify IR strobe design & lower current."
+Comment3 "1.2.3 Correct 7555 enable logic level to high active."
+Comment4 "1.2.4 Change all 2N2222 BJT to VN3205 N-MOSFET."
 $EndDescr
 $Comp
 L ARDUINO_Pro-Mini U202
