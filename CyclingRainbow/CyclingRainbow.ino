@@ -11,18 +11,23 @@
    Version 0.1.3 2016-02-10 - Fixed byte order for inputs and outputs.
    Version 0.1.4 2016-02-11 - Added attribution for DebugUtils.h and used the same conditional to include the library as the conditional to use it. (#ifdef DEBUG)
    Version 0.1.5 2016-02-17 - Remove logic to disable 555 between cycles. Just too problematic.
+   Version 1.0.0 2016-03-12 - Clean-up code. This is the code running the first display.
 */
+
+// Add any requred #include lines here for external libraries.
 
 //#define DEBUG
 #ifdef DEBUG
 #include "DebugUtils.h" // From: http://forum.arduino.cc/index.php?topic=46900.msg338656#msg338656
 #endif
-// Add any requred #include lines here for external libraries.
+
 #include <SPI.h>
 
 // Define any desired global scope constants and variables.
 // (Global constants and variables are usually intialized to zero when defined.)
-const uint8_t pinSS = 10; // Hardware SS on UNO.
+
+// Change these to customize this sketch
+const uint8_t pinSS = 10; // Hardware SS for SPI on UNO.
 const uint8_t sequenceList[][2] =
 { // In each row, the order is <Logic state>, <milliseconds>. Milliseconds value in last row is never used.
   {0, 100},
@@ -34,25 +39,25 @@ const uint8_t sequenceList[][2] =
   {0, 50},
   {1, 0}
 };
-const uint8_t sequenceQty = sizeof(sequenceList) / (sizeof(sequenceList[0][0] * 2));
+const uint8_t blocksQty = 13; // Enter any number 1 to 256 for the number of LED blocks (defined as a sensor with 1 or more LEDs) and the rest of the code should adapt.
 
-const uint8_t blocksQty = 13; // Expandibility built in. Enter any number 1 to 256 and the rest of the code should adapt.
-
-const uint8_t bytesToShift = (uint8_t)(((uint16_t)blocksQty + 7) / 8); // Force a round-up to calculate total number of bytes reqired.
-uint8_t blockTrigs[bytesToShift]; // Flags for all the blocks trigger states.
+// Don't change these unless changing the sketch.
+const uint8_t sequenceQty = sizeof(sequenceList) / (sizeof(sequenceList[0][0] * 2)); // Dynamically calculate the quantity of transitions of the LED reset sequence.
+const uint8_t bytesToShift = (uint8_t)(((uint16_t)blocksQty + 7) / 8); // Each group takes up 1 bit both in (for the sensor) or out (for the LEDs). Force a round-up to calculate total number of bytes reqired.
+uint8_t blockTrigs[bytesToShift]; // Flags for all the block trigger states.
 uint8_t blockTrigsEdge1[bytesToShift]; // Incoming state edge detection.
 uint8_t blockTrigsEdge2[bytesToShift]; // Incoming state edge detection.
 unsigned long blockTime[blocksQty]; // Each block has it's own timer.
-uint8_t blockState[blocksQty]; // And each block has it's own state
-unsigned long loopTime; //
+uint8_t blockState[blocksQty]; // And each block needs to know where in the SequenceList[] it is.
+unsigned long loopTime; // Variable to store the current time in millis() for each loop for timing control.
 uint8_t blockOut[bytesToShift]; // To send out on MOSI to LEDs.
 uint8_t inputIR[bytesToShift]; // To receive in on MISO from IR detectors.
 
-const uint8_t pinIRenable = 9; // To enable IR 555 timer set this pin low before checking for IR triggers. Disable after checking for IR triggers.
+const uint8_t pinIRenable = 9; // 555 timer reset pin (active low). Set to high to take the 555 out of reset mode. Unused logic, but the wiring still exists.
 
 void setup()
 {
-#ifdef DEBUG // If project doens't normally use the serial port, move this ifdef line to before the Serial.begin.
+#ifdef DEBUG // Only enable the serial port if debugging is on.
   Serial.begin(250000); // Change this to whatever your like running your Serial Monitor at.
   while (!Serial); // Wait for serial port to connect. Needed for Leonardo only.
   delay(1000); // Simply to allow time for the ERW versions of the IDE time to automagically open the Serial Monitor. 1 second chosen arbitrarily.
@@ -85,7 +90,7 @@ void loop()
 {
   // SPI transfer.
   digitalWrite(pinSS, LOW); // Assert the SS pin.
-  for (uint8_t inByte = bytesToShift; inByte > 0 ; inByte--) // First byte read is last block. Not sure if I grock it yet, but based on emprical findings.
+  for (uint8_t inByte = bytesToShift; inByte > 0 ; inByte--) // First byte read is last block written.
   {
     inputIR[bytesToShift - inByte] = SPI.transfer(blockOut[inByte - 1]);
   }
