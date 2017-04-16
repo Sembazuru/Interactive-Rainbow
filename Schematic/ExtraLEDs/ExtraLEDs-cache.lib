@@ -1,0 +1,117 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# +5V
+#
+DEF +5V #PWR 0 0 N Y 1 F P
+F0 "#PWR" 0 -50 40 H I C CNN
+F1 "+5V" 0 100 40 H V C BNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+X +5V 1 0 0 0 L 20 30 1 0 W N
+C 0 60 20 0 1 0 N
+P 3 0 1 0 0 0 0 40 0 40 N
+ENDDRAW
+ENDDEF
+#
+# CONN_01X02
+#
+DEF CONN_01X02 J 0 40 Y N 1 F N
+F0 "J" 0 150 60 H V C CNN
+F1 "CONN_01X02" 100 0 60 V V C CNN
+F2 "" -100 50 60 H I C CNN
+F3 "" 0 150 60 H I C CNN
+F4 "Analogous to programming comments." 0 0 60 H I C CNN "Description"
+F5 "ANY / SPEC" 0 0 60 H I C CNN "Source"
+F6 "CPL-" 0 0 60 H I C CNN "CommonPartLibrary"
+F7 "Explain critera for \"ANY\" Source" 0 0 60 H I C CNN "Notes"
+F8 "JEDEC footprint name" 0 0 60 H I C CNN "Package ID"
+F9 "Manufacturer Name" 0 0 60 H I C CNN "MFN"
+F10 "Manufacturer Part Number" 0 0 60 H I C CNN "MFP"
+F11 "Source1 Part Number" 0 0 60 H I C CNN "S1PN"
+F12 "Source1 Product Link" 0 0 60 H I C CNN "S1PL"
+F13 "Source2 Part Number" 0 0 60 H I C CNN "S2PN"
+F14 "Source2 Product Link" 0 0 60 H I C CNN "S2PL"
+F15 "Voltage / Current / Tolerance / Ect specs" 0 0 60 H I C CNN "Characteristics"
+F16 "Y / N" 0 0 60 H I C CNN "Critical"
+$FPLIST
+ Pin_Header_Straight_1X02
+ Pin_Header_Angled_1X02
+ Socket_Strip_Straight_1X02
+ Socket_Strip_Angled_1X02
+$ENDFPLIST
+DRAW
+S -50 -45 10 -55 0 1 0 N
+S -50 55 10 45 0 1 0 N
+S -50 100 50 -100 0 1 0 N
+X P1 1 -200 50 150 R 40 40 1 1 P
+X P2 2 -200 -50 150 R 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LED_Flashing
+#
+DEF LED_Flashing D 0 40 Y N 1 F N
+F0 "D" 0 350 60 H V C CNN
+F1 "LED_Flashing" 0 -250 60 H V C CNN
+F2 "" -100 150 60 H I C CNN
+F3 "" 0 50 60 H I C CNN
+$FPLIST
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$ENDFPLIST
+DRAW
+T 0 0 0 40 0 0 0 Flash~Ckt Normal 0 C C
+P 2 0 0 0 -200 0 -150 0 N
+P 2 0 0 0 150 0 200 0 N
+C 0 50 224 0 1 0 N
+S -150 50 150 -50 0 1 0 N
+P 2 0 1 0 -50 100 -50 200 N
+P 3 0 1 0 -80 175 -125 215 -120 190 N
+P 3 0 1 0 -65 190 -110 230 -105 205 N
+P 3 0 1 0 -50 150 -100 150 -100 50 N
+P 3 0 1 0 50 100 -50 150 50 200 F
+P 3 0 1 0 50 150 100 150 100 50 N
+X K 1 -350 0 150 R 40 40 1 1 P
+X A 2 350 0 150 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+# PWR_FLAG
+#
+DEF ~PWR_FLAG #FLG 0 0 N N 1 F P
+F0 "#FLG" 0 25 40 H I C CNN
+F1 "PWR_FLAG" 0 100 40 H I C CNN
+F2 "" -100 -5 40 H I C CNN
+F3 "" 0 70 40 H I C CNN
+DRAW
+X pwr 1 0 0 0 U 20 20 0 0 w
+P 6 0 1 0 0 0 0 25 -50 50 0 75 50 50 0 25 N
+ENDDRAW
+ENDDEF
+#
+# RES
+#
+DEF RES R 0 1 Y N 1 F N
+F0 "R" -150 100 60 H V L CNN
+F1 "RES" -150 -100 60 H V L CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+$FPLIST
+ RES*
+$ENDFPLIST
+DRAW
+P 3 0 1 0 -25 40 25 -40 50 0 N
+P 4 0 1 0 -25 40 -75 -40 -125 40 -150 0 N
+X ~ 1 -250 0 100 R 40 40 1 1 P
+X ~ 2 150 0 100 L 40 40 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -39,7 +39,7 @@ const uint8_t sequenceList[][2] =
   {0, 50},
   {1, 0}
 };
-const uint8_t blocksQty = 13; // Enter any number 1 to 256 for the number of LED blocks (defined as a sensor with 1 or more LEDs) and the rest of the code should adapt.
+const uint8_t blocksQty = 8; // Enter any number 1 to 256 for the number of LED blocks (defined as a sensor with 1 or more LEDs) and the rest of the code should adapt.
 
 // Don't change these unless changing the sketch.
 const uint8_t sequenceQty = sizeof(sequenceList) / (sizeof(sequenceList[0][0] * 2)); // Dynamically calculate the quantity of transitions of the LED reset sequence.
@@ -58,7 +58,7 @@ const uint8_t pinIRenable = 9; // 555 timer reset pin (active low). Set to high 
 void setup()
 {
 #ifdef DEBUG // Only enable the serial port if debugging is on.
-  Serial.begin(250000); // Change this to whatever your like running your Serial Monitor at.
+  Serial.begin(115200); // Change this to whatever your like running your Serial Monitor at.
   while (!Serial); // Wait for serial port to connect. Needed for Leonardo only.
   delay(1000); // Simply to allow time for the ERW versions of the IDE time to automagically open the Serial Monitor. 1 second chosen arbitrarily.
   Serial.print(F("Sketch Name: "));

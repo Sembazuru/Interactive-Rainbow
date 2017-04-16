@@ -1,0 +1,15 @@
+Source,C:\Users\Chris\Google Drive\Barrel of Makers\Windmill LED panel\Schematic\ExtraLEDs\ExtraLEDs.sch
+Kicad Rev,Eeschema 4.0.4-stable
+Generated Date,2016-10-07 00:31:17
+
+Title,Interactive Rainbow
+Company,Sembazuru Circuit (for Barrel of Makers)
+Revision,2.0.0
+Date Issue,2016-05-27
+Comment,2.0.0 Split schematic up for 4 individual PWB designs
+
+Reference,Value,CommonPartLibrary,MFN,MFP,Package ID,S1PN,S1PL,S2PN,S2PL,Characteristics,Description,Critical,Source,Notes,Mfg,MfgPart,Library,Library Ref
+D1,RGB Slow Flashing,CPL-LED-RGB-CYCLING-SLOW*,AdaFruit,679,JEDEC footprint name,ADA679,https://octopart.com/search?q=ADA679,679,https://www.adafruit.com/product/679,Diffused 5mm Slow Fade Flashing RGB LED - 10 pack,Self-cycling LED, slow speed, 10pk,Y,SPEC,Explain critera for "ANY" Source,AdaFruit,ADA679,NewUnsorted,LED_Flashing
+R1,180Ω,CPL-RES-THT-180-0.25W*,Yageo,MFR-25FBF52-180R,JEDEC footprint name,MFR-25FBF52-180R,https://octopart.com/search?q=MFR-25FBF52-180R,603-MFR-25FBF52-180R,http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkeyMFR-25FBF52-180R,180Ω,Current limiting resistor for LED.,N,ANY,Any tolerance THT 180Ω 1/4W or 1/8W resistor will do.,,,NewUnsorted,RES
+J1,CONN_01X02,CPL-,Manufacturer Name,Manufacturer Part Number,JEDEC footprint name,Source1 Part Number,Source1 Product Link,Source2 Part Number,Source2 Product Link,Voltage / Current / Tolerance / Ect specs,Footprint for 25mil square pin header. Use header or direct solder wires.,Y / N,ANY / SPEC,Explain critera for "ANY" Source,,,NewUnsorted,CONN_01X02
+J2,CONN_01X02,CPL-,Manufacturer Name,Manufacturer Part Number,JEDEC footprint name,Source1 Part Number,Source1 Product Link,Source2 Part Number,Source2 Product Link,Voltage / Current / Tolerance / Ect specs,Footprint for 25mil square pin header. Use header or direct solder wires.,Y / N,ANY / SPEC,Explain critera for "ANY" Source,,,NewUnsorted,CONN_01X02

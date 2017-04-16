@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Chris\Google Drive\Barrel of Makers\Windmill LED panel\Schematic\ExtraLEDs\ExtraLEDs.sch</source>
+    <date>2016-10-07 00:31:17</date>
+    <tool>Eeschema 4.0.4-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Interactive Rainbow</title>
+        <company>Sembazuru Circuit (for Barrel of Makers)</company>
+        <rev>2.0.0</rev>
+        <date>2016-05-27</date>
+        <source>ExtraLEDs.sch</source>
+        <comment number="1" value="2.0.0 Split schematic up for 4 individual PWB designs"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>RGB Slow Flashing</value>
+      <footprint>ipc-7251TH-standard:LEDRD254W50D500H960P</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-LED-RGB-CYCLING-SLOW*</field>
+        <field name="MFN">AdaFruit</field>
+        <field name="MFP">679</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">ADA679</field>
+        <field name="S1PL">https://octopart.com/search?q=ADA679</field>
+        <field name="S2PN">679</field>
+        <field name="S2PL">https://www.adafruit.com/product/679</field>
+        <field name="Characteristics">Diffused 5mm Slow Fade Flashing RGB LED - 10 pack</field>
+        <field name="Description">Self-cycling LED, slow speed, 10pk</field>
+        <field name="Critical">Y</field>
+        <field name="Source">SPEC</field>
+        <field name="Notes">Explain critera for "ANY" Source</field>
+        <field name="Mfg">AdaFruit</field>
+        <field name="MfgPart">ADA679</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="LED_Flashing"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5626F3ED</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>180Ω</value>
+      <footprint>ipc-7251TH-standard:RESAD1016W56L681D259</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-RES-THT-180-0.25W*</field>
+        <field name="MFN">Yageo</field>
+        <field name="MFP">MFR-25FBF52-180R</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">MFR-25FBF52-180R</field>
+        <field name="S1PL">https://octopart.com/search?q=MFR-25FBF52-180R</field>
+        <field name="S2PN">603-MFR-25FBF52-180R</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkeyMFR-25FBF52-180R</field>
+        <field name="Characteristics">180Ω</field>
+        <field name="Description">Current limiting resistor for LED.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">Any tolerance THT 180Ω 1/4W or 1/8W resistor will do.</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="RES"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>562717DF</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>CONN_01X02</value>
+      <footprint>ipc-7251TH-standard:HDRV2W64P254_1X2_508X254X1016A</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-</field>
+        <field name="MFN">Manufacturer Name</field>
+        <field name="MFP">Manufacturer Part Number</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">Source1 Part Number</field>
+        <field name="S1PL">Source1 Product Link</field>
+        <field name="S2PN">Source2 Part Number</field>
+        <field name="S2PL">Source2 Product Link</field>
+        <field name="Characteristics">Voltage / Current / Tolerance / Ect specs</field>
+        <field name="Description">Footprint for 25mil square pin header. Use header or direct solder wires.</field>
+        <field name="Critical">Y / N</field>
+        <field name="Source">ANY / SPEC</field>
+        <field name="Notes">Explain critera for "ANY" Source</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>573C1E60</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>CONN_01X02</value>
+      <footprint>ipc-7251TH-standard:HDRV2W64P254_1X2_508X254X1016A</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-</field>
+        <field name="MFN">Manufacturer Name</field>
+        <field name="MFP">Manufacturer Part Number</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">Source1 Part Number</field>
+        <field name="S1PL">Source1 Product Link</field>
+        <field name="S2PN">Source2 Part Number</field>
+        <field name="S2PL">Source2 Product Link</field>
+        <field name="Characteristics">Voltage / Current / Tolerance / Ect specs</field>
+        <field name="Description">Footprint for 25mil square pin header. Use header or direct solder wires.</field>
+        <field name="Critical">Y / N</field>
+        <field name="Source">ANY / SPEC</field>
+        <field name="Notes">Explain critera for "ANY" Source</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>573C1EE8</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="NewUnsorted" part="CONN_01X02">
+      <description>Connector 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X02</field>
+        <field name="Description">Analogous to programming comments.</field>
+        <field name="Source">ANY / SPEC</field>
+        <field name="CommonPartLibrary">CPL-</field>
+        <field name="Notes">Explain critera for "ANY" Source</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="MFN">Manufacturer Name</field>
+        <field name="MFP">Manufacturer Part Number</field>
+        <field name="S1PN">Source1 Part Number</field>
+        <field name="S1PL">Source1 Product Link</field>
+        <field name="S2PN">Source2 Part Number</field>
+        <field name="S2PL">Source2 Product Link</field>
+        <field name="Characteristics">Voltage / Current / Tolerance / Ect specs</field>
+        <field name="Critical">Y / N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="LED_Flashing">
+      <description>LED with integrated flashing circuit</description>
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_Flashing</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="RES">
+      <description>Resistor</description>
+      <footprints>
+        <fp>RES*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RES</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="NewUnsorted">
+      <uri>D:\Libraries\PublicDevelopment\KiCAD_share\MyLibrary\NewUnsorted.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="J2" pin="2"/>
+      <node ref="J1" pin="2"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="2" name="/~LED_On">
+      <node ref="J1" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="3" name="Net-(D1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="D1" pin="2"/>
+    </net>
+  </nets>
+</export>

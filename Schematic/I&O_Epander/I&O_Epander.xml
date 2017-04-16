@@ -1,0 +1,2391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/Chris/Google Drive/Barrel of Makers/Windmill LED panel/Schematic/I&amp;O_Epander/I&amp;O_Epander.sch</source>
+    <date>2017-01-30 23:01:14</date>
+    <tool>Eeschema 4.0.5</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Interactive Rainbow</title>
+        <company>Sembazuru Circuits (for Barrel of Makers)</company>
+        <rev>2.0.2</rev>
+        <date>2017-01-19</date>
+        <source>I&amp;O_Epander.sch</source>
+        <comment number="1" value="2.0.0 Split schematic up for 4 individual PWB designs"/>
+        <comment number="2" value="2.0.1 Implement differential signalling for inter-board communication."/>
+        <comment number="3" value="2.0.2 Add termination resistors for differential inputs."/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.1µF</value>
+      <footprint>ipc-7251TH-standard:CAPRR254W51L508T318H660P</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-CAP-X7R-THT-100NF-50V</field>
+        <field name="MFN">Kemet</field>
+        <field name="MFP">C320C104K5R5TA</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">C320C104K5R5TA</field>
+        <field name="S1PL">https://octopart.com/c320c104k5r5ta-kemet-39420400</field>
+        <field name="S2PN">80-C320C104K5R</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkeyC320C104K5R5TA</field>
+        <field name="Characteristics">Capacitor / Ceramic / 0.1µF / 48WVDC(min.)</field>
+        <field name="Description">IC Bypass.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">ANY X7R 0.1µF capacitor 0.1" pitch</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CAP_NP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55EC97D4</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>74HC595</value>
+      <footprint>ipc-7251TH-standard:DIPS762W45P254L2019H508Q16</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-DIC-SHIFTREG-SER-PAR</field>
+        <field name="MFN">Texas Instruments</field>
+        <field name="MFP">SN74HC595N</field>
+        <field name="Package ID">PDIP16</field>
+        <field name="S1PN">SN74HC595N</field>
+        <field name="S1PL">https://octopart.com/sn74hc595n-texas+instruments-19771</field>
+        <field name="S2PN">SN74HC595N</field>
+        <field name="S2PL">https://store.ti.com/SN74HC595N.aspx</field>
+        <field name="Characteristics">+5VDC logic / 16Pin Dip</field>
+        <field name="Description">Serial to parallel converter. Recieved MISO and controls LEDs.</field>
+        <field name="Critical">Y</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">Any 74xx595 or direct replacement, 5V TTL/CMOS compatible.</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="74HC595"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>562AF12C</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>74HC165</value>
+      <footprint>ipc-7251TH-standard:DIPS762W45P254L2019H508Q16</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-DIC-SHIFTREG-PAR-SER</field>
+        <field name="MFN">Texas Instruments</field>
+        <field name="MFP">SN74HC165N</field>
+        <field name="Package ID">PDIP16</field>
+        <field name="S1PN">SN74HC165N</field>
+        <field name="S1PL">https://octopart.com/sn74hc165n-texas+instruments-13591</field>
+        <field name="S2PN">SN74HC165N</field>
+        <field name="S2PL">https://store.ti.com/SN74HC165N.aspx</field>
+        <field name="Characteristics">+5VDC logic / 16Pin Dip</field>
+        <field name="Description">Parallel to serial converter. Recieve sensor states and send to the µC via MOSI.</field>
+        <field name="Critical">Y</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">Any 74xx165 or direct replacement, 5V TTL/CMOS compatible.</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="74HC165"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>562AF2BC</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1kΩ</value>
+      <footprint>ipc-7251TH-standard:RESAD1016W56L681D259</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-RES-THT-1K-0.25W</field>
+        <field name="MFN">Yageo</field>
+        <field name="MFP">MFR-25FBF52-1K</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">MFR-25FBF52-1K</field>
+        <field name="S1PL">https://octopart.com/mfr-25fbf52-1k-yageo-18902051</field>
+        <field name="S2PN">603-MFR-25FBF52-1K</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkeyMFR-25FBF52-1K</field>
+        <field name="Characteristics">1kΩ</field>
+        <field name="Description">Biasing/pull-up resistor for Q1 inverter.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">Any tolerance THT 1kΩ 1/4W or 1/8W resistor will do.</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="RES"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>562B6348</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>VN3205</value>
+      <footprint>ipc-7251TH-standard:TO92184P520H734-3</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-TRN-NFET-50V-1.2A-THT*</field>
+        <field name="MFN">Microchip Technology</field>
+        <field name="MFP">VN3205N3-G</field>
+        <field name="Package ID">TO-92</field>
+        <field name="S1PN">VN3205N3-G</field>
+        <field name="S1PL">https://octopart.com/vn3205n3-g-microchip-47153678</field>
+        <field name="S2PN">689-VN3205N3-G</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkeyVN3205N3-G</field>
+        <field name="Characteristics">MOSFET N-Channel / 50Vds / 1.2A / 1W</field>
+        <field name="Description">SS Signal inverter.</field>
+        <field name="Critical">Y</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">Any TO-92 N-MOSFET SGD pin configuration &gt;1A</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="Q_NMOS_SGD"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56B99E7B</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>RJ45-Unshielded</value>
+      <footprint>ipc-7251TH-connectors:WURTH_615008144221</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-CON-ETHERNET-VERTICAL*</field>
+        <field name="MFN">Wurth Electronics</field>
+        <field name="MFP">615008144221</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">615008144221</field>
+        <field name="S1PL">https://octopart.com/615008144221-w%C3%BCrth+elektronik-19991165</field>
+        <field name="S2PN">710-615008144221</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey615008144221</field>
+        <field name="Characteristics">CONN MOD JACK 8P8C VERT UNSHLD</field>
+        <field name="Description">Power and signal connector for LED&amp;Sensor board 1.</field>
+        <field name="Critical">Y</field>
+        <field name="Source">SPEC</field>
+        <field name="Notes">Explain critera for "ANY" Source</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="RJ45-Unshielded"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5739762F</tstamp>
+    </comp>
+    <comp ref="J9">
+      <value>KLDVHCX-0202-A</value>
+      <footprint>ipc-7251TH-connectors:KYCON_KLDVHCX-0202-x_CirHole</footprint>
+      <datasheet>http://www.kycon.com/Pub_Eng_Draw/KLDVHCX-0202-X.PDF</datasheet>
+      <fields>
+        <field name="CommonPartLibrary">CPL-CON-BARREL-2.1MM-VERT*</field>
+        <field name="MFN">Kycon</field>
+        <field name="MFP">KLDVHCX-0202-A</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">KLDVHCX-0202-A</field>
+        <field name="S1PL">https://octopart.com/kldvhcx-0202-a-kycon-21628247</field>
+        <field name="S2PN">806-KLDVHCX-0202-A</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkeyPJ-060A</field>
+        <field name="Characteristics">12V DC / 5A / Tolerance / Ect specs</field>
+        <field name="Description">LED&amp;Sensor board power input.</field>
+        <field name="Critical">Y</field>
+        <field name="Source">SPEC</field>
+        <field name="Notes">Connectors footprints are part specific.</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="JACK-PWR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57E3374E</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>75C1168</value>
+      <footprint>ipc-7251TH-standard:DIPS762W45P254L2019H508Q16</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-IIC-DIFFERENTIAL-DRIVER-RECEIVER-DUAL*</field>
+        <field name="MFN">Texas Instruments</field>
+        <field name="MFP">SN75C1168N</field>
+        <field name="Package ID">PDIP16</field>
+        <field name="S1PN">SN75C1168N</field>
+        <field name="S1PL">https://octopart.com/sn75c1168n-texas+instruments-503774</field>
+        <field name="S2PN">595-SN75C1168N</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkeySN75C1168N</field>
+        <field name="Characteristics">+5VDC logic / 16Pin Dip</field>
+        <field name="Description">Differential driver/receiver for communication over twisted pair.</field>
+        <field name="Critical">Y</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">Any 75xx1168 or direct replacement, 5V TTL/CMOS compatible.</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="75C1168"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57E3CF06</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>uA9637AC</value>
+      <footprint>ipc-7251TH-standard:DIPS762W45P254L1003H508Q8</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-IIC-DIFFERENTIAL-RECEIVER-DUAL*</field>
+        <field name="MFN">Texas Instruments</field>
+        <field name="MFP">UA9637ACP</field>
+        <field name="Package ID">PDIP8</field>
+        <field name="S1PN">UA9637ACP</field>
+        <field name="S1PL">https://octopart.com/ua9637acp-texas+instruments-503687</field>
+        <field name="S2PN">UA9637ACP</field>
+        <field name="S2PL">https://store.ti.com/UA9637ACP.aspx</field>
+        <field name="Characteristics">+5VDC logic / 8Pin Dip</field>
+        <field name="Description">Differential receiver for communication over twisted pair.</field>
+        <field name="Critical">Y</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">Any UA9637 direct replacement, 5V TTL/CMOS compatible.</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="uA9637AC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57E48A36</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>uA9638C</value>
+      <footprint>ipc-7251TH-standard:DIPS762W45P254L1003H508Q8</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-IIC-DIFFERENTIAL-DRIVER-DUAL*</field>
+        <field name="MFN">Texas Instruments</field>
+        <field name="MFP">UA9638CP</field>
+        <field name="Package ID">PDIP8</field>
+        <field name="S1PN">UA9638CP</field>
+        <field name="S1PL">https://octopart.com/ua9638cp-texas+instruments-503688</field>
+        <field name="S2PN">UA9638CP</field>
+        <field name="S2PL">https://store.ti.com/UA9638CP.aspx</field>
+        <field name="Characteristics">+5VDC logic / 8Pin Dip</field>
+        <field name="Description">Differential driver for communication over twisted pair.</field>
+        <field name="Critical">Y</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">Any uA9638C direct replacement, 5V TTL/CMOS compatible.</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="uA9638C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57E50CFD</tstamp>
+    </comp>
+    <comp ref="XU1">
+      <value>IC_Socket16</value>
+      <footprint>ipc-7251TH-standard:DIPfS794W45P254L1969H508Q16</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-</field>
+        <field name="MFN">3M</field>
+        <field name="MFP">4816-3004-CP</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">4816-3004-CP</field>
+        <field name="S1PL">https://octopart.com/4816-3004-cp-3m-767151</field>
+        <field name="S2PN">517-4816-3004-CP</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey4816-3004-CP</field>
+        <field name="Characteristics">16pin, 0.1” pitch, 0.3” wide, DIP</field>
+        <field name="Description">IC Socket.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">any 16pin 0.1"pitch 0.3"width socket.</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="IC_Socket16"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57E5C1C5</tstamp>
+    </comp>
+    <comp ref="XU7">
+      <value>IC_Socket08</value>
+      <footprint>ipc-7251TH-standard:DIPfS762W45P254L1016H508Q8</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-</field>
+        <field name="MFN">3M</field>
+        <field name="MFP">4808-3004-CP</field>
+        <field name="Package ID">PDIP8</field>
+        <field name="S1PN">4808-3004-CP</field>
+        <field name="S1PL">https://octopart.com/4808-3004-cp-3m-767259</field>
+        <field name="S2PN">517-4808-3004-CP</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey4808-3004-CP</field>
+        <field name="Characteristics">8pin, 0.1” pitch, 0.3” wide, DIP</field>
+        <field name="Description">IC Socket.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">Any 8pin 0.1"pitch 0.3"width socket.</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="IC_Socket08"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57E5D009</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>10µF</value>
+      <footprint>ipc-7251TH-standard:CAPPRD254W50D500H850</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-CAP-TANT-THT-10UF-50V</field>
+        <field name="MFN">AVX</field>
+        <field name="MFP">TAP106K050SCS</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">TAP106K050SCS</field>
+        <field name="S1PL">https://octopart.com/tap106k050scs-avx-9633</field>
+        <field name="S2PN">581-TAP106K050SCS</field>
+        <field name="S2PL">Source2 Product Link</field>
+        <field name="Characteristics">1µF / Tantalum / 10% / 50WVDC</field>
+        <field name="Description">Power noise filter.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">Roughly 10µF minimum 15WVDC</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CAP_P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57E5F3B4</tstamp>
+    </comp>
+    <comp ref="MH1">
+      <value>#4 PTH</value>
+      <footprint>ipc-7251TH-standard:MTGP794H326V8P</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-</field>
+        <field name="MFN">Manufacturer Name</field>
+        <field name="MFP">Manufacturer Part Number</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">Source1 Part Number</field>
+        <field name="S1PL">Source1 Product Link</field>
+        <field name="S2PN">Source2 Part Number</field>
+        <field name="S2PL">Source2 Product Link</field>
+        <field name="Characteristics">#4 Machine screw size</field>
+        <field name="Description">Mounting hole with ground connection.</field>
+        <field name="Critical">Y / N</field>
+        <field name="Source">ANY / SPEC</field>
+        <field name="Notes">Explain critera for "ANY" Source</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="MOUNTING_HOLE_PTH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57E9340C</tstamp>
+    </comp>
+    <comp ref="MH2">
+      <value>#4 NPTH</value>
+      <footprint>ipc-7251TH-standard:MTGNP794H326Z794P</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-</field>
+        <field name="MFN">Manufacturer Name</field>
+        <field name="MFP">Manufacturer Part Number</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">Source1 Part Number</field>
+        <field name="S1PL">Source1 Product Link</field>
+        <field name="S2PN">Source2 Part Number</field>
+        <field name="S2PL">Source2 Product Link</field>
+        <field name="Characteristics">#4 Machine screw size</field>
+        <field name="Description">Mounting hole, electrically isolated.</field>
+        <field name="Critical">Y / N</field>
+        <field name="Source">ANY / SPEC</field>
+        <field name="Notes">Explain critera for "ANY" Source</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="MOUNTING_HOLE_NPTH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>57E94039</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>RJ45-Unshielded</value>
+      <footprint>ipc-7251TH-connectors:WURTH_615008144221</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-CON-ETHERNET-VERTICAL*</field>
+        <field name="MFN">Wurth Electronics</field>
+        <field name="MFP">615008144221</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">615008144221</field>
+        <field name="S1PL">https://octopart.com/615008144221-w%C3%BCrth+elektronik-19991165</field>
+        <field name="S2PN">710-615008144221</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey615008144221</field>
+        <field name="Characteristics">CONN MOD JACK 8P8C VERT UNSHLD</field>
+        <field name="Description">Power and signal connector for LED&amp;Sensor board 2.</field>
+        <field name="Critical">Y</field>
+        <field name="Source">SPEC</field>
+        <field name="Notes">Explain critera for "ANY" Source</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="RJ45-Unshielded"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587B1E6C</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>RJ45-Unshielded</value>
+      <footprint>ipc-7251TH-connectors:WURTH_615008144221</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-CON-ETHERNET-VERTICAL*</field>
+        <field name="MFN">Wurth Electronics</field>
+        <field name="MFP">615008144221</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">615008144221</field>
+        <field name="S1PL">https://octopart.com/615008144221-w%C3%BCrth+elektronik-19991165</field>
+        <field name="S2PN">710-615008144221</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey615008144221</field>
+        <field name="Characteristics">CONN MOD JACK 8P8C VERT UNSHLD</field>
+        <field name="Description">Power and signal connector for LED&amp;Sensor board 3.</field>
+        <field name="Critical">Y</field>
+        <field name="Source">SPEC</field>
+        <field name="Notes">Explain critera for "ANY" Source</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="RJ45-Unshielded"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587B1FAA</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>RJ45-Unshielded</value>
+      <footprint>ipc-7251TH-connectors:WURTH_615008144221</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-CON-ETHERNET-VERTICAL*</field>
+        <field name="MFN">Wurth Electronics</field>
+        <field name="MFP">615008144221</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">615008144221</field>
+        <field name="S1PL">https://octopart.com/615008144221-w%C3%BCrth+elektronik-19991165</field>
+        <field name="S2PN">710-615008144221</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey615008144221</field>
+        <field name="Characteristics">CONN MOD JACK 8P8C VERT UNSHLD</field>
+        <field name="Description">Power and signal connector for LED&amp;Sensor board 4.</field>
+        <field name="Critical">Y</field>
+        <field name="Source">SPEC</field>
+        <field name="Notes">Explain critera for "ANY" Source</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="RJ45-Unshielded"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587B20E9</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>RJ45-Unshielded</value>
+      <footprint>ipc-7251TH-connectors:WURTH_615008144221</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-CON-ETHERNET-VERTICAL*</field>
+        <field name="MFN">Wurth Electronics</field>
+        <field name="MFP">615008144221</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">615008144221</field>
+        <field name="S1PL">https://octopart.com/615008144221-w%C3%BCrth+elektronik-19991165</field>
+        <field name="S2PN">710-615008144221</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey615008144221</field>
+        <field name="Characteristics">CONN MOD JACK 8P8C VERT UNSHLD</field>
+        <field name="Description">Power and signal connector for LED&amp;Sensor board 5.</field>
+        <field name="Critical">Y</field>
+        <field name="Source">SPEC</field>
+        <field name="Notes">Explain critera for "ANY" Source</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="RJ45-Unshielded"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587B222B</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>RJ45-Unshielded</value>
+      <footprint>ipc-7251TH-connectors:WURTH_615008144221</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-CON-ETHERNET-VERTICAL*</field>
+        <field name="MFN">Wurth Electronics</field>
+        <field name="MFP">615008144221</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">615008144221</field>
+        <field name="S1PL">https://octopart.com/615008144221-w%C3%BCrth+elektronik-19991165</field>
+        <field name="S2PN">710-615008144221</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey615008144221</field>
+        <field name="Characteristics">CONN MOD JACK 8P8C VERT UNSHLD</field>
+        <field name="Description">Power and signal connector for LED&amp;Sensor board 6.</field>
+        <field name="Critical">Y</field>
+        <field name="Source">SPEC</field>
+        <field name="Notes">Explain critera for "ANY" Source</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="RJ45-Unshielded"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587B3123</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>RJ45-Unshielded</value>
+      <footprint>ipc-7251TH-connectors:WURTH_615008144221</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-CON-ETHERNET-VERTICAL*</field>
+        <field name="MFN">Wurth Electronics</field>
+        <field name="MFP">615008144221</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">615008144221</field>
+        <field name="S1PL">https://octopart.com/615008144221-w%C3%BCrth+elektronik-19991165</field>
+        <field name="S2PN">710-615008144221</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey615008144221</field>
+        <field name="Characteristics">CONN MOD JACK 8P8C VERT UNSHLD</field>
+        <field name="Description">Power and signal connector for LED&amp;Sensor board 7.</field>
+        <field name="Critical">Y</field>
+        <field name="Source">SPEC</field>
+        <field name="Notes">Explain critera for "ANY" Source</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="RJ45-Unshielded"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587B324F</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>RJ45-Unshielded</value>
+      <footprint>ipc-7251TH-connectors:WURTH_615008144221</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-CON-ETHERNET-VERTICAL*</field>
+        <field name="MFN">Wurth Electronics</field>
+        <field name="MFP">615008144221</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">615008144221</field>
+        <field name="S1PL">https://octopart.com/615008144221-w%C3%BCrth+elektronik-19991165</field>
+        <field name="S2PN">710-615008144221</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey615008144221</field>
+        <field name="Characteristics">CONN MOD JACK 8P8C VERT UNSHLD</field>
+        <field name="Description">Power and signal connector for LED&amp;Sensor board 8.</field>
+        <field name="Critical">Y</field>
+        <field name="Source">SPEC</field>
+        <field name="Notes">Explain critera for "ANY" Source</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="RJ45-Unshielded"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587B3394</tstamp>
+    </comp>
+    <comp ref="J10">
+      <value>RJ45-Unshielded</value>
+      <footprint>ipc-7251TH-connectors:WURTH_615008144221</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-CON-ETHERNET-VERTICAL*</field>
+        <field name="MFN">Wurth Electronics</field>
+        <field name="MFP">615008144221</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">615008144221</field>
+        <field name="S1PL">https://octopart.com/615008144221-w%C3%BCrth+elektronik-19991165</field>
+        <field name="S2PN">710-615008144221</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey615008144221</field>
+        <field name="Characteristics">CONN MOD JACK 8P8C VERT UNSHLD</field>
+        <field name="Description">Logic power oscillator input connector.</field>
+        <field name="Critical">Y</field>
+        <field name="Source">SPEC</field>
+        <field name="Notes">Explain critera for "ANY" Source</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="RJ45-Unshielded"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587B40D2</tstamp>
+    </comp>
+    <comp ref="J11">
+      <value>RJ45-Unshielded</value>
+      <footprint>ipc-7251TH-connectors:WURTH_615008144221</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-CON-ETHERNET-VERTICAL*</field>
+        <field name="MFN">Wurth Electronics</field>
+        <field name="MFP">615008144221</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">615008144221</field>
+        <field name="S1PL">https://octopart.com/615008144221-w%C3%BCrth+elektronik-19991165</field>
+        <field name="S2PN">710-615008144221</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey615008144221</field>
+        <field name="Characteristics">CONN MOD JACK 8P8C VERT UNSHLD</field>
+        <field name="Description">Differential SPI input connector.</field>
+        <field name="Critical">Y</field>
+        <field name="Source">SPEC</field>
+        <field name="Notes">Explain critera for "ANY" Source</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="RJ45-Unshielded"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587B588A</tstamp>
+    </comp>
+    <comp ref="J13">
+      <value>RJ45-Unshielded</value>
+      <footprint>ipc-7251TH-connectors:WURTH_615008144221</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-CON-ETHERNET-VERTICAL*</field>
+        <field name="MFN">Wurth Electronics</field>
+        <field name="MFP">615008144221</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">615008144221</field>
+        <field name="S1PL">https://octopart.com/615008144221-w%C3%BCrth+elektronik-19991165</field>
+        <field name="S2PN">710-615008144221</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey615008144221</field>
+        <field name="Characteristics">CONN MOD JACK 8P8C VERT UNSHLD</field>
+        <field name="Description">Logic power oscillator output connector.</field>
+        <field name="Critical">Y</field>
+        <field name="Source">SPEC</field>
+        <field name="Notes">Explain critera for "ANY" Source</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="RJ45-Unshielded"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587B6216</tstamp>
+    </comp>
+    <comp ref="J14">
+      <value>RJ45-Unshielded</value>
+      <footprint>ipc-7251TH-connectors:WURTH_615008144221</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-CON-ETHERNET-VERTICAL*</field>
+        <field name="MFN">Wurth Electronics</field>
+        <field name="MFP">615008144221</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">615008144221</field>
+        <field name="S1PL">https://octopart.com/615008144221-w%C3%BCrth+elektronik-19991165</field>
+        <field name="S2PN">710-615008144221</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey615008144221</field>
+        <field name="Characteristics">CONN MOD JACK 8P8C VERT UNSHLD</field>
+        <field name="Description">Differential SPI output connector.</field>
+        <field name="Critical">Y</field>
+        <field name="Source">SPEC</field>
+        <field name="Notes">Explain critera for "ANY" Source</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="RJ45-Unshielded"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587B6229</tstamp>
+    </comp>
+    <comp ref="XU2">
+      <value>IC_Socket16</value>
+      <footprint>ipc-7251TH-standard:DIPfS794W45P254L1969H508Q16</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-</field>
+        <field name="MFN">3M</field>
+        <field name="MFP">4816-3004-CP</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">4816-3004-CP</field>
+        <field name="S1PL">https://octopart.com/4816-3004-cp-3m-767151</field>
+        <field name="S2PN">517-4816-3004-CP</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey4816-3004-CP</field>
+        <field name="Characteristics">16pin, 0.1” pitch, 0.3” wide, DIP</field>
+        <field name="Description">IC Socket.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">any 16pin 0.1"pitch 0.3"width socket.</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="IC_Socket16"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587B8036</tstamp>
+    </comp>
+    <comp ref="XU3">
+      <value>IC_Socket16</value>
+      <footprint>ipc-7251TH-standard:DIPfS794W45P254L1969H508Q16</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-</field>
+        <field name="MFN">3M</field>
+        <field name="MFP">4816-3004-CP</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">4816-3004-CP</field>
+        <field name="S1PL">https://octopart.com/4816-3004-cp-3m-767151</field>
+        <field name="S2PN">517-4816-3004-CP</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey4816-3004-CP</field>
+        <field name="Characteristics">16pin, 0.1” pitch, 0.3” wide, DIP</field>
+        <field name="Description">IC Socket.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">any 16pin 0.1"pitch 0.3"width socket.</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="IC_Socket16"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587B8171</tstamp>
+    </comp>
+    <comp ref="XU4">
+      <value>IC_Socket16</value>
+      <footprint>ipc-7251TH-standard:DIPfS794W45P254L1969H508Q16</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-</field>
+        <field name="MFN">3M</field>
+        <field name="MFP">4816-3004-CP</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">4816-3004-CP</field>
+        <field name="S1PL">https://octopart.com/4816-3004-cp-3m-767151</field>
+        <field name="S2PN">517-4816-3004-CP</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey4816-3004-CP</field>
+        <field name="Characteristics">16pin, 0.1” pitch, 0.3” wide, DIP</field>
+        <field name="Description">IC Socket.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">any 16pin 0.1"pitch 0.3"width socket.</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="IC_Socket16"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587B82AF</tstamp>
+    </comp>
+    <comp ref="XU5">
+      <value>IC_Socket16</value>
+      <footprint>ipc-7251TH-standard:DIPfS794W45P254L1969H508Q16</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-</field>
+        <field name="MFN">3M</field>
+        <field name="MFP">4816-3004-CP</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">4816-3004-CP</field>
+        <field name="S1PL">https://octopart.com/4816-3004-cp-3m-767151</field>
+        <field name="S2PN">517-4816-3004-CP</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey4816-3004-CP</field>
+        <field name="Characteristics">16pin, 0.1” pitch, 0.3” wide, DIP</field>
+        <field name="Description">IC Socket.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">any 16pin 0.1"pitch 0.3"width socket.</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="IC_Socket16"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587B83E2</tstamp>
+    </comp>
+    <comp ref="XU6">
+      <value>IC_Socket16</value>
+      <footprint>ipc-7251TH-standard:DIPfS794W45P254L1969H508Q16</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-</field>
+        <field name="MFN">3M</field>
+        <field name="MFP">4816-3004-CP</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">4816-3004-CP</field>
+        <field name="S1PL">https://octopart.com/4816-3004-cp-3m-767151</field>
+        <field name="S2PN">517-4816-3004-CP</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey4816-3004-CP</field>
+        <field name="Characteristics">16pin, 0.1” pitch, 0.3” wide, DIP</field>
+        <field name="Description">IC Socket.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">any 16pin 0.1"pitch 0.3"width socket.</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="IC_Socket16"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587B8530</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>75C1168</value>
+      <footprint>ipc-7251TH-standard:DIPS762W45P254L2019H508Q16</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-IIC-DIFFERENTIAL-DRIVER-RECEIVER-DUAL*</field>
+        <field name="MFN">Texas Instruments</field>
+        <field name="MFP">SN75C1168N</field>
+        <field name="Package ID">PDIP16</field>
+        <field name="S1PN">SN75C1168N</field>
+        <field name="S1PL">https://octopart.com/sn75c1168n-texas+instruments-503774</field>
+        <field name="S2PN">595-SN75C1168N</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkeySN75C1168N</field>
+        <field name="Characteristics">+5VDC logic / 16Pin Dip</field>
+        <field name="Description">Differential driver/receiver for communication over twisted pair.</field>
+        <field name="Critical">Y</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">Any 75xx1168 or direct replacement, 5V TTL/CMOS compatible.</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="75C1168"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587BED27</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>75C1168</value>
+      <footprint>ipc-7251TH-standard:DIPS762W45P254L2019H508Q16</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-IIC-DIFFERENTIAL-DRIVER-RECEIVER-DUAL*</field>
+        <field name="MFN">Texas Instruments</field>
+        <field name="MFP">SN75C1168N</field>
+        <field name="Package ID">PDIP16</field>
+        <field name="S1PN">SN75C1168N</field>
+        <field name="S1PL">https://octopart.com/sn75c1168n-texas+instruments-503774</field>
+        <field name="S2PN">595-SN75C1168N</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkeySN75C1168N</field>
+        <field name="Characteristics">+5VDC logic / 16Pin Dip</field>
+        <field name="Description">Differential driver/receiver for communication over twisted pair.</field>
+        <field name="Critical">Y</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">Any 75xx1168 or direct replacement, 5V TTL/CMOS compatible.</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="75C1168"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587BFE92</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>75C1168</value>
+      <footprint>ipc-7251TH-standard:DIPS762W45P254L2019H508Q16</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-IIC-DIFFERENTIAL-DRIVER-RECEIVER-DUAL*</field>
+        <field name="MFN">Texas Instruments</field>
+        <field name="MFP">SN75C1168N</field>
+        <field name="Package ID">PDIP16</field>
+        <field name="S1PN">SN75C1168N</field>
+        <field name="S1PL">https://octopart.com/sn75c1168n-texas+instruments-503774</field>
+        <field name="S2PN">595-SN75C1168N</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkeySN75C1168N</field>
+        <field name="Characteristics">+5VDC logic / 16Pin Dip</field>
+        <field name="Description">Differential driver/receiver for communication over twisted pair.</field>
+        <field name="Critical">Y</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">Any 75xx1168 or direct replacement, 5V TTL/CMOS compatible.</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="75C1168"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587C0AFB</tstamp>
+    </comp>
+    <comp ref="MH3">
+      <value>#4 NPTH</value>
+      <footprint>ipc-7251TH-standard:MTGNP794H326Z794P</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-</field>
+        <field name="MFN">Manufacturer Name</field>
+        <field name="MFP">Manufacturer Part Number</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">Source1 Part Number</field>
+        <field name="S1PL">Source1 Product Link</field>
+        <field name="S2PN">Source2 Part Number</field>
+        <field name="S2PL">Source2 Product Link</field>
+        <field name="Characteristics">#4 Machine screw size</field>
+        <field name="Description">Mounting hole, electrically isolated.</field>
+        <field name="Critical">Y / N</field>
+        <field name="Source">ANY / SPEC</field>
+        <field name="Notes">Explain critera for "ANY" Source</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="MOUNTING_HOLE_NPTH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587C5282</tstamp>
+    </comp>
+    <comp ref="MH4">
+      <value>#4 NPTH</value>
+      <footprint>ipc-7251TH-standard:MTGNP794H326Z794P</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-</field>
+        <field name="MFN">Manufacturer Name</field>
+        <field name="MFP">Manufacturer Part Number</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">Source1 Part Number</field>
+        <field name="S1PL">Source1 Product Link</field>
+        <field name="S2PN">Source2 Part Number</field>
+        <field name="S2PL">Source2 Product Link</field>
+        <field name="Characteristics">#4 Machine screw size</field>
+        <field name="Description">Mounting hole, electrically isolated.</field>
+        <field name="Critical">Y / N</field>
+        <field name="Source">ANY / SPEC</field>
+        <field name="Notes">Explain critera for "ANY" Source</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="MOUNTING_HOLE_NPTH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587C53B5</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1µF</value>
+      <footprint>ipc-7251TH-standard:CAPRR254W51L508T318H660P</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-CAP-X7R-THT-100NF-50V</field>
+        <field name="MFN">Kemet</field>
+        <field name="MFP">C320C104K5R5TA</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">C320C104K5R5TA</field>
+        <field name="S1PL">https://octopart.com/c320c104k5r5ta-kemet-39420400</field>
+        <field name="S2PN">80-C320C104K5R</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkeyC320C104K5R5TA</field>
+        <field name="Characteristics">Capacitor / Ceramic / 0.1µF / 48WVDC(min.)</field>
+        <field name="Description">IC Bypass.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">ANY X7R 0.1µF capacitor 0.1" pitch</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CAP_NP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587CD3BB</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1µF</value>
+      <footprint>ipc-7251TH-standard:CAPRR254W51L508T318H660P</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-CAP-X7R-THT-100NF-50V</field>
+        <field name="MFN">Kemet</field>
+        <field name="MFP">C320C104K5R5TA</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">C320C104K5R5TA</field>
+        <field name="S1PL">https://octopart.com/c320c104k5r5ta-kemet-39420400</field>
+        <field name="S2PN">80-C320C104K5R</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkeyC320C104K5R5TA</field>
+        <field name="Characteristics">Capacitor / Ceramic / 0.1µF / 48WVDC(min.)</field>
+        <field name="Description">IC Bypass.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">ANY X7R 0.1µF capacitor 0.1" pitch</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CAP_NP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587CD4E7</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1µF</value>
+      <footprint>ipc-7251TH-standard:CAPRR254W51L508T318H660P</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-CAP-X7R-THT-100NF-50V</field>
+        <field name="MFN">Kemet</field>
+        <field name="MFP">C320C104K5R5TA</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">C320C104K5R5TA</field>
+        <field name="S1PL">https://octopart.com/c320c104k5r5ta-kemet-39420400</field>
+        <field name="S2PN">80-C320C104K5R</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkeyC320C104K5R5TA</field>
+        <field name="Characteristics">Capacitor / Ceramic / 0.1µF / 48WVDC(min.)</field>
+        <field name="Description">IC Bypass.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">ANY X7R 0.1µF capacitor 0.1" pitch</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CAP_NP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587CD616</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1µF</value>
+      <footprint>ipc-7251TH-standard:CAPRR254W51L508T318H660P</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-CAP-X7R-THT-100NF-50V</field>
+        <field name="MFN">Kemet</field>
+        <field name="MFP">C320C104K5R5TA</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">C320C104K5R5TA</field>
+        <field name="S1PL">https://octopart.com/c320c104k5r5ta-kemet-39420400</field>
+        <field name="S2PN">80-C320C104K5R</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkeyC320C104K5R5TA</field>
+        <field name="Characteristics">Capacitor / Ceramic / 0.1µF / 48WVDC(min.)</field>
+        <field name="Description">IC Bypass.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">ANY X7R 0.1µF capacitor 0.1" pitch</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CAP_NP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587CD742</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.1µF</value>
+      <footprint>ipc-7251TH-standard:CAPRR254W51L508T318H660P</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-CAP-X7R-THT-100NF-50V</field>
+        <field name="MFN">Kemet</field>
+        <field name="MFP">C320C104K5R5TA</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">C320C104K5R5TA</field>
+        <field name="S1PL">https://octopart.com/c320c104k5r5ta-kemet-39420400</field>
+        <field name="S2PN">80-C320C104K5R</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkeyC320C104K5R5TA</field>
+        <field name="Characteristics">Capacitor / Ceramic / 0.1µF / 48WVDC(min.)</field>
+        <field name="Description">IC Bypass.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">ANY X7R 0.1µF capacitor 0.1" pitch</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CAP_NP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587CD873</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1µF</value>
+      <footprint>ipc-7251TH-standard:CAPRR254W51L508T318H660P</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-CAP-X7R-THT-100NF-50V</field>
+        <field name="MFN">Kemet</field>
+        <field name="MFP">C320C104K5R5TA</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">C320C104K5R5TA</field>
+        <field name="S1PL">https://octopart.com/c320c104k5r5ta-kemet-39420400</field>
+        <field name="S2PN">80-C320C104K5R</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkeyC320C104K5R5TA</field>
+        <field name="Characteristics">Capacitor / Ceramic / 0.1µF / 48WVDC(min.)</field>
+        <field name="Description">IC Bypass.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">ANY X7R 0.1µF capacitor 0.1" pitch</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CAP_NP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587CD9AD</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.1µF</value>
+      <footprint>ipc-7251TH-standard:CAPRR254W51L508T318H660P</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-CAP-X7R-THT-100NF-50V</field>
+        <field name="MFN">Kemet</field>
+        <field name="MFP">C320C104K5R5TA</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">C320C104K5R5TA</field>
+        <field name="S1PL">https://octopart.com/c320c104k5r5ta-kemet-39420400</field>
+        <field name="S2PN">80-C320C104K5R</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkeyC320C104K5R5TA</field>
+        <field name="Characteristics">Capacitor / Ceramic / 0.1µF / 48WVDC(min.)</field>
+        <field name="Description">IC Bypass.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">ANY X7R 0.1µF capacitor 0.1" pitch</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CAP_NP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587CDAEA</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>0.1µF</value>
+      <footprint>ipc-7251TH-standard:CAPRR254W51L508T318H660P</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-CAP-X7R-THT-100NF-50V</field>
+        <field name="MFN">Kemet</field>
+        <field name="MFP">C320C104K5R5TA</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">C320C104K5R5TA</field>
+        <field name="S1PL">https://octopart.com/c320c104k5r5ta-kemet-39420400</field>
+        <field name="S2PN">80-C320C104K5R</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkeyC320C104K5R5TA</field>
+        <field name="Characteristics">Capacitor / Ceramic / 0.1µF / 48WVDC(min.)</field>
+        <field name="Description">IC Bypass.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">ANY X7R 0.1µF capacitor 0.1" pitch</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CAP_NP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587CE364</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.1µF</value>
+      <footprint>ipc-7251TH-standard:CAPRR254W51L508T318H660P</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-CAP-X7R-THT-100NF-50V</field>
+        <field name="MFN">Kemet</field>
+        <field name="MFP">C320C104K5R5TA</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">C320C104K5R5TA</field>
+        <field name="S1PL">https://octopart.com/c320c104k5r5ta-kemet-39420400</field>
+        <field name="S2PN">80-C320C104K5R</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkeyC320C104K5R5TA</field>
+        <field name="Characteristics">Capacitor / Ceramic / 0.1µF / 48WVDC(min.)</field>
+        <field name="Description">IC Bypass.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">ANY X7R 0.1µF capacitor 0.1" pitch</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CAP_NP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587CE499</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>0.1µF</value>
+      <footprint>ipc-7251TH-standard:CAPRR254W51L508T318H660P</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-CAP-X7R-THT-100NF-50V</field>
+        <field name="MFN">Kemet</field>
+        <field name="MFP">C320C104K5R5TA</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">C320C104K5R5TA</field>
+        <field name="S1PL">https://octopart.com/c320c104k5r5ta-kemet-39420400</field>
+        <field name="S2PN">80-C320C104K5R</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkeyC320C104K5R5TA</field>
+        <field name="Characteristics">Capacitor / Ceramic / 0.1µF / 48WVDC(min.)</field>
+        <field name="Description">Power noise filter.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">ANY X7R 0.1µF capacitor 0.1" pitch</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CAP_NP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587D0AD6</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>0.1µF</value>
+      <footprint>ipc-7251TH-standard:CAPRR254W51L508T318H660P</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-CAP-X7R-THT-100NF-50V</field>
+        <field name="MFN">Kemet</field>
+        <field name="MFP">C320C104K5R5TA</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">C320C104K5R5TA</field>
+        <field name="S1PL">https://octopart.com/c320c104k5r5ta-kemet-39420400</field>
+        <field name="S2PN">80-C320C104K5R</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkeyC320C104K5R5TA</field>
+        <field name="Characteristics">Capacitor / Ceramic / 0.1µF / 48WVDC(min.)</field>
+        <field name="Description">Power noise filter.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">ANY X7R 0.1µF capacitor 0.1" pitch</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CAP_NP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587D2C9A</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>0.1µF</value>
+      <footprint>ipc-7251TH-standard:CAPRR254W51L508T318H660P</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-CAP-X7R-THT-100NF-50V</field>
+        <field name="MFN">Kemet</field>
+        <field name="MFP">C320C104K5R5TA</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">C320C104K5R5TA</field>
+        <field name="S1PL">https://octopart.com/c320c104k5r5ta-kemet-39420400</field>
+        <field name="S2PN">80-C320C104K5R</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkeyC320C104K5R5TA</field>
+        <field name="Characteristics">Capacitor / Ceramic / 0.1µF / 48WVDC(min.)</field>
+        <field name="Description">Power noise filter.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">ANY X7R 0.1µF capacitor 0.1" pitch</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CAP_NP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587D30C2</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>0.1µF</value>
+      <footprint>ipc-7251TH-standard:CAPRR254W51L508T318H660P</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-CAP-X7R-THT-100NF-50V</field>
+        <field name="MFN">Kemet</field>
+        <field name="MFP">C320C104K5R5TA</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">C320C104K5R5TA</field>
+        <field name="S1PL">https://octopart.com/c320c104k5r5ta-kemet-39420400</field>
+        <field name="S2PN">80-C320C104K5R</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkeyC320C104K5R5TA</field>
+        <field name="Characteristics">Capacitor / Ceramic / 0.1µF / 48WVDC(min.)</field>
+        <field name="Description">Power noise filter.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">ANY X7R 0.1µF capacitor 0.1" pitch</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CAP_NP"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587D3E4F</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>10µF</value>
+      <footprint>ipc-7251TH-standard:CAPPRD254W50D500H850</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-CAP-TANT-THT-10UF-50V</field>
+        <field name="MFN">AVX</field>
+        <field name="MFP">TAP106K050SCS</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">TAP106K050SCS</field>
+        <field name="S1PL">https://octopart.com/tap106k050scs-avx-9633</field>
+        <field name="S2PN">581-TAP106K050SCS</field>
+        <field name="S2PL">Source2 Product Link</field>
+        <field name="Characteristics">1µF / Tantalum / 10% / 50WVDC</field>
+        <field name="Description">Power noise filter.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">Roughly 10µF minimum 15WVDC</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CAP_P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587D9DD3</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>10µF</value>
+      <footprint>ipc-7251TH-standard:CAPPRD254W50D500H850</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-CAP-TANT-THT-10UF-50V</field>
+        <field name="MFN">AVX</field>
+        <field name="MFP">TAP106K050SCS</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">TAP106K050SCS</field>
+        <field name="S1PL">https://octopart.com/tap106k050scs-avx-9633</field>
+        <field name="S2PN">581-TAP106K050SCS</field>
+        <field name="S2PL">Source2 Product Link</field>
+        <field name="Characteristics">1µF / Tantalum / 10% / 50WVDC</field>
+        <field name="Description">Power noise filter.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">Roughly 10µF minimum 15WVDC</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CAP_P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587DA1B9</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>10µF</value>
+      <footprint>ipc-7251TH-standard:CAPPRD254W50D500H850</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-CAP-TANT-THT-10UF-50V</field>
+        <field name="MFN">AVX</field>
+        <field name="MFP">TAP106K050SCS</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">TAP106K050SCS</field>
+        <field name="S1PL">https://octopart.com/tap106k050scs-avx-9633</field>
+        <field name="S2PN">581-TAP106K050SCS</field>
+        <field name="S2PL">Source2 Product Link</field>
+        <field name="Characteristics">1µF / Tantalum / 10% / 50WVDC</field>
+        <field name="Description">Power noise filter.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">Roughly 10µF minimum 15WVDC</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="CAP_P"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587DB857</tstamp>
+    </comp>
+    <comp ref="XU8">
+      <value>IC_Socket08</value>
+      <footprint>ipc-7251TH-standard:DIPfS762W45P254L1016H508Q8</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-</field>
+        <field name="MFN">3M</field>
+        <field name="MFP">4808-3004-CP</field>
+        <field name="Package ID">PDIP8</field>
+        <field name="S1PN">4808-3004-CP</field>
+        <field name="S1PL">https://octopart.com/4808-3004-cp-3m-767259</field>
+        <field name="S2PN">517-4808-3004-CP</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey4808-3004-CP</field>
+        <field name="Characteristics">8pin, 0.1” pitch, 0.3” wide, DIP</field>
+        <field name="Description">IC Socket.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">Any 8pin 0.1"pitch 0.3"width socket.</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="IC_Socket08"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587DF4EE</tstamp>
+    </comp>
+    <comp ref="XU9">
+      <value>IC_Socket08</value>
+      <footprint>ipc-7251TH-standard:DIPfS762W45P254L1016H508Q8</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-</field>
+        <field name="MFN">3M</field>
+        <field name="MFP">4808-3004-CP</field>
+        <field name="Package ID">PDIP8</field>
+        <field name="S1PN">4808-3004-CP</field>
+        <field name="S1PL">https://octopart.com/4808-3004-cp-3m-767259</field>
+        <field name="S2PN">517-4808-3004-CP</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey4808-3004-CP</field>
+        <field name="Characteristics">8pin, 0.1” pitch, 0.3” wide, DIP</field>
+        <field name="Description">IC Socket.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">Any 8pin 0.1"pitch 0.3"width socket.</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="IC_Socket08"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587DF634</tstamp>
+    </comp>
+    <comp ref="XU10">
+      <value>IC_Socket08</value>
+      <footprint>ipc-7251TH-standard:DIPfS762W45P254L1016H508Q8</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-</field>
+        <field name="MFN">3M</field>
+        <field name="MFP">4808-3004-CP</field>
+        <field name="Package ID">PDIP8</field>
+        <field name="S1PN">4808-3004-CP</field>
+        <field name="S1PL">https://octopart.com/4808-3004-cp-3m-767259</field>
+        <field name="S2PN">517-4808-3004-CP</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey4808-3004-CP</field>
+        <field name="Characteristics">8pin, 0.1” pitch, 0.3” wide, DIP</field>
+        <field name="Description">IC Socket.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">Any 8pin 0.1"pitch 0.3"width socket.</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="IC_Socket08"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587DF76F</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>DS8921</value>
+      <footprint>ipc-7251TH-standard:DIPS762W45P254L1003H508Q8</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-IIC-DIFFERENTIAL-DRIVER-RECEIVER*</field>
+        <field name="MFN">Texas Instruments</field>
+        <field name="MFP">DS8921N/NOPB</field>
+        <field name="Package ID">PDIP8</field>
+        <field name="S1PN">DS8921N/NOPB</field>
+        <field name="S1PL">https://octopart.com/ds8921n%2Fnopb-texas+instruments-24812137</field>
+        <field name="S2PN">DS8921N/NOPB</field>
+        <field name="S2PL">https://store.ti.com/DS8921N/NOPB.aspx</field>
+        <field name="Characteristics">+5VDC logic / 8Pin Dip</field>
+        <field name="Description">Differential driver/receiver for communication over twisted pair.</field>
+        <field name="Critical">Y</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">Any DS8921 direct replacement, 5V TTL/CMOS compatible.</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="DS8921"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E15F2</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>DS8921</value>
+      <footprint>ipc-7251TH-standard:DIPS762W45P254L1003H508Q8</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-IIC-DIFFERENTIAL-DRIVER-RECEIVER*</field>
+        <field name="MFN">Texas Instruments</field>
+        <field name="MFP">DS8921N/NOPB</field>
+        <field name="Package ID">PDIP8</field>
+        <field name="S1PN">DS8921N/NOPB</field>
+        <field name="S1PL">https://octopart.com/ds8921n%2Fnopb-texas+instruments-24812137</field>
+        <field name="S2PN">DS8921N/NOPB</field>
+        <field name="S2PL">https://store.ti.com/DS8921N/NOPB.aspx</field>
+        <field name="Characteristics">+5VDC logic / 8Pin Dip</field>
+        <field name="Description">Differential driver/receiver for communication over twisted pair.</field>
+        <field name="Critical">Y</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">Any DS8921 direct replacement, 5V TTL/CMOS compatible.</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="DS8921"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587E3A21</tstamp>
+    </comp>
+    <comp ref="J12">
+      <value>KLDVHCX-0202-A</value>
+      <footprint>ipc-7251TH-connectors:KYCON_KLDVHCX-0202-x_CirHole</footprint>
+      <datasheet>http://www.kycon.com/Pub_Eng_Draw/KLDVHCX-0202-X.PDF</datasheet>
+      <fields>
+        <field name="CommonPartLibrary">CPL-CON-BARREL-2.1MM-VERT*</field>
+        <field name="MFN">Kycon</field>
+        <field name="MFP">KLDVHCX-0202-A</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">KLDVHCX-0202-A</field>
+        <field name="S1PL">https://octopart.com/kldvhcx-0202-a-kycon-21628247</field>
+        <field name="S2PN">806-KLDVHCX-0202-A</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkeyPJ-060A</field>
+        <field name="Characteristics">12V DC / 5A / Tolerance / Ect specs</field>
+        <field name="Description">LED&amp;Sensor board power input.</field>
+        <field name="Critical">Y</field>
+        <field name="Source">SPEC</field>
+        <field name="Notes">Connectors footprints are part specific.</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="JACK-PWR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587EF876</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100Ω</value>
+      <footprint>ipc-7251TH-standard:RESADV254W45L350D185</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-RES-THT-100-0.125W*</field>
+        <field name="MFN">Xicon</field>
+        <field name="MFP">299-100-RC</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">299-100-RC</field>
+        <field name="S1PL">https://octopart.com/ (Not available)</field>
+        <field name="S2PN">299-100-RC</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey299-100-RC</field>
+        <field name="Characteristics">100Ω Small body</field>
+        <field name="Description">Termination resistor for differential transmission line.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">Any tolerance THT 100Ω 1/8W or smaller resistor will do.</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="RES"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58817341</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100Ω</value>
+      <footprint>ipc-7251TH-standard:RESADV254W45L350D185</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-RES-THT-100-0.125W*</field>
+        <field name="MFN">Xicon</field>
+        <field name="MFP">299-100-RC</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">299-100-RC</field>
+        <field name="S1PL">https://octopart.com/ (Not available)</field>
+        <field name="S2PN">299-100-RC</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey299-100-RC</field>
+        <field name="Characteristics">100Ω Small body</field>
+        <field name="Description">Termination resistor for differential transmission line.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">Any tolerance THT 100Ω 1/8W or smaller resistor will do.</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="RES"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5881A808</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>100Ω</value>
+      <footprint>ipc-7251TH-standard:RESADV254W45L350D185</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-RES-THT-100-0.125W*</field>
+        <field name="MFN">Xicon</field>
+        <field name="MFP">299-100-RC</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">299-100-RC</field>
+        <field name="S1PL">https://octopart.com/ (Not available)</field>
+        <field name="S2PN">299-100-RC</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey299-100-RC</field>
+        <field name="Characteristics">100Ω Small body</field>
+        <field name="Description">Termination resistor for differential transmission line.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">Any tolerance THT 100Ω 1/8W or smaller resistor will do.</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="RES"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5881A93A</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>100Ω</value>
+      <footprint>ipc-7251TH-standard:RESADV254W45L350D185</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-RES-THT-100-0.125W*</field>
+        <field name="MFN">Xicon</field>
+        <field name="MFP">299-100-RC</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">299-100-RC</field>
+        <field name="S1PL">https://octopart.com/ (Not available)</field>
+        <field name="S2PN">299-100-RC</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey299-100-RC</field>
+        <field name="Characteristics">100Ω Small body</field>
+        <field name="Description">Termination resistor for differential transmission line.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">Any tolerance THT 100Ω 1/8W or smaller resistor will do.</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="RES"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5881CDF5</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>100Ω</value>
+      <footprint>ipc-7251TH-standard:RESADV254W45L350D185</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-RES-THT-100-0.125W*</field>
+        <field name="MFN">Xicon</field>
+        <field name="MFP">299-100-RC</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">299-100-RC</field>
+        <field name="S1PL">https://octopart.com/ (Not available)</field>
+        <field name="S2PN">299-100-RC</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey299-100-RC</field>
+        <field name="Characteristics">100Ω Small body</field>
+        <field name="Description">Termination resistor for differential transmission line.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">Any tolerance THT 100Ω 1/8W or smaller resistor will do.</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="RES"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58822A64</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>100Ω</value>
+      <footprint>ipc-7251TH-standard:RESADV254W45L350D185</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-RES-THT-100-0.125W*</field>
+        <field name="MFN">Xicon</field>
+        <field name="MFP">299-100-RC</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">299-100-RC</field>
+        <field name="S1PL">https://octopart.com/ (Not available)</field>
+        <field name="S2PN">299-100-RC</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey299-100-RC</field>
+        <field name="Characteristics">100Ω Small body</field>
+        <field name="Description">Termination resistor for differential transmission line.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">Any tolerance THT 100Ω 1/8W or smaller resistor will do.</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="RES"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58822BD3</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>100Ω</value>
+      <footprint>ipc-7251TH-standard:RESADV254W45L350D185</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-RES-THT-100-0.125W*</field>
+        <field name="MFN">Xicon</field>
+        <field name="MFP">299-100-RC</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">299-100-RC</field>
+        <field name="S1PL">https://octopart.com/ (Not available)</field>
+        <field name="S2PN">299-100-RC</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey299-100-RC</field>
+        <field name="Characteristics">100Ω Small body</field>
+        <field name="Description">Termination resistor for differential transmission line.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">Any tolerance THT 100Ω 1/8W or smaller resistor will do.</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="RES"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58822D1F</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>100Ω</value>
+      <footprint>ipc-7251TH-standard:RESADV254W45L350D185</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-RES-THT-100-0.125W*</field>
+        <field name="MFN">Xicon</field>
+        <field name="MFP">299-100-RC</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">299-100-RC</field>
+        <field name="S1PL">https://octopart.com/ (Not available)</field>
+        <field name="S2PN">299-100-RC</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey299-100-RC</field>
+        <field name="Characteristics">100Ω Small body</field>
+        <field name="Description">Termination resistor for differential transmission line.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">Any tolerance THT 100Ω 1/8W or smaller resistor will do.</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="RES"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58822E64</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>100Ω</value>
+      <footprint>ipc-7251TH-standard:RESADV254W45L350D185</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-RES-THT-100-0.125W*</field>
+        <field name="MFN">Xicon</field>
+        <field name="MFP">299-100-RC</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">299-100-RC</field>
+        <field name="S1PL">https://octopart.com/ (Not available)</field>
+        <field name="S2PN">299-100-RC</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey299-100-RC</field>
+        <field name="Characteristics">100Ω Small body</field>
+        <field name="Description">Termination resistor for differential transmission line.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">Any tolerance THT 100Ω 1/8W or smaller resistor will do.</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="RES"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>588230FE</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>100Ω</value>
+      <footprint>ipc-7251TH-standard:RESADV254W45L350D185</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-RES-THT-100-0.125W*</field>
+        <field name="MFN">Xicon</field>
+        <field name="MFP">299-100-RC</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">299-100-RC</field>
+        <field name="S1PL">https://octopart.com/ (Not available)</field>
+        <field name="S2PN">299-100-RC</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey299-100-RC</field>
+        <field name="Characteristics">100Ω Small body</field>
+        <field name="Description">Termination resistor for differential transmission line.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">Any tolerance THT 100Ω 1/8W or smaller resistor will do.</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="RES"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5882328B</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>100Ω</value>
+      <footprint>ipc-7251TH-standard:RESADV254W45L350D185</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-RES-THT-100-0.125W*</field>
+        <field name="MFN">Xicon</field>
+        <field name="MFP">299-100-RC</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">299-100-RC</field>
+        <field name="S1PL">https://octopart.com/ (Not available)</field>
+        <field name="S2PN">299-100-RC</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey299-100-RC</field>
+        <field name="Characteristics">100Ω Small body</field>
+        <field name="Description">Termination resistor for differential transmission line.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">Any tolerance THT 100Ω 1/8W or smaller resistor will do.</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="RES"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5882341B</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>100Ω</value>
+      <footprint>ipc-7251TH-standard:RESADV254W45L350D185</footprint>
+      <fields>
+        <field name="CommonPartLibrary">CPL-RES-THT-100-0.125W*</field>
+        <field name="MFN">Xicon</field>
+        <field name="MFP">299-100-RC</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="S1PN">299-100-RC</field>
+        <field name="S1PL">https://octopart.com/ (Not available)</field>
+        <field name="S2PN">299-100-RC</field>
+        <field name="S2PL">http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey299-100-RC</field>
+        <field name="Characteristics">100Ω Small body</field>
+        <field name="Description">Termination resistor for differential transmission line.</field>
+        <field name="Critical">N</field>
+        <field name="Source">ANY</field>
+        <field name="Notes">Any tolerance THT 100Ω 1/8W or smaller resistor will do.</field>
+      </fields>
+      <libsource lib="NewUnsorted" part="RES"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58823576</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="NewUnsorted" part="74HC595">
+      <aliases>
+        <alias>74LS595</alias>
+        <alias>74HCT595</alias>
+      </aliases>
+      <description>Shift Register 8 bits, serial in, parallel out,  tri-state</description>
+      <docs>74xx/74HC595.pdf</docs>
+      <footprints>
+        <fp>DIP*Q16?</fp>
+        <fp>SOIC*-16?</fp>
+        <fp>SOP*-16?</fp>
+        <fp>SSOP*-16?</fp>
+        <fp>TSOP*-16?</fp>
+        <fp>TSSOP*-16?</fp>
+        <fp>VSOP*-16?</fp>
+        <fp>SON*-16?</fp>
+        <fp>PSON*-16?</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74HC595</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Q1" type="3state"/>
+        <pin num="2" name="Q2" type="3state"/>
+        <pin num="3" name="Q3" type="3state"/>
+        <pin num="4" name="Q4" type="3state"/>
+        <pin num="5" name="Q5" type="3state"/>
+        <pin num="6" name="Q6" type="3state"/>
+        <pin num="7" name="Q7" type="3state"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="Q'7" type="output"/>
+        <pin num="10" name="~SCLR" type="input"/>
+        <pin num="11" name="SCK" type="input"/>
+        <pin num="12" name="LATCH" type="input"/>
+        <pin num="13" name="~OE" type="input"/>
+        <pin num="14" name="SER" type="input"/>
+        <pin num="15" name="Q0" type="3state"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="74LS165">
+      <aliases>
+        <alias>74HC165</alias>
+        <alias>74HCT165</alias>
+      </aliases>
+      <description>Shift Register 8 bits, serial/parallel in, serial out, complementary out</description>
+      <docs>TI/HC(T)165 - TI.pdf</docs>
+      <footprints>
+        <fp>DIP*Q18?</fp>
+        <fp>SOIC*-18?</fp>
+        <fp>SOP*-18?</fp>
+        <fp>SSOP*-18?</fp>
+        <fp>TSOP*-18?</fp>
+        <fp>TSSOP*-18?</fp>
+        <fp>VSOP*-18?</fp>
+        <fp>SON*-18?</fp>
+        <fp>PSON*-18?</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">74LS165</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~PL" type="input"/>
+        <pin num="2" name="CP" type="input"/>
+        <pin num="3" name="D4" type="input"/>
+        <pin num="4" name="D5" type="input"/>
+        <pin num="5" name="D6" type="input"/>
+        <pin num="6" name="D7" type="input"/>
+        <pin num="7" name="~Q7" type="output"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="Q7" type="output"/>
+        <pin num="10" name="Ds" type="input"/>
+        <pin num="11" name="D0" type="input"/>
+        <pin num="12" name="D1" type="input"/>
+        <pin num="13" name="D2" type="input"/>
+        <pin num="14" name="D3" type="input"/>
+        <pin num="15" name="~CE" type="input"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="75C1168">
+      <description>Dual Differential Driver and Receiver TIA/EIA-422-B</description>
+      <docs>TI/sn65c1168.pdf</docs>
+      <footprints>
+        <fp>DIP*Q16?</fp>
+        <fp>SOIC*-16?</fp>
+        <fp>SOP*-16?</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">75C1168</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1B" type="input"/>
+        <pin num="2" name="1A" type="input"/>
+        <pin num="3" name="1R" type="output"/>
+        <pin num="4" name="1DE" type="input"/>
+        <pin num="5" name="2R" type="output"/>
+        <pin num="6" name="2A" type="input"/>
+        <pin num="7" name="2B" type="input"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="2D" type="input"/>
+        <pin num="10" name="2Y" type="3state"/>
+        <pin num="11" name="2Z" type="3state"/>
+        <pin num="12" name="2DE" type="input"/>
+        <pin num="13" name="1Z" type="3state"/>
+        <pin num="14" name="1Y" type="3state"/>
+        <pin num="15" name="1D" type="input"/>
+        <pin num="16" name="Vcc" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="CAP_NP">
+      <description>Capacitor, non polarized</description>
+      <footprints>
+        <fp>CAP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP_NP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="CAP_P">
+      <description>Capacitor, non polarized</description>
+      <footprints>
+        <fp>CAPCP*</fp>
+        <fp>CAPMP*</fp>
+        <fp>CAPAE*</fp>
+        <fp>CAP_*</fp>
+        <fp>CAPPA*</fp>
+        <fp>CAPPR*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP_P</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="DS8921">
+      <description>Single Differential Driver and Receiver TIA/EIA-422</description>
+      <docs>TI/ds8921.pdf</docs>
+      <footprints>
+        <fp>DIP*Q8?</fp>
+        <fp>SOIC*-8?</fp>
+        <fp>SOP*-8?</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DS8921</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vcc" type="power_in"/>
+        <pin num="2" name="RO" type="output"/>
+        <pin num="3" name="DI" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="DO-" type="output"/>
+        <pin num="6" name="DO+" type="output"/>
+        <pin num="7" name="RI-" type="input"/>
+        <pin num="8" name="RI+" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="IC_Socket08">
+      <description>IC Socket, 8 Pin</description>
+      <fields>
+        <field name="Reference">XU</field>
+        <field name="Value">IC_Socket08</field>
+      </fields>
+    </libpart>
+    <libpart lib="NewUnsorted" part="IC_Socket16">
+      <description>IC Socket, 16 Pin</description>
+      <fields>
+        <field name="Reference">XU</field>
+        <field name="Value">IC_Socket16</field>
+      </fields>
+    </libpart>
+    <libpart lib="NewUnsorted" part="JACK-PWR">
+      <description>Power jack w/ insert detect</description>
+      <footprints>
+        <fp>3M_*</fp>
+        <fp>AGILENT_*</fp>
+        <fp>AIRBORNE_*</fp>
+        <fp>AMPHENOL_*</fp>
+        <fp>AVX_*</fp>
+        <fp>BERG_*</fp>
+        <fp>BLOCKMASTER_*</fp>
+        <fp>CUI-STACK_*</fp>
+        <fp>JOHNSON_*</fp>
+        <fp>FCI_*</fp>
+        <fp>FUJITSU_*</fp>
+        <fp>HIROSE_*</fp>
+        <fp>ITT_*</fp>
+        <fp>JALCO_*</fp>
+        <fp>JWT_*</fp>
+        <fp>JST_*</fp>
+        <fp>KEYSTONE_*</fp>
+        <fp>KYCON_*</fp>
+        <fp>LEMO_*</fp>
+        <fp>MILL-MAX_*</fp>
+        <fp>MOLEX_*</fp>
+        <fp>NEUTRIK_*</fp>
+        <fp>PHOENIX_*</fp>
+        <fp>PULSE_*</fp>
+        <fp>RIA_*</fp>
+        <fp>SAMTEC_*</fp>
+        <fp>SIEMENS_*</fp>
+        <fp>SPEEDTECH_*</fp>
+        <fp>STEWART_*</fp>
+        <fp>SULLINS_*</fp>
+        <fp>SWITCHCRAFT_*</fp>
+        <fp>TYCO_*</fp>
+        <fp>YAMAICHI_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">JACK-PWR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Tip" type="passive"/>
+        <pin num="2" name="Sleeve" type="passive"/>
+        <pin num="3" name="Sense" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="MOUNTING_HOLE_NPTH">
+      <description>Non-plated mounting hole for electrical isolation mounting</description>
+      <footprints>
+        <fp>MTGNP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">MH</field>
+        <field name="Value">MOUNTING_HOLE_NPTH</field>
+      </fields>
+      <pins>
+        <pin num="0" name="~" type="NotConnected"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="MOUNTING_HOLE_PTH">
+      <description>Plated mounting hole for chassis ground</description>
+      <footprints>
+        <fp>MTGP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">MH</field>
+        <field name="Value">MOUNTING_HOLE_PTH</field>
+      </fields>
+      <pins>
+        <pin num="0" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="Q_NMOS_SGD">
+      <description>Transistor N-MOSFET (general)</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NMOS_SGD</field>
+        <field name="Description">Analogous to programming comments.</field>
+        <field name="Source">ANY / SPEC</field>
+        <field name="CommonPartLibrary">CPL-</field>
+        <field name="Notes">Explain critera for "ANY" Source</field>
+        <field name="Package ID">JEDEC footprint name</field>
+        <field name="MFN">Manufacturer Name</field>
+        <field name="MFP">Manufacturer Part Number</field>
+        <field name="S1PN">Source1 Part Number</field>
+        <field name="S1PL">Source1 Product Link</field>
+        <field name="S2PN">Source2 Part Number</field>
+        <field name="S2PL">Source2 Product Link</field>
+        <field name="Characteristics">Voltage / Current / Tolerance / Ect specs</field>
+        <field name="Critical">Y / N</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="RES">
+      <description>Resistor</description>
+      <footprints>
+        <fp>RES*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RES</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="RJ45-Unshielded">
+      <description>RJ-45 8P8C Unshielded Jack</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">RJ45-Unshielded</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="uA9637AC">
+      <description>Dual Differential Receiver TIA/EIA-422</description>
+      <docs>TI/ua9637a.pdf</docs>
+      <footprints>
+        <fp>DIP*Q8?</fp>
+        <fp>SOIC*-8?</fp>
+        <fp>SOP*-8?</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">uA9637AC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vcc" type="power_in"/>
+        <pin num="2" name="1O" type="output"/>
+        <pin num="3" name="2O" type="output"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="2I-" type="output"/>
+        <pin num="6" name="2I+" type="input"/>
+        <pin num="7" name="1I-" type="input"/>
+        <pin num="8" name="1I+" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="NewUnsorted" part="uA9638C">
+      <description>Dual Differential Driver TIA/EIA-422</description>
+      <docs>TI/ua9638.pdf</docs>
+      <footprints>
+        <fp>DIP*Q8?</fp>
+        <fp>SOIC*-8?</fp>
+        <fp>SOP*-8?</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">uA9638C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vcc" type="power_in"/>
+        <pin num="2" name="1A" type="input"/>
+        <pin num="3" name="2A" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="2Z" type="output"/>
+        <pin num="6" name="2Y" type="output"/>
+        <pin num="7" name="1Z" type="output"/>
+        <pin num="8" name="1Y" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="NewUnsorted">
+      <uri>D:\Libraries\PublicDevelopment\KiCAD_share\MyLibrary\NewUnsorted.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/~IR_Osc+">
+      <node ref="J3" pin="1"/>
+      <node ref="J10" pin="4"/>
+      <node ref="J8" pin="1"/>
+      <node ref="J4" pin="1"/>
+      <node ref="J2" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="J7" pin="1"/>
+      <node ref="J6" pin="1"/>
+      <node ref="J13" pin="4"/>
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="2" name="/Out3">
+      <node ref="U4" pin="15"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="3" name="/In3">
+      <node ref="U4" pin="3"/>
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="4" name="/In4">
+      <node ref="U2" pin="14"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="5" name="/Out4">
+      <node ref="U1" pin="3"/>
+      <node ref="U4" pin="9"/>
+    </net>
+    <net code="6" name="/Out5">
+      <node ref="U5" pin="15"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="7" name="/In5">
+      <node ref="U2" pin="3"/>
+      <node ref="U5" pin="3"/>
+    </net>
+    <net code="8" name="/In6">
+      <node ref="U2" pin="4"/>
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="9" name="/Out6">
+      <node ref="U1" pin="5"/>
+      <node ref="U5" pin="9"/>
+    </net>
+    <net code="10" name="/Out1">
+      <node ref="U1" pin="15"/>
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="11" name="/In1">
+      <node ref="U3" pin="3"/>
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="12" name="/In2">
+      <node ref="U2" pin="12"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="13" name="/Out2">
+      <node ref="U1" pin="1"/>
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="14" name="/~IR_Osc-">
+      <node ref="J1" pin="2"/>
+      <node ref="J13" pin="5"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J4" pin="2"/>
+      <node ref="J8" pin="2"/>
+      <node ref="J10" pin="5"/>
+      <node ref="J6" pin="2"/>
+      <node ref="J5" pin="2"/>
+      <node ref="J7" pin="2"/>
+    </net>
+    <net code="15" name="/MOSI">
+      <node ref="U1" pin="14"/>
+      <node ref="U8" pin="2"/>
+    </net>
+    <net code="16" name="/MISO">
+      <node ref="U8" pin="3"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="17" name="/SCK">
+      <node ref="U7" pin="3"/>
+      <node ref="U1" pin="11"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U9" pin="3"/>
+    </net>
+    <net code="18" name="/~SS">
+      <node ref="U9" pin="2"/>
+      <node ref="U7" pin="2"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="U1" pin="12"/>
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="19" name="/MOSI'">
+      <node ref="U1" pin="9"/>
+      <node ref="U10" pin="3"/>
+    </net>
+    <net code="20" name="/MISO'">
+      <node ref="U2" pin="10"/>
+      <node ref="U10" pin="2"/>
+    </net>
+    <net code="21" name="+5V(2)">
+      <node ref="J5" pin="7"/>
+      <node ref="J6" pin="7"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="J3" pin="7"/>
+      <node ref="C16" pin="1"/>
+      <node ref="J7" pin="7"/>
+      <node ref="J2" pin="7"/>
+      <node ref="C11" pin="1"/>
+      <node ref="J8" pin="7"/>
+      <node ref="J9" pin="1"/>
+      <node ref="J1" pin="7"/>
+      <node ref="J4" pin="7"/>
+      <node ref="J12" pin="1"/>
+    </net>
+    <net code="22" name="/In7">
+      <node ref="U6" pin="3"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="23" name="/Out7">
+      <node ref="U1" pin="6"/>
+      <node ref="U6" pin="15"/>
+    </net>
+    <net code="24" name="/In8">
+      <node ref="U2" pin="6"/>
+      <node ref="U6" pin="5"/>
+    </net>
+    <net code="25" name="/Out8">
+      <node ref="U6" pin="9"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="26" name="GND">
+      <node ref="J10" pin="6"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="U2" pin="8"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J8" pin="8"/>
+      <node ref="J1" pin="8"/>
+      <node ref="J9" pin="3"/>
+      <node ref="J9" pin="2"/>
+      <node ref="U5" pin="8"/>
+      <node ref="U6" pin="8"/>
+      <node ref="J7" pin="8"/>
+      <node ref="U1" pin="13"/>
+      <node ref="J10" pin="8"/>
+      <node ref="J2" pin="8"/>
+      <node ref="J12" pin="3"/>
+      <node ref="J12" pin="2"/>
+      <node ref="U9" pin="4"/>
+      <node ref="U7" pin="4"/>
+      <node ref="U10" pin="4"/>
+      <node ref="J3" pin="8"/>
+      <node ref="U8" pin="4"/>
+      <node ref="C3" pin="2"/>
+      <node ref="J10" pin="7"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="MH1" pin="0"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U3" pin="8"/>
+      <node ref="J13" pin="8"/>
+      <node ref="J13" pin="7"/>
+      <node ref="J13" pin="6"/>
+      <node ref="C16" pin="2"/>
+      <node ref="J6" pin="8"/>
+      <node ref="C8" pin="2"/>
+      <node ref="J5" pin="8"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U4" pin="8"/>
+      <node ref="J4" pin="8"/>
+    </net>
+    <net code="27" name="/In4-">
+      <node ref="J4" pin="6"/>
+      <node ref="R9" pin="2"/>
+      <node ref="U4" pin="7"/>
+    </net>
+    <net code="28" name="/In5+">
+      <node ref="U5" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="J5" pin="3"/>
+    </net>
+    <net code="29" name="/Out6-">
+      <node ref="J6" pin="5"/>
+      <node ref="U5" pin="11"/>
+    </net>
+    <net code="30" name="/In6-">
+      <node ref="R11" pin="2"/>
+      <node ref="J6" pin="6"/>
+      <node ref="U5" pin="7"/>
+    </net>
+    <net code="31" name="/Out6+">
+      <node ref="U5" pin="10"/>
+      <node ref="J6" pin="4"/>
+    </net>
+    <net code="32" name="/In6+">
+      <node ref="U5" pin="6"/>
+      <node ref="J6" pin="3"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="33" name="/Out7-">
+      <node ref="U6" pin="13"/>
+      <node ref="J7" pin="5"/>
+    </net>
+    <net code="34" name="/In7-">
+      <node ref="R12" pin="1"/>
+      <node ref="J7" pin="6"/>
+      <node ref="U6" pin="1"/>
+    </net>
+    <net code="35" name="/Out7+">
+      <node ref="U6" pin="14"/>
+      <node ref="J7" pin="4"/>
+    </net>
+    <net code="36" name="/In7+">
+      <node ref="J7" pin="3"/>
+      <node ref="U6" pin="2"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="37" name="/Out8-">
+      <node ref="U6" pin="11"/>
+      <node ref="J8" pin="5"/>
+    </net>
+    <net code="38" name="/In8-">
+      <node ref="J8" pin="6"/>
+      <node ref="U6" pin="7"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="39" name="/Out8+">
+      <node ref="J8" pin="4"/>
+      <node ref="U6" pin="10"/>
+    </net>
+    <net code="40" name="/In8+">
+      <node ref="R13" pin="1"/>
+      <node ref="U6" pin="6"/>
+      <node ref="J8" pin="3"/>
+    </net>
+    <net code="41" name="/Out4-">
+      <node ref="J4" pin="5"/>
+      <node ref="U4" pin="11"/>
+    </net>
+    <net code="42" name="/Out5+">
+      <node ref="J5" pin="4"/>
+      <node ref="U5" pin="14"/>
+    </net>
+    <net code="43" name="/Out4+">
+      <node ref="J4" pin="4"/>
+      <node ref="U4" pin="10"/>
+    </net>
+    <net code="44" name="/In4+">
+      <node ref="R9" pin="1"/>
+      <node ref="U4" pin="6"/>
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="45" name="/Out3-">
+      <node ref="J3" pin="5"/>
+      <node ref="U4" pin="13"/>
+    </net>
+    <net code="46" name="/In3-">
+      <node ref="J3" pin="6"/>
+      <node ref="R8" pin="1"/>
+      <node ref="U4" pin="1"/>
+    </net>
+    <net code="47" name="/Out3+">
+      <node ref="U4" pin="14"/>
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="48" name="/In3+">
+      <node ref="R8" pin="2"/>
+      <node ref="J3" pin="3"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="49" name="/Out2-">
+      <node ref="U3" pin="11"/>
+      <node ref="J2" pin="5"/>
+    </net>
+    <net code="50" name="/In2-">
+      <node ref="U3" pin="7"/>
+      <node ref="J2" pin="6"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="51" name="/Out2+">
+      <node ref="J2" pin="4"/>
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="52" name="/In2+">
+      <node ref="U3" pin="6"/>
+      <node ref="R7" pin="1"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="53" name="/Out1-">
+      <node ref="J1" pin="5"/>
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="54" name="/In1-">
+      <node ref="R6" pin="1"/>
+      <node ref="J1" pin="6"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="55" name="/Out1+">
+      <node ref="U3" pin="14"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="56" name="/In1+">
+      <node ref="R6" pin="2"/>
+      <node ref="J1" pin="3"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="57" name="Net-(U2-Pad7)">
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="58" name="/~SS+">
+      <node ref="J11" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U7" pin="8"/>
+    </net>
+    <net code="59" name="/MOSI+">
+      <node ref="U8" pin="8"/>
+      <node ref="J11" pin="4"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="60" name="/MISO+">
+      <node ref="U8" pin="6"/>
+      <node ref="J11" pin="3"/>
+    </net>
+    <net code="61" name="/SCK+">
+      <node ref="R4" pin="1"/>
+      <node ref="J11" pin="7"/>
+      <node ref="U7" pin="6"/>
+    </net>
+    <net code="62" name="/MOSI-">
+      <node ref="R3" pin="2"/>
+      <node ref="U8" pin="7"/>
+      <node ref="J11" pin="5"/>
+    </net>
+    <net code="63" name="/MISO-">
+      <node ref="U8" pin="5"/>
+      <node ref="J11" pin="6"/>
+    </net>
+    <net code="64" name="/SCK-">
+      <node ref="J11" pin="8"/>
+      <node ref="R4" pin="2"/>
+      <node ref="U7" pin="5"/>
+    </net>
+    <net code="65" name="/~SS-">
+      <node ref="J11" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U7" pin="7"/>
+    </net>
+    <net code="66" name="/~SS'+">
+      <node ref="U9" pin="8"/>
+      <node ref="J14" pin="1"/>
+    </net>
+    <net code="67" name="/MOSI'+">
+      <node ref="J14" pin="4"/>
+      <node ref="U10" pin="6"/>
+    </net>
+    <net code="68" name="/MISO'+">
+      <node ref="J14" pin="3"/>
+      <node ref="R5" pin="1"/>
+      <node ref="U10" pin="8"/>
+    </net>
+    <net code="69" name="/SCK'+">
+      <node ref="U9" pin="6"/>
+      <node ref="J14" pin="7"/>
+    </net>
+    <net code="70" name="/MOSI'-">
+      <node ref="J14" pin="5"/>
+      <node ref="U10" pin="5"/>
+    </net>
+    <net code="71" name="/MISO'-">
+      <node ref="R5" pin="2"/>
+      <node ref="U10" pin="7"/>
+      <node ref="J14" pin="6"/>
+    </net>
+    <net code="72" name="/SCK'-">
+      <node ref="J14" pin="8"/>
+      <node ref="U9" pin="5"/>
+    </net>
+    <net code="73" name="/~SS'-">
+      <node ref="U9" pin="7"/>
+      <node ref="J14" pin="2"/>
+    </net>
+    <net code="74" name="/Out5-">
+      <node ref="J5" pin="5"/>
+      <node ref="U5" pin="13"/>
+    </net>
+    <net code="75" name="/In5-">
+      <node ref="R10" pin="1"/>
+      <node ref="J5" pin="6"/>
+      <node ref="U5" pin="1"/>
+    </net>
+    <net code="76" name="Net-(MH4-Pad0)">
+      <node ref="MH4" pin="0"/>
+    </net>
+    <net code="77" name="Net-(MH3-Pad0)">
+      <node ref="MH3" pin="0"/>
+    </net>
+    <net code="78" name="/SS">
+      <node ref="U2" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="79" name="Net-(MH2-Pad0)">
+      <node ref="MH2" pin="0"/>
+    </net>
+    <net code="80" name="+5V(1)">
+      <node ref="J10" pin="3"/>
+      <node ref="U8" pin="1"/>
+      <node ref="J10" pin="1"/>
+      <node ref="J10" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U7" pin="1"/>
+      <node ref="J13" pin="1"/>
+      <node ref="J13" pin="2"/>
+      <node ref="J13" pin="3"/>
+      <node ref="U5" pin="16"/>
+      <node ref="U6" pin="16"/>
+      <node ref="U1" pin="10"/>
+      <node ref="U1" pin="16"/>
+      <node ref="U2" pin="16"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U6" pin="12"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="U4" pin="4"/>
+      <node ref="U3" pin="16"/>
+      <node ref="U3" pin="12"/>
+      <node ref="U6" pin="4"/>
+      <node ref="U5" pin="12"/>
+      <node ref="U5" pin="4"/>
+      <node ref="U4" pin="12"/>
+      <node ref="U4" pin="16"/>
+      <node ref="U10" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="U9" pin="1"/>
+      <node ref="U3" pin="4"/>
+    </net>
+  </nets>
+</export>
