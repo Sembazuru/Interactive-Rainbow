@@ -39,7 +39,7 @@ const uint8_t sequenceList[][2] =
   {0, 50},
   {1, 0}
 };
-const uint8_t blocksQty = 8; // Enter any number 1 to 256 for the number of LED blocks (defined as a sensor with 1 or more LEDs) and the rest of the code should adapt.
+const uint8_t blocksQty = 16; // Enter any number 1 to 256 for the number of LED blocks (defined as a sensor with 1 or more LEDs) and the rest of the code should adapt.
 
 // Don't change these unless changing the sketch.
 const uint8_t sequenceQty = sizeof(sequenceList) / (sizeof(sequenceList[0][0] * 2)); // Dynamically calculate the quantity of transitions of the LED reset sequence.
