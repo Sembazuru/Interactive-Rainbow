@@ -1,53 +1,21 @@
-EESchema Schematic File Version 2
-LIBS:Arduino
-LIBS:logos
-LIBS:NewUnsorted
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 4
 LIBS:I&O_Epander-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr B 17000 11000
 encoding utf-8
 Sheet 1 1
 Title "Interactive Rainbow"
-Date "2017-01-19"
-Rev "2.0.2"
+Date "2018-06-02"
+Rev "2.0.3"
 Comp "Sembazuru Circuits (for Barrel of Makers)"
 Comment1 "2.0.0 Split schematic up for 4 individual PWB designs"
 Comment2 "2.0.1 Implement differential signalling for inter-board communication."
 Comment3 "2.0.2 Add termination resistors for differential inputs."
-Comment4 ""
+Comment4 "2.0.3 Update to KiCad v5 formatting"
 $EndDescr
 $Comp
-L CAP_NP C1
+L NewUnsorted:CAP_NP C1
 U 1 1 55EC97D4
 P 1200 9250
 F 0 "C1" H 1250 9300 60  0000 L CNN
@@ -71,7 +39,7 @@ F 16 "ANY X7R 0.1µF capacitor 0.1\" pitch" H 1200 9250 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC595 U1
+L NewUnsorted:74HC595 U1
 U 1 1 562AF12C
 P 2700 1200
 F 0 "U1" H 2300 1800 60  0000 L CNN
@@ -95,7 +63,7 @@ F 16 "Any 74xx595 or direct replacement, 5V TTL/CMOS compatible." H 2700 1200 60
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC165 U2
+L NewUnsorted:74HC165 U2
 U 1 1 562AF2BC
 P 2700 2850
 F 0 "U2" H 3100 3600 60  0000 R CNN
@@ -119,51 +87,7 @@ F 16 "Any 74xx165 or direct replacement, 5V TTL/CMOS compatible." H 2700 2850 60
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
-U 1 1 562B15C8
-P 850 9900
-F 0 "#PWR01" H 850 9900 30  0001 C CNN
-F 1 "GND" H 850 9800 40  0000 C BNN
-F 2 "" H 850 9900 60  0000 C CNN
-F 3 "" H 850 9900 60  0000 C CNN
-	1    850  9900
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR02
-U 1 1 562B16CA
-P 1950 9900
-F 0 "#PWR02" H 1950 9900 30  0001 C CNN
-F 1 "GND" H 1950 9800 40  0000 C BNN
-F 2 "" H 1950 9900 60  0000 C CNN
-F 3 "" H 1950 9900 60  0000 C CNN
-	1    1950 9900
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR03
-U 1 1 562B4C47
-P 4150 3700
-F 0 "#PWR03" H 4150 3700 30  0001 C CNN
-F 1 "GND" H 4150 3600 40  0000 C BNN
-F 2 "" H 4150 3700 60  0000 C CNN
-F 3 "" H 4150 3700 60  0000 C CNN
-	1    4150 3700
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR04
-U 1 1 562B4CB2
-P 2000 1650
-F 0 "#PWR04" H 2000 1650 30  0001 C CNN
-F 1 "GND" H 2000 1550 40  0000 C BNN
-F 2 "" H 2000 1650 60  0000 C CNN
-F 3 "" H 2000 1650 60  0000 C CNN
-	1    2000 1650
-	1    0    0    -1  
-$EndComp
-$Comp
-L RES R1
+L NewUnsorted:RES R1
 U 1 1 562B6348
 P 4150 3000
 F 0 "R1" V 4000 3100 60  0000 L CNN
@@ -188,7 +112,7 @@ F 16 "Any tolerance THT 1kΩ 1/4W or 1/8W resistor will do." H 4150 3000 60  000
 $EndComp
 NoConn ~ 2050 2450
 $Comp
-L Q_NMOS_SGD Q1
+L NewUnsorted:Q_NMOS_SGD Q1
 U 1 1 56B99E7B
 P 4050 3450
 F 0 "Q1" H 4250 3500 60  0000 L CNN
@@ -238,7 +162,7 @@ SCK
 Text Label 3750 3650 2    60   ~ 0
 ~SS
 $Comp
-L RJ45-Unshielded J1
+L NewUnsorted:RJ45-Unshielded J1
 U 1 1 5739762F
 P 7250 1100
 F 0 "J1" H 6850 1450 60  0000 L CNN
@@ -298,18 +222,7 @@ Out5-
 Text Label 7400 5000 1    60   ~ 0
 In5-
 $Comp
-L GND #PWR05
-U 1 1 573A249E
-P 12750 1850
-F 0 "#PWR05" H 12750 1850 30  0001 C CNN
-F 1 "GND" H 12750 1750 40  0000 C BNN
-F 2 "" H 12750 1850 60  0000 C CNN
-F 3 "" H 12750 1850 60  0000 C CNN
-	1    12750 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L PWR_FLAG #FLG06
+L NewUnsorted:PWR_FLAG #FLG06
 U 1 1 573A4883
 P 1500 5350
 F 0 "#FLG06" H 1500 5375 40  0001 C CNN
@@ -350,40 +263,18 @@ SCK'-
 Text Label 15200 6500 0    60   ~ 0
 ~SS'-
 $Comp
-L GND #PWR07
-U 1 1 57E32F50
-P 2550 5800
-F 0 "#PWR07" H 2550 5800 30  0001 C CNN
-F 1 "GND" H 2550 5700 40  0000 C BNN
-F 2 "" H 2550 5800 60  0000 C CNN
-F 3 "" H 2550 5800 60  0000 C CNN
-	1    2550 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR08
-U 1 1 57E32FAD
-P 14350 5600
-F 0 "#PWR08" H 14350 5600 30  0001 C CNN
-F 1 "GND" H 14350 5500 40  0000 C BNN
-F 2 "" H 14350 5600 60  0000 C CNN
-F 3 "" H 14350 5600 60  0000 C CNN
-	1    14350 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V(1) #PWR09
+L NewUnsorted:+5V(1) #PWR09
 U 1 1 57E335E6
-P 2550 5300
-F 0 "#PWR09" H 2550 5250 40  0001 C CNN
-F 1 "+5V(1)" H 2550 5400 40  0000 C BNN
-F 2 "" H 2550 5300 60  0000 C CNN
-F 3 "" H 2550 5300 60  0000 C CNN
-	1    2550 5300
+P 2550 5350
+F 0 "#PWR09" H 2550 5300 40  0001 C CNN
+F 1 "+5V(1)" H 2550 5450 40  0000 C BNN
+F 2 "" H 2550 5350 60  0000 C CNN
+F 3 "" H 2550 5350 60  0000 C CNN
+	1    2550 5350
 	1    0    0    -1  
 $EndComp
 $Comp
-L JACK-PWR J9
+L NewUnsorted:JACK-PWR J9
 U 1 1 57E3374E
 P 1150 4700
 F 0 "J9" H 850 5000 60  0000 L CNN
@@ -407,29 +298,7 @@ F 16 "Connectors footprints are part specific." H 1150 4700 60  0001 C CNN "Note
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR010
-U 1 1 57E33848
-P 14700 4700
-F 0 "#PWR010" H 14700 4700 30  0001 C CNN
-F 1 "GND" H 14700 4600 40  0000 C BNN
-F 2 "" H 14700 4700 60  0000 C CNN
-F 3 "" H 14700 4700 60  0000 C CNN
-	1    14700 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR011
-U 1 1 57E33895
-P 2150 4900
-F 0 "#PWR011" H 2150 4900 30  0001 C CNN
-F 1 "GND" H 2150 4800 40  0000 C BNN
-F 2 "" H 2150 4900 60  0000 C CNN
-F 3 "" H 2150 4900 60  0000 C CNN
-	1    2150 4900
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V(2) #PWR012
+L NewUnsorted:+5V(2) #PWR012
 U 1 1 57E338CE
 P 2150 4500
 F 0 "#PWR012" H 2150 4450 40  0001 C CNN
@@ -440,7 +309,7 @@ F 3 "" H 2150 4500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG013
+L NewUnsorted:PWR_FLAG #FLG013
 U 1 1 57E33A14
 P 1450 4500
 F 0 "#FLG013" H 1450 4525 40  0001 C CNN
@@ -451,18 +320,18 @@ F 3 "" H 1450 4570 40  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V(1) #PWR014
+L NewUnsorted:+5V(1) #PWR014
 U 1 1 57E3420C
-P 14350 5100
-F 0 "#PWR014" H 14350 5050 40  0001 C CNN
-F 1 "+5V(1)" H 14350 5200 40  0000 C BNN
-F 2 "" H 14350 5100 60  0000 C CNN
-F 3 "" H 14350 5100 60  0000 C CNN
-	1    14350 5100
+P 14350 5150
+F 0 "#PWR014" H 14350 5100 40  0001 C CNN
+F 1 "+5V(1)" H 14350 5250 40  0000 C BNN
+F 2 "" H 14350 5150 60  0000 C CNN
+F 3 "" H 14350 5150 60  0000 C CNN
+	1    14350 5150
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V(2) #PWR015
+L NewUnsorted:+5V(2) #PWR015
 U 1 1 57E3440B
 P 14700 4300
 F 0 "#PWR015" H 14700 4250 40  0001 C CNN
@@ -473,18 +342,18 @@ F 3 "" H 14700 4300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V(2) #PWR016
+L NewUnsorted:+5V(2) #PWR016
 U 1 1 57E34751
-P 12750 1550
-F 0 "#PWR016" H 12750 1500 40  0001 C CNN
-F 1 "+5V(2)" H 12750 1650 40  0000 C BNN
-F 2 "" H 12750 1550 60  0000 C CNN
-F 3 "" H 12750 1550 60  0000 C CNN
-	1    12750 1550
+P 12750 1600
+F 0 "#PWR016" H 12750 1550 40  0001 C CNN
+F 1 "+5V(2)" H 12750 1700 40  0000 C BNN
+F 2 "" H 12750 1600 60  0000 C CNN
+F 3 "" H 12750 1600 60  0000 C CNN
+	1    12750 1600
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V(1) #PWR017
+L NewUnsorted:+5V(1) #PWR017
 U 1 1 57E348BD
 P 4150 2700
 F 0 "#PWR017" H 4150 2650 40  0001 C CNN
@@ -495,7 +364,7 @@ F 3 "" H 4150 2700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V(1) #PWR018
+L NewUnsorted:+5V(1) #PWR018
 U 1 1 57E34938
 P 1950 8650
 F 0 "#PWR018" H 1950 8600 40  0001 C CNN
@@ -506,7 +375,7 @@ F 3 "" H 1950 8650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V(1) #PWR019
+L NewUnsorted:+5V(1) #PWR019
 U 1 1 57E34A61
 P 850 8650
 F 0 "#PWR019" H 850 8600 40  0001 C CNN
@@ -609,7 +478,7 @@ Out1+
 Text Label 7100 2150 1    60   ~ 0
 In1+
 $Comp
-L 75C1168 U3
+L NewUnsorted:75C1168 U3
 U 1 1 57E3CF06
 P 6550 2400
 F 0 "U3" H 6550 2700 60  0000 C CNN
@@ -633,7 +502,7 @@ F 16 "Any 75xx1168 or direct replacement, 5V TTL/CMOS compatible." H 6550 2400 6
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V(1) #PWR020
+L NewUnsorted:+5V(1) #PWR020
 U 1 1 57E3D59E
 P 3050 8650
 F 0 "#PWR020" H 3050 8600 40  0001 C CNN
@@ -644,18 +513,7 @@ F 3 "" H 3050 8650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR021
-U 1 1 57E3D5FD
-P 3050 9900
-F 0 "#PWR021" H 3050 9900 30  0001 C CNN
-F 1 "GND" H 3050 9800 40  0000 C BNN
-F 2 "" H 3050 9900 60  0000 C CNN
-F 3 "" H 3050 9900 60  0000 C CNN
-	1    3050 9900
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V(1) #PWR022
+L NewUnsorted:+5V(1) #PWR022
 U 1 1 57E3EF8B
 P 6200 2200
 F 0 "#PWR022" H 6200 2150 40  0001 C CNN
@@ -666,7 +524,7 @@ F 3 "" H 6200 2200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V(1) #PWR023
+L NewUnsorted:+5V(1) #PWR023
 U 1 1 57E3EFEA
 P 7850 2200
 F 0 "#PWR023" H 7850 2150 40  0001 C CNN
@@ -685,7 +543,7 @@ Out2
 Text Label 7600 2950 0    60   ~ 0
 In2
 $Comp
-L +5V(1) #PWR024
+L NewUnsorted:+5V(1) #PWR024
 U 1 1 57E3FEA3
 P 9500 2200
 F 0 "#PWR024" H 9500 2150 40  0001 C CNN
@@ -696,7 +554,7 @@ F 3 "" H 9500 2200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V(1) #PWR025
+L NewUnsorted:+5V(1) #PWR025
 U 1 1 57E3FEA9
 P 11150 2200
 F 0 "#PWR025" H 11150 2150 40  0001 C CNN
@@ -715,29 +573,18 @@ Out4
 Text Label 10900 2950 0    60   ~ 0
 In4
 $Comp
-L GND #PWR026
-U 1 1 57E408D3
-P 12750 4700
-F 0 "#PWR026" H 12750 4700 30  0001 C CNN
-F 1 "GND" H 12750 4600 40  0000 C BNN
-F 2 "" H 12750 4700 60  0000 C CNN
-F 3 "" H 12750 4700 60  0000 C CNN
-	1    12750 4700
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V(2) #PWR027
+L NewUnsorted:+5V(2) #PWR027
 U 1 1 57E408D9
-P 12750 4400
-F 0 "#PWR027" H 12750 4350 40  0001 C CNN
-F 1 "+5V(2)" H 12750 4500 40  0000 C BNN
-F 2 "" H 12750 4400 60  0000 C CNN
-F 3 "" H 12750 4400 60  0000 C CNN
-	1    12750 4400
+P 12750 4450
+F 0 "#PWR027" H 12750 4400 40  0001 C CNN
+F 1 "+5V(2)" H 12750 4550 40  0000 C BNN
+F 2 "" H 12750 4450 60  0000 C CNN
+F 3 "" H 12750 4450 60  0000 C CNN
+	1    12750 4450
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V(1) #PWR028
+L NewUnsorted:+5V(1) #PWR028
 U 1 1 57E40AFA
 P 6200 5050
 F 0 "#PWR028" H 6200 5000 40  0001 C CNN
@@ -748,7 +595,7 @@ F 3 "" H 6200 5050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V(1) #PWR029
+L NewUnsorted:+5V(1) #PWR029
 U 1 1 57E40B00
 P 7850 5050
 F 0 "#PWR029" H 7850 5000 40  0001 C CNN
@@ -767,7 +614,7 @@ Out6
 Text Label 7600 5800 0    60   ~ 0
 In6
 $Comp
-L +5V(1) #PWR030
+L NewUnsorted:+5V(1) #PWR030
 U 1 1 57E40B5D
 P 9500 5050
 F 0 "#PWR030" H 9500 5000 40  0001 C CNN
@@ -778,7 +625,7 @@ F 3 "" H 9500 5050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V(1) #PWR031
+L NewUnsorted:+5V(1) #PWR031
 U 1 1 57E40B63
 P 11150 5050
 F 0 "#PWR031" H 11150 5000 40  0001 C CNN
@@ -797,7 +644,7 @@ Out8
 Text Label 10900 5800 0    60   ~ 0
 In8
 $Comp
-L +5V(1) #PWR032
+L NewUnsorted:+5V(1) #PWR032
 U 1 1 57E41693
 P 4150 8650
 F 0 "#PWR032" H 4150 8600 40  0001 C CNN
@@ -808,18 +655,7 @@ F 3 "" H 4150 8650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR033
-U 1 1 57E41699
-P 4150 9900
-F 0 "#PWR033" H 4150 9900 30  0001 C CNN
-F 1 "GND" H 4150 9800 40  0000 C BNN
-F 2 "" H 4150 9900 60  0000 C CNN
-F 3 "" H 4150 9900 60  0000 C CNN
-	1    4150 9900
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V(1) #PWR034
+L NewUnsorted:+5V(1) #PWR034
 U 1 1 57E417EB
 P 5250 8650
 F 0 "#PWR034" H 5250 8600 40  0001 C CNN
@@ -830,18 +666,7 @@ F 3 "" H 5250 8650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR035
-U 1 1 57E417F1
-P 5250 9900
-F 0 "#PWR035" H 5250 9900 30  0001 C CNN
-F 1 "GND" H 5250 9800 40  0000 C BNN
-F 2 "" H 5250 9900 60  0000 C CNN
-F 3 "" H 5250 9900 60  0000 C CNN
-	1    5250 9900
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V(1) #PWR036
+L NewUnsorted:+5V(1) #PWR036
 U 1 1 57E4181D
 P 6350 8650
 F 0 "#PWR036" H 6350 8600 40  0001 C CNN
@@ -852,18 +677,7 @@ F 3 "" H 6350 8650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR037
-U 1 1 57E41823
-P 6350 9900
-F 0 "#PWR037" H 6350 9900 30  0001 C CNN
-F 1 "GND" H 6350 9800 40  0000 C BNN
-F 2 "" H 6350 9900 60  0000 C CNN
-F 3 "" H 6350 9900 60  0000 C CNN
-	1    6350 9900
-	1    0    0    -1  
-$EndComp
-$Comp
-L uA9637AC U7
+L NewUnsorted:uA9637AC U7
 U 1 1 57E48A36
 P 3050 6300
 F 0 "U7" H 3050 6500 60  0000 C CNN
@@ -871,15 +685,15 @@ F 1 "uA9637AC" H 3050 6100 60  0000 C CNB
 F 2 "ipc-7251TH-standard:DIPS762W45P254L1003H508Q8" H 2950 6500 60  0001 C CNN
 F 3 "" H 3050 6600 60  0001 C CNN
 F 4 "CPL-IIC-DIFFERENTIAL-RECEIVER-DUAL*" H 3050 6300 60  0001 C CNN "CommonPartLibrary"
-F 5 "Texas Instruments" H 3050 6300 60  0001 C CNN "MFN"
-F 6 "UA9637ACP" H 3050 6300 60  0001 C CNN "MFP"
-F 7 "PDIP8" H 3050 6300 60  0001 C CNN "Package ID"
-F 8 "UA9637ACP" H 3050 6300 60  0001 C CNN "S1PN"
-F 9 "https://octopart.com/ua9637acp-texas+instruments-503687" H 3050 6300 60  0001 C CNN "S1PL"
-F 10 "UA9637ACP" H 3050 6300 60  0001 C CNN "S2PN"
-F 11 "https://store.ti.com/UA9637ACP.aspx" H 3050 6300 60  0001 C CNN "S2PL"
-F 12 "+5VDC logic / 8Pin Dip" H 3050 6300 60  0001 C CNN "Characteristics"
-F 13 "Differential receiver for communication over twisted pair." H 3050 6300 60  0001 C CNN "Description"
+F 5 "PDIP8" H 3050 6300 60  0001 C CNN "Package ID"
+F 6 "+5VDC logic / 8Pin Dip" H 3050 6300 60  0001 C CNN "Characteristics"
+F 7 "Differential receiver for communication over twisted pair." H 3050 6300 60  0001 C CNN "Description"
+F 8 "Texas Instruments" H 3050 6300 60  0001 C CNN "MFN"
+F 9 "UA9637ACP" H 3050 6300 60  0001 C CNN "MFP"
+F 10 "UA9637ACP" H 3050 6300 60  0001 C CNN "S1PN"
+F 11 "https://octopart.com/ua9637acp-texas+instruments-503687" H 3050 6300 60  0001 C CNN "S1PL"
+F 12 "UA9637ACP" H 3050 6300 60  0001 C CNN "S2PN"
+F 13 "https://store.ti.com/UA9637ACP.aspx" H 3050 6300 60  0001 C CNN "S2PL"
 F 14 "Y" H 3050 6300 60  0001 C CNN "Critical"
 F 15 "ANY" H 3050 6300 60  0001 C CNN "Source"
 F 16 "Any UA9637 direct replacement, 5V TTL/CMOS compatible." H 3050 6300 60  0001 C CNN "Notes"
@@ -895,7 +709,7 @@ MOSI
 Text Label 3650 6300 2    60   ~ 0
 ~SS
 $Comp
-L +5V(1) #PWR038
+L NewUnsorted:+5V(1) #PWR038
 U 1 1 57E4F49A
 P 7450 8650
 F 0 "#PWR038" H 7450 8600 40  0001 C CNN
@@ -906,7 +720,7 @@ F 3 "" H 7450 8650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V(1) #PWR039
+L NewUnsorted:+5V(1) #PWR039
 U 1 1 57E4F547
 P 8550 8650
 F 0 "#PWR039" H 8550 8600 40  0001 C CNN
@@ -917,29 +731,7 @@ F 3 "" H 8550 8650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR040
-U 1 1 57E4F5F4
-P 7450 9900
-F 0 "#PWR040" H 7450 9900 30  0001 C CNN
-F 1 "GND" H 7450 9800 40  0000 C BNN
-F 2 "" H 7450 9900 60  0000 C CNN
-F 3 "" H 7450 9900 60  0000 C CNN
-	1    7450 9900
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR041
-U 1 1 57E4F6A1
-P 8550 9900
-F 0 "#PWR041" H 8550 9900 30  0001 C CNN
-F 1 "GND" H 8550 9800 40  0000 C BNN
-F 2 "" H 8550 9900 60  0000 C CNN
-F 3 "" H 8550 9900 60  0000 C CNN
-	1    8550 9900
-	1    0    0    -1  
-$EndComp
-$Comp
-L uA9638C U9
+L NewUnsorted:uA9638C U9
 U 1 1 57E50CFD
 P 13950 6100
 F 0 "U9" H 13950 6300 60  0000 C CNN
@@ -963,7 +755,7 @@ F 16 "Any uA9638C direct replacement, 5V TTL/CMOS compatible." H 13950 6100 60  
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V(1) #PWR042
+L NewUnsorted:+5V(1) #PWR042
 U 1 1 57E51651
 P 9650 8650
 F 0 "#PWR042" H 9650 8600 40  0001 C CNN
@@ -974,18 +766,7 @@ F 3 "" H 9650 8650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR043
-U 1 1 57E51710
-P 9650 9900
-F 0 "#PWR043" H 9650 9900 30  0001 C CNN
-F 1 "GND" H 9650 9800 40  0000 C BNN
-F 2 "" H 9650 9900 60  0000 C CNN
-F 3 "" H 9650 9900 60  0000 C CNN
-	1    9650 9900
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V(1) #PWR044
+L NewUnsorted:+5V(1) #PWR044
 U 1 1 57E52D0B
 P 10750 8650
 F 0 "#PWR044" H 10750 8600 40  0001 C CNN
@@ -993,17 +774,6 @@ F 1 "+5V(1)" H 10750 8750 40  0000 C BNN
 F 2 "" H 10750 8650 60  0000 C CNN
 F 3 "" H 10750 8650 60  0000 C CNN
 	1    10750 8650
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR045
-U 1 1 57E52D11
-P 10750 9900
-F 0 "#PWR045" H 10750 9900 30  0001 C CNN
-F 1 "GND" H 10750 9800 40  0000 C BNN
-F 2 "" H 10750 9900 60  0000 C CNN
-F 3 "" H 10750 9900 60  0000 C CNN
-	1    10750 9900
 	1    0    0    -1  
 $EndComp
 Text Label 13350 6100 0    60   ~ 0
@@ -1015,7 +785,7 @@ MISO'
 Text Label 13350 7200 0    60   ~ 0
 MOSI'
 $Comp
-L PWR_FLAG #FLG046
+L NewUnsorted:PWR_FLAG #FLG046
 U 1 1 57E5710A
 P 1450 4650
 F 0 "#FLG046" H 1450 4675 40  0001 C CNN
@@ -1026,7 +796,7 @@ F 3 "" H 1450 4720 40  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V(1) #PWR047
+L NewUnsorted:+5V(1) #PWR047
 U 1 1 57E58035
 P 2000 1400
 F 0 "#PWR047" H 2000 1350 40  0001 C CNN
@@ -1037,7 +807,7 @@ F 3 "" H 2000 1400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L IC_Socket16 XU1
+L NewUnsorted:IC_Socket16 XU1
 U 1 1 57E5C1C5
 P 850 10250
 F 0 "XU1" H 650 10400 60  0000 L CNN
@@ -1061,7 +831,7 @@ F 16 "any 16pin 0.1\"pitch 0.3\"width socket." H 850 10250 60  0001 C CNN "Notes
 	1    0    0    -1  
 $EndComp
 $Comp
-L IC_Socket08 XU7
+L NewUnsorted:IC_Socket08 XU7
 U 1 1 57E5D009
 P 7450 10250
 F 0 "XU7" H 7350 10400 60  0000 L CNN
@@ -1085,7 +855,7 @@ F 16 "Any 8pin 0.1\"pitch 0.3\"width socket." H 7450 10250 60  0001 C CNN "Notes
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAP_P C11
+L NewUnsorted:CAP_P C11
 U 1 1 57E5F3B4
 P 1700 4700
 F 0 "C11" H 1750 4750 60  0000 L CNN
@@ -1111,7 +881,7 @@ $EndComp
 Text Label 3750 3200 2    60   ~ 0
 SS
 $Comp
-L MOUNTING_HOLE_PTH MH1
+L NewUnsorted:MOUNTING_HOLE_PTH MH1
 U 1 1 57E9340C
 P 11950 8800
 F 0 "MH1" H 11950 9100 60  0000 C CNN
@@ -1135,18 +905,7 @@ F 16 "Explain critera for \"ANY\" Source" H 11950 8800 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR048
-U 1 1 57E93D48
-P 11950 9100
-F 0 "#PWR048" H 11950 9100 30  0001 C CNN
-F 1 "GND" H 11950 9000 40  0000 C BNN
-F 2 "" H 11950 9100 60  0000 C CNN
-F 3 "" H 11950 9100 60  0000 C CNN
-	1    11950 9100
-	1    0    0    -1  
-$EndComp
-$Comp
-L MOUNTING_HOLE_NPTH MH2
+L NewUnsorted:MOUNTING_HOLE_NPTH MH2
 U 1 1 57E94039
 P 12400 8800
 F 0 "MH2" H 12400 9050 60  0000 C CNN
@@ -1184,7 +943,7 @@ IC Power, Bypass Capacitors, & Sockets
 Text Notes 800  4300 0    35   ~ 0
 +5V(1) is for on-board logic.\n+5V(2) is to drive LED&Sensor boards.
 $Comp
-L RJ45-Unshielded J2
+L NewUnsorted:RJ45-Unshielded J2
 U 1 1 587B1E6C
 P 8900 1100
 F 0 "J2" H 8500 1450 60  0000 L CNN
@@ -1208,7 +967,7 @@ F 16 "Explain critera for \"ANY\" Source" H 8900 1100 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L RJ45-Unshielded J3
+L NewUnsorted:RJ45-Unshielded J3
 U 1 1 587B1FAA
 P 10550 1100
 F 0 "J3" H 10150 1450 60  0000 L CNN
@@ -1232,7 +991,7 @@ F 16 "Explain critera for \"ANY\" Source" H 10550 1100 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L RJ45-Unshielded J4
+L NewUnsorted:RJ45-Unshielded J4
 U 1 1 587B20E9
 P 12200 1100
 F 0 "J4" H 11800 1450 60  0000 L CNN
@@ -1256,7 +1015,7 @@ F 16 "Explain critera for \"ANY\" Source" H 12200 1100 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L RJ45-Unshielded J5
+L NewUnsorted:RJ45-Unshielded J5
 U 1 1 587B222B
 P 7250 3950
 F 0 "J5" H 6850 4300 60  0000 L CNN
@@ -1280,7 +1039,7 @@ F 16 "Explain critera for \"ANY\" Source" H 7250 3950 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L RJ45-Unshielded J6
+L NewUnsorted:RJ45-Unshielded J6
 U 1 1 587B3123
 P 8900 3950
 F 0 "J6" H 8500 4300 60  0000 L CNN
@@ -1304,7 +1063,7 @@ F 16 "Explain critera for \"ANY\" Source" H 8900 3950 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L RJ45-Unshielded J7
+L NewUnsorted:RJ45-Unshielded J7
 U 1 1 587B324F
 P 10550 3950
 F 0 "J7" H 10150 4300 60  0000 L CNN
@@ -1328,7 +1087,7 @@ F 16 "Explain critera for \"ANY\" Source" H 10550 3950 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L RJ45-Unshielded J8
+L NewUnsorted:RJ45-Unshielded J8
 U 1 1 587B3394
 P 12200 3950
 F 0 "J8" H 11800 4300 60  0000 L CNN
@@ -1352,7 +1111,7 @@ F 16 "Explain critera for \"ANY\" Source" H 12200 3950 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L RJ45-Unshielded J10
+L NewUnsorted:RJ45-Unshielded J10
 U 1 1 587B40D2
 P 950 5550
 F 0 "J10" V 500 5850 60  0000 R CNN
@@ -1376,7 +1135,7 @@ F 16 "Explain critera for \"ANY\" Source" H 950 5550 60  0001 C CNN "Notes"
 	0    -1   1    0   
 $EndComp
 $Comp
-L RJ45-Unshielded J11
+L NewUnsorted:RJ45-Unshielded J11
 U 1 1 587B588A
 P 950 6950
 F 0 "J11" V 500 7250 60  0000 R CNN
@@ -1400,7 +1159,7 @@ F 16 "Explain critera for \"ANY\" Source" H 950 6950 60  0001 C CNN "Notes"
 	0    -1   1    0   
 $EndComp
 $Comp
-L RJ45-Unshielded J13
+L NewUnsorted:RJ45-Unshielded J13
 U 1 1 587B6216
 P 16050 5350
 F 0 "J13" V 15600 5650 60  0000 R CNN
@@ -1424,7 +1183,7 @@ F 16 "Explain critera for \"ANY\" Source" H 16050 5350 60  0001 C CNN "Notes"
 	0    1    1    0   
 $EndComp
 $Comp
-L RJ45-Unshielded J14
+L NewUnsorted:RJ45-Unshielded J14
 U 1 1 587B6229
 P 16050 6750
 F 0 "J14" V 15600 7050 60  0000 R CNN
@@ -1448,7 +1207,7 @@ F 16 "Explain critera for \"ANY\" Source" H 16050 6750 60  0001 C CNN "Notes"
 	0    1    1    0   
 $EndComp
 $Comp
-L IC_Socket16 XU2
+L NewUnsorted:IC_Socket16 XU2
 U 1 1 587B8036
 P 1950 10250
 F 0 "XU2" H 1750 10400 60  0000 L CNN
@@ -1472,7 +1231,7 @@ F 16 "any 16pin 0.1\"pitch 0.3\"width socket." H 1950 10250 60  0001 C CNN "Note
 	1    0    0    -1  
 $EndComp
 $Comp
-L IC_Socket16 XU3
+L NewUnsorted:IC_Socket16 XU3
 U 1 1 587B8171
 P 3050 10250
 F 0 "XU3" H 2850 10400 60  0000 L CNN
@@ -1496,7 +1255,7 @@ F 16 "any 16pin 0.1\"pitch 0.3\"width socket." H 3050 10250 60  0001 C CNN "Note
 	1    0    0    -1  
 $EndComp
 $Comp
-L IC_Socket16 XU4
+L NewUnsorted:IC_Socket16 XU4
 U 1 1 587B82AF
 P 4150 10250
 F 0 "XU4" H 3950 10400 60  0000 L CNN
@@ -1520,7 +1279,7 @@ F 16 "any 16pin 0.1\"pitch 0.3\"width socket." H 4150 10250 60  0001 C CNN "Note
 	1    0    0    -1  
 $EndComp
 $Comp
-L IC_Socket16 XU5
+L NewUnsorted:IC_Socket16 XU5
 U 1 1 587B83E2
 P 5250 10250
 F 0 "XU5" H 5050 10400 60  0000 L CNN
@@ -1544,7 +1303,7 @@ F 16 "any 16pin 0.1\"pitch 0.3\"width socket." H 5250 10250 60  0001 C CNN "Note
 	1    0    0    -1  
 $EndComp
 $Comp
-L IC_Socket16 XU6
+L NewUnsorted:IC_Socket16 XU6
 U 1 1 587B8530
 P 6350 10250
 F 0 "XU6" H 6150 10400 60  0000 L CNN
@@ -1568,7 +1327,7 @@ F 16 "any 16pin 0.1\"pitch 0.3\"width socket." H 6350 10250 60  0001 C CNN "Note
 	1    0    0    -1  
 $EndComp
 $Comp
-L 75C1168 U3
+L NewUnsorted:75C1168 U3
 U 2 1 587BC83C
 P 6550 2950
 F 0 "U3" H 6550 3150 60  0000 C CNN
@@ -1592,7 +1351,7 @@ F 16 "Any 75xx1168 or direct replacement, 5V TTL/CMOS compatible." H 6550 2950 6
 	1    0    0    -1  
 $EndComp
 $Comp
-L 75C1168 U3
+L NewUnsorted:75C1168 U3
 U 3 1 587BCD05
 P 8200 2400
 F 0 "U3" H 8200 2700 60  0000 C CNN
@@ -1616,7 +1375,7 @@ F 16 "Any 75xx1168 or direct replacement, 5V TTL/CMOS compatible." H 8200 2400 6
 	1    0    0    -1  
 $EndComp
 $Comp
-L 75C1168 U3
+L NewUnsorted:75C1168 U3
 U 4 1 587BD340
 P 8200 2950
 F 0 "U3" H 8200 3150 60  0000 C CNN
@@ -1640,7 +1399,7 @@ F 16 "Any 75xx1168 or direct replacement, 5V TTL/CMOS compatible." H 8200 2950 6
 	1    0    0    -1  
 $EndComp
 $Comp
-L 75C1168 U3
+L NewUnsorted:75C1168 U3
 U 5 1 587BD6E9
 P 3050 9250
 F 0 "U3" H 2800 9550 60  0000 L CNN
@@ -1664,7 +1423,7 @@ F 16 "Any 75xx1168 or direct replacement, 5V TTL/CMOS compatible." H 3050 9250 6
 	1    0    0    -1  
 $EndComp
 $Comp
-L 75C1168 U4
+L NewUnsorted:75C1168 U4
 U 1 1 587BED27
 P 9850 2400
 F 0 "U4" H 9850 2700 60  0000 C CNN
@@ -1688,7 +1447,7 @@ F 16 "Any 75xx1168 or direct replacement, 5V TTL/CMOS compatible." H 9850 2400 6
 	1    0    0    -1  
 $EndComp
 $Comp
-L 75C1168 U4
+L NewUnsorted:75C1168 U4
 U 3 1 587BEE5F
 P 11500 2400
 F 0 "U4" H 11500 2700 60  0000 C CNN
@@ -1712,7 +1471,7 @@ F 16 "Any 75xx1168 or direct replacement, 5V TTL/CMOS compatible." H 11500 2400 
 	1    0    0    -1  
 $EndComp
 $Comp
-L 75C1168 U4
+L NewUnsorted:75C1168 U4
 U 2 1 587BEF9E
 P 9850 2950
 F 0 "U4" H 9850 3150 60  0000 C CNN
@@ -1736,7 +1495,7 @@ F 16 "Any 75xx1168 or direct replacement, 5V TTL/CMOS compatible." H 9850 2950 6
 	1    0    0    -1  
 $EndComp
 $Comp
-L 75C1168 U4
+L NewUnsorted:75C1168 U4
 U 4 1 587BF0D0
 P 11500 2950
 F 0 "U4" H 11500 3150 60  0000 C CNN
@@ -1760,7 +1519,7 @@ F 16 "Any 75xx1168 or direct replacement, 5V TTL/CMOS compatible." H 11500 2950 
 	1    0    0    -1  
 $EndComp
 $Comp
-L 75C1168 U5
+L NewUnsorted:75C1168 U5
 U 1 1 587BFE92
 P 6550 5250
 F 0 "U5" H 6550 5550 60  0000 C CNN
@@ -1784,7 +1543,7 @@ F 16 "Any 75xx1168 or direct replacement, 5V TTL/CMOS compatible." H 6550 5250 6
 	1    0    0    -1  
 $EndComp
 $Comp
-L 75C1168 U5
+L NewUnsorted:75C1168 U5
 U 3 1 587BFFC6
 P 8200 5250
 F 0 "U5" H 8200 5550 60  0000 C CNN
@@ -1808,7 +1567,7 @@ F 16 "Any 75xx1168 or direct replacement, 5V TTL/CMOS compatible." H 8200 5250 6
 	1    0    0    -1  
 $EndComp
 $Comp
-L 75C1168 U5
+L NewUnsorted:75C1168 U5
 U 2 1 587C00F3
 P 6550 5800
 F 0 "U5" H 6550 6000 60  0000 C CNN
@@ -1832,7 +1591,7 @@ F 16 "Any 75xx1168 or direct replacement, 5V TTL/CMOS compatible." H 6550 5800 6
 	1    0    0    -1  
 $EndComp
 $Comp
-L 75C1168 U5
+L NewUnsorted:75C1168 U5
 U 4 1 587C0223
 P 8200 5800
 F 0 "U5" H 8200 6000 60  0000 C CNN
@@ -1856,7 +1615,7 @@ F 16 "Any 75xx1168 or direct replacement, 5V TTL/CMOS compatible." H 8200 5800 6
 	1    0    0    -1  
 $EndComp
 $Comp
-L 75C1168 U6
+L NewUnsorted:75C1168 U6
 U 1 1 587C0AFB
 P 9850 5250
 F 0 "U6" H 9850 5550 60  0000 C CNN
@@ -1880,7 +1639,7 @@ F 16 "Any 75xx1168 or direct replacement, 5V TTL/CMOS compatible." H 9850 5250 6
 	1    0    0    -1  
 $EndComp
 $Comp
-L 75C1168 U6
+L NewUnsorted:75C1168 U6
 U 3 1 587C0C23
 P 11500 5250
 F 0 "U6" H 11500 5550 60  0000 C CNN
@@ -1904,7 +1663,7 @@ F 16 "Any 75xx1168 or direct replacement, 5V TTL/CMOS compatible." H 11500 5250 
 	1    0    0    -1  
 $EndComp
 $Comp
-L 75C1168 U6
+L NewUnsorted:75C1168 U6
 U 2 1 587C0D52
 P 9850 5800
 F 0 "U6" H 9850 6000 60  0000 C CNN
@@ -1928,7 +1687,7 @@ F 16 "Any 75xx1168 or direct replacement, 5V TTL/CMOS compatible." H 9850 5800 6
 	1    0    0    -1  
 $EndComp
 $Comp
-L 75C1168 U6
+L NewUnsorted:75C1168 U6
 U 4 1 587C0E86
 P 11500 5800
 F 0 "U6" H 11500 6000 60  0000 C CNN
@@ -1952,7 +1711,7 @@ F 16 "Any 75xx1168 or direct replacement, 5V TTL/CMOS compatible." H 11500 5800 
 	1    0    0    -1  
 $EndComp
 $Comp
-L 75C1168 U4
+L NewUnsorted:75C1168 U4
 U 5 1 587C1C52
 P 4150 9250
 F 0 "U4" H 3900 9550 60  0000 L CNN
@@ -1976,7 +1735,7 @@ F 16 "Any 75xx1168 or direct replacement, 5V TTL/CMOS compatible." H 4150 9250 6
 	1    0    0    -1  
 $EndComp
 $Comp
-L 75C1168 U5
+L NewUnsorted:75C1168 U5
 U 5 1 587C1D86
 P 5250 9250
 F 0 "U5" H 5000 9550 60  0000 L CNN
@@ -2000,7 +1759,7 @@ F 16 "Any 75xx1168 or direct replacement, 5V TTL/CMOS compatible." H 5250 9250 6
 	1    0    0    -1  
 $EndComp
 $Comp
-L 75C1168 U6
+L NewUnsorted:75C1168 U6
 U 5 1 587C1EC1
 P 6350 9250
 F 0 "U6" H 6100 9550 60  0000 L CNN
@@ -2024,7 +1783,7 @@ F 16 "Any 75xx1168 or direct replacement, 5V TTL/CMOS compatible." H 6350 9250 6
 	1    0    0    -1  
 $EndComp
 $Comp
-L MOUNTING_HOLE_NPTH MH3
+L NewUnsorted:MOUNTING_HOLE_NPTH MH3
 U 1 1 587C5282
 P 12850 8800
 F 0 "MH3" H 12850 9050 60  0000 C CNN
@@ -2048,7 +1807,7 @@ F 16 "Explain critera for \"ANY\" Source" H 12850 8800 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MOUNTING_HOLE_NPTH MH4
+L NewUnsorted:MOUNTING_HOLE_NPTH MH4
 U 1 1 587C53B5
 P 13300 8800
 F 0 "MH4" H 13300 9050 60  0000 C CNN
@@ -2072,7 +1831,7 @@ F 16 "Explain critera for \"ANY\" Source" H 13300 8800 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC595 U1
+L NewUnsorted:74HC595 U1
 U 2 1 587C872A
 P 850 9250
 F 0 "U1" H 600 9550 60  0000 L CNN
@@ -2096,7 +1855,7 @@ F 16 "Any 74xx595 or direct replacement, 5V TTL/CMOS compatible." H 850 9250 60 
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC165 U2
+L NewUnsorted:74HC165 U2
 U 2 1 587C889F
 P 1950 9250
 F 0 "U2" H 2200 9550 60  0000 R CNN
@@ -2120,7 +1879,7 @@ F 16 "Any 74xx165 or direct replacement, 5V TTL/CMOS compatible." H 1950 9250 60
 	-1   0    0    -1  
 $EndComp
 $Comp
-L CAP_NP C2
+L NewUnsorted:CAP_NP C2
 U 1 1 587CD3BB
 P 2300 9250
 F 0 "C2" H 2350 9300 60  0000 L CNN
@@ -2144,7 +1903,7 @@ F 16 "ANY X7R 0.1µF capacitor 0.1\" pitch" H 2300 9250 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAP_NP C3
+L NewUnsorted:CAP_NP C3
 U 1 1 587CD4E7
 P 3400 9250
 F 0 "C3" H 3450 9300 60  0000 L CNN
@@ -2168,7 +1927,7 @@ F 16 "ANY X7R 0.1µF capacitor 0.1\" pitch" H 3400 9250 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAP_NP C4
+L NewUnsorted:CAP_NP C4
 U 1 1 587CD616
 P 4500 9250
 F 0 "C4" H 4550 9300 60  0000 L CNN
@@ -2192,7 +1951,7 @@ F 16 "ANY X7R 0.1µF capacitor 0.1\" pitch" H 4500 9250 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAP_NP C5
+L NewUnsorted:CAP_NP C5
 U 1 1 587CD742
 P 5600 9250
 F 0 "C5" H 5650 9300 60  0000 L CNN
@@ -2216,7 +1975,7 @@ F 16 "ANY X7R 0.1µF capacitor 0.1\" pitch" H 5600 9250 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAP_NP C6
+L NewUnsorted:CAP_NP C6
 U 1 1 587CD873
 P 6700 9250
 F 0 "C6" H 6750 9300 60  0000 L CNN
@@ -2240,7 +1999,7 @@ F 16 "ANY X7R 0.1µF capacitor 0.1\" pitch" H 6700 9250 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAP_NP C7
+L NewUnsorted:CAP_NP C7
 U 1 1 587CD9AD
 P 7800 9250
 F 0 "C7" H 7850 9300 60  0000 L CNN
@@ -2264,7 +2023,7 @@ F 16 "ANY X7R 0.1µF capacitor 0.1\" pitch" H 7800 9250 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAP_NP C8
+L NewUnsorted:CAP_NP C8
 U 1 1 587CDAEA
 P 8900 9250
 F 0 "C8" H 8950 9300 60  0000 L CNN
@@ -2288,7 +2047,7 @@ F 16 "ANY X7R 0.1µF capacitor 0.1\" pitch" H 8900 9250 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAP_NP C9
+L NewUnsorted:CAP_NP C9
 U 1 1 587CE364
 P 10000 9250
 F 0 "C9" H 10050 9300 60  0000 L CNN
@@ -2312,7 +2071,7 @@ F 16 "ANY X7R 0.1µF capacitor 0.1\" pitch" H 10000 9250 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAP_NP C10
+L NewUnsorted:CAP_NP C10
 U 1 1 587CE499
 P 11100 9250
 F 0 "C10" H 11150 9300 60  0000 L CNN
@@ -2336,7 +2095,7 @@ F 16 "ANY X7R 0.1µF capacitor 0.1\" pitch" H 11100 9250 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAP_NP C12
+L NewUnsorted:CAP_NP C12
 U 1 1 587D0AD6
 P 2150 4700
 F 0 "C12" H 2200 4750 60  0000 L CNN
@@ -2360,7 +2119,7 @@ F 16 "ANY X7R 0.1µF capacitor 0.1\" pitch" H 2150 4700 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAP_NP C14
+L NewUnsorted:CAP_NP C14
 U 1 1 587D2C9A
 P 2550 5550
 F 0 "C14" H 2600 5600 60  0000 L CNN
@@ -2384,7 +2143,7 @@ F 16 "ANY X7R 0.1µF capacitor 0.1\" pitch" H 2550 5550 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAP_NP C15
+L NewUnsorted:CAP_NP C15
 U 1 1 587D30C2
 P 14700 4500
 F 0 "C15" H 14750 4550 60  0000 L CNN
@@ -2408,7 +2167,7 @@ F 16 "ANY X7R 0.1µF capacitor 0.1\" pitch" H 14700 4500 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAP_NP C17
+L NewUnsorted:CAP_NP C17
 U 1 1 587D3E4F
 P 14350 5350
 F 0 "C17" H 14400 5400 60  0000 L CNN
@@ -2432,7 +2191,7 @@ F 16 "ANY X7R 0.1µF capacitor 0.1\" pitch" H 14350 5350 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAP_P C13
+L NewUnsorted:CAP_P C13
 U 1 1 587D9DD3
 P 2100 5550
 F 0 "C13" H 2150 5600 60  0000 L CNN
@@ -2456,7 +2215,7 @@ F 16 "Roughly 10µF minimum 15WVDC" H 2100 5550 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAP_P C16
+L NewUnsorted:CAP_P C16
 U 1 1 587DA1B9
 P 15150 4500
 F 0 "C16" H 15200 4550 60  0000 L CNN
@@ -2480,7 +2239,7 @@ F 16 "Roughly 10µF minimum 15WVDC" H 15150 4500 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAP_P C18
+L NewUnsorted:CAP_P C18
 U 1 1 587DB857
 P 14800 5350
 F 0 "C18" H 14850 5400 60  0000 L CNN
@@ -2504,7 +2263,7 @@ F 16 "Roughly 10µF minimum 15WVDC" H 14800 5350 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L IC_Socket08 XU8
+L NewUnsorted:IC_Socket08 XU8
 U 1 1 587DF4EE
 P 8550 10250
 F 0 "XU8" H 8450 10400 60  0000 L CNN
@@ -2528,7 +2287,7 @@ F 16 "Any 8pin 0.1\"pitch 0.3\"width socket." H 8550 10250 60  0001 C CNN "Notes
 	1    0    0    -1  
 $EndComp
 $Comp
-L IC_Socket08 XU9
+L NewUnsorted:IC_Socket08 XU9
 U 1 1 587DF634
 P 9650 10250
 F 0 "XU9" H 9550 10400 60  0000 L CNN
@@ -2552,7 +2311,7 @@ F 16 "Any 8pin 0.1\"pitch 0.3\"width socket." H 9650 10250 60  0001 C CNN "Notes
 	1    0    0    -1  
 $EndComp
 $Comp
-L IC_Socket08 XU10
+L NewUnsorted:IC_Socket08 XU10
 U 1 1 587DF76F
 P 10750 10250
 F 0 "XU10" H 10650 10400 60  0000 L CNN
@@ -2576,7 +2335,7 @@ F 16 "Any 8pin 0.1\"pitch 0.3\"width socket." H 10750 10250 60  0001 C CNN "Note
 	1    0    0    -1  
 $EndComp
 $Comp
-L DS8921 U8
+L NewUnsorted:DS8921 U8
 U 1 1 587E15F2
 P 3050 6850
 F 0 "U8" H 3050 7050 60  0000 C CNN
@@ -2600,7 +2359,7 @@ F 16 "Any DS8921 direct replacement, 5V TTL/CMOS compatible." H 3050 6850 60  00
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DS8921 U8
+L NewUnsorted:DS8921 U8
 U 2 1 587E256D
 P 3050 7400
 F 0 "U8" H 3050 7600 60  0000 C CNN
@@ -2624,7 +2383,7 @@ F 16 "Any DS8921 direct replacement, 5V TTL/CMOS compatible." H 3050 7400 60  00
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DS8921 U8
+L NewUnsorted:DS8921 U8
 U 3 1 587E290A
 P 8550 9250
 F 0 "U8" H 8800 9550 60  0000 R CNN
@@ -2648,7 +2407,7 @@ F 16 "Any DS8921 direct replacement, 5V TTL/CMOS compatible." H 8550 9250 60  00
 	-1   0    0    -1  
 $EndComp
 $Comp
-L DS8921 U10
+L NewUnsorted:DS8921 U10
 U 1 1 587E3A21
 P 13950 6650
 F 0 "U10" H 13950 6850 60  0000 C CNN
@@ -2672,7 +2431,7 @@ F 16 "Any DS8921 direct replacement, 5V TTL/CMOS compatible." H 13950 6650 60  0
 	1    0    0    -1  
 $EndComp
 $Comp
-L DS8921 U10
+L NewUnsorted:DS8921 U10
 U 2 1 587E3B76
 P 13950 7200
 F 0 "U10" H 13950 7400 60  0000 C CNN
@@ -2696,7 +2455,7 @@ F 16 "Any DS8921 direct replacement, 5V TTL/CMOS compatible." H 13950 7200 60  0
 	1    0    0    -1  
 $EndComp
 $Comp
-L DS8921 U10
+L NewUnsorted:DS8921 U10
 U 3 1 587E3CD6
 P 10750 9250
 F 0 "U10" H 11000 9550 60  0000 R CNN
@@ -2720,7 +2479,7 @@ F 16 "Any DS8921 direct replacement, 5V TTL/CMOS compatible." H 10750 9250 60  0
 	-1   0    0    -1  
 $EndComp
 $Comp
-L uA9637AC U7
+L NewUnsorted:uA9637AC U7
 U 2 1 587EAE31
 P 3050 7950
 F 0 "U7" H 3050 8150 60  0000 C CNN
@@ -2728,15 +2487,15 @@ F 1 "uA9637AC" H 3050 7750 60  0000 C CNB
 F 2 "ipc-7251TH-standard:DIPS762W45P254L1003H508Q8" H 2950 8150 60  0001 C CNN
 F 3 "" H 3050 8250 60  0001 C CNN
 F 4 "CPL-IIC-DIFFERENTIAL-RECEIVER-DUAL*" H 3050 7950 60  0001 C CNN "CommonPartLibrary"
-F 5 "Texas Instruments" H 3050 7950 60  0001 C CNN "MFN"
-F 6 "UA9637ACP" H 3050 7950 60  0001 C CNN "MFP"
-F 7 "PDIP8" H 3050 7950 60  0001 C CNN "Package ID"
-F 8 "UA9637ACP" H 3050 7950 60  0001 C CNN "S1PN"
-F 9 "https://octopart.com/ua9637acp-texas+instruments-503687" H 3050 7950 60  0001 C CNN "S1PL"
-F 10 "UA9637ACP" H 3050 7950 60  0001 C CNN "S2PN"
-F 11 "https://store.ti.com/UA9637ACP.aspx" H 3050 7950 60  0001 C CNN "S2PL"
-F 12 "+5VDC logic / 8Pin Dip" H 3050 7950 60  0001 C CNN "Characteristics"
-F 13 "Differential receiver for communication over twisted pair." H 3050 7950 60  0001 C CNN "Description"
+F 5 "PDIP8" H 3050 7950 60  0001 C CNN "Package ID"
+F 6 "+5VDC logic / 8Pin Dip" H 3050 7950 60  0001 C CNN "Characteristics"
+F 7 "Differential receiver for communication over twisted pair." H 3050 7950 60  0001 C CNN "Description"
+F 8 "Texas Instruments" H 3050 7950 60  0001 C CNN "MFN"
+F 9 "UA9637ACP" H 3050 7950 60  0001 C CNN "MFP"
+F 10 "UA9637ACP" H 3050 7950 60  0001 C CNN "S1PN"
+F 11 "https://octopart.com/ua9637acp-texas+instruments-503687" H 3050 7950 60  0001 C CNN "S1PL"
+F 12 "UA9637ACP" H 3050 7950 60  0001 C CNN "S2PN"
+F 13 "https://store.ti.com/UA9637ACP.aspx" H 3050 7950 60  0001 C CNN "S2PL"
 F 14 "Y" H 3050 7950 60  0001 C CNN "Critical"
 F 15 "ANY" H 3050 7950 60  0001 C CNN "Source"
 F 16 "Any UA9637 direct replacement, 5V TTL/CMOS compatible." H 3050 7950 60  0001 C CNN "Notes"
@@ -2744,7 +2503,7 @@ F 16 "Any UA9637 direct replacement, 5V TTL/CMOS compatible." H 3050 7950 60  00
 	-1   0    0    -1  
 $EndComp
 $Comp
-L uA9637AC U7
+L NewUnsorted:uA9637AC U7
 U 3 1 587EB2B2
 P 7450 9250
 F 0 "U7" H 7700 9550 60  0000 R CNN
@@ -2752,15 +2511,15 @@ F 1 "uA9637AC" H 7450 9250 60  0000 C CNB
 F 2 "ipc-7251TH-standard:DIPS762W45P254L1003H508Q8" H 7350 9450 60  0001 C CNN
 F 3 "" H 7450 9550 60  0001 C CNN
 F 4 "CPL-IIC-DIFFERENTIAL-RECEIVER-DUAL*" H 7450 9250 60  0001 C CNN "CommonPartLibrary"
-F 5 "Texas Instruments" H 7450 9250 60  0001 C CNN "MFN"
-F 6 "UA9637ACP" H 7450 9250 60  0001 C CNN "MFP"
-F 7 "PDIP8" H 7450 9250 60  0001 C CNN "Package ID"
-F 8 "UA9637ACP" H 7450 9250 60  0001 C CNN "S1PN"
-F 9 "https://octopart.com/ua9637acp-texas+instruments-503687" H 7450 9250 60  0001 C CNN "S1PL"
-F 10 "UA9637ACP" H 7450 9250 60  0001 C CNN "S2PN"
-F 11 "https://store.ti.com/UA9637ACP.aspx" H 7450 9250 60  0001 C CNN "S2PL"
-F 12 "+5VDC logic / 8Pin Dip" H 7450 9250 60  0001 C CNN "Characteristics"
-F 13 "Differential receiver for communication over twisted pair." H 7450 9250 60  0001 C CNN "Description"
+F 5 "PDIP8" H 7450 9250 60  0001 C CNN "Package ID"
+F 6 "+5VDC logic / 8Pin Dip" H 7450 9250 60  0001 C CNN "Characteristics"
+F 7 "Differential receiver for communication over twisted pair." H 7450 9250 60  0001 C CNN "Description"
+F 8 "Texas Instruments" H 7450 9250 60  0001 C CNN "MFN"
+F 9 "UA9637ACP" H 7450 9250 60  0001 C CNN "MFP"
+F 10 "UA9637ACP" H 7450 9250 60  0001 C CNN "S1PN"
+F 11 "https://octopart.com/ua9637acp-texas+instruments-503687" H 7450 9250 60  0001 C CNN "S1PL"
+F 12 "UA9637ACP" H 7450 9250 60  0001 C CNN "S2PN"
+F 13 "https://store.ti.com/UA9637ACP.aspx" H 7450 9250 60  0001 C CNN "S2PL"
 F 14 "Y" H 7450 9250 60  0001 C CNN "Critical"
 F 15 "ANY" H 7450 9250 60  0001 C CNN "Source"
 F 16 "Any UA9637 direct replacement, 5V TTL/CMOS compatible." H 7450 9250 60  0001 C CNN "Notes"
@@ -2768,7 +2527,7 @@ F 16 "Any UA9637 direct replacement, 5V TTL/CMOS compatible." H 7450 9250 60  00
 	-1   0    0    -1  
 $EndComp
 $Comp
-L uA9638C U9
+L NewUnsorted:uA9638C U9
 U 2 1 587EDAE8
 P 13950 7750
 F 0 "U9" H 13950 7950 60  0000 C CNN
@@ -2792,7 +2551,7 @@ F 16 "Any uA9638C direct replacement, 5V TTL/CMOS compatible." H 13950 7750 60  
 	1    0    0    -1  
 $EndComp
 $Comp
-L uA9638C U9
+L NewUnsorted:uA9638C U9
 U 3 1 587EDE91
 P 9650 9250
 F 0 "U9" H 9400 9550 60  0000 L CNN
@@ -2816,7 +2575,7 @@ F 16 "Any uA9638C direct replacement, 5V TTL/CMOS compatible." H 9650 9250 60  0
 	1    0    0    -1  
 $EndComp
 $Comp
-L JACK-PWR J12
+L NewUnsorted:JACK-PWR J12
 U 1 1 587EF876
 P 15850 4500
 F 0 "J12" H 15550 4800 60  0000 L CNN
@@ -2840,103 +2599,103 @@ F 16 "Connectors footprints are part specific." H 15850 4500 60  0001 C CNN "Not
 	-1   0    0    -1  
 $EndComp
 $Comp
-L RES R2
+L NewUnsorted:RES R2
 U 1 1 58817341
-P 2450 6300
-F 0 "R2" H 2400 6400 60  0000 C CNN
-F 1 "100Ω" H 2400 6200 60  0000 C CNN
-F 2 "ipc-7251TH-standard:RESADV254W45L350D185" H 2450 6300 60  0001 C CNN
-F 3 "" H 2450 6300 60  0000 C CNN
-F 4 "CPL-RES-THT-100-0.125W*" H 2450 6300 60  0001 C CNN "CommonPartLibrary"
-F 5 "Xicon" H 2450 6300 60  0001 C CNB "MFN"
-F 6 "299-100-RC" H 2450 6300 60  0001 C CNN "MFP"
-F 7 "JEDEC footprint name" H 2450 6300 60  0001 C CNN "Package ID"
-F 8 "299-100-RC" H 2450 6300 60  0001 C CNN "S1PN"
-F 9 "https://octopart.com/ (Not available)" H 2450 6300 60  0001 C CNN "S1PL"
-F 10 "299-100-RC" H 2450 6300 60  0001 C CNN "S2PN"
-F 11 "http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey299-100-RC" H 2450 6300 60  0001 C CIB "S2PL"
-F 12 "100Ω Small body" H 2450 6300 60  0001 C CNN "Characteristics"
-F 13 "Termination resistor for differential transmission line." H 2450 6300 60  0001 C CNN "Description"
-F 14 "N" H 2450 6300 60  0001 C CNN "Critical"
-F 15 "ANY" H 2450 6300 60  0001 C CNN "Source"
-F 16 "Any tolerance THT 100Ω 1/8W or smaller resistor will do." H 2450 6300 60  0001 C CNN "Notes"
-	1    2450 6300
-	1    0    0    -1  
+P 2050 6350
+F 0 "R2" V 1947 6417 60  0000 L CNN
+F 1 "100Ω" V 2053 6417 60  0000 L CNN
+F 2 "ipc-7251TH-standard:RESADV254W45L350D185" H 2050 6350 60  0001 C CNN
+F 3 "" H 2050 6350 60  0000 C CNN
+F 4 "CPL-RES-THT-100-0.125W*" H 2050 6350 60  0001 C CNN "CommonPartLibrary"
+F 5 "Xicon" H 2050 6350 60  0001 C CNB "MFN"
+F 6 "299-100-RC" H 2050 6350 60  0001 C CNN "MFP"
+F 7 "JEDEC footprint name" H 2050 6350 60  0001 C CNN "Package ID"
+F 8 "299-100-RC" H 2050 6350 60  0001 C CNN "S1PN"
+F 9 "https://octopart.com/ (Not available)" H 2050 6350 60  0001 C CNN "S1PL"
+F 10 "299-100-RC" H 2050 6350 60  0001 C CNN "S2PN"
+F 11 "http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey299-100-RC" H 2050 6350 60  0001 C CIB "S2PL"
+F 12 "100Ω Small body" H 2050 6350 60  0001 C CNN "Characteristics"
+F 13 "Termination resistor for differential transmission line." H 2050 6350 60  0001 C CNN "Description"
+F 14 "N" H 2050 6350 60  0001 C CNN "Critical"
+F 15 "ANY" H 2050 6350 60  0001 C CNN "Source"
+F 16 "Any tolerance THT 100Ω 1/8W or smaller resistor will do." H 2050 6350 60  0001 C CNN "Notes"
+	1    2050 6350
+	0    1    1    0   
 $EndComp
 $Comp
-L RES R3
+L NewUnsorted:RES R3
 U 1 1 5881A808
-P 2450 6850
-F 0 "R3" H 2400 6950 60  0000 C CNN
-F 1 "100Ω" H 2400 6750 60  0000 C CNN
-F 2 "ipc-7251TH-standard:RESADV254W45L350D185" H 2450 6850 60  0001 C CNN
-F 3 "" H 2450 6850 60  0000 C CNN
-F 4 "CPL-RES-THT-100-0.125W*" H 2450 6850 60  0001 C CNN "CommonPartLibrary"
-F 5 "Xicon" H 2450 6850 60  0001 C CNB "MFN"
-F 6 "299-100-RC" H 2450 6850 60  0001 C CNN "MFP"
-F 7 "JEDEC footprint name" H 2450 6850 60  0001 C CNN "Package ID"
-F 8 "299-100-RC" H 2450 6850 60  0001 C CNN "S1PN"
-F 9 "https://octopart.com/ (Not available)" H 2450 6850 60  0001 C CNN "S1PL"
-F 10 "299-100-RC" H 2450 6850 60  0001 C CNN "S2PN"
-F 11 "http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey299-100-RC" H 2450 6850 60  0001 C CIB "S2PL"
-F 12 "100Ω Small body" H 2450 6850 60  0001 C CNN "Characteristics"
-F 13 "Termination resistor for differential transmission line." H 2450 6850 60  0001 C CNN "Description"
-F 14 "N" H 2450 6850 60  0001 C CNN "Critical"
-F 15 "ANY" H 2450 6850 60  0001 C CNN "Source"
-F 16 "Any tolerance THT 100Ω 1/8W or smaller resistor will do." H 2450 6850 60  0001 C CNN "Notes"
-	1    2450 6850
-	1    0    0    -1  
+P 2250 6900
+F 0 "R3" V 2147 6967 60  0000 L CNN
+F 1 "100Ω" V 2253 6967 60  0000 L CNN
+F 2 "ipc-7251TH-standard:RESADV254W45L350D185" H 2250 6900 60  0001 C CNN
+F 3 "" H 2250 6900 60  0000 C CNN
+F 4 "CPL-RES-THT-100-0.125W*" H 2250 6900 60  0001 C CNN "CommonPartLibrary"
+F 5 "Xicon" H 2250 6900 60  0001 C CNB "MFN"
+F 6 "299-100-RC" H 2250 6900 60  0001 C CNN "MFP"
+F 7 "JEDEC footprint name" H 2250 6900 60  0001 C CNN "Package ID"
+F 8 "299-100-RC" H 2250 6900 60  0001 C CNN "S1PN"
+F 9 "https://octopart.com/ (Not available)" H 2250 6900 60  0001 C CNN "S1PL"
+F 10 "299-100-RC" H 2250 6900 60  0001 C CNN "S2PN"
+F 11 "http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey299-100-RC" H 2250 6900 60  0001 C CIB "S2PL"
+F 12 "100Ω Small body" H 2250 6900 60  0001 C CNN "Characteristics"
+F 13 "Termination resistor for differential transmission line." H 2250 6900 60  0001 C CNN "Description"
+F 14 "N" H 2250 6900 60  0001 C CNN "Critical"
+F 15 "ANY" H 2250 6900 60  0001 C CNN "Source"
+F 16 "Any tolerance THT 100Ω 1/8W or smaller resistor will do." H 2250 6900 60  0001 C CNN "Notes"
+	1    2250 6900
+	0    1    1    0   
 $EndComp
 $Comp
-L RES R4
+L NewUnsorted:RES R4
 U 1 1 5881A93A
-P 2450 7950
-F 0 "R4" H 2400 8050 60  0000 C CNN
-F 1 "100Ω" H 2400 7850 60  0000 C CNN
-F 2 "ipc-7251TH-standard:RESADV254W45L350D185" H 2450 7950 60  0001 C CNN
-F 3 "" H 2450 7950 60  0000 C CNN
-F 4 "CPL-RES-THT-100-0.125W*" H 2450 7950 60  0001 C CNN "CommonPartLibrary"
-F 5 "Xicon" H 2450 7950 60  0001 C CNB "MFN"
-F 6 "299-100-RC" H 2450 7950 60  0001 C CNN "MFP"
-F 7 "JEDEC footprint name" H 2450 7950 60  0001 C CNN "Package ID"
-F 8 "299-100-RC" H 2450 7950 60  0001 C CNN "S1PN"
-F 9 "https://octopart.com/ (Not available)" H 2450 7950 60  0001 C CNN "S1PL"
-F 10 "299-100-RC" H 2450 7950 60  0001 C CNN "S2PN"
-F 11 "http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey299-100-RC" H 2450 7950 60  0001 C CIB "S2PL"
-F 12 "100Ω Small body" H 2450 7950 60  0001 C CNN "Characteristics"
-F 13 "Termination resistor for differential transmission line." H 2450 7950 60  0001 C CNN "Description"
-F 14 "N" H 2450 7950 60  0001 C CNN "Critical"
-F 15 "ANY" H 2450 7950 60  0001 C CNN "Source"
-F 16 "Any tolerance THT 100Ω 1/8W or smaller resistor will do." H 2450 7950 60  0001 C CNN "Notes"
-	1    2450 7950
-	1    0    0    -1  
+P 2300 8000
+F 0 "R4" V 2197 8067 60  0000 L CNN
+F 1 "100Ω" V 2303 8067 60  0000 L CNN
+F 2 "ipc-7251TH-standard:RESADV254W45L350D185" H 2300 8000 60  0001 C CNN
+F 3 "" H 2300 8000 60  0000 C CNN
+F 4 "CPL-RES-THT-100-0.125W*" H 2300 8000 60  0001 C CNN "CommonPartLibrary"
+F 5 "Xicon" H 2300 8000 60  0001 C CNB "MFN"
+F 6 "299-100-RC" H 2300 8000 60  0001 C CNN "MFP"
+F 7 "JEDEC footprint name" H 2300 8000 60  0001 C CNN "Package ID"
+F 8 "299-100-RC" H 2300 8000 60  0001 C CNN "S1PN"
+F 9 "https://octopart.com/ (Not available)" H 2300 8000 60  0001 C CNN "S1PL"
+F 10 "299-100-RC" H 2300 8000 60  0001 C CNN "S2PN"
+F 11 "http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey299-100-RC" H 2300 8000 60  0001 C CIB "S2PL"
+F 12 "100Ω Small body" H 2300 8000 60  0001 C CNN "Characteristics"
+F 13 "Termination resistor for differential transmission line." H 2300 8000 60  0001 C CNN "Description"
+F 14 "N" H 2300 8000 60  0001 C CNN "Critical"
+F 15 "ANY" H 2300 8000 60  0001 C CNN "Source"
+F 16 "Any tolerance THT 100Ω 1/8W or smaller resistor will do." H 2300 8000 60  0001 C CNN "Notes"
+	1    2300 8000
+	0    1    1    0   
 $EndComp
 $Comp
-L RES R5
+L NewUnsorted:RES R5
 U 1 1 5881CDF5
-P 14650 6650
-F 0 "R5" H 14600 6750 60  0000 C CNN
-F 1 "100Ω" H 14600 6550 60  0000 C CNN
-F 2 "ipc-7251TH-standard:RESADV254W45L350D185" H 14650 6650 60  0001 C CNN
-F 3 "" H 14650 6650 60  0000 C CNN
-F 4 "CPL-RES-THT-100-0.125W*" H 14650 6650 60  0001 C CNN "CommonPartLibrary"
-F 5 "Xicon" H 14650 6650 60  0001 C CNB "MFN"
-F 6 "299-100-RC" H 14650 6650 60  0001 C CNN "MFP"
-F 7 "JEDEC footprint name" H 14650 6650 60  0001 C CNN "Package ID"
-F 8 "299-100-RC" H 14650 6650 60  0001 C CNN "S1PN"
-F 9 "https://octopart.com/ (Not available)" H 14650 6650 60  0001 C CNN "S1PL"
-F 10 "299-100-RC" H 14650 6650 60  0001 C CNN "S2PN"
-F 11 "http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey299-100-RC" H 14650 6650 60  0001 C CIB "S2PL"
-F 12 "100Ω Small body" H 14650 6650 60  0001 C CNN "Characteristics"
-F 13 "Termination resistor for differential transmission line." H 14650 6650 60  0001 C CNN "Description"
-F 14 "N" H 14650 6650 60  0001 C CNN "Critical"
-F 15 "ANY" H 14650 6650 60  0001 C CNN "Source"
-F 16 "Any tolerance THT 100Ω 1/8W or smaller resistor will do." H 14650 6650 60  0001 C CNN "Notes"
-	1    14650 6650
-	1    0    0    -1  
+P 14500 6800
+F 0 "R5" V 14397 6867 60  0000 L CNN
+F 1 "100Ω" V 14503 6867 60  0000 L CNN
+F 2 "ipc-7251TH-standard:RESADV254W45L350D185" H 14500 6800 60  0001 C CNN
+F 3 "" H 14500 6800 60  0000 C CNN
+F 4 "CPL-RES-THT-100-0.125W*" H 14500 6800 60  0001 C CNN "CommonPartLibrary"
+F 5 "Xicon" H 14500 6800 60  0001 C CNB "MFN"
+F 6 "299-100-RC" H 14500 6800 60  0001 C CNN "MFP"
+F 7 "JEDEC footprint name" H 14500 6800 60  0001 C CNN "Package ID"
+F 8 "299-100-RC" H 14500 6800 60  0001 C CNN "S1PN"
+F 9 "https://octopart.com/ (Not available)" H 14500 6800 60  0001 C CNN "S1PL"
+F 10 "299-100-RC" H 14500 6800 60  0001 C CNN "S2PN"
+F 11 "http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkey299-100-RC" H 14500 6800 60  0001 C CIB "S2PL"
+F 12 "100Ω Small body" H 14500 6800 60  0001 C CNN "Characteristics"
+F 13 "Termination resistor for differential transmission line." H 14500 6800 60  0001 C CNN "Description"
+F 14 "N" H 14500 6800 60  0001 C CNN "Critical"
+F 15 "ANY" H 14500 6800 60  0001 C CNN "Source"
+F 16 "Any tolerance THT 100Ω 1/8W or smaller resistor will do." H 14500 6800 60  0001 C CNN "Notes"
+	1    14500 6800
+	0    1    1    0   
 $EndComp
 $Comp
-L RES R6
+L NewUnsorted:RES R6
 U 1 1 58822A64
 P 7150 2800
 F 0 "R6" H 7100 2700 60  0000 C CNN
@@ -2960,7 +2719,7 @@ F 16 "Any tolerance THT 100Ω 1/8W or smaller resistor will do." H 7150 2800 60 
 	-1   0    0    1   
 $EndComp
 $Comp
-L RES R7
+L NewUnsorted:RES R7
 U 1 1 58822BD3
 P 8900 2800
 F 0 "R7" H 8850 2900 60  0000 C CNN
@@ -2984,7 +2743,7 @@ F 16 "Any tolerance THT 100Ω 1/8W or smaller resistor will do." H 8900 2800 60 
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES R8
+L NewUnsorted:RES R8
 U 1 1 58822D1F
 P 10450 2800
 F 0 "R8" H 10400 2700 60  0000 C CNN
@@ -3008,7 +2767,7 @@ F 16 "Any tolerance THT 100Ω 1/8W or smaller resistor will do." H 10450 2800 60
 	-1   0    0    1   
 $EndComp
 $Comp
-L RES R9
+L NewUnsorted:RES R9
 U 1 1 58822E64
 P 12200 2800
 F 0 "R9" H 12150 2900 60  0000 C CNN
@@ -3032,7 +2791,7 @@ F 16 "Any tolerance THT 100Ω 1/8W or smaller resistor will do." H 12200 2800 60
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES R10
+L NewUnsorted:RES R10
 U 1 1 588230FE
 P 7150 5650
 F 0 "R10" H 7100 5550 60  0000 C CNN
@@ -3056,7 +2815,7 @@ F 16 "Any tolerance THT 100Ω 1/8W or smaller resistor will do." H 7150 5650 60 
 	-1   0    0    1   
 $EndComp
 $Comp
-L RES R11
+L NewUnsorted:RES R11
 U 1 1 5882328B
 P 8900 5650
 F 0 "R11" H 8850 5750 60  0000 C CNN
@@ -3080,7 +2839,7 @@ F 16 "Any tolerance THT 100Ω 1/8W or smaller resistor will do." H 8900 5650 60 
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES R12
+L NewUnsorted:RES R12
 U 1 1 5882341B
 P 10450 5650
 F 0 "R12" H 10400 5550 60  0000 C CNN
@@ -3104,7 +2863,7 @@ F 16 "Any tolerance THT 100Ω 1/8W or smaller resistor will do." H 10450 5650 60
 	-1   0    0    1   
 $EndComp
 $Comp
-L RES R13
+L NewUnsorted:RES R13
 U 1 1 58823576
 P 12200 5650
 F 0 "R13" H 12150 5750 60  0000 C CNN
@@ -3132,10 +2891,10 @@ Wire Wire Line
 Wire Wire Line
 	1200 8700 850  8700
 Wire Wire Line
-	850  8650 850  8750
+	850  8650 850  8700
 Connection ~ 850  8700
 Wire Wire Line
-	850  9750 850  9900
+	850  9750 850  9800
 Wire Wire Line
 	850  9800 1200 9800
 Wire Wire Line
@@ -3146,10 +2905,10 @@ Wire Wire Line
 Wire Wire Line
 	2300 8700 1950 8700
 Wire Wire Line
-	1950 8650 1950 8750
+	1950 8650 1950 8700
 Connection ~ 1950 8700
 Wire Wire Line
-	1950 9750 1950 9900
+	1950 9750 1950 9800
 Wire Wire Line
 	1950 9800 2300 9800
 Wire Wire Line
@@ -3172,22 +2931,18 @@ Wire Wire Line
 Wire Wire Line
 	2050 1550 2000 1550
 Wire Wire Line
-	2000 1550 2000 1650
+	2000 1550 2000 1600
 Wire Wire Line
 	3350 3200 4150 3200
 Wire Wire Line
-	4150 3150 4150 3250
+	4150 3150 4150 3200
 Connection ~ 4150 3200
 Wire Wire Line
 	4150 2700 4150 2750
 Wire Wire Line
-	4150 3650 4150 3700
-Wire Wire Line
 	3750 2250 3350 2250
 Wire Wire Line
-	1400 5400 2550 5400
-Wire Wire Line
-	2550 5300 2550 5450
+	1400 5400 1500 5400
 Wire Wire Line
 	3750 3350 3350 3350
 Wire Wire Line
@@ -3264,31 +3019,29 @@ Wire Wire Line
 	10900 4600 10900 4400
 Connection ~ 10900 4600
 Wire Wire Line
-	1400 5700 2550 5700
+	1400 5700 2100 5700
 Wire Wire Line
-	2550 5650 2550 5800
+	2550 5650 2550 5700
 Wire Wire Line
-	14700 4650 15600 4650
+	14700 4650 15150 4650
 Wire Wire Line
 	15500 4650 15500 4500
 Wire Wire Line
-	14350 5500 15600 5500
+	14350 5500 14800 5500
 Wire Wire Line
-	14350 5450 14350 5600
+	14350 5450 14350 5500
 Wire Wire Line
-	14350 5100 14350 5250
-Wire Wire Line
-	15600 5200 14350 5200
+	15600 5200 14800 5200
 Wire Wire Line
 	15500 4500 15600 4500
 Wire Wire Line
-	7600 1750 12750 1750
+	7600 1750 9250 1750
 Wire Wire Line
-	7600 4600 12750 4600
+	7600 4600 9250 4600
 Wire Wire Line
-	7500 1650 12750 1650
+	7500 1650 9150 1650
 Wire Wire Line
-	7500 4500 12750 4500
+	7500 4500 9150 4500
 Wire Wire Line
 	7500 4500 7500 4400
 Wire Wire Line
@@ -3325,13 +3078,13 @@ Wire Wire Line
 Connection ~ 12450 1650
 Connection ~ 12450 4500
 Wire Wire Line
-	12750 1750 12750 1850
+	12750 1750 12750 1800
 Wire Wire Line
-	12750 1650 12750 1550
+	12750 1650 12750 1600
 Wire Wire Line
 	8850 2300 8850 1550
 Wire Wire Line
-	9050 1550 9050 3000
+	9050 1550 9050 2800
 Wire Wire Line
 	8750 2650 8750 1550
 Wire Wire Line
@@ -3339,7 +3092,7 @@ Wire Wire Line
 Wire Wire Line
 	7200 2300 7200 1550
 Wire Wire Line
-	7400 1550 7400 3000
+	7400 1550 7400 2800
 Wire Wire Line
 	7100 2650 7100 1550
 Wire Wire Line
@@ -3353,9 +3106,9 @@ Wire Wire Line
 Wire Wire Line
 	15600 5400 15150 5400
 Wire Wire Line
-	3050 9750 3050 9900
+	3050 9750 3050 9800
 Wire Wire Line
-	3050 8650 3050 8750
+	3050 8650 3050 8700
 Wire Wire Line
 	3050 8700 3400 8700
 Wire Wire Line
@@ -3393,7 +3146,7 @@ Wire Wire Line
 Wire Wire Line
 	12150 2300 12150 1550
 Wire Wire Line
-	12350 1550 12350 3000
+	12350 1550 12350 2800
 Wire Wire Line
 	12050 2650 12050 1550
 Wire Wire Line
@@ -3401,7 +3154,7 @@ Wire Wire Line
 Wire Wire Line
 	10500 2300 10500 1550
 Wire Wire Line
-	10700 1550 10700 3000
+	10700 1550 10700 2800
 Wire Wire Line
 	10400 2650 10400 1550
 Wire Wire Line
@@ -3431,13 +3184,13 @@ Wire Wire Line
 Wire Wire Line
 	11150 2400 10900 2400
 Wire Wire Line
-	12750 4600 12750 4700
+	12750 4600 12750 4650
 Wire Wire Line
-	12750 4500 12750 4400
+	12750 4500 12750 4450
 Wire Wire Line
 	8850 5150 8850 4400
 Wire Wire Line
-	9050 4400 9050 5850
+	9050 4400 9050 5650
 Wire Wire Line
 	8750 5500 8750 4400
 Wire Wire Line
@@ -3445,7 +3198,7 @@ Wire Wire Line
 Wire Wire Line
 	7200 5150 7200 4400
 Wire Wire Line
-	7400 4400 7400 5850
+	7400 4400 7400 5650
 Wire Wire Line
 	7100 5500 7100 4400
 Wire Wire Line
@@ -3477,7 +3230,7 @@ Wire Wire Line
 Wire Wire Line
 	12150 5150 12150 4400
 Wire Wire Line
-	12350 5850 12350 4400
+	12350 5850 12350 5650
 Wire Wire Line
 	12050 5500 12050 4400
 Wire Wire Line
@@ -3485,7 +3238,7 @@ Wire Wire Line
 Wire Wire Line
 	10500 5150 10500 4400
 Wire Wire Line
-	10700 4400 10700 5850
+	10700 4400 10700 5650
 Wire Wire Line
 	10400 5500 10400 4400
 Wire Wire Line
@@ -3515,9 +3268,9 @@ Wire Wire Line
 Wire Wire Line
 	11150 5250 10900 5250
 Wire Wire Line
-	4150 9750 4150 9900
+	4150 9750 4150 9800
 Wire Wire Line
-	4150 8650 4150 8750
+	4150 8650 4150 8700
 Wire Wire Line
 	4150 8700 4500 8700
 Wire Wire Line
@@ -3529,9 +3282,9 @@ Wire Wire Line
 	4500 9800 4150 9800
 Connection ~ 4150 9800
 Wire Wire Line
-	5250 9750 5250 9900
+	5250 9750 5250 9800
 Wire Wire Line
-	5250 8650 5250 8750
+	5250 8650 5250 8700
 Wire Wire Line
 	5250 8700 5600 8700
 Wire Wire Line
@@ -3543,9 +3296,9 @@ Wire Wire Line
 	5600 9800 5250 9800
 Connection ~ 5250 9800
 Wire Wire Line
-	6350 9750 6350 9900
+	6350 9750 6350 9800
 Wire Wire Line
-	6350 8650 6350 8750
+	6350 8650 6350 8700
 Wire Wire Line
 	6350 8700 6700 8700
 Wire Wire Line
@@ -3571,39 +3324,19 @@ Wire Wire Line
 Wire Wire Line
 	1400 7000 2150 7000
 Wire Wire Line
-	2150 7000 2150 6900
-Wire Wire Line
-	2150 6900 2700 6900
-Wire Wire Line
 	1400 6900 2100 6900
-Wire Wire Line
-	2100 6900 2100 6800
-Wire Wire Line
-	2100 6800 2700 6800
 Wire Wire Line
 	1400 6700 2000 6700
 Wire Wire Line
-	2000 6700 2000 6350
-Wire Wire Line
-	2000 6350 2700 6350
+	2000 6700 2000 6550
 Wire Wire Line
 	1400 6600 1950 6600
 Wire Wire Line
-	1950 6600 1950 6250
-Wire Wire Line
-	1950 6250 2700 6250
-Wire Wire Line
 	1400 7200 1850 7200
 Wire Wire Line
-	1850 7200 1850 7900
-Wire Wire Line
-	1850 7900 2700 7900
+	1850 7200 1850 7700
 Wire Wire Line
 	1400 7300 1800 7300
-Wire Wire Line
-	1800 7300 1800 8000
-Wire Wire Line
-	1800 8000 2700 8000
 Wire Wire Line
 	3650 6300 3400 6300
 Wire Wire Line
@@ -3613,56 +3346,56 @@ Wire Wire Line
 Wire Wire Line
 	3650 7950 3400 7950
 Wire Wire Line
-	7450 8650 7450 8750
+	7450 8650 7450 8700
 Wire Wire Line
 	7450 8700 7800 8700
 Wire Wire Line
 	7800 8700 7800 9150
 Connection ~ 7450 8700
 Wire Wire Line
-	7450 9750 7450 9900
+	7450 9750 7450 9800
 Wire Wire Line
 	7800 9350 7800 9800
 Wire Wire Line
 	7800 9800 7450 9800
 Connection ~ 7450 9800
 Wire Wire Line
-	8550 9750 8550 9900
+	8550 9750 8550 9800
 Wire Wire Line
 	8550 9800 8900 9800
 Wire Wire Line
 	8900 9800 8900 9350
 Connection ~ 8550 9800
 Wire Wire Line
-	8550 8650 8550 8750
+	8550 8650 8550 8700
 Wire Wire Line
 	8550 8700 8900 8700
 Wire Wire Line
 	8900 8700 8900 9150
 Connection ~ 8550 8700
 Wire Wire Line
-	9650 9750 9650 9900
+	9650 9750 9650 9800
 Wire Wire Line
 	9650 9800 10000 9800
 Wire Wire Line
 	10000 9800 10000 9350
 Connection ~ 9650 9800
 Wire Wire Line
-	9650 8650 9650 8750
+	9650 8650 9650 8700
 Wire Wire Line
 	9650 8700 10000 8700
 Wire Wire Line
 	10000 8700 10000 9150
 Connection ~ 9650 8700
 Wire Wire Line
-	10750 9750 10750 9900
+	10750 9750 10750 9800
 Wire Wire Line
 	10750 9800 11100 9800
 Wire Wire Line
 	11100 9800 11100 9350
 Connection ~ 10750 9800
 Wire Wire Line
-	10750 8650 10750 8750
+	10750 8650 10750 8700
 Wire Wire Line
 	10750 8700 11100 8700
 Wire Wire Line
@@ -3681,13 +3414,9 @@ Wire Wire Line
 Wire Wire Line
 	14950 7300 14300 7300
 Wire Wire Line
-	14300 6700 14800 6700
-Wire Wire Line
-	14800 6650 14800 6900
+	14300 6700 14400 6700
 Wire Wire Line
 	14800 6900 15600 6900
-Wire Wire Line
-	14300 6600 15600 6600
 Wire Wire Line
 	14300 7650 15050 7650
 Wire Wire Line
@@ -3721,19 +3450,15 @@ Wire Wire Line
 Wire Wire Line
 	13350 7750 13600 7750
 Wire Wire Line
-	2150 4800 2150 4900
+	2150 4800 2150 4850
 Wire Wire Line
-	2150 4500 2150 4600
+	1400 4550 1450 4550
 Wire Wire Line
-	1400 4550 2150 4550
-Connection ~ 2150 4550
-Wire Wire Line
-	1400 4850 2150 4850
-Connection ~ 2150 4850
+	1400 4850 1450 4850
 Wire Wire Line
 	1400 4700 1450 4700
 Wire Wire Line
-	1450 4650 1450 4850
+	1450 4650 1450 4700
 Connection ~ 1450 4850
 Wire Wire Line
 	1700 4800 1700 4850
@@ -3746,22 +3471,16 @@ Wire Wire Line
 Connection ~ 1450 4550
 Connection ~ 1450 4700
 Wire Wire Line
-	14700 4350 15600 4350
-Wire Wire Line
-	14700 4300 14700 4400
-Connection ~ 14700 4350
+	14700 4350 15150 4350
 Wire Wire Line
 	15150 4400 15150 4350
 Connection ~ 15150 4350
 Wire Wire Line
-	14700 4600 14700 4700
+	14700 4600 14700 4650
 Connection ~ 15500 4650
-Connection ~ 14700 4650
 Wire Wire Line
 	15150 4600 15150 4650
 Connection ~ 15150 4650
-Connection ~ 2550 5400
-Connection ~ 2550 5700
 Wire Wire Line
 	2100 5450 2100 5400
 Connection ~ 2100 5400
@@ -3771,8 +3490,6 @@ Connection ~ 2100 5700
 Wire Wire Line
 	1500 5350 1500 5400
 Connection ~ 1500 5400
-Connection ~ 14350 5500
-Connection ~ 14350 5200
 Wire Wire Line
 	14800 5250 14800 5200
 Connection ~ 14800 5200
@@ -3780,14 +3497,12 @@ Wire Wire Line
 	14800 5450 14800 5500
 Connection ~ 14800 5500
 Wire Wire Line
-	3350 3450 3850 3450
+	3350 3450 3550 3450
 Wire Wire Line
 	3750 3650 3550 3650
 Wire Wire Line
 	3550 3650 3550 3450
 Connection ~ 3550 3450
-Wire Wire Line
-	11950 9050 11950 9100
 Wire Notes Line
 	500  3950 5150 3950
 Wire Notes Line
@@ -3799,43 +3514,21 @@ Wire Notes Line
 Wire Notes Line
 	5150 3950 5150 550 
 Wire Wire Line
-	1400 5200 1400 5400
+	1400 5200 1400 5300
 Connection ~ 1400 5300
 Wire Wire Line
-	1400 5700 1400 5900
+	1400 5700 1400 5800
 Connection ~ 1400 5800
 Connection ~ 1400 5400
 Connection ~ 1400 5700
 Wire Wire Line
-	15600 5000 15600 5200
+	15600 5000 15600 5100
 Connection ~ 15600 5100
 Wire Wire Line
-	15600 5500 15600 5700
+	15600 5500 15600 5600
 Connection ~ 15600 5600
 Connection ~ 15600 5200
 Connection ~ 15600 5500
-Wire Wire Line
-	2200 6300 2200 6250
-Connection ~ 2200 6250
-Wire Wire Line
-	2600 6300 2600 6350
-Connection ~ 2600 6350
-Wire Wire Line
-	2200 6850 2200 6800
-Connection ~ 2200 6800
-Wire Wire Line
-	2600 6850 2600 6900
-Connection ~ 2600 6900
-Wire Wire Line
-	2200 7950 2200 7900
-Connection ~ 2200 7900
-Wire Wire Line
-	2600 7950 2600 8000
-Connection ~ 2600 8000
-Wire Wire Line
-	14400 6650 14400 6600
-Connection ~ 14400 6600
-Connection ~ 14800 6700
 Wire Notes Line
 	13200 8250 13200 3750
 Wire Notes Line
@@ -3845,49 +3538,524 @@ Wire Notes Line
 Wire Wire Line
 	12050 5500 11950 5500
 Wire Wire Line
-	11950 5500 11950 5750
+	11950 5500 11950 5650
 Connection ~ 11950 5650
 Connection ~ 12350 5650
 Wire Wire Line
 	10400 5500 10300 5500
 Wire Wire Line
-	10300 5500 10300 5750
+	10300 5500 10300 5650
 Connection ~ 10300 5650
 Connection ~ 10700 5650
 Wire Wire Line
 	8750 5500 8650 5500
 Wire Wire Line
-	8650 5500 8650 5750
+	8650 5500 8650 5650
 Connection ~ 8650 5650
 Connection ~ 9050 5650
 Wire Wire Line
 	7100 5500 7000 5500
 Wire Wire Line
-	7000 5500 7000 5750
+	7000 5500 7000 5650
 Connection ~ 7000 5650
 Connection ~ 7400 5650
 Wire Wire Line
 	7100 2650 7000 2650
 Wire Wire Line
-	7000 2650 7000 2900
+	7000 2650 7000 2800
 Connection ~ 7000 2800
 Connection ~ 7400 2800
 Wire Wire Line
 	8750 2650 8650 2650
 Wire Wire Line
-	8650 2650 8650 2900
+	8650 2650 8650 2800
 Connection ~ 8650 2800
 Connection ~ 9050 2800
 Wire Wire Line
 	10400 2650 10300 2650
 Wire Wire Line
-	10300 2650 10300 2900
+	10300 2650 10300 2800
 Connection ~ 10300 2800
 Connection ~ 10700 2800
 Wire Wire Line
 	12050 2650 11950 2650
 Wire Wire Line
-	11950 2650 11950 2900
+	11950 2650 11950 2800
 Connection ~ 11950 2800
 Connection ~ 12350 2800
+Wire Wire Line
+	850  8700 850  8750
+Wire Wire Line
+	850  9800 850  9850
+Wire Wire Line
+	1950 8700 1950 8750
+Wire Wire Line
+	1950 9800 1950 9850
+Wire Wire Line
+	4150 3200 4150 3250
+Wire Wire Line
+	12550 1750 12750 1750
+Wire Wire Line
+	9250 1750 10900 1750
+Wire Wire Line
+	10900 1750 12550 1750
+Wire Wire Line
+	10800 1650 12450 1650
+Wire Wire Line
+	9150 1650 10800 1650
+Wire Wire Line
+	10800 4500 12450 4500
+Wire Wire Line
+	12550 4600 12750 4600
+Wire Wire Line
+	9250 4600 10900 4600
+Wire Wire Line
+	10900 4600 12550 4600
+Wire Wire Line
+	9150 4500 10800 4500
+Wire Wire Line
+	12450 1650 12750 1650
+Wire Wire Line
+	12450 4500 12750 4500
+Wire Wire Line
+	3050 8700 3050 8750
+Wire Wire Line
+	3050 9800 3050 9850
+Wire Wire Line
+	4150 8700 4150 8750
+Wire Wire Line
+	4150 9800 4150 9850
+Wire Wire Line
+	5250 8700 5250 8750
+Wire Wire Line
+	5250 9800 5250 9850
+Wire Wire Line
+	6350 8700 6350 8750
+Wire Wire Line
+	6350 9800 6350 9850
+Wire Wire Line
+	7450 8700 7450 8750
+Wire Wire Line
+	7450 9800 7450 9850
+Wire Wire Line
+	8550 9800 8550 9850
+Wire Wire Line
+	8550 8700 8550 8750
+Wire Wire Line
+	9650 9800 9650 9850
+Wire Wire Line
+	9650 8700 9650 8750
+Wire Wire Line
+	10750 9800 10750 9850
+Wire Wire Line
+	10750 8700 10750 8750
+Wire Wire Line
+	2150 4550 2150 4600
+Wire Wire Line
+	1450 4850 1700 4850
+Wire Wire Line
+	1700 4850 2150 4850
+Wire Wire Line
+	1700 4550 2150 4550
+Wire Wire Line
+	1450 4550 1700 4550
+Wire Wire Line
+	1450 4700 1450 4850
+Wire Wire Line
+	15150 4350 15600 4350
+Wire Wire Line
+	15500 4650 15600 4650
+Wire Wire Line
+	15150 4650 15500 4650
+Wire Wire Line
+	2550 5400 2550 5450
+Wire Wire Line
+	2100 5400 2550 5400
+Wire Wire Line
+	2100 5700 2550 5700
+Wire Wire Line
+	1500 5400 2100 5400
+Wire Wire Line
+	14350 5200 14350 5250
+Wire Wire Line
+	14800 5200 14350 5200
+Wire Wire Line
+	14800 5500 15600 5500
+Wire Wire Line
+	3550 3450 3850 3450
+Wire Wire Line
+	1400 5300 1400 5400
+Wire Wire Line
+	1400 5800 1400 5900
+Wire Wire Line
+	15600 5100 15600 5200
+Wire Wire Line
+	15600 5600 15600 5700
+Wire Wire Line
+	11950 5650 11950 5750
+Wire Wire Line
+	12350 5650 12350 4400
+Wire Wire Line
+	10300 5650 10300 5750
+Wire Wire Line
+	10700 5650 10700 5850
+Wire Wire Line
+	8650 5650 8650 5750
+Wire Wire Line
+	9050 5650 9050 5850
+Wire Wire Line
+	7000 5650 7000 5750
+Wire Wire Line
+	7400 5650 7400 5850
+Wire Wire Line
+	7000 2800 7000 2900
+Wire Wire Line
+	7400 2800 7400 3000
+Wire Wire Line
+	8650 2800 8650 2900
+Wire Wire Line
+	9050 2800 9050 3000
+Wire Wire Line
+	10300 2800 10300 2900
+Wire Wire Line
+	10700 2800 10700 3000
+Wire Wire Line
+	11950 2800 11950 2900
+Wire Wire Line
+	12350 2800 12350 3000
+$Comp
+L NewUnsorted:GND #PWR0101
+U 1 1 5B1CBB57
+P 2000 1650
+F 0 "#PWR0101" H 2000 1650 30  0001 C CNN
+F 1 "GND" H 2000 1550 40  0000 C BNN
+F 2 "" H 1900 1550 60  0001 C CNN
+F 3 "" H 2000 1650 60  0001 C CNN
+	1    2000 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L NewUnsorted:GND #PWR0102
+U 1 1 5B1F9041
+P 4150 3700
+F 0 "#PWR0102" H 4150 3700 30  0001 C CNN
+F 1 "GND" H 4150 3600 40  0000 C BNN
+F 2 "" H 4050 3600 60  0001 C CNN
+F 3 "" H 4150 3700 60  0001 C CNN
+	1    4150 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L NewUnsorted:GND #PWR0103
+U 1 1 5B1F9E8C
+P 2150 4950
+F 0 "#PWR0103" H 2150 4950 30  0001 C CNN
+F 1 "GND" H 2150 4850 40  0000 C BNN
+F 2 "" H 2050 4850 60  0001 C CNN
+F 3 "" H 2150 4950 60  0001 C CNN
+	1    2150 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L NewUnsorted:GND #PWR0104
+U 1 1 5B1F9F57
+P 2550 5800
+F 0 "#PWR0104" H 2550 5800 30  0001 C CNN
+F 1 "GND" H 2550 5700 40  0000 C BNN
+F 2 "" H 2450 5700 60  0001 C CNN
+F 3 "" H 2550 5800 60  0001 C CNN
+	1    2550 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L NewUnsorted:GND #PWR0105
+U 1 1 5B1FA022
+P 12750 4700
+F 0 "#PWR0105" H 12750 4700 30  0001 C CNN
+F 1 "GND" H 12750 4600 40  0000 C BNN
+F 2 "" H 12650 4600 60  0001 C CNN
+F 3 "" H 12750 4700 60  0001 C CNN
+	1    12750 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L NewUnsorted:GND #PWR0106
+U 1 1 5B1FB76D
+P 12750 1850
+F 0 "#PWR0106" H 12750 1850 30  0001 C CNN
+F 1 "GND" H 12750 1750 40  0000 C BNN
+F 2 "" H 12650 1750 60  0001 C CNN
+F 3 "" H 12750 1850 60  0001 C CNN
+	1    12750 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L NewUnsorted:GND #PWR0107
+U 1 1 5B1FC1F8
+P 14700 4750
+F 0 "#PWR0107" H 14700 4750 30  0001 C CNN
+F 1 "GND" H 14700 4650 40  0000 C BNN
+F 2 "" H 14600 4650 60  0001 C CNN
+F 3 "" H 14700 4750 60  0001 C CNN
+	1    14700 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L NewUnsorted:GND #PWR0108
+U 1 1 5B1FC2C3
+P 14350 5600
+F 0 "#PWR0108" H 14350 5600 30  0001 C CNN
+F 1 "GND" H 14350 5500 40  0000 C BNN
+F 2 "" H 14250 5500 60  0001 C CNN
+F 3 "" H 14350 5600 60  0001 C CNN
+	1    14350 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L NewUnsorted:GND #PWR0109
+U 1 1 5B1FC38E
+P 11950 9100
+F 0 "#PWR0109" H 11950 9100 30  0001 C CNN
+F 1 "GND" H 11950 9000 40  0000 C BNN
+F 2 "" H 11850 9000 60  0001 C CNN
+F 3 "" H 11950 9100 60  0001 C CNN
+	1    11950 9100
+	1    0    0    -1  
+$EndComp
+$Comp
+L NewUnsorted:GND #PWR0110
+U 1 1 5B1FC639
+P 10750 9900
+F 0 "#PWR0110" H 10750 9900 30  0001 C CNN
+F 1 "GND" H 10750 9800 40  0000 C BNN
+F 2 "" H 10650 9800 60  0001 C CNN
+F 3 "" H 10750 9900 60  0001 C CNN
+	1    10750 9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L NewUnsorted:GND #PWR0111
+U 1 1 5B1FC704
+P 9650 9900
+F 0 "#PWR0111" H 9650 9900 30  0001 C CNN
+F 1 "GND" H 9650 9800 40  0000 C BNN
+F 2 "" H 9550 9800 60  0001 C CNN
+F 3 "" H 9650 9900 60  0001 C CNN
+	1    9650 9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L NewUnsorted:GND #PWR0112
+U 1 1 5B1FD48F
+P 8550 9900
+F 0 "#PWR0112" H 8550 9900 30  0001 C CNN
+F 1 "GND" H 8550 9800 40  0000 C BNN
+F 2 "" H 8450 9800 60  0001 C CNN
+F 3 "" H 8550 9900 60  0001 C CNN
+	1    8550 9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L NewUnsorted:GND #PWR0113
+U 1 1 5B1FD55A
+P 7450 9900
+F 0 "#PWR0113" H 7450 9900 30  0001 C CNN
+F 1 "GND" H 7450 9800 40  0000 C BNN
+F 2 "" H 7350 9800 60  0001 C CNN
+F 3 "" H 7450 9900 60  0001 C CNN
+	1    7450 9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L NewUnsorted:GND #PWR0114
+U 1 1 5B1FD625
+P 6350 9900
+F 0 "#PWR0114" H 6350 9900 30  0001 C CNN
+F 1 "GND" H 6350 9800 40  0000 C BNN
+F 2 "" H 6250 9800 60  0001 C CNN
+F 3 "" H 6350 9900 60  0001 C CNN
+	1    6350 9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L NewUnsorted:GND #PWR0115
+U 1 1 5B1FD6F0
+P 5250 9900
+F 0 "#PWR0115" H 5250 9900 30  0001 C CNN
+F 1 "GND" H 5250 9800 40  0000 C BNN
+F 2 "" H 5150 9800 60  0001 C CNN
+F 3 "" H 5250 9900 60  0001 C CNN
+	1    5250 9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L NewUnsorted:GND #PWR0116
+U 1 1 5B1FE1DB
+P 4150 9900
+F 0 "#PWR0116" H 4150 9900 30  0001 C CNN
+F 1 "GND" H 4150 9800 40  0000 C BNN
+F 2 "" H 4050 9800 60  0001 C CNN
+F 3 "" H 4150 9900 60  0001 C CNN
+	1    4150 9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L NewUnsorted:GND #PWR0117
+U 1 1 5B1FE2A6
+P 3050 9900
+F 0 "#PWR0117" H 3050 9900 30  0001 C CNN
+F 1 "GND" H 3050 9800 40  0000 C BNN
+F 2 "" H 2950 9800 60  0001 C CNN
+F 3 "" H 3050 9900 60  0001 C CNN
+	1    3050 9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L NewUnsorted:GND #PWR0118
+U 1 1 5B1FE371
+P 1950 9900
+F 0 "#PWR0118" H 1950 9900 30  0001 C CNN
+F 1 "GND" H 1950 9800 40  0000 C BNN
+F 2 "" H 1850 9800 60  0001 C CNN
+F 3 "" H 1950 9900 60  0001 C CNN
+	1    1950 9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L NewUnsorted:GND #PWR0119
+U 1 1 5B1FE43C
+P 850 9900
+F 0 "#PWR0119" H 850 9900 30  0001 C CNN
+F 1 "GND" H 850 9800 40  0000 C BNN
+F 2 "" H 750 9800 60  0001 C CNN
+F 3 "" H 850 9900 60  0001 C CNN
+	1    850  9900
+	1    0    0    -1  
+$EndComp
+Connection ~ 14350 5500
+Connection ~ 2150 4550
+Wire Wire Line
+	14700 4350 14700 4400
+Wire Wire Line
+	2150 4500 2150 4550
+Wire Wire Line
+	2150 4850 2150 4900
+Connection ~ 2150 4850
+Wire Wire Line
+	2550 5350 2550 5400
+Connection ~ 2550 5400
+Wire Wire Line
+	2550 5700 2550 5750
+Connection ~ 2550 5700
+Wire Wire Line
+	14350 5550 14350 5500
+Wire Wire Line
+	14350 5200 14350 5150
+Connection ~ 14350 5200
+Wire Wire Line
+	14700 4700 14700 4650
+Connection ~ 14700 4650
+Wire Wire Line
+	14700 4300 14700 4350
+Connection ~ 14700 4350
+Wire Wire Line
+	14300 6600 14400 6600
+Wire Wire Line
+	14800 6900 14800 7000
+Wire Wire Line
+	14800 7000 14500 7000
+Wire Wire Line
+	14400 7000 14400 6700
+Wire Wire Line
+	14400 6600 14400 6500
+Wire Wire Line
+	14400 6500 14500 6500
+Wire Wire Line
+	14800 6500 14800 6600
+Wire Wire Line
+	14800 6600 15600 6600
+Wire Wire Line
+	14500 6500 14500 6550
+Connection ~ 14500 6500
+Wire Wire Line
+	14500 6500 14800 6500
+Wire Wire Line
+	14500 6950 14500 7000
+Connection ~ 14500 7000
+Wire Wire Line
+	14500 7000 14400 7000
+Wire Wire Line
+	2650 8000 2650 8200
+Wire Wire Line
+	2650 8200 2300 8200
+Wire Wire Line
+	2650 8000 2700 8000
+Wire Wire Line
+	2650 7900 2650 7700
+Wire Wire Line
+	2650 7700 2300 7700
+Wire Wire Line
+	2650 7900 2700 7900
+Wire Wire Line
+	2300 7750 2300 7700
+Connection ~ 2300 7700
+Wire Wire Line
+	2300 7700 1850 7700
+Wire Wire Line
+	2300 8150 2300 8200
+Connection ~ 2300 8200
+Wire Wire Line
+	2300 8200 1800 8200
+Wire Wire Line
+	1800 7300 1800 8200
+Wire Wire Line
+	2150 7000 2150 7100
+Wire Wire Line
+	2150 7100 2250 7100
+Wire Wire Line
+	2600 7100 2600 6900
+Wire Wire Line
+	2600 6900 2700 6900
+Wire Wire Line
+	2600 6800 2600 6600
+Wire Wire Line
+	2600 6600 2250 6600
+Wire Wire Line
+	2600 6800 2700 6800
+Wire Wire Line
+	2000 6550 2050 6550
+Wire Wire Line
+	2400 6550 2400 6350
+Wire Wire Line
+	2400 6350 2700 6350
+Wire Wire Line
+	2400 6250 2400 6050
+Wire Wire Line
+	2400 6050 2050 6050
+Wire Wire Line
+	2400 6250 2700 6250
+Wire Wire Line
+	1950 6050 1950 6600
+Wire Wire Line
+	2100 6600 2100 6900
+Wire Wire Line
+	2050 6100 2050 6050
+Connection ~ 2050 6050
+Wire Wire Line
+	2050 6050 1950 6050
+Wire Wire Line
+	2050 6500 2050 6550
+Connection ~ 2050 6550
+Wire Wire Line
+	2050 6550 2400 6550
+Wire Wire Line
+	2250 6650 2250 6600
+Connection ~ 2250 6600
+Wire Wire Line
+	2250 6600 2100 6600
+Wire Wire Line
+	2250 7050 2250 7100
+Connection ~ 2250 7100
+Wire Wire Line
+	2250 7100 2600 7100
 $EndSCHEMATC

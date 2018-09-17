@@ -1,0 +1,36 @@
+Drill report for C:\Users\Chris\Google Drive\Barrel of Makers\Windmill LED panel\Schematic\Logic&Oscillator\Logic&Oscillator.kicad_pcb
+Created on 08/06/2018 00:04:47
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'Logic&Oscillator.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.30mm  0.012"  (8 holes)
+    T2  0.33mm  0.013"  (1 hole)
+    T3  0.70mm  0.028"  (18 holes)
+    T4  0.72mm  0.028"  (6 holes)
+    T5  0.76mm  0.030"  (3 holes)
+    T6  0.81mm  0.032"  (4 holes)
+    T7  0.90mm  0.035"  (16 holes)
+    T8  0.94mm  0.037"  (3 holes)
+    T9  1.00mm  0.039"  (32 holes)
+    T10  1.05mm  0.041"  (28 holes)
+    T11  3.00mm  0.118"  (4 holes)
+    T12  3.26mm  0.128"  (1 hole)
+    T13  3.50mm  0.138"  (2 holes)
+
+    Total plated holes count 126
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+    T14  3.17mm  0.125"  (4 holes)
+    T15  3.26mm  0.128"  (3 holes)
+
+    Total unplated holes count 7

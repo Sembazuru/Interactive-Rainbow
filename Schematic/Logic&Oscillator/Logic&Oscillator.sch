@@ -1,54 +1,21 @@
-EESchema Schematic File Version 2
-LIBS:Logic&Oscillator-rescue
-LIBS:Arduino
-LIBS:logos
-LIBS:NewUnsorted
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 4
 LIBS:Logic&Oscillator-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
 Sheet 1 1
 Title "Interactive Rainbow"
-Date "2017-03-28"
-Rev "2.0.3"
+Date "2018-06-07"
+Rev "2.0.4"
 Comp "Sembazuru Circuit (for Barrel of Makers)"
-Comment1 "2.0.0 Split schematic up for 4 individual PWB designs."
-Comment2 "2.0.1 Impliment differential signalling for inter-board communications."
-Comment3 "2.0.2 Add termination resistors for differential inputs."
-Comment4 "2.0.3 Correct flipped U1A (and changed symbol so it isn't symmetric)."
+Comment1 "2.0.1 Impliment differential signalling for inter-board communications."
+Comment2 "2.0.2 Add termination resistors for differential inputs."
+Comment3 "2.0.3 Correct flipped U1A (and changed symbol so it isn't symmetric)."
+Comment4 "2.0.4 Update to KiCad v5 formatting"
 $EndDescr
 $Comp
-L ARDUINO_Pro-Mini U2
+L Arduino:ARDUINO_Pro-Mini U2
 U 1 1 55EA6EB7
 P 5850 2300
 F 0 "U2" H 5350 3550 60  0000 L CNN
@@ -72,7 +39,7 @@ F 16 "Explain critera for \"ANY\" Source" H 5850 2300 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT_W2 R2
+L NewUnsorted:POT_W2 R2
 U 1 1 55EA8CB4
 P 2150 1350
 F 0 "R2" V 2350 1700 60  0000 R CNN
@@ -98,7 +65,7 @@ F 18 "3296W-1-502LF" H 2150 1350 60  0001 C CNN "MfgPart"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L JACK-PWR J2
+L NewUnsorted:JACK-PWR J2
 U 1 1 55EAA723
 P 1250 4900
 F 0 "J2" H 950 5200 60  0000 L CNN
@@ -121,33 +88,11 @@ F 16 "Connectors footprints are part specific." H 800 4700 60  0001 C CNN "Notes
 	1    1250 4900
 	1    0    0    -1  
 $EndComp
-$Comp
-L GND #PWR01
-U 1 1 55EB44B4
-P 1150 2650
-F 0 "#PWR01" H 1150 2650 30  0001 C CNN
-F 1 "GND" H 1150 2550 40  0000 C BNN
-F 2 "" H 1150 2650 60  0000 C CNN
-F 3 "" H 1150 2650 60  0000 C CNN
-	1    1150 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR02
-U 1 1 55EB4534
-P 3400 2350
-F 0 "#PWR02" H 3400 2350 30  0001 C CNN
-F 1 "GND" H 3400 2250 40  0000 C BNN
-F 2 "" H 3400 2350 60  0000 C CNN
-F 3 "" H 3400 2350 60  0000 C CNN
-	1    3400 2350
-	1    0    0    -1  
-$EndComp
 Text Notes 1800 1700 0    60   ~ 0
 Trim R2 for\n38kHz @ U201-3\n(About 3.797kΩ)
 NoConn ~ 5050 1400
 $Comp
-L +5V #PWR03
+L NewUnsorted:+5V #PWR03
 U 1 1 55EC6FE2
 P 5000 1300
 F 0 "#PWR03" H 5000 1250 40  0001 C CNN
@@ -158,18 +103,7 @@ F 3 "" H 5000 1300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
-U 1 1 55EC7028
-P 5000 1750
-F 0 "#PWR04" H 5000 1750 30  0001 C CNN
-F 1 "GND" H 5000 1650 40  0000 C BNN
-F 2 "" H 5000 1750 60  0000 C CNN
-F 3 "" H 5000 1750 60  0000 C CNN
-	1    5000 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L CAP_P C3
+L NewUnsorted:CAP_P C3
 U 1 1 55EC8644
 P 1800 4900
 F 0 "C3" H 1850 4950 60  0000 L CNN
@@ -193,7 +127,7 @@ F 16 "Roughly 10µF minimum 15WVDC" H 1350 4700 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR05
+L NewUnsorted:+5V #PWR05
 U 1 1 55EC8FD6
 P 2250 4700
 F 0 "#PWR05" H 2250 4650 40  0001 C CNN
@@ -204,7 +138,7 @@ F 3 "" H 2250 4700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR06
+L NewUnsorted:+5V #PWR06
 U 1 1 55ECB564
 P 850 5950
 F 0 "#PWR06" H 850 5900 40  0001 C CNN
@@ -215,18 +149,7 @@ F 3 "" H 850 5950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR07
-U 1 1 55ECB5B0
-P 850 7200
-F 0 "#PWR07" H 850 7200 30  0001 C CNN
-F 1 "GND" H 850 7100 40  0000 C BNN
-F 2 "" H 850 7200 60  0000 C CNN
-F 3 "" H 850 7200 60  0000 C CNN
-	1    850  7200
-	1    0    0    -1  
-$EndComp
-$Comp
-L PWR_FLAG #FLG08
+L NewUnsorted:PWR_FLAG #FLG08
 U 1 1 55ED3119
 P 1550 4700
 F 0 "#FLG08" H 1550 4725 40  0001 C CNN
@@ -239,7 +162,7 @@ F 5 "" H 1550 4700 40  0001 C CNN "MFG#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG09
+L NewUnsorted:PWR_FLAG #FLG09
 U 1 1 55ED33A3
 P 1550 4850
 F 0 "#FLG09" H 1550 4875 40  0001 C CNN
@@ -252,18 +175,7 @@ F 5 "" H 1550 4850 40  0001 C CNN "MFG#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR010
-U 1 1 55ED57CA
-P 2250 5150
-F 0 "#PWR010" H 2250 5150 30  0001 C CNN
-F 1 "GND" H 2250 5050 40  0000 C BNN
-F 2 "" H 2250 5150 60  0000 C CNN
-F 3 "" H 2250 5150 60  0000 C CNN
-	1    2250 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L CAP_NP C1
+L NewUnsorted:CAP_NP C1
 U 1 1 562B1802
 P 1200 6550
 F 0 "C1" H 1250 6600 60  0000 L CNN
@@ -287,7 +199,7 @@ F 16 "ANY X7R 0.1µF capacitor 0.1\" pitch" H 1200 9250 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES R4
+L NewUnsorted:RES R4
 U 1 1 5881CDF5
 P 8700 5050
 F 0 "R4" H 8650 5150 60  0000 C CNN
@@ -338,7 +250,7 @@ IR_Enable
 Text Label 7150 2300 2    60   ~ 0
 IR_Enable
 $Comp
-L Q_NMOS_SGD Q1
+L NewUnsorted:Q_NMOS_SGD Q1
 U 1 1 56B96141
 P 3300 1950
 F 0 "Q1" H 3500 2000 60  0000 L CNN
@@ -362,7 +274,7 @@ F 16 "Any TO-92 N-MOSFET SGD pin configuration >1A" H 3650 3250 60  0001 C CNN "
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR011
+L NewUnsorted:+5V #PWR011
 U 1 1 5738E10D
 P 3400 1150
 F 0 "#PWR011" H 3400 1100 40  0001 C CNN
@@ -395,7 +307,7 @@ Text Label 9000 3400 0    60   ~ 0
 Text Label 2700 1950 0    60   ~ 0
 IR_Osc
 $Comp
-L ICM7555 U1
+L NewUnsorted:ICM7555 U1
 U 1 1 57E99F68
 P 1850 2150
 F 0 "U1" H 1550 2500 60  0000 C CNN
@@ -419,7 +331,7 @@ F 16 "Any CMOS 555 variant (7555)." H 1850 2150 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR012
+L NewUnsorted:+5V #PWR012
 U 1 1 57E9AFED
 P 8800 1950
 F 0 "#PWR012" H 8800 1900 40  0001 C CNN
@@ -430,18 +342,7 @@ F 3 "" H 8800 1950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR013
-U 1 1 57E9B003
-P 8800 2350
-F 0 "#PWR013" H 8800 2350 30  0001 C CNN
-F 1 "GND" H 8800 2250 40  0000 C BNN
-F 2 "" H 8800 2350 60  0000 C CNN
-F 3 "" H 8800 2350 60  0000 C CNN
-	1    8800 2350
-	1    0    0    -1  
-$EndComp
-$Comp
-L RJ45-Unshielded J4
+L NewUnsorted:RJ45-Unshielded J4
 U 1 1 57E9C16D
 P 10000 5150
 F 0 "J4" V 9550 5350 60  0000 L CNN
@@ -465,7 +366,7 @@ F 16 "Explain critera for \"ANY\" Source" H 7250 1100 60  0001 C CNN "Notes"
 	0    1    1    0   
 $EndComp
 $Comp
-L +5V #PWR014
+L NewUnsorted:+5V #PWR014
 U 1 1 57E9C284
 P 8200 3250
 F 0 "#PWR014" H 8200 3200 40  0001 C CNN
@@ -476,18 +377,7 @@ F 3 "" H 8200 3250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR015
-U 1 1 57E9C28A
-P 8200 3650
-F 0 "#PWR015" H 8200 3650 30  0001 C CNN
-F 1 "GND" H 8200 3550 40  0000 C BNN
-F 2 "" H 8200 3650 60  0000 C CNN
-F 3 "" H 8200 3650 60  0000 C CNN
-	1    8200 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L uA9638C U3
+L NewUnsorted:uA9638C U3
 U 1 1 57E9C734
 P 3550 2950
 F 0 "U3" H 3550 3150 60  0000 C CNN
@@ -511,7 +401,7 @@ F 16 "Any uA9638C direct replacement, 5V TTL/CMOS compatible." H 13550 5900 60  
 	1    0    0    -1  
 $EndComp
 $Comp
-L DS8921 U5
+L NewUnsorted:DS8921 U5
 U 1 1 57E9CA51
 P 8000 5050
 F 0 "U5" H 8000 5250 60  0000 C CNN
@@ -559,18 +449,7 @@ Text Label 4350 2850 2    60   ~ 0
 Text Label 4350 3050 2    60   ~ 0
 ~IR_Osc-
 $Comp
-L GND #PWR016
-U 1 1 57E9E606
-P 5300 6650
-F 0 "#PWR016" H 5300 6650 30  0001 C CNN
-F 1 "GND" H 5300 6550 40  0000 C BNN
-F 2 "" H 5300 6650 60  0000 C CNN
-F 3 "" H 5300 6650 60  0000 C CNN
-	1    5300 6650
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR017
+L NewUnsorted:+5V #PWR017
 U 1 1 57E9F175
 P 4150 5950
 F 0 "#PWR017" H 4150 5900 40  0001 C CNN
@@ -581,18 +460,7 @@ F 3 "" H 4150 5950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR018
-U 1 1 57E9F17B
-P 4150 7200
-F 0 "#PWR018" H 4150 7200 30  0001 C CNN
-F 1 "GND" H 4150 7100 40  0000 C BNN
-F 2 "" H 4150 7200 60  0000 C CNN
-F 3 "" H 4150 7200 60  0000 C CNN
-	1    4150 7200
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR019
+L NewUnsorted:+5V #PWR019
 U 1 1 57E9F20D
 P 1950 5950
 F 0 "#PWR019" H 1950 5900 40  0001 C CNN
@@ -603,18 +471,7 @@ F 3 "" H 1950 5950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR020
-U 1 1 57E9F213
-P 1950 7200
-F 0 "#PWR020" H 1950 7200 30  0001 C CNN
-F 1 "GND" H 1950 7100 40  0000 C BNN
-F 2 "" H 1950 7200 60  0000 C CNN
-F 3 "" H 1950 7200 60  0000 C CNN
-	1    1950 7200
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR021
+L NewUnsorted:+5V #PWR021
 U 1 1 57E9F289
 P 3050 5950
 F 0 "#PWR021" H 3050 5900 40  0001 C CNN
@@ -625,18 +482,7 @@ F 3 "" H 3050 5950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR022
-U 1 1 57E9F28F
-P 3050 7200
-F 0 "#PWR022" H 3050 7200 30  0001 C CNN
-F 1 "GND" H 3050 7100 40  0000 C BNN
-F 2 "" H 3050 7200 60  0000 C CNN
-F 3 "" H 3050 7200 60  0000 C CNN
-	1    3050 7200
-	1    0    0    -1  
-$EndComp
-$Comp
-L IC_Socket08 XU1
+L NewUnsorted:IC_Socket08 XU1
 U 1 1 57E9F5AE
 P 850 7650
 F 0 "XU1" H 750 7800 60  0000 L CNN
@@ -660,7 +506,7 @@ F 16 "Any 8pin 0.1\"pitch 0.3\"width socket." H 7450 10250 60  0001 C CNN "Notes
 	1    0    0    -1  
 $EndComp
 $Comp
-L MOUNTING_HOLE_NPTH MH2
+L NewUnsorted:MOUNTING_HOLE_NPTH MH2
 U 1 1 57E9FAFF
 P 5700 5500
 F 0 "MH2" H 5700 5750 60  0000 C CNN
@@ -684,7 +530,7 @@ F 16 "Explain critera for \"ANY\" Source" H 12350 8800 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MOUNTING_HOLE_PTH MH1
+L NewUnsorted:MOUNTING_HOLE_PTH MH1
 U 1 1 57E9FB70
 P 5200 5500
 F 0 "MH1" H 5200 5800 60  0000 C CNN
@@ -708,18 +554,7 @@ F 16 "Explain critera for \"ANY\" Source" H 11750 8800 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR023
-U 1 1 57EA00A9
-P 5200 5800
-F 0 "#PWR023" H 5200 5800 30  0001 C CNN
-F 1 "GND" H 5200 5700 40  0000 C BNN
-F 2 "" H 5200 5800 60  0000 C CNN
-F 3 "" H 5200 5800 60  0000 C CNN
-	1    5200 5800
-	1    0    0    -1  
-$EndComp
-$Comp
-L RJ45-Unshielded J3
+L NewUnsorted:RJ45-Unshielded J3
 U 1 1 58902538
 P 10000 3450
 F 0 "J3" V 9550 3650 60  0000 L CNN
@@ -743,20 +578,19 @@ F 16 "Explain critera for \"ANY\" Source" H 7250 -600 60  0001 C CNN "Notes"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2450 1950 3100 1950
+	2450 1950 2650 1950
 Wire Wire Line
-	1150 1350 1150 2400
+	1150 1350 1150 1950
 Wire Wire Line
-	3400 2350 3400 2150
+	3400 2300 3400 2150
 Wire Wire Line
 	1150 2650 1150 2600
 Wire Wire Line
 	5050 1600 5000 1600
 Wire Wire Line
-	5000 1600 5000 1750
+	5000 1600 5000 1700
 Wire Wire Line
 	5050 1700 5000 1700
-Connection ~ 5000 1700
 Wire Wire Line
 	5050 1500 5000 1500
 Wire Wire Line
@@ -768,22 +602,22 @@ Wire Wire Line
 	1800 4750 1800 4800
 Connection ~ 1800 4750
 Wire Wire Line
-	2250 4700 2250 4800
+	2250 4700 2250 4750
 Connection ~ 2250 4750
 Wire Wire Line
-	2250 5000 2250 5150
+	2250 5000 2250 5050
 Connection ~ 2250 5050
 Wire Wire Line
-	1500 4750 2250 4750
+	1500 4750 1550 4750
 Wire Wire Line
 	1200 6450 1200 6000
 Wire Wire Line
 	1200 6000 850  6000
 Wire Wire Line
-	850  5950 850  6050
+	850  5950 850  6000
 Connection ~ 850  6000
 Wire Wire Line
-	850  7050 850  7200
+	850  7050 850  7100
 Wire Wire Line
 	850  7100 1200 7100
 Wire Wire Line
@@ -804,7 +638,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 1350 2650 1350
 Wire Wire Line
-	2650 1100 2650 1950
+	2650 1100 2650 1350
 Connection ~ 2650 1950
 Wire Wire Line
 	2150 1150 2150 1100
@@ -816,13 +650,13 @@ Wire Wire Line
 Wire Wire Line
 	6650 2300 7150 2300
 Wire Wire Line
-	1500 5050 2250 5050
+	1500 5050 1550 5050
 Wire Wire Line
 	1550 4700 1550 4750
 Connection ~ 1550 4750
 Connection ~ 1550 5050
 Wire Wire Line
-	3400 1650 3400 1750
+	3400 1650 3400 1700
 Wire Wire Line
 	3400 1150 3400 1250
 Wire Wire Line
@@ -835,7 +669,7 @@ Wire Wire Line
 	1250 2250 1150 2250
 Connection ~ 1150 2250
 Wire Wire Line
-	1550 4850 1550 5050
+	1550 4850 1550 4900
 Wire Wire Line
 	1550 4900 1500 4900
 Connection ~ 1550 4900
@@ -844,34 +678,32 @@ Wire Wire Line
 Wire Wire Line
 	9600 2150 9600 2300
 Wire Wire Line
-	8800 2300 9650 2300
+	8800 2300 9250 2300
 Wire Wire Line
-	8800 2250 8800 2350
+	8800 2250 8800 2300
 Connection ~ 9600 2300
-Connection ~ 8800 2300
 Wire Wire Line
 	9250 2300 9250 2250
 Connection ~ 9250 2300
 Wire Wire Line
-	8800 2000 9650 2000
+	8800 2000 9250 2000
 Wire Wire Line
-	8800 1950 8800 2050
+	8800 1950 8800 2000
 Connection ~ 8800 2000
 Wire Wire Line
 	9250 2050 9250 2000
 Connection ~ 9250 2000
 Wire Wire Line
-	8200 3600 9550 3600
+	8200 3600 8650 3600
 Wire Wire Line
-	8200 3550 8200 3650
-Connection ~ 8200 3600
+	8200 3550 8200 3600
 Wire Wire Line
 	8650 3600 8650 3550
 Connection ~ 8650 3600
 Wire Wire Line
-	9550 3300 8200 3300
+	9550 3300 8650 3300
 Wire Wire Line
-	8200 3250 8200 3350
+	8200 3250 8200 3300
 Connection ~ 8200 3300
 Wire Wire Line
 	8650 3350 8650 3300
@@ -897,7 +729,7 @@ Wire Wire Line
 Wire Wire Line
 	9100 4900 9550 4900
 Wire Wire Line
-	8350 5000 9550 5000
+	8350 5000 8450 5000
 Wire Wire Line
 	9550 5100 8950 5100
 Wire Wire Line
@@ -913,7 +745,7 @@ Wire Wire Line
 Wire Wire Line
 	8850 5300 9550 5300
 Wire Wire Line
-	8850 5050 8850 5300
+	8850 5050 8850 5100
 Wire Wire Line
 	8850 5100 8350 5100
 Wire Wire Line
@@ -939,7 +771,7 @@ Wire Wire Line
 Wire Wire Line
 	5350 6550 5300 6550
 Wire Wire Line
-	5300 6550 5300 6650
+	5300 6550 5300 6600
 Wire Wire Line
 	3200 2950 3200 2600
 Wire Wire Line
@@ -951,10 +783,10 @@ Wire Wire Line
 Wire Wire Line
 	4500 6000 4150 6000
 Wire Wire Line
-	4150 5950 4150 6050
+	4150 5950 4150 6000
 Connection ~ 4150 6000
 Wire Wire Line
-	4150 7050 4150 7200
+	4150 7050 4150 7100
 Wire Wire Line
 	4150 7100 4500 7100
 Wire Wire Line
@@ -965,10 +797,10 @@ Wire Wire Line
 Wire Wire Line
 	2300 6000 1950 6000
 Wire Wire Line
-	1950 5950 1950 6050
+	1950 5950 1950 6000
 Connection ~ 1950 6000
 Wire Wire Line
-	1950 7050 1950 7200
+	1950 7050 1950 7100
 Wire Wire Line
 	1950 7100 2300 7100
 Wire Wire Line
@@ -979,10 +811,10 @@ Wire Wire Line
 Wire Wire Line
 	3400 6000 3050 6000
 Wire Wire Line
-	3050 5950 3050 6050
+	3050 5950 3050 6000
 Connection ~ 3050 6000
 Wire Wire Line
-	3050 7050 3050 7200
+	3050 7050 3050 7100
 Wire Wire Line
 	3050 7100 3400 7100
 Wire Wire Line
@@ -991,10 +823,10 @@ Connection ~ 3050 7100
 Wire Wire Line
 	5200 5750 5200 5800
 Wire Wire Line
-	9550 3100 9550 3300
+	9550 3100 9550 3200
 Connection ~ 9550 3200
 Wire Wire Line
-	9550 3600 9550 3800
+	9550 3600 9550 3700
 Connection ~ 9550 3700
 Connection ~ 9550 3300
 Connection ~ 9550 3600
@@ -1003,7 +835,7 @@ Wire Wire Line
 Connection ~ 8450 5000
 Connection ~ 8850 5100
 $Comp
-L uA9638C U3
+L NewUnsorted:uA9638C U3
 U 2 1 5890334E
 P 5700 6550
 F 0 "U3" H 5700 6750 60  0000 C CNN
@@ -1027,7 +859,7 @@ F 16 "Any uA9638C direct replacement, 5V TTL/CMOS compatible." H 15700 9500 60  
 	1    0    0    -1  
 $EndComp
 $Comp
-L uA9638C U3
+L NewUnsorted:uA9638C U3
 U 3 1 58903AB2
 P 1950 6550
 F 0 "U3" H 1700 6850 60  0000 L CNN
@@ -1051,7 +883,7 @@ F 16 "Any uA9638C direct replacement, 5V TTL/CMOS compatible." H 11950 9500 60  
 	1    0    0    -1  
 $EndComp
 $Comp
-L uA9638C U4
+L NewUnsorted:uA9638C U4
 U 1 1 58904B2A
 P 8000 4450
 F 0 "U4" H 8000 4650 60  0000 C CNN
@@ -1075,7 +907,7 @@ F 16 "Any uA9638C direct replacement, 5V TTL/CMOS compatible." H 18000 7400 60  
 	1    0    0    -1  
 $EndComp
 $Comp
-L uA9638C U4
+L NewUnsorted:uA9638C U4
 U 2 1 58904C43
 P 8000 6250
 F 0 "U4" H 8000 6450 60  0000 C CNN
@@ -1099,7 +931,7 @@ F 16 "Any uA9638C direct replacement, 5V TTL/CMOS compatible." H 18000 9200 60  
 	1    0    0    -1  
 $EndComp
 $Comp
-L uA9638C U4
+L NewUnsorted:uA9638C U4
 U 3 1 58904D35
 P 3050 6550
 F 0 "U4" H 2800 6850 60  0000 L CNN
@@ -1123,7 +955,7 @@ F 16 "Any uA9638C direct replacement, 5V TTL/CMOS compatible." H 13050 9500 60  
 	1    0    0    -1  
 $EndComp
 $Comp
-L DS8921 U5
+L NewUnsorted:DS8921 U5
 U 2 1 58906696
 P 8000 5650
 F 0 "U5" H 8000 5850 60  0000 C CNN
@@ -1147,7 +979,7 @@ F 16 "Any DS8921 direct replacement, 5V TTL/CMOS compatible." H 2600 7450 60  00
 	1    0    0    -1  
 $EndComp
 $Comp
-L DS8921 U5
+L NewUnsorted:DS8921 U5
 U 3 1 5890686B
 P 4150 6550
 F 0 "U5" H 3900 6850 60  0000 L CNN
@@ -1171,7 +1003,7 @@ F 16 "Any DS8921 direct replacement, 5V TTL/CMOS compatible." H -1250 8350 60  0
 	1    0    0    -1  
 $EndComp
 $Comp
-L IC_Socket08 XU3
+L NewUnsorted:IC_Socket08 XU3
 U 1 1 58907750
 P 1950 7650
 F 0 "XU3" H 1850 7800 60  0000 L CNN
@@ -1195,7 +1027,7 @@ F 16 "Any 8pin 0.1\"pitch 0.3\"width socket." H 8550 10250 60  0001 C CNN "Notes
 	1    0    0    -1  
 $EndComp
 $Comp
-L IC_Socket08 XU4
+L NewUnsorted:IC_Socket08 XU4
 U 1 1 58907806
 P 3050 7650
 F 0 "XU4" H 2950 7800 60  0000 L CNN
@@ -1219,7 +1051,7 @@ F 16 "Any 8pin 0.1\"pitch 0.3\"width socket." H 9650 10250 60  0001 C CNN "Notes
 	1    0    0    -1  
 $EndComp
 $Comp
-L IC_Socket08 XU5
+L NewUnsorted:IC_Socket08 XU5
 U 1 1 589078BF
 P 4150 7650
 F 0 "XU5" H 4050 7800 60  0000 L CNN
@@ -1243,7 +1075,7 @@ F 16 "Any 8pin 0.1\"pitch 0.3\"width socket." H 10750 10250 60  0001 C CNN "Note
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAP_NP C9
+L NewUnsorted:CAP_NP C9
 U 1 1 58907D75
 P 2300 6550
 F 0 "C9" H 2350 6600 60  0000 L CNN
@@ -1267,7 +1099,7 @@ F 16 "ANY X7R 0.1µF capacitor 0.1\" pitch" H 2300 9250 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAP_NP C10
+L NewUnsorted:CAP_NP C10
 U 1 1 58907E2E
 P 3400 6550
 F 0 "C10" H 3450 6600 60  0000 L CNN
@@ -1291,7 +1123,7 @@ F 16 "ANY X7R 0.1µF capacitor 0.1\" pitch" H 3400 9250 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAP_NP C11
+L NewUnsorted:CAP_NP C11
 U 1 1 589081E0
 P 4500 6550
 F 0 "C11" H 4550 6600 60  0000 L CNN
@@ -1315,7 +1147,7 @@ F 16 "ANY X7R 0.1µF capacitor 0.1\" pitch" H 4500 9250 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAP_NP C4
+L NewUnsorted:CAP_NP C4
 U 1 1 5890976D
 P 2250 4900
 F 0 "C4" H 2300 4950 60  0000 L CNN
@@ -1339,7 +1171,7 @@ F 16 "ANY X7R 0.1µF capacitor 0.1\" pitch" H 2250 7600 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAP_NP C7
+L NewUnsorted:CAP_NP C7
 U 1 1 58909C79
 P 8200 3450
 F 0 "C7" H 8250 3500 60  0000 L CNN
@@ -1363,7 +1195,7 @@ F 16 "ANY X7R 0.1µF capacitor 0.1\" pitch" H 8200 6150 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAP_NP C5
+L NewUnsorted:CAP_NP C5
 U 1 1 58909D5E
 P 8800 2150
 F 0 "C5" H 8850 2200 60  0000 L CNN
@@ -1387,7 +1219,7 @@ F 16 "ANY X7R 0.1µF capacitor 0.1\" pitch" H 8800 4850 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L JACK-PWR J1
+L NewUnsorted:JACK-PWR J1
 U 1 1 5890B489
 P 9900 2150
 F 0 "J1" H 9600 2450 60  0000 L CNN
@@ -1411,7 +1243,7 @@ F 16 "Connectors footprints are part specific." H 9450 1950 60  0001 C CNN "Note
 	-1   0    0    -1  
 $EndComp
 $Comp
-L CAP_P C8
+L NewUnsorted:CAP_P C8
 U 1 1 5890BDCB
 P 8650 3450
 F 0 "C8" H 8700 3500 60  0000 L CNN
@@ -1435,7 +1267,7 @@ F 16 "Roughly 10µF minimum 15WVDC" H 8200 3250 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAP_P C6
+L NewUnsorted:CAP_P C6
 U 1 1 5890C02F
 P 9250 2150
 F 0 "C6" H 9300 2200 60  0000 L CNN
@@ -1459,7 +1291,7 @@ F 16 "Roughly 10µF minimum 15WVDC" H 8800 1950 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MOUNTING_HOLE_NPTH MH3
+L NewUnsorted:MOUNTING_HOLE_NPTH MH3
 U 1 1 5890D57B
 P 6200 5500
 F 0 "MH3" H 6200 5750 60  0000 C CNN
@@ -1483,7 +1315,7 @@ F 16 "Explain critera for \"ANY\" Source" H 12850 8800 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L MOUNTING_HOLE_NPTH MH4
+L NewUnsorted:MOUNTING_HOLE_NPTH MH4
 U 1 1 5890D62A
 P 6700 5500
 F 0 "MH4" H 6700 5750 60  0000 C CNN
@@ -1507,7 +1339,7 @@ F 16 "Explain critera for \"ANY\" Source" H 13350 8800 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ICM7555 U1
+L NewUnsorted:ICM7555 U1
 U 2 1 5890E1BC
 P 850 6550
 F 0 "U1" H 600 6850 60  0000 L CNN
@@ -1569,7 +1401,7 @@ Wire Notes Line
 Wire Notes Line
 	4650 3950 7850 3950
 $Comp
-L CAP_NP C2
+L NewUnsorted:CAP_NP C2
 U 1 1 5891131B
 P 1150 2500
 F 0 "C2" H 1200 2550 60  0000 L CNN
@@ -1593,7 +1425,7 @@ F 16 "ANY X7R 0.001µF capacitor 0.1\" pitch" H 1150 5200 60  0001 C CNN "Notes"
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES R3
+L NewUnsorted:RES R3
 U 1 1 58911A97
 P 3400 1500
 F 0 "R3" V 3250 1550 60  0000 L CNN
@@ -1617,7 +1449,7 @@ F 16 "Any tolerance THT 15kΩ 1/4W or 1/8W resistor will do." H 6050 3150 60  00
 	0    1    1    0   
 $EndComp
 $Comp
-L RES R1
+L NewUnsorted:RES R1
 U 1 1 58913C03
 P 1500 1350
 F 0 "R1" H 1350 1550 60  0000 L CNN
@@ -1640,4 +1472,205 @@ F 16 "Any tolerance THT 15kΩ 1/4W or 1/8W resistor will do." H 4150 3000 60  00
 	1    1500 1350
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1800 5050 2250 5050
+Wire Wire Line
+	1800 4750 2250 4750
+Wire Wire Line
+	2250 4750 2250 4800
+Wire Wire Line
+	2250 5050 2250 5100
+Wire Wire Line
+	850  6000 850  6050
+Wire Wire Line
+	850  7100 850  7150
+Wire Wire Line
+	2650 1950 3100 1950
+Wire Wire Line
+	2650 1350 2650 1950
+Wire Wire Line
+	1550 4750 1800 4750
+Wire Wire Line
+	1550 5050 1800 5050
+Wire Wire Line
+	3400 1700 3400 1750
+Wire Wire Line
+	1150 1950 1150 2250
+Wire Wire Line
+	1150 2250 1150 2400
+Wire Wire Line
+	1550 4900 1550 5050
+Wire Wire Line
+	9600 2300 9650 2300
+Wire Wire Line
+	9250 2300 9600 2300
+Wire Wire Line
+	8800 2000 8800 2050
+Wire Wire Line
+	9250 2000 9650 2000
+Wire Wire Line
+	8650 3600 9550 3600
+Wire Wire Line
+	8200 3300 8200 3350
+Wire Wire Line
+	8650 3300 8200 3300
+Wire Wire Line
+	4150 6000 4150 6050
+Wire Wire Line
+	4150 7100 4150 7150
+Wire Wire Line
+	1950 6000 1950 6050
+Wire Wire Line
+	1950 7100 1950 7150
+Wire Wire Line
+	3050 6000 3050 6050
+Wire Wire Line
+	3050 7100 3050 7150
+Wire Wire Line
+	9550 3200 9550 3300
+Wire Wire Line
+	9550 3700 9550 3800
+Wire Wire Line
+	8450 5000 9550 5000
+Wire Wire Line
+	8850 5100 8850 5300
+$Comp
+L NewUnsorted:GND #PWR?
+U 1 1 5B1AE77E
+P 1150 2700
+F 0 "#PWR?" H 1150 2700 30  0001 C CNN
+F 1 "GND" H 1150 2600 40  0000 C BNN
+F 2 "" H 1050 2600 60  0001 C CNN
+F 3 "" H 1150 2700 60  0001 C CNN
+	1    1150 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L NewUnsorted:GND #PWR?
+U 1 1 5B1AE880
+P 3400 2350
+F 0 "#PWR?" H 3400 2350 30  0001 C CNN
+F 1 "GND" H 3400 2250 40  0000 C BNN
+F 2 "" H 3300 2250 60  0001 C CNN
+F 3 "" H 3400 2350 60  0001 C CNN
+	1    3400 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L NewUnsorted:GND #PWR?
+U 1 1 5B1AE8DB
+P 5000 1750
+F 0 "#PWR?" H 5000 1750 30  0001 C CNN
+F 1 "GND" H 5000 1650 40  0000 C BNN
+F 2 "" H 4900 1650 60  0001 C CNN
+F 3 "" H 5000 1750 60  0001 C CNN
+	1    5000 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L NewUnsorted:GND #PWR?
+U 1 1 5B1AEFC6
+P 2250 5150
+F 0 "#PWR?" H 2250 5150 30  0001 C CNN
+F 1 "GND" H 2250 5050 40  0000 C BNN
+F 2 "" H 2150 5050 60  0001 C CNN
+F 3 "" H 2250 5150 60  0001 C CNN
+	1    2250 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L NewUnsorted:GND #PWR?
+U 1 1 5B1AF2C9
+P 850 7200
+F 0 "#PWR?" H 850 7200 30  0001 C CNN
+F 1 "GND" H 850 7100 40  0000 C BNN
+F 2 "" H 750 7100 60  0001 C CNN
+F 3 "" H 850 7200 60  0001 C CNN
+	1    850  7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L NewUnsorted:GND #PWR?
+U 1 1 5B1AF324
+P 1950 7200
+F 0 "#PWR?" H 1950 7200 30  0001 C CNN
+F 1 "GND" H 1950 7100 40  0000 C BNN
+F 2 "" H 1850 7100 60  0001 C CNN
+F 3 "" H 1950 7200 60  0001 C CNN
+	1    1950 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L NewUnsorted:GND #PWR?
+U 1 1 5B1AF37F
+P 3050 7200
+F 0 "#PWR?" H 3050 7200 30  0001 C CNN
+F 1 "GND" H 3050 7100 40  0000 C BNN
+F 2 "" H 2950 7100 60  0001 C CNN
+F 3 "" H 3050 7200 60  0001 C CNN
+	1    3050 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L NewUnsorted:GND #PWR?
+U 1 1 5B1AF3DA
+P 4150 7200
+F 0 "#PWR?" H 4150 7200 30  0001 C CNN
+F 1 "GND" H 4150 7100 40  0000 C BNN
+F 2 "" H 4050 7100 60  0001 C CNN
+F 3 "" H 4150 7200 60  0001 C CNN
+	1    4150 7200
+	1    0    0    -1  
+$EndComp
+$Comp
+L NewUnsorted:GND #PWR?
+U 1 1 5B1AF435
+P 5300 6650
+F 0 "#PWR?" H 5300 6650 30  0001 C CNN
+F 1 "GND" H 5300 6550 40  0000 C BNN
+F 2 "" H 5200 6550 60  0001 C CNN
+F 3 "" H 5300 6650 60  0001 C CNN
+	1    5300 6650
+	1    0    0    -1  
+$EndComp
+$Comp
+L NewUnsorted:GND #PWR?
+U 1 1 5B1AF490
+P 5200 5850
+F 0 "#PWR?" H 5200 5850 30  0001 C CNN
+F 1 "GND" H 5200 5750 40  0000 C BNN
+F 2 "" H 5100 5750 60  0001 C CNN
+F 3 "" H 5200 5850 60  0001 C CNN
+	1    5200 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L NewUnsorted:GND #PWR?
+U 1 1 5B1AF8FB
+P 8200 3700
+F 0 "#PWR?" H 8200 3700 30  0001 C CNN
+F 1 "GND" H 8200 3600 40  0000 C BNN
+F 2 "" H 8100 3600 60  0001 C CNN
+F 3 "" H 8200 3700 60  0001 C CNN
+	1    8200 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L NewUnsorted:GND #PWR?
+U 1 1 5B1AFC26
+P 8800 2400
+F 0 "#PWR?" H 8800 2400 30  0001 C CNN
+F 1 "GND" H 8800 2300 40  0000 C BNN
+F 2 "" H 8700 2300 60  0001 C CNN
+F 3 "" H 8800 2400 60  0001 C CNN
+	1    8800 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 2350 8800 2300
+Connection ~ 8800 2300
+Wire Wire Line
+	8200 3650 8200 3600
+Connection ~ 8200 3600
+Connection ~ 5000 1700
 $EndSCHEMATC
