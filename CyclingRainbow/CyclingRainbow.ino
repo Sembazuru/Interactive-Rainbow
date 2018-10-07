@@ -12,6 +12,7 @@
    Version 0.1.4 2016-02-11 - Added attribution for DebugUtils.h and used the same conditional to include the library as the conditional to use it. (#ifdef DEBUG)
    Version 0.1.5 2016-02-17 - Remove logic to disable 555 between cycles. Just too problematic.
    Version 1.0.0 2016-03-12 - Clean-up code. This is the code running the first display.
+   Version 1.1.0 2018-10-05 - Make it easier to switch between high active and low active digital sensors. Use bolean SensorActive constant.
 */
 
 // Add any requred #include lines here for external libraries.
@@ -40,6 +41,8 @@ const uint8_t sequenceList[][2] =
   {1, 0}
 };
 const uint8_t blocksQty = 16; // Enter any number 1 to 256 for the number of LED blocks (defined as a sensor with 1 or more LEDs) and the rest of the code should adapt.
+//const boolean SensorActive = HIGH; // Use for high active sensors, like PIR sensors.
+const boolean SensorActive = LOW;  // Use for low active sensors, like  IR receivers.
 
 // Don't change these unless changing the sketch.
 const uint8_t sequenceQty = sizeof(sequenceList) / (sizeof(sequenceList[0][0] * 2)); // Dynamically calculate the quantity of transitions of the LED reset sequence.
@@ -74,11 +77,14 @@ void setup()
   SPI.begin(); // with a SIPO shift register on MOSI and a PISO shift register on MISO, a single SPI transfer writes to 8 LED blocks and reads from 8 block sensors at the same time.
   SPI.beginTransaction(SPISettings(25000000, MSBFIRST, SPI_MODE0));
 
-  // initialize the input triggers
-  for (int byteNum = 0; byteNum < bytesToShift; byteNum++)
+  // initialize the input triggers all to off
+  for (uint8_t byteNum = 0; byteNum < bytesToShift; byteNum++)
   {
-    blockTrigsEdge1[byteNum] = 0xFF;
-    blockTrigsEdge2[byteNum] = 0xFF;
+    for (uint8_t bitnum = 0; bitnum < 8; bitnum++)
+    {
+      bitWrite(blockTrigsEdge1[byteNum], bitnum, !SensorActive);
+      bitWrite(blockTrigsEdge2[byteNum], bitnum, !SensorActive);
+    }
   }
 
   pinMode(pinIRenable, OUTPUT);
@@ -113,7 +119,7 @@ void loop()
     for (uint8_t inBit = 0; inBit < bitsToProcess; inBit++)
     {
       boolean trig = LOW;
-      if ((bitRead(blockTrigsEdge1[inByte], inBit) == 0) && (bitRead(blockTrigsEdge2[inByte], inBit) == 1)) // Edge detection on SPI input. IR receivers are active-low.
+      if ((bitRead(blockTrigsEdge1[inByte], inBit) == SensorActive) && (bitRead(blockTrigsEdge2[inByte], inBit) == !SensorActive)) // Edge detection on SPI input.
       {
         trig = HIGH;
       }
@@ -176,4 +182,3 @@ void loop()
     }
   }
 }
-
